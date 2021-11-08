@@ -47,7 +47,7 @@ Researchers and practitioners in academic or industrial fields devoted to social
 
 ### Subgroup composition
 
-#### Qualitative analysis (recommendations)
+#### Qualitative analysis (policies & recommendations)
 - Nataly Buslón, subgroup spokeperson
 - Gemma Holliday
 - Atia Cortés
