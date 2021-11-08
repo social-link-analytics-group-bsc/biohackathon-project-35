@@ -48,19 +48,19 @@ Researchers and practitioners in academic or industrial fields devoted to social
 ### Subgroup composition
 
 #### Qualitative analysis (policies & recommendations)
-- Nataly Buslón, subgroup spokeperson
+- Nataly Buslón, subgroup spokesperson  
 - Gemma Holliday
 - Atia Cortés
 
 #### Quantitative analysis (dbGAP)
-- Davide Cirillo, subgroup spokeperson
+- Davide Cirillo, subgroup spokesperson  
 - María Morales
 - Alejandro Muñoz
 - Camila Pontes
 - Olivier Philippe
 
 #### Quantitative analysis (EGA)
-- Aina Jené, subgroup spokeperson
+- Aina Jené, subgroup spokesperson  
 - Babita Singh
 - Mauricio Moldes
 - Victoria Ruiz
