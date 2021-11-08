@@ -43,7 +43,7 @@ Biostatisticians with interests in bias and data mining
 Researchers and practitioners in academic or industrial fields devoted to social equity
 
 
-## Pratical information
+## Practical information
 
 ### Subgroup composition
 
