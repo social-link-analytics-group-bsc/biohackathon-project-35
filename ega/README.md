@@ -11,9 +11,9 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 </p>
 
 ## Quantification biases at the study level.
-Comments: 
+
   - 20% (301) of the quantified studies do not report biological sex at all in their samples. 
-  - 13.3 % (198) allow some uncertainty in their samples regarding biological sex (i.e.: unknown samples are included together with female and/or male samples.)
+  - 13 % (198) allow some uncertainty in their samples regarding biological sex (i.e.: unknown samples are included together with female and/or male samples.)
   - 67% (991) of the studies report the biological sex of all the considered samples .
 <p align="center">
 
