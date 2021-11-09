@@ -8,3 +8,9 @@ Quantification biases at the sample level
 
 </p>
 
+Quantification biases at the study level.
+<p align="center">
+
+<img src="gender_bias_study_ega.png" width="400" heigh="400"/>
+
+</p>
