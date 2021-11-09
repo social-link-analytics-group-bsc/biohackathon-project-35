@@ -29,6 +29,7 @@ event: BioHackathon Europe 2021
 ## Databases
 ### EGA
 ### dbGAP
+We downloaded the xml files of all the studies from 2018 to present (date of creation) from https://ftp.ncbi.nlm.nih.gov/dbgap/studies/. The final list contained XXX xml files that we converted to tables reporting the information about the variables of interest.
 
 ## Datasets
 ### dbGAP
