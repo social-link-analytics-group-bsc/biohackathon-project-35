@@ -26,6 +26,13 @@ event: BioHackathon Europe 2021
 # Introduction
 
 # Methods
+## Databases
+### EGA
+### dbGAP
+
+## Datasets
+### dbGAP
+### EGA
 
 # Analysis
 
