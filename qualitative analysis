@@ -4,12 +4,17 @@ The main objective of the FAIR-X project is to promote systematic reporting of s
  We understand sex as the biological characteristics commonly used to classify people as male, female or intersex, and gender as socially constructed roles, norms and identities, not necessarily binary or aligned with a person’s sex. This survey wants to observe the awareness of domain experts regarding these two variables in biomedical research, as well as their attitude towards capturing diversity including other dimensions of intersectionality such as age, race or ethnicity. 
 Science could benefit from diversity: to improve the participation of under-represented groups is not just fairer, it could produce better research practices and outcomes. We can make a change, we can have a better science! 
 
-1. Does your dataset include variables that foster an intersectional analysis and interpretation of results?
-  Sex Yes / No
-  Gender Yes / No
-  Age Yes / No
-  Ethnicity Yes / No
-  NA
+1. How often do you include the following variables in your dataset
+   Sex: Never (0) - 1- 2- 3- 4- 5 (Always)
+   Gender: Never (0) - 1- 2- 3- 4- 5 (Always)
+   Age: Never (0) - 1- 2- 3- 4- 5 (Always)
+   Ethnicity: Never (0) - 1- 2- 3- 4- 5 (Always)
+   Race: Never (0) - 1- 2- 3- 4- 5 (Always)
+   
+2. Does your interpretation of results includes a intersectional analysis (sex, Gender, Age, Ethnicity, Race)
+   Yes
+   No
+   N/A
   
 2. Are you familiarised with guidelines or recommendations of best practices in biomedical research? (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: )
   I don't know them
@@ -26,6 +31,8 @@ Science could benefit from diversity: to improve the participation of under-repr
   Relevant and mandatory
   Critical
   I don't know
+  
+4. How much do you consider the diversty
   
 4. Would you be interested in receiving training on social and ethical implications of biomedical research?
   Yes
