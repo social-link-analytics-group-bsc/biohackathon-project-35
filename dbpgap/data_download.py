@@ -5,6 +5,7 @@ import os
 import re
 import fnmatch
 from ftplib import FTP
+import ftplib
 
 
 # init ftp connection
@@ -46,16 +47,20 @@ for f in all_dbgap_studies:
         max_version = max(study_versions, key=extract_number)
         print(max_version)
         phenotypes_path = os.path.join(max_version, 'pheno_variable_summaries/')
-        reports = ftp.nlst(phenotypes_path)
+        try:
+            reports = ftp.nlst(phenotypes_path)
         
-        # Save reports
-        for pht in reports:
-            # I have searched only 'var_report', because 'phenotype'
-            # is not always in the name of the file (to improve)
-            if pht.endswith('var_report.xml'):
-                print('Found a var_report.xml')
-                with open(mypath + "/" + study_id, 'wb') as fh:
-                    print("dl the file into: {}".format(mypath))
-                    ftp.retrbinary('RETR '+pht, fh.write)
-                break
+            # Save reports
+            for pht in reports:
+                # I have searched only 'var_report', because 'phenotype'
+                # is not always in the name of the file (to improve)
+                if pht.endswith('var_report.xml'):
+                    print('Found a var_report.xml')
+                    with open(mypath + "/" + study_id, 'wb') as fh:
+                        print("dl the file into: {}".format(mypath))
+                        ftp.retrbinary('RETR '+pht, fh.write)
+                    break
 
+        except ftplib.error_temp:
+            print('Did not found the file')
+            pass
