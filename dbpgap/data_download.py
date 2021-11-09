@@ -8,10 +8,6 @@ from ftplib import FTP
 import ftplib
 
 
-
-
-
-
 def get_all_studies(source_dir, ftp_connection):
     """
     Get the study folder for all the phs
@@ -40,12 +36,33 @@ def create_study_path(source_dir, phs_name):
     study_path = os.path.join(source_dir, phs_name)
     study_versions = ftp.nlst(study_path)
     max_version = max(study_versions, key=extract_number)
-    print(max_version)
     phenotypes_path = os.path.join(max_version, 'pheno_variable_summaries/')
     return phenotypes_path
 
-    :
 
+def get_files_to_dl(phenotypes_path):
+    files_to_dl_list = list()
+    try:
+        reports = ftp.nlst(phenotypes_path)
+    
+        # Save reports
+        for pht in reports:
+            # I have searched only 'var_report', because 'phenotype'
+            # is not always in the name of the file (to improve)
+            if 'var_report' in pht:
+                files_to_dl_list.append(pht)
+
+    except ftplib.error_temp:
+        print('Did not found the file')
+
+
+def write_file_data(infile, outfile):
+    """
+    """
+    ftp.retrbinary('RETR '+infile, outfile.write)
+
+def flatten(l):
+    return (item for sublist in l for item in sublist) 
 
 if __name__ == "__main__":
 
@@ -65,21 +82,12 @@ if __name__ == "__main__":
 
     phenotypes_path_list = [create_study_path(source_dir, x) for x in all_studies_list]
 
-    try:
-        reports = ftp.nlst(phenotypes_path)
-    
-        # Save reports
-        for pht in reports:
-            # I have searched only 'var_report', because 'phenotype'
-            # is not always in the name of the file (to improve)
-            if 'var_report' in pht:
-                filename = os.path.basename(pht)
-                print('{}'.format(filename))
-                with open(mypath+ "/" +filename, 'wb') as fh:
-                    print("dl the file into: {}".format(filename))
-                    ftp.retrbinary('RETR '+pht, fh.write)
-                break
+    var_report_list = flatten([get_files_to_dl(source_dir, x) for x in phenotypes_path_list])
 
-    except ftplib.error_temp:
-        print('Did not found the file')
-        pass
+
+    for infile in var_report_list: 
+        outfile = os.path.basename(infile)
+        print('{}'.format(outfile))
+        with open(mypath+ "/" +outfile, 'wb') as fh:
+            print("dl the file into: {}".format(outfile))
+            write_file_data(infile, outfile)     
