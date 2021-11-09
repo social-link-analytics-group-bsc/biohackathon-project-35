@@ -8,9 +8,6 @@ from ftplib import FTP
 import ftplib
 
 
-# init ftp connection
-ftp = FTP('ftp.ncbi.nlm.nih.gov', timeout=None)
-ftp.login()
 
 
 # Get last version study 
@@ -23,6 +20,12 @@ mypath = './data/'
 if not os.path.exists(mypath):
     os.makedirs(mypath)
 
+
+# init ftp connection
+print('Establishing connection')
+ftp = FTP('ftp.ncbi.nlm.nih.gov', timeout=None)
+ftp.login()
+print('Connection established')
 
 # List of all IDs (studies: phs#######)
 all_dbgap_studies = ftp.nlst(source_dir)
@@ -54,10 +57,11 @@ for f in all_dbgap_studies:
             for pht in reports:
                 # I have searched only 'var_report', because 'phenotype'
                 # is not always in the name of the file (to improve)
-                if pht.endswith('var_report.xml'):
-                    print('Found a var_report.xml')
-                    with open(mypath + "/" + study_id, 'wb') as fh:
-                        print("dl the file into: {}".format(mypath))
+                if 'var_report' in pht:
+                    filename = os.path.basename(pht)
+                    print('{}'.format(filename))
+                    with open(mypath+ "/" +filename, 'wb') as fh:
+                        print("dl the file into: {}".format(filename))
                         ftp.retrbinary('RETR '+pht, fh.write)
                     break
 
