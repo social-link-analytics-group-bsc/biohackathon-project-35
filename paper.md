@@ -27,7 +27,7 @@ event: BioHackathon Europe 2021
 
 # Methods
 ## Databases
-Two independent databases were considered in the present investigation: EGA and dbGaP \cite{mailman2007ncbi}, containing population from Europe and the United States, respectively (?).
+Two independent databases were considered in the present investigation: EGA [@riccio2012ega] and dbGaP [@mailman2007ncbi], containing population from Europe and the United States, respectively (check this info).
 
 ### EGA
 ### dbGAP
