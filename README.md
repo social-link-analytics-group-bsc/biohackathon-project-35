@@ -49,6 +49,9 @@ Researchers and practitioners in academic or industrial fields devoted to social
 
 ## Quantitative analysis (dbGAP)
 
+### Useful links
+- FTP access to the dataset: [http://ftp.ncbi.nlm.nih.gov/dbgap/studies](http://ftp.ncbi.nlm.nih.gov/dbgap/studies)
+
 ### People
 - Davide Cirillo, subgroup spokesperson  
 - María Morales
@@ -57,9 +60,10 @@ Researchers and practitioners in academic or industrial fields devoted to social
 - Olivier Philippe
 
 ## Quantitative analysis (EGA)
-
 ### Useful links
-- FTP access to the dataset: [http://ftp.ncbi.nlm.nih.gov/dbgap/studies](http://ftp.ncbi.nlm.nih.gov/dbgap/studies)
+
+* API Metadata documentation: [https://ega-archive.org/metadata/how-to-use-the-api](https://ega-archive.org/metadata/how-to-use-the-api)
+
 
 ### People
 - Aina Jené, subgroup spokesperson  
@@ -68,6 +72,3 @@ Researchers and practitioners in academic or industrial fields devoted to social
 - Victoria Ruiz
 - Diego Saby
 
-### Useful links
-
-* API Metadata documentation: [https://ega-archive.org/metadata/how-to-use-the-api](https://ega-archive.org/metadata/how-to-use-the-api)
