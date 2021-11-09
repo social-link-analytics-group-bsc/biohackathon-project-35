@@ -6,7 +6,7 @@ import re
 import fnmatch
 from ftplib import FTP
 import ftplib
-
+import pickle
 
 def get_all_studies(source_dir, ftp_connection):
     """
@@ -57,12 +57,20 @@ def get_files_to_dl(phenotypes_path):
 
 
 def write_file_data(infile, outfile):
-    """
-    """
     ftp.retrbinary('RETR '+infile, outfile.write)
 
 def flatten(l):
     return (item for sublist in l for item in sublist) 
+
+
+def save_temp_list(inlist, outfile):
+    with open(outfile, 'wb') as fp:
+        pickle.dump(inlist, fp)
+
+
+def load_temp_list(infile):
+    with open(infile, 'wb') as fp:
+        return pickle.load(fp) 
 
 if __name__ == "__main__":
 
@@ -78,13 +86,20 @@ if __name__ == "__main__":
     ftp.login()
     print('Connection established')
 
+    print('Download full list of studies')
     all_studies_list = get_all_studies(source_dir, ftp)
+    save_temp_list(all_studies_list, './all_studies_list_temp')
 
-    phenotypes_path_list = [create_study_path(source_dir, x) for x in all_studies_list]
+    print('Get the phenotypes_path_list')
+    phenotypes_path_list = [create_study_path(source_dir, x) for x in all_studies_list[0:100]]
+    save_temp_list(phenotypes_path_list, './phenotypes_path_list_temp')
 
-    var_report_list = flatten([get_files_to_dl(source_dir, x) for x in phenotypes_path_list])
+    print('Get the var_report file list')
+    var_report_list = flatten([get_files_to_dl(x) for x in phenotypes_path_list])
+    save_temp_list(var_report_list, './var_report_list')
 
 
+    print('Downloading the data')
     for infile in var_report_list: 
         outfile = os.path.basename(infile)
         print('{}'.format(outfile))
