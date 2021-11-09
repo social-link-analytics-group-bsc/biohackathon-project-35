@@ -63,6 +63,13 @@ Researchers and practitioners in academic or industrial fields devoted to social
 ### Useful links
 
 * API Metadata documentation: [https://ega-archive.org/metadata/how-to-use-the-api](https://ega-archive.org/metadata/how-to-use-the-api)
+* Policy documentation: [https://ega-archive.org/submission/dac/documentation](https://ega-archive.org/submission/dac/documentation)
+* Submitter Portal: [https://ega-archive.org/submission/tools/submitter-portal](https://ega-archive.org/submission/tools/submitter-portal)
+* Quality Control Reports [https://ega-archive.org/about/quality-control-reports](https://ega-archive.org/about/quality-control-reports)
+* Implementation of the EU General Data Protection Regulation (GDPR): [https://ega-archive.org/privacy-notice](https://ega-archive.org/about/quality-control-reports)
+* Data Access: [https://ega-archive.org/access/data-access](https://ega-archive.org/access/data-access)
+* Download Client V3: [https://ega-archive.org/download/downloader-quickguide-APIv3](https://ega-archive.org/download/downloader-quickguide-APIv3)
+* Metadata Rest Endpoints: [https://ega-archive.org/metadata/how-to-use-the-api](https://ega-archive.org/download/downloader-quickguide-APIv3)
 
 
 ### People
