@@ -51,6 +51,14 @@ Researchers and practitioners in academic or industrial fields devoted to social
 
 ### Useful links
 - FTP access to the dataset: [http://ftp.ncbi.nlm.nih.gov/dbgap/studies](http://ftp.ncbi.nlm.nih.gov/dbgap/studies)
+- Study Submission Guide: https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/ and [https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?document_name=HowToSubmit.pdf](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?document_name=HowToSubmit.pdf)
+* Non-NIH funded "expectations": [https://osp.od.nih.gov/wp-content/uploads/Expectations_for_Non-NIH_Funded_Submission_Requests.pdf](https://osp.od.nih.gov/wp-content/uploads/Expectations_for_Non-NIH_Funded_Submission_Requests.pdf)
+* Basic Requirements: [https://osp.od.nih.gov/wp-content/uploads/Non-NIH-Funded_Basic_Study_Information.pdf](https://osp.od.nih.gov/wp-content/uploads/Non-NIH-Funded_Basic_Study_Information.pdf)
+
+* Template files: [https://ftp.ncbi.nlm.nih.gov/dbgap/dbGaP_Submission_Guide_Templates/Individual_Submission_Templates/](https://ftp.ncbi.nlm.nih.gov/dbgap/dbGaP_Submission_Guide_Templates/Individual_Submission_Templates/) 
+* Data Access: [https://www.ncbi.nlm.nih.gov/books/NBK5294/](https://www.ncbi.nlm.nih.gov/books/NBK5294/) and [https://osp.od.nih.gov/wp-content/uploads/NIH_Best_Practices_for_Controlled-Access_Data_Subject_to_the_NIH_GDS_Policy.pdf](https://osp.od.nih.gov/wp-content/uploads/NIH_Best_Practices_for_Controlled-Access_Data_Subject_to_the_NIH_GDS_Policy.pdf)
+* Quality Control Errors: [https://www.ncbi.nlm.nih.gov/gap/public_utils/messages/](https://www.ncbi.nlm.nih.gov/gap/public_utils/messages/) and for the QC process: [https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/#aqcchecks](https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/#aqcchecks)
+* FAQ: [https://www.ncbi.nlm.nih.gov/books/NBK5295/](https://www.ncbi.nlm.nih.gov/books/NBK5295/)
 
 ### People
 - Davide Cirillo, subgroup spokesperson  
