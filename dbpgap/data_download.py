@@ -29,31 +29,32 @@ all_dbgap_studies = ftp.nlst(source_dir)
 print('Len of dbgap studies: {}'.format(len(all_dbgap_studies)))
 
 # Subsample to test
-subsample = all_dbgap_studies[1:20]
+# subsample = all_dbgap_studies[1:20]
 
 
 
-for f in subsample:
-    study_id = os.path.basename(f) 
-    # if not os.path.exists(study_id):
-    #     os.makedirs(study_id)
+for f in all_dbgap_studies:
+    if f.startwith('phs'):
+        study_id = os.path.basename(f) 
+        # if not os.path.exists(study_id):
+        #     os.makedirs(study_id)
 
-    # Phenotype list
-    study_path = os.path.join(source_dir, f)
-    study_versions = ftp.nlst(study_path)
-    max_version = max(study_versions, key=extract_number)
-    print(max_version)
-    phenotypes_path = os.path.join(max_version, 'pheno_variable_summaries/')
-    reports = ftp.nlst(phenotypes_path)
-    
-    # Save reports
-    for pht in reports:
-        # I have searched only 'var_report', because 'phenotype'
-        # is not always in the name of the file (to improve)
-        if pht.endswith('var_report.xml'):
-            print('Found a var_report.xml')
-            with open(mypath + "/" + study_id, 'wb') as fh:
-                print("dl the file into: {}".format(mypath))
-                ftp.retrbinary('RETR '+pht, fh.write)
-            break
+        # Phenotype list
+        study_path = os.path.join(source_dir, f)
+        study_versions = ftp.nlst(study_path)
+        max_version = max(study_versions, key=extract_number)
+        print(max_version)
+        phenotypes_path = os.path.join(max_version, 'pheno_variable_summaries/')
+        reports = ftp.nlst(phenotypes_path)
+        
+        # Save reports
+        for pht in reports:
+            # I have searched only 'var_report', because 'phenotype'
+            # is not always in the name of the file (to improve)
+            if pht.endswith('var_report.xml'):
+                print('Found a var_report.xml')
+                with open(mypath + "/" + study_id, 'wb') as fh:
+                    print("dl the file into: {}".format(mypath))
+                    ftp.retrbinary('RETR '+pht, fh.write)
+                break
 
