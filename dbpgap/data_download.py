@@ -34,7 +34,8 @@ print('Len of dbgap studies: {}'.format(len(all_dbgap_studies)))
 
 
 for f in all_dbgap_studies:
-    if f.startswith('phs'):
+    print(f)
+    if 'phs' in f:
         study_id = os.path.basename(f) 
         # if not os.path.exists(study_id):
         #     os.makedirs(study_id)
