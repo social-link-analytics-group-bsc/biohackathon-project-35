@@ -15,7 +15,10 @@ def get_data(study_id):
 def get_study_info(study_id):
     data = get_data(study_id)
     counts = Counter(list(map(lambda x: x['gender'], data)))
-    year = data[0]['creationTime'][:4]
+    if len(data) > 0:
+        year = data[0]['creationTime'][:4]
+    else:
+        year = "-1"
     
     #Transform it to a dict
     row = dict(counts)
@@ -37,8 +40,13 @@ def main():
     study_list = get_study_list("EGA_studies_list.txt")
     
     rows = []
+    counter = 0
     for s in study_list:
+        counter+=1
+        print("getting study {}".format(counter))
         rows.append(get_study_info(s))
+        if counter%10 == 0:
+            pd.DataFrame(rows).to_csv("EGA_data_back{}.csv".format(int(counter/10)))
 
     pd.DataFrame(rows).to_csv('EGA_data.csv',sep=';')
 

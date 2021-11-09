@@ -1,54 +1,62 @@
 # Introduction
 
-The main objective of the FAIR-X project is to promote systematic reporting of sex and gender in research and foster diversity in biomedical practices. The European Commission, NIH and other institutions aim to make sex and gender analysis mandatory in the research and its policy would apply to all disciplines. 
- We understand sex as the biological characteristics commonly used to classify people as male, female or intersex, and gender as socially constructed roles, norms and identities, not necessarily binary or aligned with a person’s sex. This survey wants to observe the awareness of domain experts regarding these two variables in biomedical research, as well as their attitude towards capturing diversity including other dimensions of intersectionality such as age, race or ethnicity. 
-Science could benefit from diversity: to improve the participation of under-represented groups is not just fairer, it could produce better research practices and outcomes. We can make a change, we can have a better science! 
+The main objective of the FAIR-X project is to promote systematic reporting of sex and gender in research and foster diversity in biomedical practices. The European Commission, National Institutes of Health (NIH) and other institutions aim to make sex and gender analysis mandatory in the research and its policy would apply to all disciplines. 
+We understand sex as the biological characteristics commonly used to classify people as male, female or intersex, and gender as socially constructed roles, norms and identities, not necessarily binary or aligned with a person’s sex. This survey wants to observe the awareness of domain experts regarding these two variables in biomedical research, as well as their attitude towards capturing diversity including other dimensions of intersectionality such as age, race or ethnicity. 
+Science could benefit from diversity: to improve the participation of under-represented groups is not just fairer, it could produce better research practices and outcomes. 
 
-1. Does your dataset include variables that foster an intersectional analysis and interpretation of results?
-  Sex Yes / No
-  Gender Yes / No
-  Age Yes / No
-  Ethnicity Yes / No
-  NA
+Please take a moment to fill out the survey below. Your input will help us! 
+
+1. How often do you include the following variables in your dataset? 
+   Sex: Never (1) - 2- 3- 4- 5 (Always)
+   Gender: Never (1) 2- 3- 4- 5 (Always)
+   Age: Never (1) 2- 3- 4- 5 (Always)
+   Ethnicity: Never (1) 2- 3- 4- 5 (Always)
+   Race: Never (1) 2- 3- 4- 5 (Always)
+   
+2. Does your interpretation of results includes a intersectional analysis (sex, gender, age, ethnicity, race)
+   Yes
+   No
+   N/A
   
-2. Are you familiarised with guidelines or recommendations of best practices in biomedical research? (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: )
+3. Are you familiarised with guidelines for collection sex/gender/age/race/ethnicity or recommendations of best practices in biomedical research? (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0007-6#ref-CR15 )
   I don't know them
   I know them but I don't apply them
   I know them but I don't need them
   I know them but I don't agree with them
   I know them and I use them
   I know others: ...
-  NA
+  N/A
   
-3. Do you think capturing diversity (e.g., sex, gender, age, ethnicity) for biomedical research is:
-  Not relevant
-  Relevant not mandatory
-  Relevant and mandatory
-  Critical
-  I don't know
+4. Do you think capturing diversity (e.g., sex, gender, age, ethnicity) for biomedical research must be:
+  Mandatory 
+  Not Mandatory 
+  I don´t know 
+  N/A
   
-4. Would you be interested in receiving training on social and ethical implications of biomedical research?
-  Yes
+5. How much do you consider the diversity (e.g., sex, gender, age, ethnicity) for biomedical research in your analysis:
+ (1) Not relevant 2-3-4-5 (Extremely relevant)
+  N/A
+  
+6. Would you be interested in receiving training on social and ethical implications of biomedical research?
+  Yes (in person) 
+  Yes (online)
   No
   I don't know
+  N/A
 
-5. Have you experienced difficulties with datasets having many missing values of diversity data due to data donnors withdrawing (parts of) informed consent?
+7. Have you experienced difficulties with datasets having many missing values of diversity data due to data donnors withdrawing (parts of) informed consent?
   Never
   Sometimes
   Often
   Always
   NA
 
-6. Do you think educating data donnors would help raising awareness on the importance of diversity data for fair research outcomes?
- 1 Not at all important
- 2
- 3
- 4
- 5 Extremely important
-
+8. How important is educating data donnors would help raise awareness on the importance of diversity data for fair research outcomes?
+ (1) Not important 2- 3- 4- 5 (Extremely important) 
  
-7. The European Commision has published a Gender equality plan to opt for research fundings. Also the Gendered Innovation published a report recommending how to introduce the sex and gender dimension in biomedical research.
--- add one line about editorial power -- How important is to include diversity information in publication and funding processes?
+9. The European Commission has published a Gender equality plan to opt for research fundings. Also the Gendered Innovation published a report recommending how to introduce the sex and gender dimension in biomedical research.
+Requirements from journal editorial policies can have a powerful benefit as well, the adoption of a requirement to publish a crystal structure in the wwPDB or sequence to the NCBI helped drive such depositing practices to standard. 
+How important is to include diversity information in publication and funding processes?
   Not important
   Important only for publications and Intellectual Property 
   Important only for fundings
@@ -56,22 +64,24 @@ Science could benefit from diversity: to improve the participation of under-repr
   Neither
   Others: ...
 
-8. Which mechanisms should be put in place to ensure that public and private biomedical research capture diversity dimension? (multiple answers)
+10. Which mechanisms should be put in place to ensure that public and private biomedical research capture diversity dimension? (multiple answers)
   Self-assessment
   International Standards
   Codes of conduct
   Legal regulation
   Editorial policy requirements
   Requirements by funding bodies
-  Regulated bodies (e.g., FDA, EMA (spain AEMPS))
+  Regulated bodies (e.g., FDA, EMA (Spain AEMPS))
   All
   None
   Others: ...
 
-
 ---------------------------------------------
 
 # Data sources
+
+Data analysis: https://docs.google.com/spreadsheets/d/1NlmRN57Yoi3rOkk1OxCe9QeNa0e33eXD2wXlYuPLF6I/edit?usp=sharing 
+Please provide all the information regarding the qualitative analysis of the documentation in the EGA and Dbgap Data Repository in this Google Sheets. 
 
 EGA
 Policy documentation - https://ega-archive.org/submission/dac/documentation
