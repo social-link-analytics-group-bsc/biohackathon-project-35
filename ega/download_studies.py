@@ -36,13 +36,39 @@ def get_study_list(filename):
     return study_list
     
 
-def main():
+def main(load_file=None, skip_first=0, skip_numbers = []):
+    """
+    Reads Studies from EGA and counts the `gender` values for the data for each
+    study.
+    It outputs a final CSV summarizing the counts of `gender` for each study.
+    It also produces a lot of backup files in case there is a problem do not start again.
+
+    params:
+    -------
+    load_file: name of the last backup file to load.
+    skip_first: how many studies it will skip.
+    skip_numbers: list of the number of the study that will not collect data from.
+    """
+
     study_list = get_study_list("EGA_studies_list.txt")
     
     rows = []
     counter = 0
+
+    if load_file != None:
+        rows = pd.read_csv(load_file,sep=';').to_dict('records')
+
+    
     for s in study_list:
         counter+=1
+
+        # skip the first n studies
+        if counter < skip_first:
+            continue
+        # Skip the specified numbers
+        if counter in skip_numbers:
+            continue
+
         print("getting study {}".format(counter))
         rows.append(get_study_info(s))
         if counter%10 == 0:
@@ -53,4 +79,4 @@ def main():
     
 
 if __name__ == "__main__":
-    main()
+    main("EGA_data_back37.csv", 370, [374])
