@@ -42,26 +42,26 @@ Bioinformaticians with knowledge on biological data resources
 Biostatisticians with interests in bias and data mining
 Researchers and practitioners in academic or industrial fields devoted to social equity
 
-
-## Practical information
-
-### Subgroup composition
-
-#### Qualitative analysis (policies & recommendations)
+## Qualitative analysis (policies & recommendations)
 - Nataly Buslón, subgroup spokesperson  
 - Gemma Holliday
 - Atia Cortés
 
-#### Quantitative analysis (dbGAP)
+## Quantitative analysis (dbGAP)
+
+### People
 - Davide Cirillo, subgroup spokesperson  
 - María Morales
 - Alejandro Muñoz
 - Camila Pontes
 - Olivier Philippe
 
-#### Quantitative analysis (EGA)
+## Quantitative analysis (EGA)
+### People
 - Aina Jené, subgroup spokesperson  
 - Babita Singh
 - Mauricio Moldes
 - Victoria Ruiz
 - Diego Saby
+### Useful links
+* API Metadata documentation: [https://ega-archive.org/metadata/how-to-use-the-api](https://ega-archive.org/metadata/how-to-use-the-api)
