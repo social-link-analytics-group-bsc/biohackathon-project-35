@@ -2,7 +2,9 @@
 
 The main objective of the FAIR-X project is to promote systematic reporting of sex and gender in research and foster diversity in biomedical practices. The European Commission, NIH and other institutions aim to make sex and gender analysis mandatory in the research and its policy would apply to all disciplines. 
 We understand sex as the biological characteristics commonly used to classify people as male, female or intersex, and gender as socially constructed roles, norms and identities, not necessarily binary or aligned with a person’s sex. This survey wants to observe the awareness of domain experts regarding these two variables in biomedical research, as well as their attitude towards capturing diversity including other dimensions of intersectionality such as age, race or ethnicity. 
-Science could benefit from diversity: to improve the participation of under-represented groups is not just fairer, it could produce better research practices and outcomes. We can make a change, we can have a better science! 
+Science could benefit from diversity: to improve the participation of under-represented groups is not just fairer, it could produce better research practices and outcomes. 
+
+Please take a moment to fill out the survey below. Your input will help us! 
 
 1. How often do you include the following variables in your dataset? 
    Sex: Never (1) - 2- 3- 4- 5 (Always)
@@ -16,7 +18,7 @@ Science could benefit from diversity: to improve the participation of under-repr
    No
    N/A
   
-3. Are you familiarised with guidelines or recommendations of best practices in biomedical research? (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0007-6#ref-CR15 )
+3. Are you familiarised with guidelines for collection sex/gender/age/race/ethnicity or recommendations of best practices in biomedical research? (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0007-6#ref-CR15 )
   I don't know them
   I know them but I don't apply them
   I know them but I don't need them
@@ -36,7 +38,8 @@ Science could benefit from diversity: to improve the participation of under-repr
   N/A
   
 6. Would you be interested in receiving training on social and ethical implications of biomedical research?
-  Yes
+  Yes (in person) 
+  Yes (online)
   No
   I don't know
   N/A
@@ -48,8 +51,8 @@ Science could benefit from diversity: to improve the participation of under-repr
   Always
   NA
 
-8. Do you think educating data donnors would help raising awareness on the importance of diversity data for fair research outcomes?
- (1) Not helpful 2- 3- 4- 5 (Extremely helpful) 
+8. How important is educating data donnors would help raise awareness on the importance of diversity data for fair research outcomes?
+ (1) Not important 2- 3- 4- 5 (Extremely important) 
  
 9. The European Commision has published a Gender equality plan to opt for research fundings. Also the Gendered Innovation published a report recommending how to introduce the sex and gender dimension in biomedical research.
 Requirements from journal editorial policies can have a powerful benefit as well, the adoption of a requirement to publish a crystal structure in the wwPDB or sequence to the NCBI helped drive such depositing practices to standard. 
