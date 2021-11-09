@@ -2,10 +2,66 @@
 
  to promote systematic reporting of sex and gender in research
  
- 1. Si tienen en cuenta variables que ayudan a la interpretación de los datos desde un punto de vista interseccional: sexo, género, edad, race/etnichity 
- 2. Si están familiarizados con guias o recomendaciones de buenas prácticas en investigación biómedica (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGE: ) 
- No la conozco, Las conoczco pero no las aplico, Las conozco y las aplico, Conozco otras; No sabe/no contesta
+ 1. Does your dataset include variables that foster an intersectional analysis and interpretation of results?
+  Sex Yes / No
+  Gender Yes / No
+  Age Yes / No
+  Ethnicity Yes / No
+  
+2. Are you familiarised with guidelines or recommendations of best practices in biomedical research? (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: )
+  I don't know them
+  I know them but I don't apply them
+  I know them but I don't need them
+  I know them but I don't agree with them
+  I know them and I use them
+  I know others: ...
+  NA
+  
+3. Do you think capturing diversity (e.g., sex, gender, age, ethnicity) for biomedical research is:
+  Not relevant
+  Relevant not mandatory
+  Relevant and mandatory
+  Critical
+  I don't know
+  
+4. Would you be interested in receiving training on social and ethical implications of biomedical research?
+  Yes
+  No
+  I don't know
+
+5. Have you experienced difficulties with datasets having many missing values of diversity data due to data donnors withdrawing (parts of) informed consent?
+  Never
+  Sometimes
+  Often
+  Always
+  NA
+
+6. Do you think educating data donnors would help raising awareness on the importance of diversity data for fair research outcomes?
+  Not much
+  so so
+  Big deal
+
  
+7. The European Commision has published a Gender equality plan to opt for research fundings. Also the Gendered Innovation published a report recommending how to introduce the sex and gender dimension in biomedical research.
+-- add one line about editorial power -- How important is to include diversity information in publication and funding processes?
+  Not important
+  Important only for publications and Intellectual Property 
+  Important only for fundings
+  Important for both
+  Neither
+  Others: ...
+
+8. Which mechanisms should be put in place to ensure that public and private biomedical research capture diversity dimension? (multiple answers)
+  Self-assessment
+  International Standards
+  Codes of conduct
+  Legal regulation
+  Editorial policy requirements
+  Requirements by funding bodies
+  Regulated bodies (e.g., FDA, EMA (spain AEMPS))
+  All
+  None
+  Others: ...
 
 
 
