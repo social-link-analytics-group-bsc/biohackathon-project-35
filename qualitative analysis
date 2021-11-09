@@ -5,11 +5,11 @@ The main objective of the FAIR-X project is to promote systematic reporting of s
 Science could benefit from diversity: to improve the participation of under-represented groups is not just fairer, it could produce better research practices and outcomes. We can make a change, we can have a better science! 
 
 1. How often do you include the following variables in your dataset? 
-   Sex: Never (0) - 1- 2- 3- 4- 5 (Always)
-   Gender: Never (0) - 1- 2- 3- 4- 5 (Always)
-   Age: Never (0) - 1- 2- 3- 4- 5 (Always)
-   Ethnicity: Never (0) - 1- 2- 3- 4- 5 (Always)
-   Race: Never (0) - 1- 2- 3- 4- 5 (Always)
+   Sex: Never (1) - 2- 3- 4- 5 (Always)
+   Gender: Never (1) 2- 3- 4- 5 (Always)
+   Age: Never (1) 2- 3- 4- 5 (Always)
+   Ethnicity: Never (1) 2- 3- 4- 5 (Always)
+   Race: Never (1) 2- 3- 4- 5 (Always)
    
 2. Does your interpretation of results includes a intersectional analysis (sex, Gender, Age, Ethnicity, Race)
    Yes
@@ -51,7 +51,7 @@ Science could benefit from diversity: to improve the participation of under-repr
   NA
 
 8. Do you think educating data donnors would help raising awareness on the importance of diversity data for fair research outcomes?
- (0) Not helpful - 1- 2- 3- 4- 5 (Extremely helpful) 
+ (1) Not helpful 2- 3- 4- 5 (Extremely helpful) 
  
 9. The European Commision has published a Gender equality plan to opt for research fundings. Also the Gendered Innovation published a report recommending how to introduce the sex and gender dimension in biomedical research.
 -- add one line about editorial power -- How important is to include diversity information in publication and funding processes?
