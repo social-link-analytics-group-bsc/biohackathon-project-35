@@ -29,7 +29,11 @@ event: BioHackathon Europe 2021
 
 # Analysis
 
-# Results 
+# Results
+* Percentage of studies containing patient sex information
+* Percentage of male/female patients in the studies
+* Differential phenotype enrichment by sex?
+* Differential sex enrichment by phenotype?
 
 # Discussion
 
