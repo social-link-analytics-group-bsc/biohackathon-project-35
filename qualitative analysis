@@ -4,7 +4,7 @@ The main objective of the FAIR-X project is to promote systematic reporting of s
  We understand sex as the biological characteristics commonly used to classify people as male, female or intersex, and gender as socially constructed roles, norms and identities, not necessarily binary or aligned with a person’s sex. This survey wants to observe the awareness of domain experts regarding these two variables in biomedical research, as well as their attitude towards capturing diversity including other dimensions of intersectionality such as age, race or ethnicity. 
 Science could benefit from diversity: to improve the participation of under-represented groups is not just fairer, it could produce better research practices and outcomes. We can make a change, we can have a better science! 
 
-1. How often do you include the following variables in your dataset
+1. How often do you include the following variables in your dataset? 
    Sex: Never (0) - 1- 2- 3- 4- 5 (Always)
    Gender: Never (0) - 1- 2- 3- 4- 5 (Always)
    Age: Never (0) - 1- 2- 3- 4- 5 (Always)
@@ -47,11 +47,11 @@ Science could benefit from diversity: to improve the participation of under-repr
   NA
 
 6. Do you think educating data donnors would help raising awareness on the importance of diversity data for fair research outcomes?
- 1 Not at all important
+ 1 Not helpful 
  2
  3
  4
- 5 Extremely important
+ 5 Extremely helpful 
 
  
 7. The European Commision has published a Gender equality plan to opt for research fundings. Also the Gendered Innovation published a report recommending how to introduce the sex and gender dimension in biomedical research.
