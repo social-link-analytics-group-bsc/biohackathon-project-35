@@ -22,7 +22,7 @@ def get_all_studies(source_dir, ftp_connection):
     # Be sure to select the right phs
     list_all_dbgap_studies = [x for x in list_all_dbgap_studies if 'phs' in x]
     print('Len of dbgap studies: {}'.format(len(list_all_dbgap_studies)))
-    return list_all_dbgap_studies
+    return list(list_all_dbgap_studies)
 
 def create_study_path(source_dir, phs_name):
     """
@@ -52,8 +52,9 @@ def get_files_to_dl(phenotypes_path):
             if 'var_report' in pht:
                 files_to_dl_list.append(pht)
 
-    except ftplib.error_temp:
+    except ftplib.error_temp:  #TODO create a list that get which file are not found
         print('Did not found the file')
+    return files_to_dl_list
 
 
 def write_file_data(infile, outfile):
@@ -69,7 +70,7 @@ def save_temp_list(inlist, outfile):
 
 
 def load_temp_list(infile):
-    with open(infile, 'wb') as fp:
+    with open(infile, 'rb') as fp:
         return pickle.load(fp) 
 
 if __name__ == "__main__":
@@ -79,6 +80,10 @@ if __name__ == "__main__":
     if not os.path.exists(mypath):
         os.makedirs(mypath)
 
+    dl_all_files = False
+    dl_phenotypes = False
+    dl_var_report_list = False
+
 
     # init ftp connection
     print('Establishing connection')
@@ -87,16 +92,25 @@ if __name__ == "__main__":
     print('Connection established')
 
     print('Download full list of studies')
-    all_studies_list = get_all_studies(source_dir, ftp)
-    save_temp_list(all_studies_list, './all_studies_list_temp')
+    if dl_all_files is True:
+        all_studies_list = get_all_studies(source_dir, ftp)
+        save_temp_list(all_studies_list, './all_studies_list_temp')
+    else:
+        all_studies_list = load_temp_list('./all_studies_list_temp')
 
     print('Get the phenotypes_path_list')
-    phenotypes_path_list = [create_study_path(source_dir, x) for x in all_studies_list[0:100]]
-    save_temp_list(phenotypes_path_list, './phenotypes_path_list_temp')
+    if dl_phenotypes is True:
+        phenotypes_path_list = [create_study_path(source_dir, x) for x in all_studies_list]
+        save_temp_list(list(phenotypes_path_list), './phenotypes_path_list_temp')
+    else:
+        phenotypes_path_list = load_temp_list('./phenotypes_path_list_temp')
 
     print('Get the var_report file list')
-    var_report_list = flatten([get_files_to_dl(x) for x in phenotypes_path_list])
-    save_temp_list(var_report_list, './var_report_list')
+    if dl_var_report_list is True:
+        var_report_list = flatten([get_files_to_dl(x) for x in phenotypes_path_list])
+        save_temp_list(list(var_report_list), './var_report_list_temp')
+    else:
+        var_report_list = load_temp_list('./var_report_list_temp')
 
 
     print('Downloading the data')
@@ -105,4 +119,4 @@ if __name__ == "__main__":
         print('{}'.format(outfile))
         with open(mypath+ "/" +outfile, 'wb') as fh:
             print("dl the file into: {}".format(outfile))
-            write_file_data(infile, outfile)     
+            write_file_data(infile, fh)     
