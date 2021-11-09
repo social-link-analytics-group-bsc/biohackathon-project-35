@@ -57,11 +57,17 @@ Researchers and practitioners in academic or industrial fields devoted to social
 - Olivier Philippe
 
 ## Quantitative analysis (EGA)
+
+### Useful links
+- FTP access to the dataset: [http://ftp.ncbi.nlm.nih.gov/dbgap/studies](http://ftp.ncbi.nlm.nih.gov/dbgap/studies)
+
 ### People
 - Aina Jené, subgroup spokesperson  
 - Babita Singh
 - Mauricio Moldes
 - Victoria Ruiz
 - Diego Saby
+
 ### Useful links
+
 * API Metadata documentation: [https://ega-archive.org/metadata/how-to-use-the-api](https://ega-archive.org/metadata/how-to-use-the-api)
