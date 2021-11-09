@@ -12,5 +12,15 @@ Download Client V3 https://ega-archive.org/download/downloader-quickguide-APIv3
 Metadata Rest Endpoints https://ega-archive.org/metadata/how-to-use-the-api
 
 DBGAP 
+Study Submission Guide: https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/ and https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GetPdf.cgi?document_name=HowToSubmit.pdf
+Non-NIH funded "expectations": https://osp.od.nih.gov/wp-content/uploads/Expectations_for_Non-NIH_Funded_Submission_Requests.pdf
+Basic Requirements: https://osp.od.nih.gov/wp-content/uploads/Non-NIH-Funded_Basic_Study_Information.pdf
+Submission Portal: https://submit.ncbi.nlm.nih.gov/dbgap/ 
+Tamplate files: https://ftp.ncbi.nlm.nih.gov/dbgap/dbGaP_Submission_Guide_Templates/Individual_Submission_Templates/ 
+Data Access: https://www.ncbi.nlm.nih.gov/books/NBK5294/ and https://osp.od.nih.gov/wp-content/uploads/NIH_Best_Practices_for_Controlled-Access_Data_Subject_to_the_NIH_GDS_Policy.pdf
+Quality Control Errors: https://www.ncbi.nlm.nih.gov/gap/public_utils/messages/ and for the QC process: https://www.ncbi.nlm.nih.gov/gap/docs/submissionguide/#aqcchecks
+NIH Privicy Policies: https://www.nlm.nih.gov/web_policies.html 
+Code of Conduct: https://osp.od.nih.gov/wp-content/uploads/Genomic_Data_User_Code_of_Conduct.pdf
+FAQ: https://www.ncbi.nlm.nih.gov/books/NBK5295/
 
 # Recommendations
