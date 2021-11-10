@@ -36,6 +36,20 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 - 1487 studies
 - 4289 phenotypes
 
+## Unique classification of samples
+
+## Distribution of samples classification by date of dataset release
+Datasets might have the released date to the lowest date as of 2001. This means that we do not have the release date to that dataset.
+Samples without released date constitute 48% of the samples contained in studies from 2018 onwards. For 16% of these sample without release date, sex classification is unknown. 
+
+<p align="center">
+<img src="images/gender_bias_samples_ega_yearofsample.png" width="800" heigh="400"/>
+</p>
+
+- The idea here is to give a recommentadion on how to reuse old samples, use those that contain sex classification. 
+- Another point to raise is: if in 2018 sex is mandatory to be reported, why for some samples after this date we find 'unknown' classification. Perhaps something is messed up with the upload date. 
+
+
 # Results from file "raw\_data"
 
 ## Processing of the data
