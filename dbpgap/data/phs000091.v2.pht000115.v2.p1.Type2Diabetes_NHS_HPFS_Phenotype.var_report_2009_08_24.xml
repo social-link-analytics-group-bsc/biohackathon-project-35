@@ -1,0 +1,2751 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="Type2Diabetes_NHS_HPFS_Phenotype" dataset_id="pht000115.v2" study_name="GENEVA Diabetes Study (NHS/HPFS)" study_id="phs000091.v2" participant_set="1" date_created="08/24/2009">
+
+<variable id="phv00022868.v2.p1" var_name="idg" calculated_type="string" reported_type="continuous integer">
+	<description>GENEVA identification number</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022868.v2.p1.c1" var_name="idg" calculated_type="string" reported_type="continuous integer">
+	<description>GENEVA identification number</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022875.v2.p1" var_name="age" calculated_type="decimal" units="Years" reported_type="continuous decimal">
+	<description>Age in years</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean="57.23" sd="7.693" median="57.67" min="41.5" max="77.25"/>
+			<example count="30">58.08333333</example>
+			<example count="29">62</example>
+			<example count="29">54</example>
+			<example count="28">58</example>
+			<example count="28">61</example>
+			<example count="28">57</example>
+			<example count="28">61.75</example>
+			<example count="27">63.25</example>
+			<example count="27">53.5</example>
+			<example count="27">63.75</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean="57.41" sd="7.73" median="57.83" min="41.5" max="77.16"/>
+			<example count="15">63.25</example>
+			<example count="15">57.5</example>
+			<example count="15">62.25</example>
+			<example count="14">58.08333333</example>
+			<example count="14">53.5</example>
+			<example count="14">63.66666667</example>
+			<example count="14">61.75</example>
+			<example count="14">46.25</example>
+			<example count="13">62</example>
+			<example count="13">63.75</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean="57.09" sd="7.662" median="57.58" min="41.5" max="77.25"/>
+			<example count="20">58</example>
+			<example count="20">64.75</example>
+			<example count="19">57</example>
+			<example count="17">61</example>
+			<example count="17">55.66666667</example>
+			<example count="17">54</example>
+			<example count="16">62</example>
+			<example count="16">58.08333333</example>
+			<example count="16">63</example>
+			<example count="15">58.5</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022875.v2.p1.c1" var_name="age" calculated_type="decimal" units="Years" reported_type="continuous decimal">
+	<description>Age in years</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean="57.23" sd="7.693" median="57.67" min="41.5" max="77.25"/>
+			<example count="30">58.08333333</example>
+			<example count="29">62</example>
+			<example count="29">54</example>
+			<example count="28">58</example>
+			<example count="28">61</example>
+			<example count="28">57</example>
+			<example count="28">61.75</example>
+			<example count="27">63.25</example>
+			<example count="27">53.5</example>
+			<example count="27">63.75</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean="57.41" sd="7.73" median="57.83" min="41.5" max="77.16"/>
+			<example count="15">63.25</example>
+			<example count="15">57.5</example>
+			<example count="15">62.25</example>
+			<example count="14">58.08333333</example>
+			<example count="14">53.5</example>
+			<example count="14">63.66666667</example>
+			<example count="14">61.75</example>
+			<example count="14">46.25</example>
+			<example count="13">62</example>
+			<example count="13">63.75</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean="57.09" sd="7.662" median="57.58" min="41.5" max="77.25"/>
+			<example count="20">58</example>
+			<example count="20">64.75</example>
+			<example count="19">57</example>
+			<example count="17">61</example>
+			<example count="17">55.66666667</example>
+			<example count="17">54</example>
+			<example count="16">62</example>
+			<example count="16">58.08333333</example>
+			<example count="16">63</example>
+			<example count="15">58.5</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022876.v2.p1" var_name="bmi" calculated_type="decimal" units="Kg/m2" reported_type="continuous decimal">
+	<description>BMI in kg/m2</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2716</case>
+				<control>3172</control>
+			</case_control>
+			<sex>
+				<male>2602</male>
+				<female>3419</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6021" nulls="12" mean="26.95" sd="4.989" median="26" min="15.81" max="54.87"/>
+			<example count="106">25.09765625</example>
+			<example count="102">25.796875</example>
+			<example count="81">24.3984375</example>
+			<example count="68">23.69921875</example>
+			<example count="52">26.5</example>
+			<example count="46">26.59765625</example>
+			<example count="45">27.09765625</example>
+			<example count="41">27.296875</example>
+			<example count="38">24.796875</example>
+			<example count="37">23</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1534</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2716" nulls="4" mean="28.98" sd="5.217" median="28.15" min="16.5" max="54.87"/>
+			<example count="42">25.796875</example>
+			<example count="39">25.09765625</example>
+			<example count="30">24.3984375</example>
+			<example count="24">26.5</example>
+			<example count="20">23.69921875</example>
+			<example count="19">27.09765625</example>
+			<example count="19">28.09765625</example>
+			<example count="18">28</example>
+			<example count="17">27.296875</example>
+			<example count="17">27.19921875</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1820</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3172" nulls="8" mean="25.3" sd="4.098" median="24.71" min="15.81" max="51.39"/>
+			<example count="63">25.09765625</example>
+			<example count="58">25.796875</example>
+			<example count="48">24.3984375</example>
+			<example count="45">23.69921875</example>
+			<example count="29">26.59765625</example>
+			<example count="28">26.5</example>
+			<example count="26">24.796875</example>
+			<example count="26">27.09765625</example>
+			<example count="26">23</example>
+			<example count="26">23.09765625</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022876.v2.p1.c1" var_name="bmi" calculated_type="decimal" units="Kg/m2" reported_type="continuous decimal">
+	<description>BMI in kg/m2</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2716</case>
+				<control>3172</control>
+			</case_control>
+			<sex>
+				<male>2602</male>
+				<female>3419</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6021" nulls="12" mean="26.95" sd="4.989" median="26" min="15.81" max="54.87"/>
+			<example count="106">25.09765625</example>
+			<example count="102">25.796875</example>
+			<example count="81">24.3984375</example>
+			<example count="68">23.69921875</example>
+			<example count="52">26.5</example>
+			<example count="46">26.59765625</example>
+			<example count="45">27.09765625</example>
+			<example count="41">27.296875</example>
+			<example count="38">24.796875</example>
+			<example count="37">23</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1534</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2716" nulls="4" mean="28.98" sd="5.217" median="28.15" min="16.5" max="54.87"/>
+			<example count="42">25.796875</example>
+			<example count="39">25.09765625</example>
+			<example count="30">24.3984375</example>
+			<example count="24">26.5</example>
+			<example count="20">23.69921875</example>
+			<example count="19">27.09765625</example>
+			<example count="19">28.09765625</example>
+			<example count="18">28</example>
+			<example count="17">27.296875</example>
+			<example count="17">27.19921875</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1820</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3172" nulls="8" mean="25.3" sd="4.098" median="24.71" min="15.81" max="51.39"/>
+			<example count="63">25.09765625</example>
+			<example count="58">25.796875</example>
+			<example count="48">24.3984375</example>
+			<example count="45">23.69921875</example>
+			<example count="29">26.59765625</example>
+			<example count="28">26.5</example>
+			<example count="26">24.796875</example>
+			<example count="26">27.09765625</example>
+			<example count="26">23</example>
+			<example count="26">23.09765625</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022869.v2.p1" var_name="hisp" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Hispanic ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1538</case>
+				<control>1826</control>
+			</case_control>
+			<sex>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3429" nulls="2604" mean_count="1715" sd="2372" median_count="1715" min_count="37" max_count="3392"/>
+			<enum code="0" count="3392">Not Hispanic</enum>
+			<enum code="1" count="37">Hispanic</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1538" nulls="1182" mean_count="769" sd="1061" median_count="769" min_count="19" max_count="1519"/>
+			<enum code="0" count="1519">Not Hispanic</enum>
+			<enum code="1" count="19">Hispanic</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1826" nulls="1354" mean_count="913" sd="1266" median_count="913" min_count="18" max_count="1808"/>
+			<enum code="0" count="1808">Not Hispanic</enum>
+			<enum code="1" count="18">Hispanic</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022869.v2.p1.c1" var_name="hisp" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Hispanic ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1538</case>
+				<control>1826</control>
+			</case_control>
+			<sex>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3429" nulls="2604" mean_count="1715" sd="2372" median_count="1715" min_count="37" max_count="3392"/>
+			<enum code="0" count="3392">Not Hispanic</enum>
+			<enum code="1" count="37">Hispanic</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1538" nulls="1182" mean_count="769" sd="1061" median_count="769" min_count="19" max_count="1519"/>
+			<enum code="0" count="1519">Not Hispanic</enum>
+			<enum code="1" count="19">Hispanic</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1826" nulls="1354" mean_count="913" sd="1266" median_count="913" min_count="18" max_count="1808"/>
+			<enum code="0" count="1808">Not Hispanic</enum>
+			<enum code="1" count="18">Hispanic</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022874.v2.p1" var_name="case" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Diabetes case status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="2011" sd="1643" median_count="2720" min_count="133" max_count="3180"/>
+			<enum code="0" count="3180">Control</enum>
+			<enum code="1" count="2720">Case of diagnosed type 2 diabetes</enum>
+			<enum code="2" count="133">Uncertain diabetes type</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="2720" median_count="2720" min_count="2720" max_count="2720"/>
+			<enum code="1" count="2720">Case of diagnosed type 2 diabetes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="3180" median_count="3180" min_count="3180" max_count="3180"/>
+			<enum code="0" count="3180">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022874.v2.p1.c1" var_name="case" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Diabetes case status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="2011" sd="1643" median_count="2720" min_count="133" max_count="3180"/>
+			<enum code="0" count="3180">Control</enum>
+			<enum code="1" count="2720">Case of diagnosed type 2 diabetes</enum>
+			<enum code="2" count="133">Uncertain diabetes type</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="2720" median_count="2720" min_count="2720" max_count="2720"/>
+			<enum code="1" count="2720">Case of diagnosed type 2 diabetes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="3180" median_count="3180" min_count="3180" max_count="3180"/>
+			<enum code="0" count="3180">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022878.v2.p1" var_name="alcohol" calculated_type="decimal" units="G/day" reported_type="continuous decimal">
+	<description>Alcohol intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="7.464" sd="12.51" median="2" min="0" max="124.5"/>
+			<example count="1958">0</example>
+			<example count="244">0.9</example>
+			<example count="158">2</example>
+			<example count="136">1.8</example>
+			<example count="102">1</example>
+			<example count="87">1.1</example>
+			<example count="76">2.9</example>
+			<example count="73">1.5</example>
+			<example count="69">3.899902344</example>
+			<example count="69">0.899902344</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="6.407" sd="12.26" median="1.5" min="0" max="124.5"/>
+			<example count="1048">0</example>
+			<example count="116">0.9</example>
+			<example count="77">2</example>
+			<example count="54">1.8</example>
+			<example count="53">1</example>
+			<example count="45">1.1</example>
+			<example count="37">2.9</example>
+			<example count="34">3.899902344</example>
+			<example count="30">1.5</example>
+			<example count="30">3</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="8.364" sd="12.67" median="2.9" min="0" max="120.7"/>
+			<example count="862">0</example>
+			<example count="126">0.9</example>
+			<example count="80">1.8</example>
+			<example count="76">2</example>
+			<example count="48">1</example>
+			<example count="42">1.1</example>
+			<example count="40">1.5</example>
+			<example count="39">2.9</example>
+			<example count="39">0.899902344</example>
+			<example count="36">4.7</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022878.v2.p1.c1" var_name="alcohol" calculated_type="decimal" units="G/day" reported_type="continuous decimal">
+	<description>Alcohol intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="7.464" sd="12.51" median="2" min="0" max="124.5"/>
+			<example count="1958">0</example>
+			<example count="244">0.9</example>
+			<example count="158">2</example>
+			<example count="136">1.8</example>
+			<example count="102">1</example>
+			<example count="87">1.1</example>
+			<example count="76">2.9</example>
+			<example count="73">1.5</example>
+			<example count="69">3.899902344</example>
+			<example count="69">0.899902344</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="6.407" sd="12.26" median="1.5" min="0" max="124.5"/>
+			<example count="1048">0</example>
+			<example count="116">0.9</example>
+			<example count="77">2</example>
+			<example count="54">1.8</example>
+			<example count="53">1</example>
+			<example count="45">1.1</example>
+			<example count="37">2.9</example>
+			<example count="34">3.899902344</example>
+			<example count="30">1.5</example>
+			<example count="30">3</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="8.364" sd="12.67" median="2.9" min="0" max="120.7"/>
+			<example count="862">0</example>
+			<example count="126">0.9</example>
+			<example count="80">1.8</example>
+			<example count="76">2</example>
+			<example count="48">1</example>
+			<example count="42">1.1</example>
+			<example count="40">1.5</example>
+			<example count="39">2.9</example>
+			<example count="39">0.899902344</example>
+			<example count="36">4.7</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022877.v2.p1" var_name="smk" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Cigarette smoking</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2683</case>
+				<control>3130</control>
+			</case_control>
+			<sex>
+				<male>2526</male>
+				<female>3419</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5945" nulls="88" mean_count="1982" sd="1187" median_count="2626" min_count="612" max_count="2707"/>
+			<enum code="1" count="2707">Never cigarette smoker</enum>
+			<enum code="2" count="2626">Past cigarette smoker</enum>
+			<enum code="3" count="612">Current cigarette smoker</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1147</male>
+				<female>1536</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2683" nulls="37" mean_count="894.3" sd="501" median_count="1114" min_count="321" max_count="1248"/>
+			<enum code="2" count="1248">Past cigarette smoker</enum>
+			<enum code="1" count="1114">Never cigarette smoker</enum>
+			<enum code="3" count="321">Current cigarette smoker</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1312</male>
+				<female>1818</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3130" nulls="50" mean_count="1043" sd="676.8" median_count="1320" min_count="272" max_count="1538"/>
+			<enum code="1" count="1538">Never cigarette smoker</enum>
+			<enum code="2" count="1320">Past cigarette smoker</enum>
+			<enum code="3" count="272">Current cigarette smoker</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022877.v2.p1.c1" var_name="smk" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Cigarette smoking</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2683</case>
+				<control>3130</control>
+			</case_control>
+			<sex>
+				<male>2526</male>
+				<female>3419</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5945" nulls="88" mean_count="1982" sd="1187" median_count="2626" min_count="612" max_count="2707"/>
+			<enum code="1" count="2707">Never cigarette smoker</enum>
+			<enum code="2" count="2626">Past cigarette smoker</enum>
+			<enum code="3" count="612">Current cigarette smoker</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1147</male>
+				<female>1536</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2683" nulls="37" mean_count="894.3" sd="501" median_count="1114" min_count="321" max_count="1248"/>
+			<enum code="2" count="1248">Past cigarette smoker</enum>
+			<enum code="1" count="1114">Never cigarette smoker</enum>
+			<enum code="3" count="321">Current cigarette smoker</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1312</male>
+				<female>1818</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3130" nulls="50" mean_count="1043" sd="676.8" median_count="1320" min_count="272" max_count="1538"/>
+			<enum code="1" count="1538">Never cigarette smoker</enum>
+			<enum code="2" count="1320">Past cigarette smoker</enum>
+			<enum code="3" count="272">Current cigarette smoker</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022879.v2.p1" var_name="act" calculated_type="decimal" units="MET-hrs/wk" reported_type="continuous decimal">
+	<description>Total physical activity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2711</case>
+				<control>3150</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3390</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5994" nulls="39" mean="23.58" sd="30.53" median="13.1" min="0" max="336.9"/>
+			<example count="108">0.2</example>
+			<example count="79">2.9</example>
+			<example count="64">4</example>
+			<example count="61">7.7</example>
+			<example count="58">2.3</example>
+			<example count="57">1</example>
+			<example count="53">3.2</example>
+			<example count="52">0.4</example>
+			<example count="51">15.2</example>
+			<example count="51">10.2</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1529</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2711" nulls="9" mean="20.3" sd="26.16" median="10.9" min="0" max="251.5"/>
+			<example count="60">0.2</example>
+			<example count="39">2.9</example>
+			<example count="37">4</example>
+			<example count="32">2.3</example>
+			<example count="32">0.4</example>
+			<example count="30">0.9</example>
+			<example count="26">3.2</example>
+			<example count="25">4.2</example>
+			<example count="25">15.2</example>
+			<example count="25">7.7</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1796</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3150" nulls="30" mean="26.34" sd="33.7" median="15.4" min="0" max="336.9"/>
+			<example count="46">0.2</example>
+			<example count="40">1</example>
+			<example count="40">2.9</example>
+			<example count="35">7.7</example>
+			<example count="29">10.2</example>
+			<example count="27">3.2</example>
+			<example count="26">2.3</example>
+			<example count="25">15.2</example>
+			<example count="25">4</example>
+			<example count="23">8.4</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022879.v2.p1.c1" var_name="act" calculated_type="decimal" units="MET-hrs/wk" reported_type="continuous decimal">
+	<description>Total physical activity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2711</case>
+				<control>3150</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3390</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5994" nulls="39" mean="23.58" sd="30.53" median="13.1" min="0" max="336.9"/>
+			<example count="108">0.2</example>
+			<example count="79">2.9</example>
+			<example count="64">4</example>
+			<example count="61">7.7</example>
+			<example count="58">2.3</example>
+			<example count="57">1</example>
+			<example count="53">3.2</example>
+			<example count="52">0.4</example>
+			<example count="51">15.2</example>
+			<example count="51">10.2</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1529</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2711" nulls="9" mean="20.3" sd="26.16" median="10.9" min="0" max="251.5"/>
+			<example count="60">0.2</example>
+			<example count="39">2.9</example>
+			<example count="37">4</example>
+			<example count="32">2.3</example>
+			<example count="32">0.4</example>
+			<example count="30">0.9</example>
+			<example count="26">3.2</example>
+			<example count="25">4.2</example>
+			<example count="25">15.2</example>
+			<example count="25">7.7</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1796</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3150" nulls="30" mean="26.34" sd="33.7" median="15.4" min="0" max="336.9"/>
+			<example count="46">0.2</example>
+			<example count="40">1</example>
+			<example count="40">2.9</example>
+			<example count="35">7.7</example>
+			<example count="29">10.2</example>
+			<example count="27">3.2</example>
+			<example count="26">2.3</example>
+			<example count="25">15.2</example>
+			<example count="25">4</example>
+			<example count="23">8.4</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022886.v2.p1" var_name="pmh" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Menopausal status and hormone use</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1513</case>
+				<control>1802</control>
+			</case_control>
+			<sex>
+				<female>3380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3380" nulls="2653" mean_count="845" sd="250.5" median_count="820" min_count="572" max_count="1168"/>
+			<enum code="2" count="1168">Postmenopausal / never user of hormone replacement therapy (HRT)</enum>
+			<enum code="3" count="884">Postmenopausal / current user of HRT</enum>
+			<enum code="1" count="756">Premenopausal</enum>
+			<enum code="4" count="572">Postmenopausal / past user of HRT</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>1513</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1513" nulls="1207" mean_count="378.3" sd="137.4" median_count="324.5" min_count="282" max_count="582"/>
+			<enum code="2" count="582">Postmenopausal / never user of hormone replacement therapy (HRT)</enum>
+			<enum code="3" count="331">Postmenopausal / current user of HRT</enum>
+			<enum code="1" count="318">Premenopausal</enum>
+			<enum code="4" count="282">Postmenopausal / past user of HRT</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>1802</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1802" nulls="1378" mean_count="450.5" sd="131.8" median_count="480.5" min_count="275" max_count="566"/>
+			<enum code="2" count="566">Postmenopausal / never user of hormone replacement therapy (HRT)</enum>
+			<enum code="3" count="536">Postmenopausal / current user of HRT</enum>
+			<enum code="1" count="425">Premenopausal</enum>
+			<enum code="4" count="275">Postmenopausal / past user of HRT</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022886.v2.p1.c1" var_name="pmh" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Menopausal status and hormone use</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1513</case>
+				<control>1802</control>
+			</case_control>
+			<sex>
+				<female>3380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3380" nulls="2653" mean_count="845" sd="250.5" median_count="820" min_count="572" max_count="1168"/>
+			<enum code="2" count="1168">Postmenopausal / never user of hormone replacement therapy (HRT)</enum>
+			<enum code="3" count="884">Postmenopausal / current user of HRT</enum>
+			<enum code="1" count="756">Premenopausal</enum>
+			<enum code="4" count="572">Postmenopausal / past user of HRT</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>1513</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1513" nulls="1207" mean_count="378.3" sd="137.4" median_count="324.5" min_count="282" max_count="582"/>
+			<enum code="2" count="582">Postmenopausal / never user of hormone replacement therapy (HRT)</enum>
+			<enum code="3" count="331">Postmenopausal / current user of HRT</enum>
+			<enum code="1" count="318">Premenopausal</enum>
+			<enum code="4" count="282">Postmenopausal / past user of HRT</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>1802</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1802" nulls="1378" mean_count="450.5" sd="131.8" median_count="480.5" min_count="275" max_count="566"/>
+			<enum code="2" count="566">Postmenopausal / never user of hormone replacement therapy (HRT)</enum>
+			<enum code="3" count="536">Postmenopausal / current user of HRT</enum>
+			<enum code="1" count="425">Premenopausal</enum>
+			<enum code="4" count="275">Postmenopausal / past user of HRT</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022873.v2.p1" var_name="race" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Race variable for NHS</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1538</case>
+				<control>1826</control>
+			</case_control>
+			<sex>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3429" nulls="2604" mean_count="857.2" sd="1674" median_count="23.5" min_count="14" max_count="3368"/>
+			<enum code="1" count="3368">White</enum>
+			<enum code="2" count="30">African-American</enum>
+			<enum code="4" count="17">Asian</enum>
+			<enum code="3" count="14">American-Indian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1538" nulls="1182" mean_count="384.5" sd="749" median_count="12" min_count="6" max_count="1508"/>
+			<enum code="1" count="1508">White</enum>
+			<enum code="2" count="17">African-American</enum>
+			<enum code="3" count="7">American-Indian</enum>
+			<enum code="4" count="6">Asian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1826" nulls="1354" mean_count="456.5" sd="892.3" median_count="12" min_count="7" max_count="1795"/>
+			<enum code="1" count="1795">White</enum>
+			<enum code="2" count="13">African-American</enum>
+			<enum code="4" count="11">Asian</enum>
+			<enum code="3" count="7">American-Indian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022873.v2.p1.c1" var_name="race" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Race variable for NHS</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1538</case>
+				<control>1826</control>
+			</case_control>
+			<sex>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3429" nulls="2604" mean_count="857.2" sd="1674" median_count="23.5" min_count="14" max_count="3368"/>
+			<enum code="1" count="3368">White</enum>
+			<enum code="2" count="30">African-American</enum>
+			<enum code="4" count="17">Asian</enum>
+			<enum code="3" count="14">American-Indian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1538" nulls="1182" mean_count="384.5" sd="749" median_count="12" min_count="6" max_count="1508"/>
+			<enum code="1" count="1508">White</enum>
+			<enum code="2" count="17">African-American</enum>
+			<enum code="3" count="7">American-Indian</enum>
+			<enum code="4" count="6">Asian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1826" nulls="1354" mean_count="456.5" sd="892.3" median_count="12" min_count="7" max_count="1795"/>
+			<enum code="1" count="1795">White</enum>
+			<enum code="2" count="13">African-American</enum>
+			<enum code="4" count="11">Asian</enum>
+			<enum code="3" count="7">American-Indian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022883.v2.p1" var_name="pufa" calculated_type="decimal" units="Energy%" reported_type="continuous decimal">
+	<description>Polyunsaturated fat intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="6.132" sd="1.63" median="5.965" min="1.636" max="23.19"/>
+			<example count="6">5</example>
+			<example count="5">6</example>
+			<example count="5">5.294117647</example>
+			<example count="5">5.448242188</example>
+			<example count="5">5.625</example>
+			<example count="5">6.12109375</example>
+			<example count="5">6.923076923</example>
+			<example count="4">5.208007813</example>
+			<example count="4">5.552734375</example>
+			<example count="4">5.799804688</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="6.135" sd="1.618" median="5.973" min="1.636" max="23.19"/>
+			<example count="5">5.294117647</example>
+			<example count="3">5.208007813</example>
+			<example count="3">5.514648438</example>
+			<example count="3">6.801757813</example>
+			<example count="3">5.711914063</example>
+			<example count="3">4.61328125</example>
+			<example count="3">5.635742188</example>
+			<example count="3">4.538085938</example>
+			<example count="3">6.556291391</example>
+			<example count="3">5.340820313</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="6.124" sd="1.637" median="5.95" min="2.176" max="16.19"/>
+			<example count="5">5</example>
+			<example count="4">4.741210938</example>
+			<example count="4">6.923076923</example>
+			<example count="3">5.807617188</example>
+			<example count="3">5.552734375</example>
+			<example count="3">4.780273438</example>
+			<example count="3">4.338867188</example>
+			<example count="3">5.578125</example>
+			<example count="3">5.182617188</example>
+			<example count="3">6.40625</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022883.v2.p1.c1" var_name="pufa" calculated_type="decimal" units="Energy%" reported_type="continuous decimal">
+	<description>Polyunsaturated fat intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="6.132" sd="1.63" median="5.965" min="1.636" max="23.19"/>
+			<example count="6">5</example>
+			<example count="5">6</example>
+			<example count="5">5.294117647</example>
+			<example count="5">5.448242188</example>
+			<example count="5">5.625</example>
+			<example count="5">6.12109375</example>
+			<example count="5">6.923076923</example>
+			<example count="4">5.208007813</example>
+			<example count="4">5.552734375</example>
+			<example count="4">5.799804688</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="6.135" sd="1.618" median="5.973" min="1.636" max="23.19"/>
+			<example count="5">5.294117647</example>
+			<example count="3">5.208007813</example>
+			<example count="3">5.514648438</example>
+			<example count="3">6.801757813</example>
+			<example count="3">5.711914063</example>
+			<example count="3">4.61328125</example>
+			<example count="3">5.635742188</example>
+			<example count="3">4.538085938</example>
+			<example count="3">6.556291391</example>
+			<example count="3">5.340820313</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="6.124" sd="1.637" median="5.95" min="2.176" max="16.19"/>
+			<example count="5">5</example>
+			<example count="4">4.741210938</example>
+			<example count="4">6.923076923</example>
+			<example count="3">5.807617188</example>
+			<example count="3">5.552734375</example>
+			<example count="3">4.780273438</example>
+			<example count="3">4.338867188</example>
+			<example count="3">5.578125</example>
+			<example count="3">5.182617188</example>
+			<example count="3">6.40625</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022884.v2.p1" var_name="trans" calculated_type="decimal" units="Energy%" reported_type="continuous decimal">
+	<description>Trans fat intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="1.626" sd="0.5852" median="1.57" min="0.2552" max="5.447"/>
+			<example count="6">1.525423729</example>
+			<example count="6">1.384615385</example>
+			<example count="5">1.855670103</example>
+			<example count="5">1.666666667</example>
+			<example count="4">1.232876712</example>
+			<example count="4">1.475409836</example>
+			<example count="4">1.546386719</example>
+			<example count="4">1.721191406</example>
+			<example count="4">1.621621622</example>
+			<example count="4">1.374045802</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="1.647" sd="0.5833" median="1.593" min="0.2855" max="4.934"/>
+			<example count="4">1.525423729</example>
+			<example count="4">1.092285156</example>
+			<example count="4">1.384615385</example>
+			<example count="3">2.4</example>
+			<example count="3">1.627197266</example>
+			<example count="3">1.370558376</example>
+			<example count="3">2.204101563</example>
+			<example count="3">1.692138672</example>
+			<example count="2">2.307692308</example>
+			<example count="2">1.764705882</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="1.609" sd="0.5828" median="1.554" min="0.2552" max="5.447"/>
+			<example count="4">1.855670103</example>
+			<example count="4">1.374045802</example>
+			<example count="3">1.153320313</example>
+			<example count="3">1.546386719</example>
+			<example count="3">1.721191406</example>
+			<example count="3">2.927710843</example>
+			<example count="3">1.666666667</example>
+			<example count="3">1.832579186</example>
+			<example count="3">1.875</example>
+			<example count="3">1.842263697</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022884.v2.p1.c1" var_name="trans" calculated_type="decimal" units="Energy%" reported_type="continuous decimal">
+	<description>Trans fat intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="1.626" sd="0.5852" median="1.57" min="0.2552" max="5.447"/>
+			<example count="6">1.525423729</example>
+			<example count="6">1.384615385</example>
+			<example count="5">1.855670103</example>
+			<example count="5">1.666666667</example>
+			<example count="4">1.232876712</example>
+			<example count="4">1.475409836</example>
+			<example count="4">1.546386719</example>
+			<example count="4">1.721191406</example>
+			<example count="4">1.621621622</example>
+			<example count="4">1.374045802</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="1.647" sd="0.5833" median="1.593" min="0.2855" max="4.934"/>
+			<example count="4">1.525423729</example>
+			<example count="4">1.092285156</example>
+			<example count="4">1.384615385</example>
+			<example count="3">2.4</example>
+			<example count="3">1.627197266</example>
+			<example count="3">1.370558376</example>
+			<example count="3">2.204101563</example>
+			<example count="3">1.692138672</example>
+			<example count="2">2.307692308</example>
+			<example count="2">1.764705882</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="1.609" sd="0.5828" median="1.554" min="0.2552" max="5.447"/>
+			<example count="4">1.855670103</example>
+			<example count="4">1.374045802</example>
+			<example count="3">1.153320313</example>
+			<example count="3">1.546386719</example>
+			<example count="3">1.721191406</example>
+			<example count="3">2.927710843</example>
+			<example count="3">1.666666667</example>
+			<example count="3">1.832579186</example>
+			<example count="3">1.875</example>
+			<example count="3">1.842263697</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022881.v2.p1" var_name="magn" calculated_type="integer" units="Mg/day" reported_type="continuous integer">
+	<description>Magnesium intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="338.4" sd="88.55" median="326" min="99" max="1017"/>
+			<example count="42">313</example>
+			<example count="41">323</example>
+			<example count="39">333</example>
+			<example count="38">329</example>
+			<example count="38">354</example>
+			<example count="38">316</example>
+			<example count="37">278</example>
+			<example count="36">319</example>
+			<example count="36">328</example>
+			<example count="36">308</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="334.8" sd="86.62" median="323" min="99" max="941"/>
+			<example count="25">268</example>
+			<example count="24">319</example>
+			<example count="22">310</example>
+			<example count="21">278</example>
+			<example count="21">346</example>
+			<example count="21">323</example>
+			<example count="19">326</example>
+			<example count="19">338</example>
+			<example count="19">316</example>
+			<example count="18">333</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="339.7" sd="89.28" median="327" min="136" max="1017"/>
+			<example count="26">313</example>
+			<example count="24">328</example>
+			<example count="24">322</example>
+			<example count="21">288</example>
+			<example count="21">308</example>
+			<example count="21">354</example>
+			<example count="21">333</example>
+			<example count="20">294</example>
+			<example count="20">329</example>
+			<example count="20">300</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022881.v2.p1.c1" var_name="magn" calculated_type="integer" units="Mg/day" reported_type="continuous integer">
+	<description>Magnesium intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="338.4" sd="88.55" median="326" min="99" max="1017"/>
+			<example count="42">313</example>
+			<example count="41">323</example>
+			<example count="39">333</example>
+			<example count="38">329</example>
+			<example count="38">354</example>
+			<example count="38">316</example>
+			<example count="37">278</example>
+			<example count="36">319</example>
+			<example count="36">328</example>
+			<example count="36">308</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="334.8" sd="86.62" median="323" min="99" max="941"/>
+			<example count="25">268</example>
+			<example count="24">319</example>
+			<example count="22">310</example>
+			<example count="21">278</example>
+			<example count="21">346</example>
+			<example count="21">323</example>
+			<example count="19">326</example>
+			<example count="19">338</example>
+			<example count="19">316</example>
+			<example count="18">333</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="339.7" sd="89.28" median="327" min="136" max="1017"/>
+			<example count="26">313</example>
+			<example count="24">328</example>
+			<example count="24">322</example>
+			<example count="21">288</example>
+			<example count="21">308</example>
+			<example count="21">354</example>
+			<example count="21">333</example>
+			<example count="20">294</example>
+			<example count="20">329</example>
+			<example count="20">300</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022882.v2.p1" var_name="ceraf" calculated_type="decimal" units="G/day" reported_type="continuous decimal">
+	<description>Cereal fiber intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3141</control>
+			</case_control>
+			<sex>
+				<male>2594</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5950" nulls="83" mean="5.556" sd="3.716" median="4.699" min="0" max="44"/>
+			<example count="129">3</example>
+			<example count="120">3.5</example>
+			<example count="108">2.5</example>
+			<example count="105">3.2</example>
+			<example count="86">3.1</example>
+			<example count="86">3.6</example>
+			<example count="85">4</example>
+			<example count="85">2.9</example>
+			<example count="82">2.6</example>
+			<example count="82">3.9</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="5.345" sd="3.414" median="4.6" min="0.09999" max="44"/>
+			<example count="67">3</example>
+			<example count="62">3.5</example>
+			<example count="48">3.6</example>
+			<example count="47">3.2</example>
+			<example count="47">2.5</example>
+			<example count="44">2.8</example>
+			<example count="41">4</example>
+			<example count="40">2.6</example>
+			<example count="36">2.7</example>
+			<example count="35">3.1</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1351</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3141" nulls="39" mean="5.712" sd="3.92" median="4.8" min="0" max="39.3"/>
+			<example count="62">3</example>
+			<example count="59">2.5</example>
+			<example count="55">3.5</example>
+			<example count="54">3.2</example>
+			<example count="52">3.9</example>
+			<example count="51">2.9</example>
+			<example count="47">3.1</example>
+			<example count="42">4.1</example>
+			<example count="42">4</example>
+			<example count="41">5.5</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022882.v2.p1.c1" var_name="ceraf" calculated_type="decimal" units="G/day" reported_type="continuous decimal">
+	<description>Cereal fiber intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3141</control>
+			</case_control>
+			<sex>
+				<male>2594</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5950" nulls="83" mean="5.556" sd="3.716" median="4.699" min="0" max="44"/>
+			<example count="129">3</example>
+			<example count="120">3.5</example>
+			<example count="108">2.5</example>
+			<example count="105">3.2</example>
+			<example count="86">3.1</example>
+			<example count="86">3.6</example>
+			<example count="85">4</example>
+			<example count="85">2.9</example>
+			<example count="82">2.6</example>
+			<example count="82">3.9</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="5.345" sd="3.414" median="4.6" min="0.09999" max="44"/>
+			<example count="67">3</example>
+			<example count="62">3.5</example>
+			<example count="48">3.6</example>
+			<example count="47">3.2</example>
+			<example count="47">2.5</example>
+			<example count="44">2.8</example>
+			<example count="41">4</example>
+			<example count="40">2.6</example>
+			<example count="36">2.7</example>
+			<example count="35">3.1</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1351</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3141" nulls="39" mean="5.712" sd="3.92" median="4.8" min="0" max="39.3"/>
+			<example count="62">3</example>
+			<example count="59">2.5</example>
+			<example count="55">3.5</example>
+			<example count="54">3.2</example>
+			<example count="52">3.9</example>
+			<example count="51">2.9</example>
+			<example count="47">3.1</example>
+			<example count="42">4.1</example>
+			<example count="42">4</example>
+			<example count="41">5.5</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022880.v2.p1" var_name="heme" calculated_type="decimal" units="Mg/day" reported_type="continuous decimal">
+	<description>Heme iron intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="1.209" sd="0.4682" median="1.2" min="0" max="4.8"/>
+			<example count="555">1</example>
+			<example count="386">1.5</example>
+			<example count="349">1.1</example>
+			<example count="304">0.9</example>
+			<example count="290">1.2</example>
+			<example count="273">1.3</example>
+			<example count="262">1.099853516</example>
+			<example count="255">0.8</example>
+			<example count="250">1.199951172</example>
+			<example count="218">0.7</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="1.266" sd="0.4758" median="1.2" min="0" max="4.8"/>
+			<example count="232">1</example>
+			<example count="198">1.5</example>
+			<example count="151">1.1</example>
+			<example count="139">1.2</example>
+			<example count="135">0.9</example>
+			<example count="131">1.3</example>
+			<example count="115">1.4</example>
+			<example count="107">0.8</example>
+			<example count="103">1.099853516</example>
+			<example count="102">1.399902344</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="1.158" sd="0.4551" median="1.1" min="0" max="3.8"/>
+			<example count="309">1</example>
+			<example count="190">1.1</example>
+			<example count="179">1.5</example>
+			<example count="165">0.9</example>
+			<example count="155">1.099853516</example>
+			<example count="148">1.2</example>
+			<example count="143">0.8</example>
+			<example count="140">1.3</example>
+			<example count="139">1.199951172</example>
+			<example count="127">0.899902344</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022880.v2.p1.c1" var_name="heme" calculated_type="decimal" units="Mg/day" reported_type="continuous decimal">
+	<description>Heme iron intake</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="1.209" sd="0.4682" median="1.2" min="0" max="4.8"/>
+			<example count="555">1</example>
+			<example count="386">1.5</example>
+			<example count="349">1.1</example>
+			<example count="304">0.9</example>
+			<example count="290">1.2</example>
+			<example count="273">1.3</example>
+			<example count="262">1.099853516</example>
+			<example count="255">0.8</example>
+			<example count="250">1.199951172</example>
+			<example count="218">0.7</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="1.266" sd="0.4758" median="1.2" min="0" max="4.8"/>
+			<example count="232">1</example>
+			<example count="198">1.5</example>
+			<example count="151">1.1</example>
+			<example count="139">1.2</example>
+			<example count="135">0.9</example>
+			<example count="131">1.3</example>
+			<example count="115">1.4</example>
+			<example count="107">0.8</example>
+			<example count="103">1.099853516</example>
+			<example count="102">1.399902344</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="1.158" sd="0.4551" median="1.1" min="0" max="3.8"/>
+			<example count="309">1</example>
+			<example count="190">1.1</example>
+			<example count="179">1.5</example>
+			<example count="165">0.9</example>
+			<example count="155">1.099853516</example>
+			<example count="148">1.2</example>
+			<example count="143">0.8</example>
+			<example count="140">1.3</example>
+			<example count="139">1.199951172</example>
+			<example count="127">0.899902344</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022885.v2.p1" var_name="gl" calculated_type="integer" reported_type="continuous integer">
+	<description>Glycemic load</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="111.1" sd="26.58" median="109" min="13" max="250"/>
+			<example count="107">111</example>
+			<example count="106">101</example>
+			<example count="105">104</example>
+			<example count="99">95</example>
+			<example count="98">102</example>
+			<example count="96">99</example>
+			<example count="96">110</example>
+			<example count="96">93</example>
+			<example count="95">98</example>
+			<example count="94">94</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="110" sd="24.84" median="108" min="13" max="220"/>
+			<example count="62">111</example>
+			<example count="53">101</example>
+			<example count="53">97</example>
+			<example count="52">108</example>
+			<example count="51">104</example>
+			<example count="49">102</example>
+			<example count="49">109</example>
+			<example count="46">112</example>
+			<example count="46">90</example>
+			<example count="46">106</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="112.1" sd="27.96" median="109" min="23" max="250"/>
+			<example count="57">95</example>
+			<example count="53">91</example>
+			<example count="52">101</example>
+			<example count="52">104</example>
+			<example count="51">93</example>
+			<example count="51">117</example>
+			<example count="50">98</example>
+			<example count="49">99</example>
+			<example count="49">122</example>
+			<example count="48">110</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022885.v2.p1.c1" var_name="gl" calculated_type="integer" reported_type="continuous integer">
+	<description>Glycemic load</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2678</case>
+				<control>3142</control>
+			</case_control>
+			<sex>
+				<male>2595</male>
+				<female>3356</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5951" nulls="82" mean="111.1" sd="26.58" median="109" min="13" max="250"/>
+			<example count="107">111</example>
+			<example count="106">101</example>
+			<example count="105">104</example>
+			<example count="99">95</example>
+			<example count="98">102</example>
+			<example count="96">99</example>
+			<example count="96">110</example>
+			<example count="96">93</example>
+			<example count="95">98</example>
+			<example count="94">94</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1175</male>
+				<female>1503</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2678" nulls="42" mean="110" sd="24.84" median="108" min="13" max="220"/>
+			<example count="62">111</example>
+			<example count="53">101</example>
+			<example count="53">97</example>
+			<example count="52">108</example>
+			<example count="51">104</example>
+			<example count="49">102</example>
+			<example count="49">109</example>
+			<example count="46">112</example>
+			<example count="46">90</example>
+			<example count="46">106</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1790</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3142" nulls="38" mean="112.1" sd="27.96" median="109" min="23" max="250"/>
+			<example count="57">95</example>
+			<example count="53">91</example>
+			<example count="52">101</example>
+			<example count="52">104</example>
+			<example count="51">93</example>
+			<example count="51">117</example>
+			<example count="50">98</example>
+			<example count="49">99</example>
+			<example count="49">122</example>
+			<example count="48">110</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022887.v2.p1" var_name="woman" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Sex</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="583.4" median_count="3017" min_count="2604" max_count="3429"/>
+			<enum code="1" count="3429">Woman</enum>
+			<enum code="0" count="2604">Man</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="251.7" median_count="1360" min_count="1182" max_count="1538"/>
+			<enum code="1" count="1538">Woman</enum>
+			<enum code="0" count="1182">Man</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="333.8" median_count="1590" min_count="1354" max_count="1826"/>
+			<enum code="1" count="1826">Woman</enum>
+			<enum code="0" count="1354">Man</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022887.v2.p1.c1" var_name="woman" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Sex</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="583.4" median_count="3017" min_count="2604" max_count="3429"/>
+			<enum code="1" count="3429">Woman</enum>
+			<enum code="0" count="2604">Man</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="251.7" median_count="1360" min_count="1182" max_count="1538"/>
+			<enum code="1" count="1538">Woman</enum>
+			<enum code="0" count="1182">Man</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="333.8" median_count="1590" min_count="1354" max_count="1826"/>
+			<enum code="1" count="1826">Woman</enum>
+			<enum code="0" count="1354">Man</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076209.v1.p1" var_name="race2" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Race variable for HPFS</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1182</case>
+				<control>1354</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2604" nulls="3429" mean_count="651" sd="1233" median_count="38.5" min_count="26" max_count="2501"/>
+			<enum code="1" count="2501">White</enum>
+			<enum code="2" count="51">Other</enum>
+			<enum code="4" count="26">African-American</enum>
+			<enum code="3" count="26">Asian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1182" nulls="1538" mean_count="295.5" sd="561" median_count="17" min_count="11" max_count="1137"/>
+			<enum code="1" count="1137">White</enum>
+			<enum code="2" count="23">Other</enum>
+			<enum code="4" count="11">African-American</enum>
+			<enum code="3" count="11">Asian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1354" nulls="1826" mean_count="338.5" sd="640.4" median_count="20.5" min_count="14" max_count="1299"/>
+			<enum code="1" count="1299">White</enum>
+			<enum code="2" count="27">Other</enum>
+			<enum code="4" count="14">African-American</enum>
+			<enum code="3" count="14">Asian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076209.v1.p1.c1" var_name="race2" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Race variable for HPFS</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1182</case>
+				<control>1354</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2604" nulls="3429" mean_count="651" sd="1233" median_count="38.5" min_count="26" max_count="2501"/>
+			<enum code="1" count="2501">White</enum>
+			<enum code="2" count="51">Other</enum>
+			<enum code="4" count="26">African-American</enum>
+			<enum code="3" count="26">Asian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1182" nulls="1538" mean_count="295.5" sd="561" median_count="17" min_count="11" max_count="1137"/>
+			<enum code="1" count="1137">White</enum>
+			<enum code="2" count="23">Other</enum>
+			<enum code="4" count="11">African-American</enum>
+			<enum code="3" count="11">Asian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1354" nulls="1826" mean_count="338.5" sd="640.4" median_count="20.5" min_count="14" max_count="1299"/>
+			<enum code="1" count="1299">White</enum>
+			<enum code="2" count="27">Other</enum>
+			<enum code="4" count="14">African-American</enum>
+			<enum code="3" count="14">Asian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076249.v1.p1" var_name="ht" calculated_type="decimal" units="Meter" reported_type="continuous decimal">
+	<description>Height in meters</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2719</case>
+				<control>3174</control>
+			</case_control>
+			<sex>
+				<male>2602</male>
+				<female>3424</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6026" nulls="7" mean="1.702" sd="0.09677" median="1.702" min="1.346" max="2.108"/>
+			<example count="566">1.6256</example>
+			<example count="489">1.651</example>
+			<example count="476">1.6764</example>
+			<example count="442">1.5748</example>
+			<example count="434">1.777832031</example>
+			<example count="403">1.6002</example>
+			<example count="377">1.803222656</example>
+			<example count="332">1.828613281</example>
+			<example count="327">1.7018</example>
+			<example count="326">1.752441406</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1537</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2719" nulls="1" mean="1.702" sd="0.09771" median="1.702" min="1.473" max="2.032"/>
+			<example count="258">1.6256</example>
+			<example count="223">1.651</example>
+			<example count="204">1.6764</example>
+			<example count="201">1.777832031</example>
+			<example count="187">1.5748</example>
+			<example count="184">1.6002</example>
+			<example count="155">1.803222656</example>
+			<example count="145">1.828613281</example>
+			<example count="140">1.7018</example>
+			<example count="129">1.752441406</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1822</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3174" nulls="6" mean="1.702" sd="0.09588" median="1.702" min="1.346" max="2.108"/>
+			<example count="299">1.6256</example>
+			<example count="259">1.6764</example>
+			<example count="255">1.651</example>
+			<example count="248">1.5748</example>
+			<example count="222">1.777832031</example>
+			<example count="214">1.6002</example>
+			<example count="205">1.803222656</example>
+			<example count="192">1.752441406</example>
+			<example count="180">1.7018</example>
+			<example count="175">1.828613281</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076249.v1.p1.c1" var_name="ht" calculated_type="decimal" units="Meter" reported_type="continuous decimal">
+	<description>Height in meters</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2719</case>
+				<control>3174</control>
+			</case_control>
+			<sex>
+				<male>2602</male>
+				<female>3424</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6026" nulls="7" mean="1.702" sd="0.09677" median="1.702" min="1.346" max="2.108"/>
+			<example count="566">1.6256</example>
+			<example count="489">1.651</example>
+			<example count="476">1.6764</example>
+			<example count="442">1.5748</example>
+			<example count="434">1.777832031</example>
+			<example count="403">1.6002</example>
+			<example count="377">1.803222656</example>
+			<example count="332">1.828613281</example>
+			<example count="327">1.7018</example>
+			<example count="326">1.752441406</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1537</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2719" nulls="1" mean="1.702" sd="0.09771" median="1.702" min="1.473" max="2.032"/>
+			<example count="258">1.6256</example>
+			<example count="223">1.651</example>
+			<example count="204">1.6764</example>
+			<example count="201">1.777832031</example>
+			<example count="187">1.5748</example>
+			<example count="184">1.6002</example>
+			<example count="155">1.803222656</example>
+			<example count="145">1.828613281</example>
+			<example count="140">1.7018</example>
+			<example count="129">1.752441406</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1352</male>
+				<female>1822</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3174" nulls="6" mean="1.702" sd="0.09588" median="1.702" min="1.346" max="2.108"/>
+			<example count="299">1.6256</example>
+			<example count="259">1.6764</example>
+			<example count="255">1.651</example>
+			<example count="248">1.5748</example>
+			<example count="222">1.777832031</example>
+			<example count="214">1.6002</example>
+			<example count="205">1.803222656</example>
+			<example count="192">1.752441406</example>
+			<example count="180">1.7018</example>
+			<example count="175">1.828613281</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076250.v1.p1" var_name="wt" calculated_type="decimal" units="Kg" reported_type="continuous decimal">
+	<description>Weight in kg at time of blood draw</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2717</case>
+				<control>3178</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3424</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6028" nulls="5" mean="78.22" sd="16.08" median="77.11" min="40.82" max="186"/>
+			<example count="150">68.04</example>
+			<example count="133">77.112</example>
+			<example count="133">63.504</example>
+			<example count="129">72.576</example>
+			<example count="114">77.109375</example>
+			<example count="111">65.772</example>
+			<example count="111">83.90625</example>
+			<example count="109">61.236</example>
+			<example count="109">81.648</example>
+			<example count="106">58.968</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1535</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2717" nulls="3" mean="84.04" sd="16.64" median="81.65" min="41.73" max="186"/>
+			<example count="67">77.112</example>
+			<example count="67">81.648</example>
+			<example count="60">68.04</example>
+			<example count="58">72.576</example>
+			<example count="55">86.184</example>
+			<example count="53">79.38</example>
+			<example count="52">83.90625</example>
+			<example count="45">81.640625</example>
+			<example count="45">74.844</example>
+			<example count="42">90.72</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3178" nulls="2" mean="73.45" sd="13.9" median="72.56" min="40.82" max="153.3"/>
+			<example count="92">63.504</example>
+			<example count="89">68.04</example>
+			<example count="77">77.109375</example>
+			<example count="75">61.236</example>
+			<example count="73">58.968</example>
+			<example count="71">65.772</example>
+			<example count="67">72.576</example>
+			<example count="61">77.112</example>
+			<example count="58">56.7</example>
+			<example count="57">83.90625</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076250.v1.p1.c1" var_name="wt" calculated_type="decimal" units="Kg" reported_type="continuous decimal">
+	<description>Weight in kg at time of blood draw</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2717</case>
+				<control>3178</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3424</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6028" nulls="5" mean="78.22" sd="16.08" median="77.11" min="40.82" max="186"/>
+			<example count="150">68.04</example>
+			<example count="133">77.112</example>
+			<example count="133">63.504</example>
+			<example count="129">72.576</example>
+			<example count="114">77.109375</example>
+			<example count="111">65.772</example>
+			<example count="111">83.90625</example>
+			<example count="109">61.236</example>
+			<example count="109">81.648</example>
+			<example count="106">58.968</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1535</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2717" nulls="3" mean="84.04" sd="16.64" median="81.65" min="41.73" max="186"/>
+			<example count="67">77.112</example>
+			<example count="67">81.648</example>
+			<example count="60">68.04</example>
+			<example count="58">72.576</example>
+			<example count="55">86.184</example>
+			<example count="53">79.38</example>
+			<example count="52">83.90625</example>
+			<example count="45">81.640625</example>
+			<example count="45">74.844</example>
+			<example count="42">90.72</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3178" nulls="2" mean="73.45" sd="13.9" median="72.56" min="40.82" max="153.3"/>
+			<example count="92">63.504</example>
+			<example count="89">68.04</example>
+			<example count="77">77.109375</example>
+			<example count="75">61.236</example>
+			<example count="73">58.968</example>
+			<example count="71">65.772</example>
+			<example count="67">72.576</example>
+			<example count="61">77.112</example>
+			<example count="58">56.7</example>
+			<example count="57">83.90625</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076251.v1.p1" var_name="famdb" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Family history of diabetes among first degree relatives</description>
+	<comment>History of diabetes among first degree relatives defined as at least one first degree relative (mother, father, brother, or sister) with diabetes mellitus.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="1419" median_count="3017" min_count="2013" max_count="4020"/>
+			<enum code="0" count="4020">No</enum>
+			<enum code="1" count="2013">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="138.6" median_count="1360" min_count="1262" max_count="1458"/>
+			<enum code="0" count="1458">No</enum>
+			<enum code="1" count="1262">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="1266" median_count="1590" min_count="695" max_count="2485"/>
+			<enum code="0" count="2485">No</enum>
+			<enum code="1" count="695">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076251.v1.p1.c1" var_name="famdb" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Family history of diabetes among first degree relatives</description>
+	<comment>History of diabetes among first degree relatives defined as at least one first degree relative (mother, father, brother, or sister) with diabetes mellitus.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="1419" median_count="3017" min_count="2013" max_count="4020"/>
+			<enum code="0" count="4020">No</enum>
+			<enum code="1" count="2013">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="138.6" median_count="1360" min_count="1262" max_count="1458"/>
+			<enum code="0" count="1458">No</enum>
+			<enum code="1" count="1262">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="1266" median_count="1590" min_count="695" max_count="2485"/>
+			<enum code="0" count="2485">No</enum>
+			<enum code="1" count="695">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076252.v1.p1" var_name="hbp" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Reported high blood pressure at/before blood draw</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="1548" median_count="3017" min_count="1922" max_count="4111"/>
+			<enum code="0" count="4111">No history of hypertension</enum>
+			<enum code="1" count="1922">With a history of hypertension</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="193.7" median_count="1360" min_count="1223" max_count="1497"/>
+			<enum code="0" count="1497">No history of hypertension</enum>
+			<enum code="1" count="1223">With a history of hypertension</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="1319" median_count="1590" min_count="657" max_count="2523"/>
+			<enum code="0" count="2523">No history of hypertension</enum>
+			<enum code="1" count="657">With a history of hypertension</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076252.v1.p1.c1" var_name="hbp" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Reported high blood pressure at/before blood draw</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="1548" median_count="3017" min_count="1922" max_count="4111"/>
+			<enum code="0" count="4111">No history of hypertension</enum>
+			<enum code="1" count="1922">With a history of hypertension</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="193.7" median_count="1360" min_count="1223" max_count="1497"/>
+			<enum code="0" count="1497">No history of hypertension</enum>
+			<enum code="1" count="1223">With a history of hypertension</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="1319" median_count="1590" min_count="657" max_count="2523"/>
+			<enum code="0" count="2523">No history of hypertension</enum>
+			<enum code="1" count="657">With a history of hypertension</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076253.v1.p1" var_name="chol" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Reported high blood cholesterol at/before blood draw</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="2210" median_count="3017" min_count="1454" max_count="4579"/>
+			<enum code="0" count="4579">No history of high cholesterol</enum>
+			<enum code="1" count="1454">With a history of high cholesterol</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="738.2" median_count="1360" min_count="838" max_count="1882"/>
+			<enum code="0" count="1882">No history of high cholesterol</enum>
+			<enum code="1" count="838">With a history of high cholesterol</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="1420" median_count="1590" min_count="586" max_count="2594"/>
+			<enum code="0" count="2594">No history of high cholesterol</enum>
+			<enum code="1" count="586">With a history of high cholesterol</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076253.v1.p1.c1" var_name="chol" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>Reported high blood cholesterol at/before blood draw</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2720</case>
+				<control>3180</control>
+			</case_control>
+			<sex>
+				<male>2604</male>
+				<female>3429</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6033" nulls="0" mean_count="3017" sd="2210" median_count="3017" min_count="1454" max_count="4579"/>
+			<enum code="0" count="4579">No history of high cholesterol</enum>
+			<enum code="1" count="1454">With a history of high cholesterol</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1182</male>
+				<female>1538</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2720" nulls="0" mean_count="1360" sd="738.2" median_count="1360" min_count="838" max_count="1882"/>
+			<enum code="0" count="1882">No history of high cholesterol</enum>
+			<enum code="1" count="838">With a history of high cholesterol</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1354</male>
+				<female>1826</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3180" nulls="0" mean_count="1590" sd="1420" median_count="1590" min_count="586" max_count="2594"/>
+			<enum code="0" count="2594">No history of high cholesterol</enum>
+			<enum code="1" count="586">With a history of high cholesterol</enum>
+		</stats>
+	</controls>
+</variable>
+
+</data_table>
+

@@ -1,0 +1,3061 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="OZALC_Phenotype" dataset_id="pht000793.v1" study_name="Alcohol Research using Australian twins and their families (OZ-ALC)" study_id="phs000181.v1" participant_set="1" date_created="12/11/2009">
+
+<variable id="phv00073487.v1.p1" var_name="subjid" calculated_type="string" reported_type="continuous integer">
+	<description>Sample identification number (family id + idno)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4113</control>
+			</case_control>
+			<sex>
+				<male>3008</male>
+				<female>3211</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6219" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1777</male>
+				<female>2336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4113" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073487.v1.p1.c1" var_name="subjid" calculated_type="string" reported_type="continuous integer">
+	<description>Sample identification number (family id + idno)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4113</control>
+			</case_control>
+			<sex>
+				<male>3008</male>
+				<female>3211</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6219" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1777</male>
+				<female>2336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4113" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073488.v1.p1" var_name="age" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Participant&#39;s age</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4113</control>
+			</case_control>
+			<sex>
+				<male>3008</male>
+				<female>3211</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6219" nulls="0" mean="45.58" sd="10.59" median="44" min="18" max="85"/>
+			<example count="263">37</example>
+			<example count="258">42</example>
+			<example count="252">36</example>
+			<example count="251">38</example>
+			<example count="248">43</example>
+			<example count="235">39</example>
+			<example count="232">44</example>
+			<example count="232">35</example>
+			<example count="232">45</example>
+			<example count="230">40</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean="40.93" sd="8.076" median="39" min="21" max="73"/>
+			<example count="124">37</example>
+			<example count="122">35</example>
+			<example count="122">36</example>
+			<example count="105">34</example>
+			<example count="104">33</example>
+			<example count="82">38</example>
+			<example count="81">39</example>
+			<example count="78">32</example>
+			<example count="65">40</example>
+			<example count="65">43</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1777</male>
+				<female>2336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4113" nulls="0" mean="45.85" sd="9.578" median="45" min="18" max="82"/>
+			<example count="202">42</example>
+			<example count="184">44</example>
+			<example count="183">43</example>
+			<example count="176">45</example>
+			<example count="169">38</example>
+			<example count="165">41</example>
+			<example count="165">40</example>
+			<example count="158">47</example>
+			<example count="154">39</example>
+			<example count="150">48</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073488.v1.p1.c1" var_name="age" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Participant&#39;s age</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4113</control>
+			</case_control>
+			<sex>
+				<male>3008</male>
+				<female>3211</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="6219" nulls="0" mean="45.58" sd="10.59" median="44" min="18" max="85"/>
+			<example count="263">37</example>
+			<example count="258">42</example>
+			<example count="252">36</example>
+			<example count="251">38</example>
+			<example count="248">43</example>
+			<example count="235">39</example>
+			<example count="232">44</example>
+			<example count="232">35</example>
+			<example count="232">45</example>
+			<example count="230">40</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean="40.93" sd="8.076" median="39" min="21" max="73"/>
+			<example count="124">37</example>
+			<example count="122">35</example>
+			<example count="122">36</example>
+			<example count="105">34</example>
+			<example count="104">33</example>
+			<example count="82">38</example>
+			<example count="81">39</example>
+			<example count="78">32</example>
+			<example count="65">40</example>
+			<example count="65">43</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1777</male>
+				<female>2336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4113" nulls="0" mean="45.85" sd="9.578" median="45" min="18" max="82"/>
+			<example count="202">42</example>
+			<example count="184">44</example>
+			<example count="183">43</example>
+			<example count="176">45</example>
+			<example count="169">38</example>
+			<example count="165">41</example>
+			<example count="165">40</example>
+			<example count="158">47</example>
+			<example count="154">39</example>
+			<example count="150">48</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073489.v1.p1" var_name="casestatus" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence (AD) 1=yes, 0=no</description>
+	<comment><![CDATA[Definition of DSM-IV Alcohol Dependence requires the presence of 3 dependence symptoms and the &#39;clustering&#39; of at least 3 symptoms within one year - see also variable &#39;<a href="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;">cluster</a>&#39;.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4113</control>
+			</case_control>
+			<sex>
+				<male>2872</male>
+				<female>3011</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5883" nulls="336" mean_count="2942" sd="1657" median_count="2942" min_count="1770" max_count="4113"/>
+			<enum code="0" count="4113">absent</enum>
+			<enum code="1" count="1770">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="1770" median_count="1770" min_count="1770" max_count="1770"/>
+			<enum code="1" count="1770">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1777</male>
+				<female>2336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4113" nulls="0" mean_count="4113" median_count="4113" min_count="4113" max_count="4113"/>
+			<enum code="0" count="4113">absent</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073489.v1.p1.c1" var_name="casestatus" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence (AD) 1=yes, 0=no</description>
+	<comment><![CDATA[Definition of DSM-IV Alcohol Dependence requires the presence of 3 dependence symptoms and the &#39;clustering&#39; of at least 3 symptoms within one year - see also variable &#39;<a href="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;" onclick="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;" oncontextmenu="javascript:getPage(this, &#39;variable.cgi&#39;, 73497);return true;">cluster</a>&#39;.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4113</control>
+			</case_control>
+			<sex>
+				<male>2872</male>
+				<female>3011</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5883" nulls="336" mean_count="2942" sd="1657" median_count="2942" min_count="1770" max_count="4113"/>
+			<enum code="0" count="4113">absent</enum>
+			<enum code="1" count="1770">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="1770" median_count="1770" min_count="1770" max_count="1770"/>
+			<enum code="1" count="1770">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1777</male>
+				<female>2336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4113" nulls="0" mean_count="4113" median_count="4113" min_count="4113" max_count="4113"/>
+			<enum code="0" count="4113">absent</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073490.v1.p1" var_name="tolalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - tolerance</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4105</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3007</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5875" nulls="344" mean_count="2938" sd="606" median_count="2938" min_count="2509" max_count="3366"/>
+			<enum code="1" count="3366">present</enum>
+			<enum code="0" count="2509">absent</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="1066" median_count="885" min_count="131" max_count="1639"/>
+			<enum code="1" count="1639">present</enum>
+			<enum code="0" count="131">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2332</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4105" nulls="8" mean_count="2053" sd="460.3" median_count="2053" min_count="1727" max_count="2378"/>
+			<enum code="0" count="2378">absent</enum>
+			<enum code="1" count="1727">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073490.v1.p1.c1" var_name="tolalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - tolerance</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4105</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3007</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5875" nulls="344" mean_count="2938" sd="606" median_count="2938" min_count="2509" max_count="3366"/>
+			<enum code="1" count="3366">present</enum>
+			<enum code="0" count="2509">absent</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="1066" median_count="885" min_count="131" max_count="1639"/>
+			<enum code="1" count="1639">present</enum>
+			<enum code="0" count="131">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2332</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4105" nulls="8" mean_count="2053" sd="460.3" median_count="2053" min_count="1727" max_count="2378"/>
+			<enum code="0" count="2378">absent</enum>
+			<enum code="1" count="1727">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073491.v1.p1" var_name="wdalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - withdrawal</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="3390" median_count="2938" min_count="541" max_count="5335"/>
+			<enum code="0" count="5335">absent</enum>
+			<enum code="1" count="541">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="533.2" median_count="885" min_count="508" max_count="1262"/>
+			<enum code="0" count="1262">absent</enum>
+			<enum code="1" count="508">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2857" median_count="2053" min_count="33" max_count="4073"/>
+			<enum code="0" count="4073">absent</enum>
+			<enum code="1" count="33">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073491.v1.p1.c1" var_name="wdalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - withdrawal</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="3390" median_count="2938" min_count="541" max_count="5335"/>
+			<enum code="0" count="5335">absent</enum>
+			<enum code="1" count="541">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="533.2" median_count="885" min_count="508" max_count="1262"/>
+			<enum code="0" count="1262">absent</enum>
+			<enum code="1" count="508">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2857" median_count="2053" min_count="33" max_count="4073"/>
+			<enum code="0" count="4073">absent</enum>
+			<enum code="1" count="33">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073492.v1.p1" var_name="intenalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  -  used more alcohol/longer than intended</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="74.95" median_count="2938" min_count="2885" max_count="2991"/>
+			<enum code="0" count="2991">absent</enum>
+			<enum code="1" count="2885">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="1099" median_count="885" min_count="108" max_count="1662"/>
+			<enum code="1" count="1662">present</enum>
+			<enum code="0" count="108">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="1174" median_count="2053" min_count="1223" max_count="2883"/>
+			<enum code="0" count="2883">absent</enum>
+			<enum code="1" count="1223">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073492.v1.p1.c1" var_name="intenalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  -  used more alcohol/longer than intended</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="74.95" median_count="2938" min_count="2885" max_count="2991"/>
+			<enum code="0" count="2991">absent</enum>
+			<enum code="1" count="2885">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="1099" median_count="885" min_count="108" max_count="1662"/>
+			<enum code="1" count="1662">present</enum>
+			<enum code="0" count="108">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="1174" median_count="2053" min_count="1223" max_count="2883"/>
+			<enum code="0" count="2883">absent</enum>
+			<enum code="1" count="1223">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073493.v1.p1" var_name="timealc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - great deal time spent drinking or recovering from effects of alcohol</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="3069" median_count="2938" min_count="768" max_count="5108"/>
+			<enum code="0" count="5108">absent</enum>
+			<enum code="1" count="768">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="301.2" median_count="885" min_count="672" max_count="1098"/>
+			<enum code="0" count="1098">absent</enum>
+			<enum code="1" count="672">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2768" median_count="2053" min_count="96" max_count="4010"/>
+			<enum code="0" count="4010">absent</enum>
+			<enum code="1" count="96">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073493.v1.p1.c1" var_name="timealc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - great deal time spent drinking or recovering from effects of alcohol</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="3069" median_count="2938" min_count="768" max_count="5108"/>
+			<enum code="0" count="5108">absent</enum>
+			<enum code="1" count="768">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="301.2" median_count="885" min_count="672" max_count="1098"/>
+			<enum code="0" count="1098">absent</enum>
+			<enum code="1" count="672">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2768" median_count="2053" min_count="96" max_count="4010"/>
+			<enum code="0" count="4010">absent</enum>
+			<enum code="1" count="96">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073494.v1.p1" var_name="quitalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - persistent desire to quit drinking</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="1638" median_count="2938" min_count="1780" max_count="4096"/>
+			<enum code="0" count="4096">absent</enum>
+			<enum code="1" count="1780">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="574.2" median_count="885" min_count="479" max_count="1291"/>
+			<enum code="1" count="1291">present</enum>
+			<enum code="0" count="479">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2212" median_count="2053" min_count="489" max_count="3617"/>
+			<enum code="0" count="3617">absent</enum>
+			<enum code="1" count="489">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073494.v1.p1.c1" var_name="quitalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - persistent desire to quit drinking</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="1638" median_count="2938" min_count="1780" max_count="4096"/>
+			<enum code="0" count="4096">absent</enum>
+			<enum code="1" count="1780">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="574.2" median_count="885" min_count="479" max_count="1291"/>
+			<enum code="1" count="1291">present</enum>
+			<enum code="0" count="479">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2212" median_count="2053" min_count="489" max_count="3617"/>
+			<enum code="0" count="3617">absent</enum>
+			<enum code="1" count="489">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073495.v1.p1" var_name="actalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - dropped important activities while drinking</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="3780" median_count="2938" min_count="265" max_count="5611"/>
+			<enum code="0" count="5611">absent</enum>
+			<enum code="1" count="265">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="889.5" median_count="885" min_count="256" max_count="1514"/>
+			<enum code="0" count="1514">absent</enum>
+			<enum code="1" count="256">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2891" median_count="2053" min_count="9" max_count="4097"/>
+			<enum code="0" count="4097">absent</enum>
+			<enum code="1" count="9">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073495.v1.p1.c1" var_name="actalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - dropped important activities while drinking</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4106</control>
+			</case_control>
+			<sex>
+				<male>2868</male>
+				<female>3008</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5876" nulls="343" mean_count="2938" sd="3780" median_count="2938" min_count="265" max_count="5611"/>
+			<enum code="0" count="5611">absent</enum>
+			<enum code="1" count="265">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="889.5" median_count="885" min_count="256" max_count="1514"/>
+			<enum code="0" count="1514">absent</enum>
+			<enum code="1" count="256">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1773</male>
+				<female>2333</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4106" nulls="7" mean_count="2053" sd="2891" median_count="2053" min_count="9" max_count="4097"/>
+			<enum code="0" count="4097">absent</enum>
+			<enum code="1" count="9">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073496.v1.p1" var_name="contalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - continued drinking despite known consequences</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4094</control>
+			</case_control>
+			<sex>
+				<male>2862</male>
+				<female>3002</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5864" nulls="355" mean_count="2932" sd="2179" median_count="2932" min_count="1391" max_count="4473"/>
+			<enum code="0" count="4473">absent</enum>
+			<enum code="1" count="1391">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="405.9" median_count="885" min_count="598" max_count="1172"/>
+			<enum code="1" count="1172">present</enum>
+			<enum code="0" count="598">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1767</male>
+				<female>2327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4094" nulls="19" mean_count="2047" sd="2585" median_count="2047" min_count="219" max_count="3875"/>
+			<enum code="0" count="3875">absent</enum>
+			<enum code="1" count="219">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073496.v1.p1.c1" var_name="contalc" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence symptom  - continued drinking despite known consequences</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1770</case>
+				<control>4094</control>
+			</case_control>
+			<sex>
+				<male>2862</male>
+				<female>3002</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5864" nulls="355" mean_count="2932" sd="2179" median_count="2932" min_count="1391" max_count="4473"/>
+			<enum code="0" count="4473">absent</enum>
+			<enum code="1" count="1391">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1095</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1770" nulls="0" mean_count="885" sd="405.9" median_count="885" min_count="598" max_count="1172"/>
+			<enum code="1" count="1172">present</enum>
+			<enum code="0" count="598">absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1767</male>
+				<female>2327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4094" nulls="19" mean_count="2047" sd="2585" median_count="2047" min_count="219" max_count="3875"/>
+			<enum code="0" count="3875">absent</enum>
+			<enum code="1" count="219">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073497.v1.p1" var_name="cluster" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence - clustering 3+ symptoms in 1 year</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1759</case>
+				<control>3979</control>
+			</case_control>
+			<sex>
+				<male>2786</male>
+				<female>2952</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5738" nulls="481" mean_count="2869" sd="1468" median_count="2869" min_count="1831" max_count="3907"/>
+			<enum code="0" count="3907">absent</enum>
+			<enum code="1" count="1831">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1087</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1759" nulls="11" mean_count="1759" median_count="1759" min_count="1759" max_count="1759"/>
+			<enum code="1" count="1759">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1699</male>
+				<female>2280</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3979" nulls="134" mean_count="1990" sd="2712" median_count="1990" min_count="72" max_count="3907"/>
+			<enum code="0" count="3907">absent</enum>
+			<enum code="1" count="72">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073497.v1.p1.c1" var_name="cluster" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM-IV Alcohol Dependence - clustering 3+ symptoms in 1 year</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1759</case>
+				<control>3979</control>
+			</case_control>
+			<sex>
+				<male>2786</male>
+				<female>2952</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5738" nulls="481" mean_count="2869" sd="1468" median_count="2869" min_count="1831" max_count="3907"/>
+			<enum code="0" count="3907">absent</enum>
+			<enum code="1" count="1831">present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1087</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1759" nulls="11" mean_count="1759" median_count="1759" min_count="1759" max_count="1759"/>
+			<enum code="1" count="1759">present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1699</male>
+				<female>2280</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3979" nulls="134" mean_count="1990" sd="2712" median_count="1990" min_count="72" max_count="3907"/>
+			<enum code="0" count="3907">absent</enum>
+			<enum code="1" count="72">present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073498.v1.p1" var_name="alcfacscore" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Alcohol consumption factor score</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1755</case>
+				<control>3917</control>
+			</case_control>
+			<sex>
+				<male>2759</male>
+				<female>2913</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5672" nulls="547" mean="0.194" sd="1.049" median="0.1371" min="-2.424" max="4.64"/>
+			<example count="11">-1.615024593</example>
+			<example count="10">-1.393634624</example>
+			<example count="9">-1.587880502</example>
+			<example count="8">-1.50554025</example>
+			<example count="7">-1.477790838</example>
+			<example count="7">-1.336773831</example>
+			<example count="7">-1.533138331</example>
+			<example count="6">-1.560585082</example>
+			<example count="6">-1.162559527</example>
+			<example count="5">-0.860095945</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1083</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1755" nulls="15" mean="0.9251" sd="0.9525" median="0.8316" min="-1.841" max="4.64"/>
+			<example count="2">1.016141136</example>
+			<example count="2">0.451038838</example>
+			<example count="2">0.310263795</example>
+			<example count="2">0.684211538</example>
+			<example count="2">0.50595169</example>
+			<example count="2">0.886728712</example>
+			<example count="2">0.883164445</example>
+			<example count="2">0.166336</example>
+			<example count="2">0.484627811</example>
+			<example count="2">1.228480965</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1676</male>
+				<female>2241</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3917" nulls="196" mean="-0.1336" sd="0.9159" median="-0.1818" min="-2.424" max="3.956"/>
+			<example count="11">-1.615024593</example>
+			<example count="10">-1.393634624</example>
+			<example count="9">-1.587880502</example>
+			<example count="8">-1.50554025</example>
+			<example count="7">-1.477790838</example>
+			<example count="7">-1.336773831</example>
+			<example count="7">-1.533138331</example>
+			<example count="6">-1.560585082</example>
+			<example count="6">-1.162559527</example>
+			<example count="5">-0.860095945</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073498.v1.p1.c1" var_name="alcfacscore" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Alcohol consumption factor score</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1755</case>
+				<control>3917</control>
+			</case_control>
+			<sex>
+				<male>2759</male>
+				<female>2913</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5672" nulls="547" mean="0.194" sd="1.049" median="0.1371" min="-2.424" max="4.64"/>
+			<example count="11">-1.615024593</example>
+			<example count="10">-1.393634624</example>
+			<example count="9">-1.587880502</example>
+			<example count="8">-1.50554025</example>
+			<example count="7">-1.477790838</example>
+			<example count="7">-1.336773831</example>
+			<example count="7">-1.533138331</example>
+			<example count="6">-1.560585082</example>
+			<example count="6">-1.162559527</example>
+			<example count="5">-0.860095945</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1083</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1755" nulls="15" mean="0.9251" sd="0.9525" median="0.8316" min="-1.841" max="4.64"/>
+			<example count="2">1.016141136</example>
+			<example count="2">0.451038838</example>
+			<example count="2">0.310263795</example>
+			<example count="2">0.684211538</example>
+			<example count="2">0.50595169</example>
+			<example count="2">0.886728712</example>
+			<example count="2">0.883164445</example>
+			<example count="2">0.166336</example>
+			<example count="2">0.484627811</example>
+			<example count="2">1.228480965</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1676</male>
+				<female>2241</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3917" nulls="196" mean="-0.1336" sd="0.9159" median="-0.1818" min="-2.424" max="3.956"/>
+			<example count="11">-1.615024593</example>
+			<example count="10">-1.393634624</example>
+			<example count="9">-1.587880502</example>
+			<example count="8">-1.50554025</example>
+			<example count="7">-1.477790838</example>
+			<example count="7">-1.336773831</example>
+			<example count="7">-1.533138331</example>
+			<example count="6">-1.560585082</example>
+			<example count="6">-1.162559527</example>
+			<example count="5">-0.860095945</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073499.v1.p1" var_name="maxdrink" calculated_type="integer" units="Standard drinks" reported_type="continuous decimal">
+	<description>Largest amount of alcohol consumed in 24 hours; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1766</case>
+				<control>4055</control>
+			</case_control>
+			<sex>
+				<male>2847</male>
+				<female>2974</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5816" nulls="398" mean="17.8" sd="14.27" median="14" min="0" max="97"/>
+			<example count="383">10</example>
+			<example count="364">6</example>
+			<example count="349">8</example>
+			<example count="330">12</example>
+			<example count="326">15</example>
+			<example count="286">5</example>
+			<example count="260">20</example>
+			<example count="251">18</example>
+			<example count="249">30</example>
+			<example count="228">0</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1091</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1761" nulls="4" mean="26.4" sd="15.05" median="23" min="0" max="96"/>
+			<example count="130">30</example>
+			<example count="119">36</example>
+			<example count="115">20</example>
+			<example count="100">15</example>
+			<example count="87">12</example>
+			<example count="86">18</example>
+			<example count="75">22</example>
+			<example count="74">45</example>
+			<example count="71">10</example>
+			<example count="56">8</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1756</male>
+				<female>2299</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4055" nulls="58" mean="14.06" sd="12.15" median="10" min="0" max="97"/>
+			<example count="340">6</example>
+			<example count="312">10</example>
+			<example count="293">8</example>
+			<example count="276">5</example>
+			<example count="243">12</example>
+			<example count="226">15</example>
+			<example count="226">0</example>
+			<example count="184">4</example>
+			<example count="165">18</example>
+			<example count="145">20</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073499.v1.p1.c1" var_name="maxdrink" calculated_type="integer" units="Standard drinks" reported_type="continuous decimal">
+	<description>Largest amount of alcohol consumed in 24 hours; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1766</case>
+				<control>4055</control>
+			</case_control>
+			<sex>
+				<male>2847</male>
+				<female>2974</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5816" nulls="398" mean="17.8" sd="14.27" median="14" min="0" max="97"/>
+			<example count="383">10</example>
+			<example count="364">6</example>
+			<example count="349">8</example>
+			<example count="330">12</example>
+			<example count="326">15</example>
+			<example count="286">5</example>
+			<example count="260">20</example>
+			<example count="251">18</example>
+			<example count="249">30</example>
+			<example count="228">0</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1091</male>
+				<female>675</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1761" nulls="4" mean="26.4" sd="15.05" median="23" min="0" max="96"/>
+			<example count="130">30</example>
+			<example count="119">36</example>
+			<example count="115">20</example>
+			<example count="100">15</example>
+			<example count="87">12</example>
+			<example count="86">18</example>
+			<example count="75">22</example>
+			<example count="74">45</example>
+			<example count="71">10</example>
+			<example count="56">8</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1756</male>
+				<female>2299</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4055" nulls="58" mean="14.06" sd="12.15" median="10" min="0" max="97"/>
+			<example count="340">6</example>
+			<example count="312">10</example>
+			<example count="293">8</example>
+			<example count="276">5</example>
+			<example count="243">12</example>
+			<example count="226">15</example>
+			<example count="226">0</example>
+			<example count="184">4</example>
+			<example count="165">18</example>
+			<example count="145">20</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073500.v1.p1" var_name="frqdrkmax" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Frequency of 5+ drinks / day - during maximum drinking period; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1758</case>
+				<control>3736</control>
+			</case_control>
+			<sex>
+				<male>2847</male>
+				<female>2927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5774" nulls="445" mean_count="577.4" sd="316.3" median_count="424.5" min_count="253" max_count="1021"/>
+			<enum code="C" count="1021">3-4 days per week</enum>
+			<enum code="F" count="997">2 days per week</enum>
+			<enum code="L" count="988">Never</enum>
+			<enum code="G" count="686">1 day per week</enum>
+			<enum code="A" count="452">Every day</enum>
+			<enum code="B" count="397">5-6 days per week</enum>
+			<enum code="H" count="377">2-3 days per month</enum>
+			<enum code="J" count="324">3-11 days per year</enum>
+			<enum code="K" count="279">Less often</enum>
+			<enum code="I" count="253">1 day per month</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1086</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1758" nulls="12" mean_count="175.8" sd="182" median_count="110.5" min_count="13" max_count="531"/>
+			<enum code="C" count="531">3-4 days per week</enum>
+			<enum code="F" count="376">2 days per week</enum>
+			<enum code="A" count="284">Every day</enum>
+			<enum code="B" count="267">5-6 days per week</enum>
+			<enum code="G" count="165">1 day per week</enum>
+			<enum code="H" count="56">2-3 days per month</enum>
+			<enum code="L" count="28">Never</enum>
+			<enum code="J" count="19">3-11 days per year</enum>
+			<enum code="I" count="19">1 day per month</enum>
+			<enum code="K" count="13">Less often</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1641</male>
+				<female>2095</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3736" nulls="377" mean_count="373.6" sd="223.1" median_count="304.5" min_count="118" max_count="826"/>
+			<enum code="L" count="826">Never</enum>
+			<enum code="F" count="604">2 days per week</enum>
+			<enum code="G" count="498">1 day per week</enum>
+			<enum code="C" count="466">3-4 days per week</enum>
+			<enum code="H" count="313">2-3 days per month</enum>
+			<enum code="J" count="296">3-11 days per year</enum>
+			<enum code="K" count="245">Less often</enum>
+			<enum code="I" count="226">1 day per month</enum>
+			<enum code="A" count="144">Every day</enum>
+			<enum code="B" count="118">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073500.v1.p1.c1" var_name="frqdrkmax" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Frequency of 5+ drinks / day - during maximum drinking period; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1758</case>
+				<control>3736</control>
+			</case_control>
+			<sex>
+				<male>2847</male>
+				<female>2927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5774" nulls="445" mean_count="577.4" sd="316.3" median_count="424.5" min_count="253" max_count="1021"/>
+			<enum code="C" count="1021">3-4 days per week</enum>
+			<enum code="F" count="997">2 days per week</enum>
+			<enum code="L" count="988">Never</enum>
+			<enum code="G" count="686">1 day per week</enum>
+			<enum code="A" count="452">Every day</enum>
+			<enum code="B" count="397">5-6 days per week</enum>
+			<enum code="H" count="377">2-3 days per month</enum>
+			<enum code="J" count="324">3-11 days per year</enum>
+			<enum code="K" count="279">Less often</enum>
+			<enum code="I" count="253">1 day per month</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1086</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1758" nulls="12" mean_count="175.8" sd="182" median_count="110.5" min_count="13" max_count="531"/>
+			<enum code="C" count="531">3-4 days per week</enum>
+			<enum code="F" count="376">2 days per week</enum>
+			<enum code="A" count="284">Every day</enum>
+			<enum code="B" count="267">5-6 days per week</enum>
+			<enum code="G" count="165">1 day per week</enum>
+			<enum code="H" count="56">2-3 days per month</enum>
+			<enum code="L" count="28">Never</enum>
+			<enum code="J" count="19">3-11 days per year</enum>
+			<enum code="I" count="19">1 day per month</enum>
+			<enum code="K" count="13">Less often</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1641</male>
+				<female>2095</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3736" nulls="377" mean_count="373.6" sd="223.1" median_count="304.5" min_count="118" max_count="826"/>
+			<enum code="L" count="826">Never</enum>
+			<enum code="F" count="604">2 days per week</enum>
+			<enum code="G" count="498">1 day per week</enum>
+			<enum code="C" count="466">3-4 days per week</enum>
+			<enum code="H" count="313">2-3 days per month</enum>
+			<enum code="J" count="296">3-11 days per year</enum>
+			<enum code="K" count="245">Less often</enum>
+			<enum code="I" count="226">1 day per month</enum>
+			<enum code="A" count="144">Every day</enum>
+			<enum code="B" count="118">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073501.v1.p1" var_name="frqintoxmax" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Frequency of intoxication - during maximum drinking period; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1752</case>
+				<control>3429</control>
+			</case_control>
+			<sex>
+				<male>2765</male>
+				<female>2696</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5461" nulls="758" mean_count="546.1" sd="295.7" median_count="590" min_count="87" max_count="981"/>
+			<enum code="K" count="981">Less often</enum>
+			<enum code="G" count="786">1 day per week</enum>
+			<enum code="L" count="776">Never</enum>
+			<enum code="F" count="717">2 days per week</enum>
+			<enum code="J" count="603">3-11 days per year</enum>
+			<enum code="I" count="577">1 day per month</enum>
+			<enum code="H" count="468">2-3 days per month</enum>
+			<enum code="C" count="376">3-4 days per week</enum>
+			<enum code="A" count="90">Every day</enum>
+			<enum code="B" count="87">5-6 days per week</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1083</male>
+				<female>669</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1752" nulls="18" mean_count="175.2" sd="132.7" median_count="124.5" min_count="54" max_count="428"/>
+			<enum code="F" count="428">2 days per week</enum>
+			<enum code="G" count="359">1 day per week</enum>
+			<enum code="C" count="271">3-4 days per week</enum>
+			<enum code="H" count="163">2-3 days per month</enum>
+			<enum code="I" count="156">1 day per month</enum>
+			<enum code="J" count="93">3-11 days per year</enum>
+			<enum code="K" count="88">Less often</enum>
+			<enum code="B" count="72">5-6 days per week</enum>
+			<enum code="A" count="68">Every day</enum>
+			<enum code="L" count="54">Never</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1562</male>
+				<female>1867</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3429" nulls="684" mean_count="342.9" sd="257.8" median_count="354" min_count="12" max_count="829"/>
+			<enum code="K" count="829">Less often</enum>
+			<enum code="L" count="582">Never</enum>
+			<enum code="J" count="478">3-11 days per year</enum>
+			<enum code="I" count="413">1 day per month</enum>
+			<enum code="G" count="409">1 day per week</enum>
+			<enum code="H" count="299">2-3 days per month</enum>
+			<enum code="F" count="285">2 days per week</enum>
+			<enum code="C" count="103">3-4 days per week</enum>
+			<enum code="A" count="19">Every day</enum>
+			<enum code="B" count="12">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073501.v1.p1.c1" var_name="frqintoxmax" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Frequency of intoxication - during maximum drinking period; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1752</case>
+				<control>3429</control>
+			</case_control>
+			<sex>
+				<male>2765</male>
+				<female>2696</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5461" nulls="758" mean_count="546.1" sd="295.7" median_count="590" min_count="87" max_count="981"/>
+			<enum code="K" count="981">Less often</enum>
+			<enum code="G" count="786">1 day per week</enum>
+			<enum code="L" count="776">Never</enum>
+			<enum code="F" count="717">2 days per week</enum>
+			<enum code="J" count="603">3-11 days per year</enum>
+			<enum code="I" count="577">1 day per month</enum>
+			<enum code="H" count="468">2-3 days per month</enum>
+			<enum code="C" count="376">3-4 days per week</enum>
+			<enum code="A" count="90">Every day</enum>
+			<enum code="B" count="87">5-6 days per week</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1083</male>
+				<female>669</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1752" nulls="18" mean_count="175.2" sd="132.7" median_count="124.5" min_count="54" max_count="428"/>
+			<enum code="F" count="428">2 days per week</enum>
+			<enum code="G" count="359">1 day per week</enum>
+			<enum code="C" count="271">3-4 days per week</enum>
+			<enum code="H" count="163">2-3 days per month</enum>
+			<enum code="I" count="156">1 day per month</enum>
+			<enum code="J" count="93">3-11 days per year</enum>
+			<enum code="K" count="88">Less often</enum>
+			<enum code="B" count="72">5-6 days per week</enum>
+			<enum code="A" count="68">Every day</enum>
+			<enum code="L" count="54">Never</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1562</male>
+				<female>1867</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3429" nulls="684" mean_count="342.9" sd="257.8" median_count="354" min_count="12" max_count="829"/>
+			<enum code="K" count="829">Less often</enum>
+			<enum code="L" count="582">Never</enum>
+			<enum code="J" count="478">3-11 days per year</enum>
+			<enum code="I" count="413">1 day per month</enum>
+			<enum code="G" count="409">1 day per week</enum>
+			<enum code="H" count="299">2-3 days per month</enum>
+			<enum code="F" count="285">2 days per week</enum>
+			<enum code="C" count="103">3-4 days per week</enum>
+			<enum code="A" count="19">Every day</enum>
+			<enum code="B" count="12">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073502.v1.p1" var_name="frqdrkalc" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of any alcoholic drink - during maximum drinking period</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1758</case>
+				<control>3732</control>
+			</case_control>
+			<sex>
+				<male>2843</male>
+				<female>2926</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5769" nulls="450" mean_count="576.9" sd="465.1" median_count="491" min_count="14" max_count="1421"/>
+			<enum code="C" count="1421">3-4 days per week</enum>
+			<enum code="F" count="1020">2 days per week</enum>
+			<enum code="A" count="969">Every day</enum>
+			<enum code="B" count="814">5-6 days per week</enum>
+			<enum code="G" count="611">1 day per week</enum>
+			<enum code="H" count="371">2-3 days per month</enum>
+			<enum code="J" count="205">3-11 days per year</enum>
+			<enum code="I" count="202">1 day per month</enum>
+			<enum code="K" count="142">Less often</enum>
+			<enum code="L" count="14">Never</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1086</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1758" nulls="12" mean_count="195.3" sd="221.3" median_count="69" min_count="4" max_count="519"/>
+			<enum code="A" count="519">Every day</enum>
+			<enum code="C" count="505">3-4 days per week</enum>
+			<enum code="B" count="385">5-6 days per week</enum>
+			<enum code="F" count="239">2 days per week</enum>
+			<enum code="G" count="69">1 day per week</enum>
+			<enum code="H" count="22">2-3 days per month</enum>
+			<enum code="I" count="10">1 day per month</enum>
+			<enum code="J" count="5">3-11 days per year</enum>
+			<enum code="K" count="4">Less often</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1638</male>
+				<female>2094</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3732" nulls="381" mean_count="373.2" sd="280.9" median_count="363" min_count="6" max_count="887"/>
+			<enum code="C" count="887">3-4 days per week</enum>
+			<enum code="F" count="751">2 days per week</enum>
+			<enum code="G" count="506">1 day per week</enum>
+			<enum code="B" count="396">5-6 days per week</enum>
+			<enum code="A" count="395">Every day</enum>
+			<enum code="H" count="331">2-3 days per month</enum>
+			<enum code="I" count="178">1 day per month</enum>
+			<enum code="J" count="175">3-11 days per year</enum>
+			<enum code="K" count="107">Less often</enum>
+			<enum code="L" count="6">Never</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073502.v1.p1.c1" var_name="frqdrkalc" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of any alcoholic drink - during maximum drinking period</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1758</case>
+				<control>3732</control>
+			</case_control>
+			<sex>
+				<male>2843</male>
+				<female>2926</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5769" nulls="450" mean_count="576.9" sd="465.1" median_count="491" min_count="14" max_count="1421"/>
+			<enum code="C" count="1421">3-4 days per week</enum>
+			<enum code="F" count="1020">2 days per week</enum>
+			<enum code="A" count="969">Every day</enum>
+			<enum code="B" count="814">5-6 days per week</enum>
+			<enum code="G" count="611">1 day per week</enum>
+			<enum code="H" count="371">2-3 days per month</enum>
+			<enum code="J" count="205">3-11 days per year</enum>
+			<enum code="I" count="202">1 day per month</enum>
+			<enum code="K" count="142">Less often</enum>
+			<enum code="L" count="14">Never</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1086</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1758" nulls="12" mean_count="195.3" sd="221.3" median_count="69" min_count="4" max_count="519"/>
+			<enum code="A" count="519">Every day</enum>
+			<enum code="C" count="505">3-4 days per week</enum>
+			<enum code="B" count="385">5-6 days per week</enum>
+			<enum code="F" count="239">2 days per week</enum>
+			<enum code="G" count="69">1 day per week</enum>
+			<enum code="H" count="22">2-3 days per month</enum>
+			<enum code="I" count="10">1 day per month</enum>
+			<enum code="J" count="5">3-11 days per year</enum>
+			<enum code="K" count="4">Less often</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1638</male>
+				<female>2094</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3732" nulls="381" mean_count="373.2" sd="280.9" median_count="363" min_count="6" max_count="887"/>
+			<enum code="C" count="887">3-4 days per week</enum>
+			<enum code="F" count="751">2 days per week</enum>
+			<enum code="G" count="506">1 day per week</enum>
+			<enum code="B" count="396">5-6 days per week</enum>
+			<enum code="A" count="395">Every day</enum>
+			<enum code="H" count="331">2-3 days per month</enum>
+			<enum code="I" count="178">1 day per month</enum>
+			<enum code="J" count="175">3-11 days per year</enum>
+			<enum code="K" count="107">Less often</enum>
+			<enum code="L" count="6">Never</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073503.v1.p1" var_name="qtydrkalc" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Amount of alcohol in a typical day - during maximum drinking period</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1758</case>
+				<control>3733</control>
+			</case_control>
+			<sex>
+				<male>2844</male>
+				<female>2927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5771" nulls="448" mean_count="577.1" sd="684" median_count="290" min_count="12" max_count="1736"/>
+			<enum code="N" count="1736">1-2 drinks</enum>
+			<enum code="O" count="1675">3-4 drinks</enum>
+			<enum code="P" count="1117">5-6 drinks</enum>
+			<enum code="Q" count="543">7-8 drinks</enum>
+			<enum code="S" count="349">9-11 drinks</enum>
+			<enum code="T" count="231">12-15 drinks</enum>
+			<enum code="U" count="51">16-18 drinks</enum>
+			<enum code="W" count="32">19-24 drinks</enum>
+			<enum code="X" count="25">25-30 drinks</enum>
+			<enum code="Z" count="12">31 or more drinks</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1086</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1758" nulls="12" mean_count="175.8" sd="167.4" median_count="152" min_count="9" max_count="446"/>
+			<enum code="O" count="446">3-4 drinks</enum>
+			<enum code="P" count="439">5-6 drinks</enum>
+			<enum code="Q" count="272">7-8 drinks</enum>
+			<enum code="S" count="215">9-11 drinks</enum>
+			<enum code="N" count="176">1-2 drinks</enum>
+			<enum code="T" count="128">12-15 drinks</enum>
+			<enum code="U" count="36">16-18 drinks</enum>
+			<enum code="W" count="19">19-24 drinks</enum>
+			<enum code="X" count="18">25-30 drinks</enum>
+			<enum code="Z" count="9">31 or more drinks</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1638</male>
+				<female>2095</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3733" nulls="380" mean_count="373.3" sd="522.9" median_count="114" min_count="2" max_count="1407"/>
+			<enum code="N" count="1407">1-2 drinks</enum>
+			<enum code="O" count="1173">3-4 drinks</enum>
+			<enum code="P" count="638">5-6 drinks</enum>
+			<enum code="Q" count="254">7-8 drinks</enum>
+			<enum code="S" count="128">9-11 drinks</enum>
+			<enum code="T" count="100">12-15 drinks</enum>
+			<enum code="U" count="14">16-18 drinks</enum>
+			<enum code="W" count="12">19-24 drinks</enum>
+			<enum code="X" count="5">25-30 drinks</enum>
+			<enum code="Z" count="2">31 or more drinks</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073503.v1.p1.c1" var_name="qtydrkalc" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Amount of alcohol in a typical day - during maximum drinking period</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1758</case>
+				<control>3733</control>
+			</case_control>
+			<sex>
+				<male>2844</male>
+				<female>2927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5771" nulls="448" mean_count="577.1" sd="684" median_count="290" min_count="12" max_count="1736"/>
+			<enum code="N" count="1736">1-2 drinks</enum>
+			<enum code="O" count="1675">3-4 drinks</enum>
+			<enum code="P" count="1117">5-6 drinks</enum>
+			<enum code="Q" count="543">7-8 drinks</enum>
+			<enum code="S" count="349">9-11 drinks</enum>
+			<enum code="T" count="231">12-15 drinks</enum>
+			<enum code="U" count="51">16-18 drinks</enum>
+			<enum code="W" count="32">19-24 drinks</enum>
+			<enum code="X" count="25">25-30 drinks</enum>
+			<enum code="Z" count="12">31 or more drinks</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1086</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1758" nulls="12" mean_count="175.8" sd="167.4" median_count="152" min_count="9" max_count="446"/>
+			<enum code="O" count="446">3-4 drinks</enum>
+			<enum code="P" count="439">5-6 drinks</enum>
+			<enum code="Q" count="272">7-8 drinks</enum>
+			<enum code="S" count="215">9-11 drinks</enum>
+			<enum code="N" count="176">1-2 drinks</enum>
+			<enum code="T" count="128">12-15 drinks</enum>
+			<enum code="U" count="36">16-18 drinks</enum>
+			<enum code="W" count="19">19-24 drinks</enum>
+			<enum code="X" count="18">25-30 drinks</enum>
+			<enum code="Z" count="9">31 or more drinks</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1638</male>
+				<female>2095</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3733" nulls="380" mean_count="373.3" sd="522.9" median_count="114" min_count="2" max_count="1407"/>
+			<enum code="N" count="1407">1-2 drinks</enum>
+			<enum code="O" count="1173">3-4 drinks</enum>
+			<enum code="P" count="638">5-6 drinks</enum>
+			<enum code="Q" count="254">7-8 drinks</enum>
+			<enum code="S" count="128">9-11 drinks</enum>
+			<enum code="T" count="100">12-15 drinks</enum>
+			<enum code="U" count="14">16-18 drinks</enum>
+			<enum code="W" count="12">19-24 drinks</enum>
+			<enum code="X" count="5">25-30 drinks</enum>
+			<enum code="Z" count="2">31 or more drinks</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073504.v1.p1" var_name="wkalcmx" calculated_type="decimal" units="Standard drinks" reported_type="continuous decimal">
+	<description>Amount of alcohol in a typical week - during maximum drinking period; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1756</case>
+				<control>3925</control>
+			</case_control>
+			<sex>
+				<male>2764</male>
+				<female>2917</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5681" nulls="538" mean="17.5" sd="23.02" median="11" min="0" max="217"/>
+			<example count="540">19.25</example>
+			<example count="429">12.25</example>
+			<example count="368">5.25</example>
+			<example count="253">3</example>
+			<example count="249">7</example>
+			<example count="239">24.5</example>
+			<example count="228">0</example>
+			<example count="218">11</example>
+			<example count="204">38.5</example>
+			<example count="196">3.5</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1084</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1756" nulls="14" mean="31.61" sd="30.1" median="24.5" min="0.1875" max="217"/>
+			<example count="239">19.25</example>
+			<example count="133">24.5</example>
+			<example count="133">12.25</example>
+			<example count="115">38.5</example>
+			<example count="108">30.25</example>
+			<example count="83">52.5</example>
+			<example count="78">26.25</example>
+			<example count="65">11</example>
+			<example count="62">70</example>
+			<example count="60">35</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1680</male>
+				<female>2245</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3925" nulls="188" mean="11.18" sd="15.27" median="5.5" min="0" max="217"/>
+			<example count="309">5.25</example>
+			<example count="301">19.25</example>
+			<example count="296">12.25</example>
+			<example count="230">3</example>
+			<example count="228">0</example>
+			<example count="212">7</example>
+			<example count="183">3.5</example>
+			<example count="179">1.5</example>
+			<example count="153">11</example>
+			<example count="151">0.9375</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073504.v1.p1.c1" var_name="wkalcmx" calculated_type="decimal" units="Standard drinks" reported_type="continuous decimal">
+	<description>Amount of alcohol in a typical week - during maximum drinking period; alcohol factor score item</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1756</case>
+				<control>3925</control>
+			</case_control>
+			<sex>
+				<male>2764</male>
+				<female>2917</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5681" nulls="538" mean="17.5" sd="23.02" median="11" min="0" max="217"/>
+			<example count="540">19.25</example>
+			<example count="429">12.25</example>
+			<example count="368">5.25</example>
+			<example count="253">3</example>
+			<example count="249">7</example>
+			<example count="239">24.5</example>
+			<example count="228">0</example>
+			<example count="218">11</example>
+			<example count="204">38.5</example>
+			<example count="196">3.5</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1084</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1756" nulls="14" mean="31.61" sd="30.1" median="24.5" min="0.1875" max="217"/>
+			<example count="239">19.25</example>
+			<example count="133">24.5</example>
+			<example count="133">12.25</example>
+			<example count="115">38.5</example>
+			<example count="108">30.25</example>
+			<example count="83">52.5</example>
+			<example count="78">26.25</example>
+			<example count="65">11</example>
+			<example count="62">70</example>
+			<example count="60">35</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1680</male>
+				<female>2245</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3925" nulls="188" mean="11.18" sd="15.27" median="5.5" min="0" max="217"/>
+			<example count="309">5.25</example>
+			<example count="301">19.25</example>
+			<example count="296">12.25</example>
+			<example count="230">3</example>
+			<example count="228">0</example>
+			<example count="212">7</example>
+			<example count="183">3.5</example>
+			<example count="179">1.5</example>
+			<example count="153">11</example>
+			<example count="151">0.9375</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073505.v1.p1" var_name="nicdep4" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM IV - Nicotine Dependence</description>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page F11) for related interview questions.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1723</case>
+				<control>3600</control>
+			</case_control>
+			<sex>
+				<male>2797</male>
+				<female>2825</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5622" nulls="597" mean_count="2811" sd="835.8" median_count="2811" min_count="2220" max_count="3402"/>
+			<enum code="0" count="3402">Absent</enum>
+			<enum code="1" count="2220">Present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1070</male>
+				<female>653</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1723" nulls="47" mean_count="861.5" sd="154.9" median_count="861.5" min_count="752" max_count="971"/>
+			<enum code="1" count="971">Present</enum>
+			<enum code="0" count="752">Absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1593</male>
+				<female>2007</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3600" nulls="513" mean_count="1800" sd="924.9" median_count="1800" min_count="1146" max_count="2454"/>
+			<enum code="0" count="2454">Absent</enum>
+			<enum code="1" count="1146">Present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073505.v1.p1.c1" var_name="nicdep4" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM IV - Nicotine Dependence</description>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page F11) for related interview questions.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1723</case>
+				<control>3600</control>
+			</case_control>
+			<sex>
+				<male>2797</male>
+				<female>2825</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5622" nulls="597" mean_count="2811" sd="835.8" median_count="2811" min_count="2220" max_count="3402"/>
+			<enum code="0" count="3402">Absent</enum>
+			<enum code="1" count="2220">Present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1070</male>
+				<female>653</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1723" nulls="47" mean_count="861.5" sd="154.9" median_count="861.5" min_count="752" max_count="971"/>
+			<enum code="1" count="971">Present</enum>
+			<enum code="0" count="752">Absent</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1593</male>
+				<female>2007</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3600" nulls="513" mean_count="1800" sd="924.9" median_count="1800" min_count="1146" max_count="2454"/>
+			<enum code="0" count="2454">Absent</enum>
+			<enum code="1" count="1146">Present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073506.v1.p1" var_name="aspddx4" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM IV- Anti-Social Personality Disorder</description>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page N111) for related interview questions.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1759</case>
+				<control>3979</control>
+			</case_control>
+			<sex>
+				<male>2786</male>
+				<female>2952</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5738" nulls="481" mean_count="2869" sd="3861" median_count="2869" min_count="139" max_count="5599"/>
+			<enum code="0" count="5599">Absent</enum>
+			<enum code="1" count="139">Present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1087</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1759" nulls="11" mean_count="879.5" sd="1108" median_count="879.5" min_count="96" max_count="1663"/>
+			<enum code="0" count="1663">Absent</enum>
+			<enum code="1" count="96">Present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1699</male>
+				<female>2280</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3979" nulls="134" mean_count="1990" sd="2753" median_count="1990" min_count="43" max_count="3936"/>
+			<enum code="0" count="3936">Absent</enum>
+			<enum code="1" count="43">Present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073506.v1.p1.c1" var_name="aspddx4" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM IV- Anti-Social Personality Disorder</description>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page N111) for related interview questions.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1759</case>
+				<control>3979</control>
+			</case_control>
+			<sex>
+				<male>2786</male>
+				<female>2952</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5738" nulls="481" mean_count="2869" sd="3861" median_count="2869" min_count="139" max_count="5599"/>
+			<enum code="0" count="5599">Absent</enum>
+			<enum code="1" count="139">Present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1087</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1759" nulls="11" mean_count="879.5" sd="1108" median_count="879.5" min_count="96" max_count="1663"/>
+			<enum code="0" count="1663">Absent</enum>
+			<enum code="1" count="96">Present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1699</male>
+				<female>2280</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3979" nulls="134" mean_count="1990" sd="2753" median_count="1990" min_count="43" max_count="3936"/>
+			<enum code="0" count="3936">Absent</enum>
+			<enum code="1" count="43">Present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073507.v1.p1" var_name="depdx" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM IV- Depression</description>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page J76) for related interview questions.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1757</case>
+				<control>4068</control>
+			</case_control>
+			<sex>
+				<male>2845</male>
+				<female>2980</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5825" nulls="394" mean_count="2913" sd="1832" median_count="2913" min_count="1617" max_count="4208"/>
+			<enum code="0" count="4208">Absent</enum>
+			<enum code="1" count="1617">Present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1089</male>
+				<female>668</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1757" nulls="13" mean_count="878.5" sd="239.7" median_count="878.5" min_count="709" max_count="1048"/>
+			<enum code="0" count="1048">Absent</enum>
+			<enum code="1" count="709">Present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1756</male>
+				<female>2312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4068" nulls="45" mean_count="2034" sd="1592" median_count="2034" min_count="908" max_count="3160"/>
+			<enum code="0" count="3160">Absent</enum>
+			<enum code="1" count="908">Present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073507.v1.p1.c1" var_name="depdx" calculated_type="enum_integer" reported_type="enumerated integer">
+	<description>DSM IV- Depression</description>
+	<comment><![CDATA[See Support Document: Nicotine Addiction Genetics <a href="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" onclick="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;" oncontextmenu="javascript:getPage(this, &#39;document.cgi&#39;, 1551);return true;">(phd001551</a>, page J76) for related interview questions.]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1757</case>
+				<control>4068</control>
+			</case_control>
+			<sex>
+				<male>2845</male>
+				<female>2980</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5825" nulls="394" mean_count="2913" sd="1832" median_count="2913" min_count="1617" max_count="4208"/>
+			<enum code="0" count="4208">Absent</enum>
+			<enum code="1" count="1617">Present</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1089</male>
+				<female>668</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1757" nulls="13" mean_count="878.5" sd="239.7" median_count="878.5" min_count="709" max_count="1048"/>
+			<enum code="0" count="1048">Absent</enum>
+			<enum code="1" count="709">Present</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1756</male>
+				<female>2312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4068" nulls="45" mean_count="2034" sd="1592" median_count="2034" min_count="908" max_count="3160"/>
+			<enum code="0" count="3160">Absent</enum>
+			<enum code="1" count="908">Present</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076240.v1.p1" var_name="maxdrink_12month" calculated_type="integer" units="Standard drinks" reported_type="continuous decimal">
+	<description>Largest amount of alcohol in 24 hours - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1307</case>
+				<control>2966</control>
+			</case_control>
+			<sex>
+				<male>2379</male>
+				<female>2054</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4433" nulls="1786" mean="7.247" sd="5.617" median="6" min="0" max="60"/>
+			<example count="601">4</example>
+			<example count="529">6</example>
+			<example count="479">2</example>
+			<example count="437">3</example>
+			<example count="417">5</example>
+			<example count="359">10</example>
+			<example count="347">8</example>
+			<example count="296">12</example>
+			<example count="192">15</example>
+			<example count="169">1</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>856</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1307" nulls="463" mean="10.27" sd="6.786" median="9" min="0" max="60"/>
+			<example count="151">10</example>
+			<example count="135">12</example>
+			<example count="131">6</example>
+			<example count="122">8</example>
+			<example count="119">15</example>
+			<example count="110">4</example>
+			<example count="94">5</example>
+			<example count="56">2</example>
+			<example count="52">20</example>
+			<example count="52">7</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1438</male>
+				<female>1528</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2966" nulls="1147" mean="6.075" sd="4.498" median="5" min="0" max="46"/>
+			<example count="474">4</example>
+			<example count="389">2</example>
+			<example count="385">6</example>
+			<example count="367">3</example>
+			<example count="311">5</example>
+			<example count="214">8</example>
+			<example count="202">10</example>
+			<example count="160">12</example>
+			<example count="126">1</example>
+			<example count="72">7</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076240.v1.p1.c1" var_name="maxdrink_12month" calculated_type="integer" units="Standard drinks" reported_type="continuous decimal">
+	<description>Largest amount of alcohol in 24 hours - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1307</case>
+				<control>2966</control>
+			</case_control>
+			<sex>
+				<male>2379</male>
+				<female>2054</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4433" nulls="1786" mean="7.247" sd="5.617" median="6" min="0" max="60"/>
+			<example count="601">4</example>
+			<example count="529">6</example>
+			<example count="479">2</example>
+			<example count="437">3</example>
+			<example count="417">5</example>
+			<example count="359">10</example>
+			<example count="347">8</example>
+			<example count="296">12</example>
+			<example count="192">15</example>
+			<example count="169">1</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>856</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1307" nulls="463" mean="10.27" sd="6.786" median="9" min="0" max="60"/>
+			<example count="151">10</example>
+			<example count="135">12</example>
+			<example count="131">6</example>
+			<example count="122">8</example>
+			<example count="119">15</example>
+			<example count="110">4</example>
+			<example count="94">5</example>
+			<example count="56">2</example>
+			<example count="52">20</example>
+			<example count="52">7</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1438</male>
+				<female>1528</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2966" nulls="1147" mean="6.075" sd="4.498" median="5" min="0" max="46"/>
+			<example count="474">4</example>
+			<example count="389">2</example>
+			<example count="385">6</example>
+			<example count="367">3</example>
+			<example count="311">5</example>
+			<example count="214">8</example>
+			<example count="202">10</example>
+			<example count="160">12</example>
+			<example count="126">1</example>
+			<example count="72">7</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076241.v1.p1" var_name="frqdrkmax_12month" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of 5+ drinks / day - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1672</case>
+				<control>3596</control>
+			</case_control>
+			<sex>
+				<male>2732</male>
+				<female>2768</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5500" nulls="719" mean_count="550" sd="464.7" median_count="475.5" min_count="110" max_count="1760"/>
+			<enum code="L" count="1760">Never</enum>
+			<enum code="J" count="697">3-11 days per year</enum>
+			<enum code="K" count="569">Less often</enum>
+			<enum code="G" count="534">1 day per week</enum>
+			<enum code="I" count="480">1 day per month</enum>
+			<enum code="H" count="471">2-3 days per month</enum>
+			<enum code="F" count="452">2 days per week</enum>
+			<enum code="C" count="304">3-4 days per week</enum>
+			<enum code="A" count="123">Every day</enum>
+			<enum code="B" count="110">5-6 days per week</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1037</male>
+				<female>635</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1672" nulls="98" mean_count="167.2" sd="61.75" median_count="176.5" min_count="78" max_count="265"/>
+			<enum code="F" count="265">2 days per week</enum>
+			<enum code="G" count="240">1 day per week</enum>
+			<enum code="L" count="203">Never</enum>
+			<enum code="C" count="181">3-4 days per week</enum>
+			<enum code="H" count="179">2-3 days per month</enum>
+			<enum code="J" count="174">3-11 days per year</enum>
+			<enum code="I" count="148">1 day per month</enum>
+			<enum code="K" count="124">Less often</enum>
+			<enum code="A" count="80">Every day</enum>
+			<enum code="B" count="78">5-6 days per week</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1598</male>
+				<female>1998</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3596" nulls="517" mean_count="359.6" sd="402.3" median_count="283" min_count="26" max_count="1411"/>
+			<enum code="L" count="1411">Never</enum>
+			<enum code="J" count="513">3-11 days per year</enum>
+			<enum code="K" count="429">Less often</enum>
+			<enum code="I" count="323">1 day per month</enum>
+			<enum code="H" count="284">2-3 days per month</enum>
+			<enum code="G" count="282">1 day per week</enum>
+			<enum code="F" count="181">2 days per week</enum>
+			<enum code="C" count="113">3-4 days per week</enum>
+			<enum code="A" count="34">Every day</enum>
+			<enum code="B" count="26">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076241.v1.p1.c1" var_name="frqdrkmax_12month" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of 5+ drinks / day - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1672</case>
+				<control>3596</control>
+			</case_control>
+			<sex>
+				<male>2732</male>
+				<female>2768</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5500" nulls="719" mean_count="550" sd="464.7" median_count="475.5" min_count="110" max_count="1760"/>
+			<enum code="L" count="1760">Never</enum>
+			<enum code="J" count="697">3-11 days per year</enum>
+			<enum code="K" count="569">Less often</enum>
+			<enum code="G" count="534">1 day per week</enum>
+			<enum code="I" count="480">1 day per month</enum>
+			<enum code="H" count="471">2-3 days per month</enum>
+			<enum code="F" count="452">2 days per week</enum>
+			<enum code="C" count="304">3-4 days per week</enum>
+			<enum code="A" count="123">Every day</enum>
+			<enum code="B" count="110">5-6 days per week</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1037</male>
+				<female>635</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1672" nulls="98" mean_count="167.2" sd="61.75" median_count="176.5" min_count="78" max_count="265"/>
+			<enum code="F" count="265">2 days per week</enum>
+			<enum code="G" count="240">1 day per week</enum>
+			<enum code="L" count="203">Never</enum>
+			<enum code="C" count="181">3-4 days per week</enum>
+			<enum code="H" count="179">2-3 days per month</enum>
+			<enum code="J" count="174">3-11 days per year</enum>
+			<enum code="I" count="148">1 day per month</enum>
+			<enum code="K" count="124">Less often</enum>
+			<enum code="A" count="80">Every day</enum>
+			<enum code="B" count="78">5-6 days per week</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1598</male>
+				<female>1998</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3596" nulls="517" mean_count="359.6" sd="402.3" median_count="283" min_count="26" max_count="1411"/>
+			<enum code="L" count="1411">Never</enum>
+			<enum code="J" count="513">3-11 days per year</enum>
+			<enum code="K" count="429">Less often</enum>
+			<enum code="I" count="323">1 day per month</enum>
+			<enum code="H" count="284">2-3 days per month</enum>
+			<enum code="G" count="282">1 day per week</enum>
+			<enum code="F" count="181">2 days per week</enum>
+			<enum code="C" count="113">3-4 days per week</enum>
+			<enum code="A" count="34">Every day</enum>
+			<enum code="B" count="26">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076242.v1.p1" var_name="frqintoxmax_12month" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of intoxication - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1667</case>
+				<control>3321</control>
+			</case_control>
+			<sex>
+				<male>2655</male>
+				<female>2564</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5219" nulls="1000" mean_count="521.9" sd="724" median_count="233.5" min_count="14" max_count="2336"/>
+			<enum code="L" count="2336">Never</enum>
+			<enum code="K" count="1079">Less often</enum>
+			<enum code="J" count="740">3-11 days per year</enum>
+			<enum code="I" count="375">1 day per month</enum>
+			<enum code="G" count="240">1 day per week</enum>
+			<enum code="H" count="227">2-3 days per month</enum>
+			<enum code="F" count="141">2 days per week</enum>
+			<enum code="C" count="51">3-4 days per week</enum>
+			<enum code="A" count="16">Every day</enum>
+			<enum code="B" count="14">5-6 days per week</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1034</male>
+				<female>633</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1667" nulls="103" mean_count="166.7" sd="129.6" median_count="152.5" min_count="12" max_count="387"/>
+			<enum code="L" count="387">Never</enum>
+			<enum code="J" count="306">3-11 days per year</enum>
+			<enum code="K" count="293">Less often</enum>
+			<enum code="I" count="195">1 day per month</enum>
+			<enum code="G" count="175">1 day per week</enum>
+			<enum code="H" count="130">2-3 days per month</enum>
+			<enum code="F" count="109">2 days per week</enum>
+			<enum code="C" count="46">3-4 days per week</enum>
+			<enum code="A" count="14">Every day</enum>
+			<enum code="B" count="12">5-6 days per week</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1524</male>
+				<female>1797</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3321" nulls="792" mean_count="332.1" sd="559.6" median_count="78.5" min_count="1" max_count="1768"/>
+			<enum code="L" count="1768">Never</enum>
+			<enum code="K" count="755">Less often</enum>
+			<enum code="J" count="425">3-11 days per year</enum>
+			<enum code="I" count="177">1 day per month</enum>
+			<enum code="H" count="96">2-3 days per month</enum>
+			<enum code="G" count="61">1 day per week</enum>
+			<enum code="F" count="31">2 days per week</enum>
+			<enum code="C" count="5">3-4 days per week</enum>
+			<enum code="A" count="2">Every day</enum>
+			<enum code="B" count="1">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076242.v1.p1.c1" var_name="frqintoxmax_12month" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of intoxication - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1667</case>
+				<control>3321</control>
+			</case_control>
+			<sex>
+				<male>2655</male>
+				<female>2564</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5219" nulls="1000" mean_count="521.9" sd="724" median_count="233.5" min_count="14" max_count="2336"/>
+			<enum code="L" count="2336">Never</enum>
+			<enum code="K" count="1079">Less often</enum>
+			<enum code="J" count="740">3-11 days per year</enum>
+			<enum code="I" count="375">1 day per month</enum>
+			<enum code="G" count="240">1 day per week</enum>
+			<enum code="H" count="227">2-3 days per month</enum>
+			<enum code="F" count="141">2 days per week</enum>
+			<enum code="C" count="51">3-4 days per week</enum>
+			<enum code="A" count="16">Every day</enum>
+			<enum code="B" count="14">5-6 days per week</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1034</male>
+				<female>633</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1667" nulls="103" mean_count="166.7" sd="129.6" median_count="152.5" min_count="12" max_count="387"/>
+			<enum code="L" count="387">Never</enum>
+			<enum code="J" count="306">3-11 days per year</enum>
+			<enum code="K" count="293">Less often</enum>
+			<enum code="I" count="195">1 day per month</enum>
+			<enum code="G" count="175">1 day per week</enum>
+			<enum code="H" count="130">2-3 days per month</enum>
+			<enum code="F" count="109">2 days per week</enum>
+			<enum code="C" count="46">3-4 days per week</enum>
+			<enum code="A" count="14">Every day</enum>
+			<enum code="B" count="12">5-6 days per week</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1524</male>
+				<female>1797</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3321" nulls="792" mean_count="332.1" sd="559.6" median_count="78.5" min_count="1" max_count="1768"/>
+			<enum code="L" count="1768">Never</enum>
+			<enum code="K" count="755">Less often</enum>
+			<enum code="J" count="425">3-11 days per year</enum>
+			<enum code="I" count="177">1 day per month</enum>
+			<enum code="H" count="96">2-3 days per month</enum>
+			<enum code="G" count="61">1 day per week</enum>
+			<enum code="F" count="31">2 days per week</enum>
+			<enum code="C" count="5">3-4 days per week</enum>
+			<enum code="A" count="2">Every day</enum>
+			<enum code="B" count="1">5-6 days per week</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076243.v1.p1" var_name="frqdrkalc_12month" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of any alcoholic drink - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1759</case>
+				<control>3823</control>
+			</case_control>
+			<sex>
+				<male>2894</male>
+				<female>2968</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5862" nulls="357" mean_count="586.2" sd="267.9" median_count="556.5" min_count="278" max_count="1118"/>
+			<enum code="C" count="1118">3-4 days per week</enum>
+			<enum code="F" count="912">2 days per week</enum>
+			<enum code="G" count="665">1 day per week</enum>
+			<enum code="B" count="649">5-6 days per week</enum>
+			<enum code="H" count="615">2-3 days per month</enum>
+			<enum code="A" count="498">Every day</enum>
+			<enum code="J" count="440">3-11 days per year</enum>
+			<enum code="I" count="389">1 day per month</enum>
+			<enum code="K" count="298">Less often</enum>
+			<enum code="L" count="278">Never</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1087</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1759" nulls="11" mean_count="175.9" sd="116.3" median_count="152" min_count="53" max_count="409"/>
+			<enum code="C" count="409">3-4 days per week</enum>
+			<enum code="F" count="300">2 days per week</enum>
+			<enum code="B" count="252">5-6 days per week</enum>
+			<enum code="A" count="203">Every day</enum>
+			<enum code="G" count="176">1 day per week</enum>
+			<enum code="H" count="128">2-3 days per month</enum>
+			<enum code="L" count="82">Never</enum>
+			<enum code="J" count="80">3-11 days per year</enum>
+			<enum code="I" count="76">1 day per month</enum>
+			<enum code="K" count="53">Less often</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1688</male>
+				<female>2135</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3823" nulls="290" mean_count="382.3" sd="170.4" median_count="350" min_count="146" max_count="687"/>
+			<enum code="C" count="687">3-4 days per week</enum>
+			<enum code="F" count="590">2 days per week</enum>
+			<enum code="H" count="470">2-3 days per month</enum>
+			<enum code="G" count="465">1 day per week</enum>
+			<enum code="B" count="370">5-6 days per week</enum>
+			<enum code="J" count="330">3-11 days per year</enum>
+			<enum code="I" count="299">1 day per month</enum>
+			<enum code="A" count="249">Every day</enum>
+			<enum code="K" count="217">Less often</enum>
+			<enum code="L" count="146">Never</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076243.v1.p1.c1" var_name="frqdrkalc_12month" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Frequency of any alcoholic drink - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1759</case>
+				<control>3823</control>
+			</case_control>
+			<sex>
+				<male>2894</male>
+				<female>2968</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5862" nulls="357" mean_count="586.2" sd="267.9" median_count="556.5" min_count="278" max_count="1118"/>
+			<enum code="C" count="1118">3-4 days per week</enum>
+			<enum code="F" count="912">2 days per week</enum>
+			<enum code="G" count="665">1 day per week</enum>
+			<enum code="B" count="649">5-6 days per week</enum>
+			<enum code="H" count="615">2-3 days per month</enum>
+			<enum code="A" count="498">Every day</enum>
+			<enum code="J" count="440">3-11 days per year</enum>
+			<enum code="I" count="389">1 day per month</enum>
+			<enum code="K" count="298">Less often</enum>
+			<enum code="L" count="278">Never</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1087</male>
+				<female>672</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1759" nulls="11" mean_count="175.9" sd="116.3" median_count="152" min_count="53" max_count="409"/>
+			<enum code="C" count="409">3-4 days per week</enum>
+			<enum code="F" count="300">2 days per week</enum>
+			<enum code="B" count="252">5-6 days per week</enum>
+			<enum code="A" count="203">Every day</enum>
+			<enum code="G" count="176">1 day per week</enum>
+			<enum code="H" count="128">2-3 days per month</enum>
+			<enum code="L" count="82">Never</enum>
+			<enum code="J" count="80">3-11 days per year</enum>
+			<enum code="I" count="76">1 day per month</enum>
+			<enum code="K" count="53">Less often</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1688</male>
+				<female>2135</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3823" nulls="290" mean_count="382.3" sd="170.4" median_count="350" min_count="146" max_count="687"/>
+			<enum code="C" count="687">3-4 days per week</enum>
+			<enum code="F" count="590">2 days per week</enum>
+			<enum code="H" count="470">2-3 days per month</enum>
+			<enum code="G" count="465">1 day per week</enum>
+			<enum code="B" count="370">5-6 days per week</enum>
+			<enum code="J" count="330">3-11 days per year</enum>
+			<enum code="I" count="299">1 day per month</enum>
+			<enum code="A" count="249">Every day</enum>
+			<enum code="K" count="217">Less often</enum>
+			<enum code="L" count="146">Never</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076244.v1.p1" var_name="qtydrkalc_12month" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Amount of alcohol during typical day - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1683</case>
+				<control>3722</control>
+			</case_control>
+			<sex>
+				<male>2815</male>
+				<female>2822</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5637" nulls="582" mean_count="563.7" sd="1032" median_count="88" min_count="1" max_count="3164"/>
+			<enum code="N" count="3164">1-2 drinks</enum>
+			<enum code="O" count="1548">3-4 drinks</enum>
+			<enum code="P" count="558">5-6 drinks</enum>
+			<enum code="Q" count="163">7-8 drinks</enum>
+			<enum code="S" count="109">9-11 drinks</enum>
+			<enum code="T" count="67">12-15 drinks</enum>
+			<enum code="U" count="13">16-18 drinks</enum>
+			<enum code="W" count="7">19-24 drinks</enum>
+			<enum code="X" count="7">25-30 drinks</enum>
+			<enum code="Z" count="1">31 or more drinks</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1045</male>
+				<female>638</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1683" nulls="87" mean_count="168.3" sd="237.3" median_count="59" min_count="1" max_count="593"/>
+			<enum code="N" count="593">1-2 drinks</enum>
+			<enum code="O" count="586">3-4 drinks</enum>
+			<enum code="P" count="283">5-6 drinks</enum>
+			<enum code="Q" count="86">7-8 drinks</enum>
+			<enum code="S" count="73">9-11 drinks</enum>
+			<enum code="T" count="45">12-15 drinks</enum>
+			<enum code="U" count="8">16-18 drinks</enum>
+			<enum code="W" count="4">19-24 drinks</enum>
+			<enum code="X" count="4">25-30 drinks</enum>
+			<enum code="Z" count="1">31 or more drinks</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1673</male>
+				<female>2049</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3722" nulls="391" mean_count="413.6" sd="802.9" median_count="36" min_count="1" max_count="2402"/>
+			<enum code="N" count="2402">1-2 drinks</enum>
+			<enum code="O" count="924">3-4 drinks</enum>
+			<enum code="P" count="256">5-6 drinks</enum>
+			<enum code="Q" count="74">7-8 drinks</enum>
+			<enum code="S" count="36">9-11 drinks</enum>
+			<enum code="T" count="21">12-15 drinks</enum>
+			<enum code="U" count="5">16-18 drinks</enum>
+			<enum code="W" count="3">19-24 drinks</enum>
+			<enum code="X" count="1">25-30 drinks</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076244.v1.p1.c1" var_name="qtydrkalc_12month" calculated_type="enum_integer" units="Standard drinks" reported_type="enumerated text">
+	<description>Amount of alcohol during typical day - past 12 months</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1683</case>
+				<control>3722</control>
+			</case_control>
+			<sex>
+				<male>2815</male>
+				<female>2822</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5637" nulls="582" mean_count="563.7" sd="1032" median_count="88" min_count="1" max_count="3164"/>
+			<enum code="N" count="3164">1-2 drinks</enum>
+			<enum code="O" count="1548">3-4 drinks</enum>
+			<enum code="P" count="558">5-6 drinks</enum>
+			<enum code="Q" count="163">7-8 drinks</enum>
+			<enum code="S" count="109">9-11 drinks</enum>
+			<enum code="T" count="67">12-15 drinks</enum>
+			<enum code="U" count="13">16-18 drinks</enum>
+			<enum code="W" count="7">19-24 drinks</enum>
+			<enum code="X" count="7">25-30 drinks</enum>
+			<enum code="Z" count="1">31 or more drinks</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1045</male>
+				<female>638</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1683" nulls="87" mean_count="168.3" sd="237.3" median_count="59" min_count="1" max_count="593"/>
+			<enum code="N" count="593">1-2 drinks</enum>
+			<enum code="O" count="586">3-4 drinks</enum>
+			<enum code="P" count="283">5-6 drinks</enum>
+			<enum code="Q" count="86">7-8 drinks</enum>
+			<enum code="S" count="73">9-11 drinks</enum>
+			<enum code="T" count="45">12-15 drinks</enum>
+			<enum code="U" count="8">16-18 drinks</enum>
+			<enum code="W" count="4">19-24 drinks</enum>
+			<enum code="X" count="4">25-30 drinks</enum>
+			<enum code="Z" count="1">31 or more drinks</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>1673</male>
+				<female>2049</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3722" nulls="391" mean_count="413.6" sd="802.9" median_count="36" min_count="1" max_count="2402"/>
+			<enum code="N" count="2402">1-2 drinks</enum>
+			<enum code="O" count="924">3-4 drinks</enum>
+			<enum code="P" count="256">5-6 drinks</enum>
+			<enum code="Q" count="74">7-8 drinks</enum>
+			<enum code="S" count="36">9-11 drinks</enum>
+			<enum code="T" count="21">12-15 drinks</enum>
+			<enum code="U" count="5">16-18 drinks</enum>
+			<enum code="W" count="3">19-24 drinks</enum>
+			<enum code="X" count="1">25-30 drinks</enum>
+		</stats>
+	</controls>
+</variable>
+
+</data_table>
+

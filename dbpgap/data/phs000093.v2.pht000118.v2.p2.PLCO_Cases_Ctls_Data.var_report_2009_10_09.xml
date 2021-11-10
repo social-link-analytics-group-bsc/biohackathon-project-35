@@ -1,0 +1,1045 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="PLCO_Cases_Ctls_Data" dataset_id="pht000118.v2" study_name="A Genome Wide Scan of Lung Cancer and Smoking" study_id="phs000093.v2" participant_set="2" date_created="10/09/2009">
+
+<variable id="phv00022942.v2.p2" var_name="GENEVA_ID" calculated_type="string" reported_type="integer">
+	<description>Unique subject ID</description>
+	<comment>GENEVA IDs were randomly assigned to all subjects included in the phenotype dataset. This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022942.v2.p2.c1" var_name="GENEVA_ID" calculated_type="string" reported_type="integer">
+	<description>Unique subject ID</description>
+	<comment>GENEVA IDs were randomly assigned to all subjects included in the phenotype dataset. This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022942.v2.p2.c2" var_name="GENEVA_ID" calculated_type="string" reported_type="integer">
+	<description>Unique subject ID</description>
+	<comment>GENEVA IDs were randomly assigned to all subjects included in the phenotype dataset. This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022943.v2.p2" var_name="CASE_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Case or control status</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="814.5" sd="27.58" median_count="814.5" min_count="795" max_count="834"/>
+			<enum code="0" count="834">Control</enum>
+			<enum code="1" count="795">Case</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="795" median_count="795" min_count="795" max_count="795"/>
+			<enum code="1" count="795">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="834" median_count="834" min_count="834" max_count="834"/>
+			<enum code="0" count="834">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022943.v2.p2.c1" var_name="CASE_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Case or control status</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="814.5" sd="27.58" median_count="814.5" min_count="795" max_count="834"/>
+			<enum code="0" count="834">Control</enum>
+			<enum code="1" count="795">Case</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="795" median_count="795" min_count="795" max_count="795"/>
+			<enum code="1" count="795">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="834" median_count="834" min_count="834" max_count="834"/>
+			<enum code="0" count="834">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022943.v2.p2.c2" var_name="CASE_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Case or control status</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022944.v2.p2" var_name="SEX" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<comment>Male and female PLCO participants completed separate questionnaires. The actual questionnaires can be viewed by going to the PLCO Questionnaires in the Associated Documents navigation box under Documents.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset. To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="814.5" sd="225.6" median_count="814.5" min_count="655" max_count="974"/>
+			<enum code="1" count="974">Male</enum>
+			<enum code="2" count="655">Female</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="397.5" sd="136.5" median_count="397.5" min_count="301" max_count="494"/>
+			<enum code="1" count="494">Male</enum>
+			<enum code="2" count="301">Female</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="417" sd="89.1" median_count="417" min_count="354" max_count="480"/>
+			<enum code="1" count="480">Male</enum>
+			<enum code="2" count="354">Female</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022944.v2.p2.c1" var_name="SEX" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<comment>Male and female PLCO participants completed separate questionnaires. The actual questionnaires can be viewed by going to the PLCO Questionnaires in the Associated Documents navigation box under Documents.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset. To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="814.5" sd="225.6" median_count="814.5" min_count="655" max_count="974"/>
+			<enum code="1" count="974">Male</enum>
+			<enum code="2" count="655">Female</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="397.5" sd="136.5" median_count="397.5" min_count="301" max_count="494"/>
+			<enum code="1" count="494">Male</enum>
+			<enum code="2" count="301">Female</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="417" sd="89.1" median_count="417" min_count="354" max_count="480"/>
+			<enum code="1" count="480">Male</enum>
+			<enum code="2" count="354">Female</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022944.v2.p2.c2" var_name="SEX" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<comment>Male and female PLCO participants completed separate questionnaires. The actual questionnaires can be viewed by going to the PLCO Questionnaires in the Associated Documents navigation box under Documents.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset. To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022949.v2.p2" var_name="AGE" calculated_type="enum_integer" units="Years" reported_type="encoded value">
+	<description>Age level at diagnosis (for cases) or age at randomization (for controls)</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="271.5" sd="202" median_count="299.5" min_count="16" max_count="512"/>
+			<enum code="2" count="512">65-69</enum>
+			<enum code="1" count="449">60-64</enum>
+			<enum code="0" count="300">59 or less</enum>
+			<enum code="3" count="299">70-74</enum>
+			<enum code="4" count="53">75-79</enum>
+			<enum code="5" count="16">80-84</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="132.5" sd="86.18" median_count="148" min_count="16" max_count="245"/>
+			<enum code="2" count="245">65-69</enum>
+			<enum code="1" count="185">60-64</enum>
+			<enum code="3" count="174">70-74</enum>
+			<enum code="0" count="122">59 or less</enum>
+			<enum code="4" count="53">75-79</enum>
+			<enum code="5" count="16">80-84</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="208.5" sd="69.29" median_count="221" min_count="125" max_count="267"/>
+			<enum code="2" count="267">65-69</enum>
+			<enum code="1" count="264">60-64</enum>
+			<enum code="0" count="178">59 or less</enum>
+			<enum code="3" count="125">70-74</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022949.v2.p2.c1" var_name="AGE" calculated_type="enum_integer" units="Years" reported_type="encoded value">
+	<description>Age level at diagnosis (for cases) or age at randomization (for controls)</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="271.5" sd="202" median_count="299.5" min_count="16" max_count="512"/>
+			<enum code="2" count="512">65-69</enum>
+			<enum code="1" count="449">60-64</enum>
+			<enum code="0" count="300">59 or less</enum>
+			<enum code="3" count="299">70-74</enum>
+			<enum code="4" count="53">75-79</enum>
+			<enum code="5" count="16">80-84</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="132.5" sd="86.18" median_count="148" min_count="16" max_count="245"/>
+			<enum code="2" count="245">65-69</enum>
+			<enum code="1" count="185">60-64</enum>
+			<enum code="3" count="174">70-74</enum>
+			<enum code="0" count="122">59 or less</enum>
+			<enum code="4" count="53">75-79</enum>
+			<enum code="5" count="16">80-84</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="208.5" sd="69.29" median_count="221" min_count="125" max_count="267"/>
+			<enum code="2" count="267">65-69</enum>
+			<enum code="1" count="264">60-64</enum>
+			<enum code="0" count="178">59 or less</enum>
+			<enum code="3" count="125">70-74</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022949.v2.p2.c2" var_name="AGE" calculated_type="enum_integer" units="Years" reported_type="encoded value">
+	<description>Age level at diagnosis (for cases) or age at randomization (for controls)</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022950.v2.p2" var_name="MORPHOLOGY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Type of lung tumor</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+			</case_control>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="834" mean_count="113.6" sd="101.6" median_count="81" min_count="12" max_count="270"/>
+			<enum code="2" count="270">Adenocarcinoma (AD)</enum>
+			<enum code="99" count="233">Missing information or non-eligible tumor, classified as a non-case</enum>
+			<enum code="1" count="124">Squamous or epidermoid carcinoma (SQ)</enum>
+			<enum code="3" count="81">Small cell carcinoma (SM)</enum>
+			<enum code="8" count="44">Other lung cancer</enum>
+			<enum code="4" count="31">Large cell carcinoma (LG)</enum>
+			<enum code="7" count="12">Other non-small cell lung cancer (NSCLC)</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022950.v2.p2.c1" var_name="MORPHOLOGY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Type of lung tumor</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+			</case_control>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="834" mean_count="113.6" sd="101.6" median_count="81" min_count="12" max_count="270"/>
+			<enum code="2" count="270">Adenocarcinoma (AD)</enum>
+			<enum code="99" count="233">Missing information or non-eligible tumor, classified as a non-case</enum>
+			<enum code="1" count="124">Squamous or epidermoid carcinoma (SQ)</enum>
+			<enum code="3" count="81">Small cell carcinoma (SM)</enum>
+			<enum code="8" count="44">Other lung cancer</enum>
+			<enum code="4" count="31">Large cell carcinoma (LG)</enum>
+			<enum code="7" count="12">Other non-small cell lung cancer (NSCLC)</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022950.v2.p2.c2" var_name="MORPHOLOGY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Type of lung tumor</description>
+	<comment>This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right.</comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022951.v2.p2" var_name="STAGE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Lung cancer stage</description>
+	<comment>Indicates the lung cancer staging, according to the &quot;Revisions in the International System for Staging Lung Cancer&quot; [Chest 1997 Jun; 111(6): 1710-7]. Pathologic staging
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+			</case_control>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="834" mean_count="159" sd="73.85" median_count="163" min_count="40" max_count="223"/>
+			<enum code="4" count="223">Stage IV</enum>
+			<enum code="1" count="218">Stage 1</enum>
+			<enum code="99" count="163">Other or unknown or missing</enum>
+			<enum code="3" count="151">Stage III</enum>
+			<enum code="2" count="40">Stage II</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022951.v2.p2.c1" var_name="STAGE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Lung cancer stage</description>
+	<comment>Indicates the lung cancer staging, according to the &quot;Revisions in the International System for Staging Lung Cancer&quot; [Chest 1997 Jun; 111(6): 1710-7]. Pathologic staging
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+			</case_control>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="834" mean_count="159" sd="73.85" median_count="163" min_count="40" max_count="223"/>
+			<enum code="4" count="223">Stage IV</enum>
+			<enum code="1" count="218">Stage 1</enum>
+			<enum code="99" count="163">Other or unknown or missing</enum>
+			<enum code="3" count="151">Stage III</enum>
+			<enum code="2" count="40">Stage II</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022951.v2.p2.c2" var_name="STAGE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Lung cancer stage</description>
+	<comment>Indicates the lung cancer staging, according to the &quot;Revisions in the International System for Staging Lung Cancer&quot; [Chest 1997 Jun; 111(6): 1710-7]. Pathologic staging
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022947.v2.p2" var_name="SMOKING_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Smoking status</description>
+	<comment>Smoker defined as having smoked regularly for 6 months or longer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="543" sd="335.5" median_count="708" min_count="157" max_count="764"/>
+			<enum code="2" count="764">Current smoker</enum>
+			<enum code="1" count="708">Former smoker</enum>
+			<enum code="0" count="157">Never smoker</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="265" sd="175.5" median_count="281" min_count="82" max_count="432"/>
+			<enum code="1" count="432">Former smoker</enum>
+			<enum code="2" count="281">Current smoker</enum>
+			<enum code="0" count="82">Never smoker</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="278" sd="204" median_count="276" min_count="75" max_count="483"/>
+			<enum code="2" count="483">Current smoker</enum>
+			<enum code="1" count="276">Former smoker</enum>
+			<enum code="0" count="75">Never smoker</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022947.v2.p2.c1" var_name="SMOKING_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Smoking status</description>
+	<comment>Smoker defined as having smoked regularly for 6 months or longer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="543" sd="335.5" median_count="708" min_count="157" max_count="764"/>
+			<enum code="2" count="764">Current smoker</enum>
+			<enum code="1" count="708">Former smoker</enum>
+			<enum code="0" count="157">Never smoker</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="265" sd="175.5" median_count="281" min_count="82" max_count="432"/>
+			<enum code="1" count="432">Former smoker</enum>
+			<enum code="2" count="281">Current smoker</enum>
+			<enum code="0" count="82">Never smoker</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="278" sd="204" median_count="276" min_count="75" max_count="483"/>
+			<enum code="2" count="483">Current smoker</enum>
+			<enum code="1" count="276">Former smoker</enum>
+			<enum code="0" count="75">Never smoker</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022947.v2.p2.c2" var_name="SMOKING_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Smoking status</description>
+	<comment>Smoker defined as having smoked regularly for 6 months or longer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022948.v2.p2" var_name="PACK_YEARS" calculated_type="enum_integer" units="Pack-Years" reported_type="encoded value">
+	<description>Cumulative number of Pack-Years smoked</description>
+	<comment>Cumulative quantity of Pack-Years, calculated as Pack/day*years, where 1 pack=20 cigarettes. The questionnaire asks for age started (Q11) and age stopped (Q13) smoking and the category of cigarettes smoked per day (1-10, 11-20, etc-Q14). The number of packs per day is based on the midpoint of the range of cigarettes smoked per day. Pack years are derived by multiplying packs per day times duration.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="181" sd="93.36" median_count="157" min_count="62" max_count="331"/>
+			<enum code="3" count="331">&gt;30-40</enum>
+			<enum code="1" count="325">&gt;0-15</enum>
+			<enum code="2" count="214">&gt;15-30</enum>
+			<enum code="8" count="171">&gt;80</enum>
+			<enum code="99" count="157">Unknown or missing</enum>
+			<enum code="4" count="136">&gt;40-50</enum>
+			<enum code="5" count="127">&gt;50-60</enum>
+			<enum code="6" count="106">&gt;60-70</enum>
+			<enum code="7" count="62">&gt;70-80</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="88.33" sd="35.28" median_count="82" min_count="38" max_count="163"/>
+			<enum code="3" count="163">&gt;30-40</enum>
+			<enum code="8" count="107">&gt;80</enum>
+			<enum code="2" count="105">&gt;15-30</enum>
+			<enum code="1" count="93">&gt;0-15</enum>
+			<enum code="99" count="82">Unknown or missing</enum>
+			<enum code="5" count="72">&gt;50-60</enum>
+			<enum code="4" count="71">&gt;40-50</enum>
+			<enum code="6" count="64">&gt;60-70</enum>
+			<enum code="7" count="38">&gt;70-80</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="92.67" sd="67.04" median_count="65" min_count="24" max_count="232"/>
+			<enum code="1" count="232">&gt;0-15</enum>
+			<enum code="3" count="168">&gt;30-40</enum>
+			<enum code="2" count="109">&gt;15-30</enum>
+			<enum code="99" count="75">Unknown or missing</enum>
+			<enum code="4" count="65">&gt;40-50</enum>
+			<enum code="8" count="64">&gt;80</enum>
+			<enum code="5" count="55">&gt;50-60</enum>
+			<enum code="6" count="42">&gt;60-70</enum>
+			<enum code="7" count="24">&gt;70-80</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022948.v2.p2.c1" var_name="PACK_YEARS" calculated_type="enum_integer" units="Pack-Years" reported_type="encoded value">
+	<description>Cumulative number of Pack-Years smoked</description>
+	<comment>Cumulative quantity of Pack-Years, calculated as Pack/day*years, where 1 pack=20 cigarettes. The questionnaire asks for age started (Q11) and age stopped (Q13) smoking and the category of cigarettes smoked per day (1-10, 11-20, etc-Q14). The number of packs per day is based on the midpoint of the range of cigarettes smoked per day. Pack years are derived by multiplying packs per day times duration.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="181" sd="93.36" median_count="157" min_count="62" max_count="331"/>
+			<enum code="3" count="331">&gt;30-40</enum>
+			<enum code="1" count="325">&gt;0-15</enum>
+			<enum code="2" count="214">&gt;15-30</enum>
+			<enum code="8" count="171">&gt;80</enum>
+			<enum code="99" count="157">Unknown or missing</enum>
+			<enum code="4" count="136">&gt;40-50</enum>
+			<enum code="5" count="127">&gt;50-60</enum>
+			<enum code="6" count="106">&gt;60-70</enum>
+			<enum code="7" count="62">&gt;70-80</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="88.33" sd="35.28" median_count="82" min_count="38" max_count="163"/>
+			<enum code="3" count="163">&gt;30-40</enum>
+			<enum code="8" count="107">&gt;80</enum>
+			<enum code="2" count="105">&gt;15-30</enum>
+			<enum code="1" count="93">&gt;0-15</enum>
+			<enum code="99" count="82">Unknown or missing</enum>
+			<enum code="5" count="72">&gt;50-60</enum>
+			<enum code="4" count="71">&gt;40-50</enum>
+			<enum code="6" count="64">&gt;60-70</enum>
+			<enum code="7" count="38">&gt;70-80</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="92.67" sd="67.04" median_count="65" min_count="24" max_count="232"/>
+			<enum code="1" count="232">&gt;0-15</enum>
+			<enum code="3" count="168">&gt;30-40</enum>
+			<enum code="2" count="109">&gt;15-30</enum>
+			<enum code="99" count="75">Unknown or missing</enum>
+			<enum code="4" count="65">&gt;40-50</enum>
+			<enum code="8" count="64">&gt;80</enum>
+			<enum code="5" count="55">&gt;50-60</enum>
+			<enum code="6" count="42">&gt;60-70</enum>
+			<enum code="7" count="24">&gt;70-80</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022948.v2.p2.c2" var_name="PACK_YEARS" calculated_type="enum_integer" units="Pack-Years" reported_type="encoded value">
+	<description>Cumulative number of Pack-Years smoked</description>
+	<comment>Cumulative quantity of Pack-Years, calculated as Pack/day*years, where 1 pack=20 cigarettes. The questionnaire asks for age started (Q11) and age stopped (Q13) smoking and the category of cigarettes smoked per day (1-10, 11-20, etc-Q14). The number of packs per day is based on the midpoint of the range of cigarettes smoked per day. Pack years are derived by multiplying packs per day times duration.
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022945.v2.p2" var_name="FTND" calculated_type="enum_integer" reported_type="integer">
+	<description>Fagerstrom Test for Nicotine Dependence</description>
+	<comment>Calculated as the sum of the coded scores of questions C1-C6 inclusive where C1 answers coded: 0=After 60 minutes, 1=31-60 minutes, 2=6-30 minutes, 3=within 5 minutes, 99=Unknown or missing;C2 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C3 answers coded: 1=The first one in the morning, 0=Any other, 99=Unknown or missing;C4 answers coded: 0=Less than 10, 1=11-20, 2=21-30, 3=More than 30, 99=Unknown or missing;C5 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C6 answers coded: 0=No, 1=Yes, 99=Unknown or missing. No FTND score for PLCO study participants
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="1629" median_count="1629" min_count="1629" max_count="1629"/>
+			<enum code="99" count="1629">Unknown or missing</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="795" median_count="795" min_count="795" max_count="795"/>
+			<enum code="99" count="795">Unknown or missing</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="834" median_count="834" min_count="834" max_count="834"/>
+			<enum code="99" count="834">Unknown or missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022945.v2.p2.c1" var_name="FTND" calculated_type="enum_integer" reported_type="integer">
+	<description>Fagerstrom Test for Nicotine Dependence</description>
+	<comment>Calculated as the sum of the coded scores of questions C1-C6 inclusive where C1 answers coded: 0=After 60 minutes, 1=31-60 minutes, 2=6-30 minutes, 3=within 5 minutes, 99=Unknown or missing;C2 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C3 answers coded: 1=The first one in the morning, 0=Any other, 99=Unknown or missing;C4 answers coded: 0=Less than 10, 1=11-20, 2=21-30, 3=More than 30, 99=Unknown or missing;C5 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C6 answers coded: 0=No, 1=Yes, 99=Unknown or missing. No FTND score for PLCO study participants
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="1629" median_count="1629" min_count="1629" max_count="1629"/>
+			<enum code="99" count="1629">Unknown or missing</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="795" median_count="795" min_count="795" max_count="795"/>
+			<enum code="99" count="795">Unknown or missing</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="834" median_count="834" min_count="834" max_count="834"/>
+			<enum code="99" count="834">Unknown or missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022945.v2.p2.c2" var_name="FTND" calculated_type="enum_integer" reported_type="integer">
+	<description>Fagerstrom Test for Nicotine Dependence</description>
+	<comment>Calculated as the sum of the coded scores of questions C1-C6 inclusive where C1 answers coded: 0=After 60 minutes, 1=31-60 minutes, 2=6-30 minutes, 3=within 5 minutes, 99=Unknown or missing;C2 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C3 answers coded: 1=The first one in the morning, 0=Any other, 99=Unknown or missing;C4 answers coded: 0=Less than 10, 1=11-20, 2=21-30, 3=More than 30, 99=Unknown or missing;C5 answers coded: 0=No, 1=Yes, 99=Unknown or missing;C6 answers coded: 0=No, 1=Yes, 99=Unknown or missing. No FTND score for PLCO study participants
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00022946.v2.p2" var_name="FH_OF_LUNG_CANCER" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Family history of lung cancer</description>
+	<comment>Family history of lung cancer defined as having at least one 1st degree relative with lung cancer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="543" sd="672.5" median_count="221" min_count="92" max_count="1316"/>
+			<enum code="0" count="1316">None</enum>
+			<enum code="1" count="221">At least one 1st degree relative with lung cancer</enum>
+			<enum code="99" count="92">Missing or incomplete</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="265" sd="305.5" median_count="128" min_count="52" max_count="615"/>
+			<enum code="0" count="615">None</enum>
+			<enum code="1" count="128">At least one 1st degree relative with lung cancer</enum>
+			<enum code="99" count="52">Missing or incomplete</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="278" sd="367.3" median_count="93" min_count="40" max_count="701"/>
+			<enum code="0" count="701">None</enum>
+			<enum code="1" count="93">At least one 1st degree relative with lung cancer</enum>
+			<enum code="99" count="40">Missing or incomplete</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022946.v2.p2.c1" var_name="FH_OF_LUNG_CANCER" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Family history of lung cancer</description>
+	<comment>Family history of lung cancer defined as having at least one 1st degree relative with lung cancer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>795</case>
+				<control>834</control>
+			</case_control>
+			<sex>
+				<male>974</male>
+				<female>655</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1629" nulls="0" mean_count="543" sd="672.5" median_count="221" min_count="92" max_count="1316"/>
+			<enum code="0" count="1316">None</enum>
+			<enum code="1" count="221">At least one 1st degree relative with lung cancer</enum>
+			<enum code="99" count="92">Missing or incomplete</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>301</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="795" nulls="0" mean_count="265" sd="305.5" median_count="128" min_count="52" max_count="615"/>
+			<enum code="0" count="615">None</enum>
+			<enum code="1" count="128">At least one 1st degree relative with lung cancer</enum>
+			<enum code="99" count="52">Missing or incomplete</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>480</male>
+				<female>354</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="834" nulls="0" mean_count="278" sd="367.3" median_count="93" min_count="40" max_count="701"/>
+			<enum code="0" count="701">None</enum>
+			<enum code="1" count="93">At least one 1st degree relative with lung cancer</enum>
+			<enum code="99" count="40">Missing or incomplete</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00022946.v2.p2.c2" var_name="FH_OF_LUNG_CANCER" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Family history of lung cancer</description>
+	<comment>Family history of lung cancer defined as having at least one 1st degree relative with lung cancer
+		This study consists of two datasets, PLCO and Eagle, and you are currently looking at a variable from the PLCO dataset.  To access the Eagle dataset, please select the Eagle study in the Associated Variables navigation box to the right. </comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+</data_table>
+

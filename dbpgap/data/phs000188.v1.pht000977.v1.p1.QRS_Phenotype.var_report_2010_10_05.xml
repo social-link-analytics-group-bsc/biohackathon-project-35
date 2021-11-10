@@ -1,0 +1,1356 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="QRS_Phenotype" dataset_id="pht000977.v1" study_name="Vanderbilt Genome-Electronic Records (VGER) Project: QRS Duration" study_id="phs000188.v1" participant_set="1" date_created="10/05/2010">
+
+<variable id="phv00077276.v1.p1" var_name="SUBJID" calculated_type="string" reported_type="integer">
+	<description>Deidentified Subject&#39;s ID</description>
+	<comment>Deidentified ID where the first two digits denote the origination site of the samples; site key:  Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077276.v1.p1.c1" var_name="SUBJID" calculated_type="string" reported_type="integer">
+	<description>Deidentified Subject&#39;s ID</description>
+	<comment>Deidentified ID where the first two digits denote the origination site of the samples; site key:  Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077276.v1.p1.c2" var_name="SUBJID" calculated_type="string" reported_type="integer">
+	<description>Deidentified Subject&#39;s ID</description>
+	<comment>Deidentified ID where the first two digits denote the origination site of the samples; site key:  Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077277.v1.p1" var_name="SEX" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Gender of participant</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C44177">C44177</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="1511" sd="443.4" median_count="1511" min_count="1197" max_count="1824"/>
+			<enum code="C46110" count="1824">Female</enum>
+			<enum code="C46109" count="1197">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077277.v1.p1.c1" var_name="SEX" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Gender of participant</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C44177">C44177</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="1437" sd="395.3" median_count="1437" min_count="1157" max_count="1716"/>
+			<enum code="C46110" count="1716">Female</enum>
+			<enum code="C46109" count="1157">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077277.v1.p1.c2" var_name="SEX" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Gender of participant</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C44177">C44177</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="74" sd="48.08" median_count="74" min_count="40" max_count="108"/>
+			<enum code="C46110" count="108">Female</enum>
+			<enum code="C46109" count="40">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077278.v1.p1" var_name="RACE" calculated_type="enum_integer" reported_type="integer, encoded value">
+	<description>Race of participant</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C17049">C17049</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="604.2" sd="1034" median_count="119" min_count="1" max_count="2422"/>
+			<enum code="C41261" count="2422">White</enum>
+			<enum code="C16352" count="474">Black or African American</enum>
+			<enum code="C17998" count="119">Unknown</enum>
+			<enum code="C41260" count="5">Asian</enum>
+			<enum code="C41259" count="1">American Indian or Alaska Native</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077278.v1.p1.c1" var_name="RACE" calculated_type="enum_integer" reported_type="integer, encoded value">
+	<description>Race of participant</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C17049">C17049</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="574.6" sd="1041" median_count="119" min_count="1" max_count="2422"/>
+			<enum code="C41261" count="2422">White</enum>
+			<enum code="C16352" count="326">Black or African American</enum>
+			<enum code="C17998" count="119">Unknown</enum>
+			<enum code="C41260" count="5">Asian</enum>
+			<enum code="C41259" count="1">American Indian or Alaska Native</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077278.v1.p1.c2" var_name="RACE" calculated_type="enum_integer" reported_type="integer, encoded value">
+	<description>Race of participant</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C17049">C17049</a>
+		NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="C16352" count="148">Black or African American</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077279.v1.p1" var_name="YEAR_BIRTH" calculated_type="integer" units="Year" reported_type="integer">
+	<description>Participant&#39;s year of Birth</description>
+	<comment>Group patients &gt; 89 years of age into one decile denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean="1956" sd="14.55" median="1955" min="1929" max="1990"/>
+			<example count="94">1957</example>
+			<example count="92">1951</example>
+			<example count="92">1956</example>
+			<example count="86">1950</example>
+			<example count="84">1954</example>
+			<example count="84">1929</example>
+			<example count="83">1958</example>
+			<example count="82">1953</example>
+			<example count="80">1947</example>
+			<example count="80">1952</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077279.v1.p1.c1" var_name="YEAR_BIRTH" calculated_type="integer" units="Year" reported_type="integer">
+	<description>Participant&#39;s year of Birth</description>
+	<comment>Group patients &gt; 89 years of age into one decile denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean="1956" sd="14.68" median="1955" min="1929" max="1990"/>
+			<example count="88">1957</example>
+			<example count="88">1956</example>
+			<example count="84">1929</example>
+			<example count="83">1951</example>
+			<example count="80">1950</example>
+			<example count="80">1953</example>
+			<example count="79">1954</example>
+			<example count="77">1958</example>
+			<example count="77">1947</example>
+			<example count="77">1946</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077279.v1.p1.c2" var_name="YEAR_BIRTH" calculated_type="integer" units="Year" reported_type="integer">
+	<description>Participant&#39;s year of Birth</description>
+	<comment>Group patients &gt; 89 years of age into one decile denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean="1956" sd="11.83" median="1955" min="1932" max="1986"/>
+			<example count="10">1964</example>
+			<example count="9">1951</example>
+			<example count="8">1955</example>
+			<example count="6">1958</example>
+			<example count="6">1957</example>
+			<example count="6">1950</example>
+			<example count="5">1948</example>
+			<example count="5">1954</example>
+			<example count="4">1941</example>
+			<example count="4">1970</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077280.v1.p1" var_name="HEART_RATE" calculated_type="integer" units="Beats/min" reported_type="integer">
+	<description>Heart rate from first normal electrocardiogram</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2644397 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean="71.89" sd="10.95" median="71" min="51" max="100"/>
+			<example count="132">69</example>
+			<example count="119">67</example>
+			<example count="112">75</example>
+			<example count="109">63</example>
+			<example count="108">70</example>
+			<example count="106">64</example>
+			<example count="102">60</example>
+			<example count="102">73</example>
+			<example count="102">66</example>
+			<example count="101">68</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077280.v1.p1.c1" var_name="HEART_RATE" calculated_type="integer" units="Beats/min" reported_type="integer">
+	<description>Heart rate from first normal electrocardiogram</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2644397 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean="71.9" sd="10.93" median="71" min="51" max="99"/>
+			<example count="128">69</example>
+			<example count="113">67</example>
+			<example count="107">75</example>
+			<example count="106">70</example>
+			<example count="103">64</example>
+			<example count="101">63</example>
+			<example count="100">60</example>
+			<example count="96">74</example>
+			<example count="95">73</example>
+			<example count="94">68</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077280.v1.p1.c2" var_name="HEART_RATE" calculated_type="integer" units="Beats/min" reported_type="integer">
+	<description>Heart rate from first normal electrocardiogram</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2644397 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean="71.58" sd="11.42" median="71" min="51" max="100"/>
+			<example count="9">66</example>
+			<example count="8">63</example>
+			<example count="7">68</example>
+			<example count="7">73</example>
+			<example count="6">67</example>
+			<example count="5">71</example>
+			<example count="5">72</example>
+			<example count="5">75</example>
+			<example count="5">53</example>
+			<example count="5">65</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077281.v1.p1" var_name="QRS_COMPLEX_DURATION" calculated_type="integer" units="Milliseconds" reported_type="integer">
+	<description>QRS Duration from first normal electrocardiogram</description>
+	<comment>External variable resource: SNOMED; source ID: 251208001</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean="85.41" sd="8.819" median="85" min="61" max="114"/>
+			<example count="222">86</example>
+			<example count="208">84</example>
+			<example count="202">82</example>
+			<example count="180">88</example>
+			<example count="170">80</example>
+			<example count="148">90</example>
+			<example count="144">78</example>
+			<example count="143">92</example>
+			<example count="118">96</example>
+			<example count="117">76</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077281.v1.p1.c1" var_name="QRS_COMPLEX_DURATION" calculated_type="integer" units="Milliseconds" reported_type="integer">
+	<description>QRS Duration from first normal electrocardiogram</description>
+	<comment>External variable resource: SNOMED; source ID: 251208001</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean="85.51" sd="8.844" median="85" min="61" max="114"/>
+			<example count="204">86</example>
+			<example count="187">84</example>
+			<example count="181">82</example>
+			<example count="173">88</example>
+			<example count="158">80</example>
+			<example count="145">90</example>
+			<example count="137">92</example>
+			<example count="135">78</example>
+			<example count="111">96</example>
+			<example count="110">76</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077281.v1.p1.c2" var_name="QRS_COMPLEX_DURATION" calculated_type="integer" units="Milliseconds" reported_type="integer">
+	<description>QRS Duration from first normal electrocardiogram</description>
+	<comment>External variable resource: SNOMED; source ID: 251208001</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean="83.61" sd="8.124" median="84" min="62" max="102"/>
+			<example count="21">82</example>
+			<example count="21">84</example>
+			<example count="18">86</example>
+			<example count="12">80</example>
+			<example count="9">78</example>
+			<example count="7">70</example>
+			<example count="7">88</example>
+			<example count="7">96</example>
+			<example count="7">94</example>
+			<example count="7">76</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077282.v1.p1" var_name="QTCB" calculated_type="integer" units="Milliseconds" reported_type="integer">
+	<description>QT interval, corrected for heart rate via Bazett&#39;s formula, from first normal electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C62112">C62112</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean="411.9" sd="20" median="412" min="338" max="449"/>
+			<example count="69">415</example>
+			<example count="66">421</example>
+			<example count="64">405</example>
+			<example count="63">410</example>
+			<example count="62">413</example>
+			<example count="61">408</example>
+			<example count="61">411</example>
+			<example count="60">407</example>
+			<example count="59">398</example>
+			<example count="59">418</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077282.v1.p1.c1" var_name="QTCB" calculated_type="integer" units="Milliseconds" reported_type="integer">
+	<description>QT interval, corrected for heart rate via Bazett&#39;s formula, from first normal electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C62112">C62112</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean="411.9" sd="20.16" median="413" min="338" max="449"/>
+			<example count="66">415</example>
+			<example count="64">421</example>
+			<example count="61">405</example>
+			<example count="58">413</example>
+			<example count="57">409</example>
+			<example count="57">418</example>
+			<example count="56">425</example>
+			<example count="55">398</example>
+			<example count="55">410</example>
+			<example count="55">412</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077282.v1.p1.c2" var_name="QTCB" calculated_type="integer" units="Milliseconds" reported_type="integer">
+	<description>QT interval, corrected for heart rate via Bazett&#39;s formula, from first normal electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C62112">C62112</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean="410.6" sd="16.51" median="408" min="373" max="449"/>
+			<example count="10">397</example>
+			<example count="10">408</example>
+			<example count="8">410</example>
+			<example count="7">407</example>
+			<example count="6">411</example>
+			<example count="4">398</example>
+			<example count="4">395</example>
+			<example count="4">413</example>
+			<example count="4">419</example>
+			<example count="4">403</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077283.v1.p1" var_name="ECG_IMPRESSION_TEXT" calculated_type="string" reported_type="text">
+	<description>Cardiologist-generated free-text impression from first normal electrocardiogram</description>
+	<comment>Free text, cardiologist-generated ECG impression</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3016</case>
+			</case_control>
+			<sex>
+				<male>1196</male>
+				<female>1820</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3016" nulls="5" mean_count="5.648" sd="34.08" median_count="1" min_count="1" max_count="682" distinct_vals="534"/>
+			<example count="682">SINUS RHYTHM</example>
+			<example count="361">SINUS RHYTHM. NO PRIOR TRACING AVAILABLE FOR CO...</example>
+			<example count="72">SINUS RHYTHM. NO SIGNIFICANT CHANGE SINCE PRIOR...</example>
+			<example count="49">Normal sinus rhythm, rate  69</example>
+			<example count="46">Normal sinus rhythm, rate  70</example>
+			<example count="43">Normal sinus rhythm, rate  67</example>
+			<example count="39">Normal sinus rhythm, rate  68</example>
+			<example count="38">Normal sinus rhythm, rate  63</example>
+			<example count="36">Normal sinus rhythm, rate  76</example>
+			<example count="35">Normal sinus rhythm, rate  72</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077283.v1.p1.c1" var_name="ECG_IMPRESSION_TEXT" calculated_type="string" reported_type="text">
+	<description>Cardiologist-generated free-text impression from first normal electrocardiogram</description>
+	<comment>Free text, cardiologist-generated ECG impression</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2868</case>
+			</case_control>
+			<sex>
+				<male>1156</male>
+				<female>1712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2868" nulls="5" mean_count="5.975" sd="35.9" median_count="1" min_count="1" max_count="682" distinct_vals="480"/>
+			<example count="682">SINUS RHYTHM</example>
+			<example count="361">SINUS RHYTHM. NO PRIOR TRACING AVAILABLE FOR CO...</example>
+			<example count="72">SINUS RHYTHM. NO SIGNIFICANT CHANGE SINCE PRIOR...</example>
+			<example count="49">Normal sinus rhythm, rate  69</example>
+			<example count="46">Normal sinus rhythm, rate  70</example>
+			<example count="43">Normal sinus rhythm, rate  67</example>
+			<example count="39">Normal sinus rhythm, rate  68</example>
+			<example count="38">Normal sinus rhythm, rate  63</example>
+			<example count="36">Normal sinus rhythm, rate  76</example>
+			<example count="35">Normal sinus rhythm, rate  72</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077283.v1.p1.c2" var_name="ECG_IMPRESSION_TEXT" calculated_type="string" reported_type="text">
+	<description>Cardiologist-generated free-text impression from first normal electrocardiogram</description>
+	<comment>Free text, cardiologist-generated ECG impression</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="2.741" sd="4.965" median_count="1" min_count="1" max_count="31" distinct_vals="54"/>
+			<example count="31">SINUS RHYTHM WITHIN NORMAL LIMITS PREVIOUS ECGS...</example>
+			<example count="17">SINUS RHYTHM WITHIN NORMAL LIMITS</example>
+			<example count="11">DIAGNOSIS LINE:  SINUS RHYTHM  WITHIN NORMAL LI...</example>
+			<example count="10">SINUS BRADYCARDIA UNREMARKABLE, EXCEPT AS NOTED...</example>
+			<example count="7">SINUS RHYTHM WITHIN NORMAL LIMITS NO SIGNIFICAN...</example>
+			<example count="7">SINUS RHYTHM WITHIN NORMAL LIMITS SINCE THE PRE...</example>
+			<example count="6">[**Medical Record Number**] SINUS RHYTHM WITHIN...</example>
+			<example count="6">SINUS RHYTHM WITH SINUS ARRHYTHMIA WITHIN NORMA...</example>
+			<example count="3">SINUS BRADYCARDIA UNREMARKABLE, EXCEPT AS NOTED</example>
+			<example count="3">SINUS RHYTHM GENEROUS QRS VOLTAGE BORDERLINE EC...</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077284.v1.p1" var_name="AGE_FIRST_ECG" calculated_type="integer" units="Years" reported_type="integer">
+	<description>Patient&#39;s age at the time of the first electrocardiogram</description>
+	<comment>Age 90+ years denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean="48.9" sd="14.6" median="50" min="18" max="&gt;89"/>
+			<example count="109">51</example>
+			<example count="87">53</example>
+			<example count="86">52</example>
+			<example count="85">46</example>
+			<example count="82">50</example>
+			<example count="81">54</example>
+			<example count="76">58</example>
+			<example count="76">60</example>
+			<example count="76">56</example>
+			<example count="76">49</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077284.v1.p1.c1" var_name="AGE_FIRST_ECG" calculated_type="integer" units="Years" reported_type="integer">
+	<description>Patient&#39;s age at the time of the first electrocardiogram</description>
+	<comment>Age 90+ years denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean="49" sd="14.75" median="50" min="18" max="&gt;89"/>
+			<example count="101">51</example>
+			<example count="83">53</example>
+			<example count="81">52</example>
+			<example count="77">50</example>
+			<example count="77">46</example>
+			<example count="75">54</example>
+			<example count="74">58</example>
+			<example count="74">60</example>
+			<example count="73">56</example>
+			<example count="71">43</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077284.v1.p1.c2" var_name="AGE_FIRST_ECG" calculated_type="integer" units="Years" reported_type="integer">
+	<description>Patient&#39;s age at the time of the first electrocardiogram</description>
+	<comment>Age 90+ years denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean="47.06" sd="11.19" median="47" min="20" max="74"/>
+			<example count="10">41</example>
+			<example count="9">34</example>
+			<example count="8">46</example>
+			<example count="8">51</example>
+			<example count="6">54</example>
+			<example count="6">40</example>
+			<example count="6">59</example>
+			<example count="6">49</example>
+			<example count="5">44</example>
+			<example count="5">50</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077285.v1.p1" var_name="TYPE_2_DIABETES" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Diabetes status, as determined by the Northwestern T2D algorithm</description>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values.
+		External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C26747">C26747</a>   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="1007" sd="694.6" median_count="897" min_count="374" max_count="1750"/>
+			<enum code="U" count="1750">Uncertain or otherwise excluded as a case or a control; not enough information</enum>
+			<enum code="C49487" count="897">No (T2D control)</enum>
+			<enum code="C49488" count="374">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077285.v1.p1.c1" var_name="TYPE_2_DIABETES" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Diabetes status, as determined by the Northwestern T2D algorithm</description>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values.
+		External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C26747">C26747</a>   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="957.7" sd="652.4" median_count="881" min_count="347" max_count="1645"/>
+			<enum code="U" count="1645">Uncertain or otherwise excluded as a case or a control; not enough information</enum>
+			<enum code="C49487" count="881">No (T2D control)</enum>
+			<enum code="C49488" count="347">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077285.v1.p1.c2" var_name="TYPE_2_DIABETES" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Diabetes status, as determined by the Northwestern T2D algorithm</description>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values.
+		External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C26747">C26747</a>   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="49.33" sd="48.52" median_count="27" min_count="16" max_count="105"/>
+			<enum code="U" count="105">Uncertain or otherwise excluded as a case or a control; not enough information</enum>
+			<enum code="C49488" count="27">Yes</enum>
+			<enum code="C49487" count="16">No (T2D control)</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077286.v1.p1" var_name="AGE_TYPE_2_DIABETES" calculated_type="integer" units="Years" reported_type="integer">
+	<description>Age at the earliest indication of diabetes</description>
+	<comment>Age 90+ denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>374</case>
+			</case_control>
+			<sex>
+				<male>133</male>
+				<female>241</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="374" nulls="0" mean="51.01" sd="13.38" median="52" min="11" max="&gt;89"/>
+			<example code="." count="2647">Missing</example>
+			<example count="18">57</example>
+			<example count="16">46</example>
+			<example count="13">61</example>
+			<example count="13">51</example>
+			<example count="12">50</example>
+			<example count="12">52</example>
+			<example count="11">54</example>
+			<example count="10">48</example>
+			<example count="10">39</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077286.v1.p1.c1" var_name="AGE_TYPE_2_DIABETES" calculated_type="integer" units="Years" reported_type="integer">
+	<description>Age at the earliest indication of diabetes</description>
+	<comment>Age 90+ denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>347</case>
+			</case_control>
+			<sex>
+				<male>125</male>
+				<female>222</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="347" nulls="0" mean="50.79" sd="13.59" median="51" min="11" max="&gt;89"/>
+			<example code="." count="2526">Missing</example>
+			<example count="18">57</example>
+			<example count="13">46</example>
+			<example count="13">51</example>
+			<example count="12">61</example>
+			<example count="11">50</example>
+			<example count="11">52</example>
+			<example count="11">54</example>
+			<example count="10">48</example>
+			<example count="10">42</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077286.v1.p1.c2" var_name="AGE_TYPE_2_DIABETES" calculated_type="integer" units="Years" reported_type="integer">
+	<description>Age at the earliest indication of diabetes</description>
+	<comment>Age 90+ denoted as 90</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>27</case>
+			</case_control>
+			<sex>
+				<male>8</male>
+				<female>19</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="27" nulls="0" mean="53.89" sd="10.15" median="53" min="35" max="73"/>
+			<example code="." count="121">Missing</example>
+			<example count="3">53</example>
+			<example count="3">46</example>
+			<example count="2">60</example>
+			<example count="2">56</example>
+			<example count="2">45</example>
+			<example count="1">63</example>
+			<example count="1">72</example>
+			<example count="1">55</example>
+			<example count="1">61</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077287.v1.p1" var_name="ABNORMAL_CARDIAC_CONDUCTION" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Conduction abnormalities status at the time of the first electrocardiogram</description>
+	<comment>External variable resource: SNOMED; source ID: 36358004</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="604.2" sd="1262" median_count="11" min_count="1" max_count="2859"/>
+			<enum code="NR" count="2859">Not Recorded</enum>
+			<enum code="NA" count="148">Not Assessed</enum>
+			<enum code="P" count="11">Possible</enum>
+			<enum code="OE" count="2">Other Experiencer</enum>
+			<enum code="N" count="1">Negated</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077287.v1.p1.c1" var_name="ABNORMAL_CARDIAC_CONDUCTION" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Conduction abnormalities status at the time of the first electrocardiogram</description>
+	<comment>External variable resource: SNOMED; source ID: 36358004</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="718.2" sd="1427" median_count="6.5" min_count="1" max_count="2859"/>
+			<enum code="NR" count="2859">Not Recorded</enum>
+			<enum code="P" count="11">Possible</enum>
+			<enum code="OE" count="2">Other Experiencer</enum>
+			<enum code="N" count="1">Negated</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077287.v1.p1.c2" var_name="ABNORMAL_CARDIAC_CONDUCTION" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Conduction abnormalities status at the time of the first electrocardiogram</description>
+	<comment>External variable resource: SNOMED; source ID: 36358004</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="NA" count="148">Not Assessed</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077288.v1.p1" var_name="CONGESTIVE_HEART_FAILURE" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Congestive heart failure status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C3080">C3080</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="431.6" sd="1003" median_count="30" min_count="1" max_count="2701"/>
+			<enum code="NR" count="2701">Not Recorded</enum>
+			<enum code="NA" count="148">Not Assessed</enum>
+			<enum code="OE" count="137">Other Experiencer</enum>
+			<enum code="N" count="30">Negated</enum>
+			<enum code="P" count="2">Possible</enum>
+			<enum code="AR" count="2">At risk for</enum>
+			<enum code="A" count="1">Asserted</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077288.v1.p1.c1" var_name="CONGESTIVE_HEART_FAILURE" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Congestive heart failure status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C3080">C3080</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="478.8" sd="1090" median_count="16" min_count="1" max_count="2701"/>
+			<enum code="NR" count="2701">Not Recorded</enum>
+			<enum code="OE" count="137">Other Experiencer</enum>
+			<enum code="N" count="30">Negated</enum>
+			<enum code="P" count="2">Possible</enum>
+			<enum code="AR" count="2">At risk for</enum>
+			<enum code="A" count="1">Asserted</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077288.v1.p1.c2" var_name="CONGESTIVE_HEART_FAILURE" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Congestive heart failure status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C3080">C3080</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="NA" count="148">Not Assessed</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077289.v1.p1" var_name="ARRHYTHMIA" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Arrhythmia status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C2881">C2881</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="755.2" sd="1399" median_count="80.5" min_count="9" max_count="2851"/>
+			<enum code="NR" count="2851">Not Recorded</enum>
+			<enum code="NA" count="148">Not Assessed</enum>
+			<enum code="OE" count="13">Other Experiencer</enum>
+			<enum code="N" count="9">Negated</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077289.v1.p1.c1" var_name="ARRHYTHMIA" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Arrhythmia status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C2881">C2881</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="957.7" sd="1640" median_count="13" min_count="9" max_count="2851"/>
+			<enum code="NR" count="2851">Not Recorded</enum>
+			<enum code="OE" count="13">Other Experiencer</enum>
+			<enum code="N" count="9">Negated</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077289.v1.p1.c2" var_name="ARRHYTHMIA" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Arrhythmia status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C2881">C2881</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="NA" count="148">Not Assessed</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077290.v1.p1" var_name="LEFT_VENTRICULAR_HYPERTROPHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Left Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50631">C50631</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="503.5" sd="1149" median_count="11" min_count="1" max_count="2847"/>
+			<enum code="NR" count="2847">Not Recorded</enum>
+			<enum code="NA" count="148">Not Assessed</enum>
+			<enum code="N" count="13">Negated</enum>
+			<enum code="P" count="9">Possible</enum>
+			<enum code="OE" count="3">Other Experiencer</enum>
+			<enum code="A" count="1">Asserted</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077290.v1.p1.c1" var_name="LEFT_VENTRICULAR_HYPERTROPHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Left Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50631">C50631</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="574.6" sd="1270" median_count="9" min_count="1" max_count="2847"/>
+			<enum code="NR" count="2847">Not Recorded</enum>
+			<enum code="N" count="13">Negated</enum>
+			<enum code="P" count="9">Possible</enum>
+			<enum code="OE" count="3">Other Experiencer</enum>
+			<enum code="A" count="1">Asserted</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077290.v1.p1.c2" var_name="LEFT_VENTRICULAR_HYPERTROPHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Left Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50631">C50631</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="NA" count="148">Not Assessed</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077291.v1.p1" var_name="RIGHT_VENTRICULAR_HYPERTROPHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Right Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50734">C50734</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="755.2" sd="1409" median_count="76.5" min_count="1" max_count="2867"/>
+			<enum code="NR" count="2867">Not Recorded</enum>
+			<enum code="NA" count="148">Not Assessed</enum>
+			<enum code="P" count="5">Possible</enum>
+			<enum code="OE" count="1">Other Experiencer</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077291.v1.p1.c1" var_name="RIGHT_VENTRICULAR_HYPERTROPHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Right Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50734">C50734</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="957.7" sd="1654" median_count="5" min_count="1" max_count="2867"/>
+			<enum code="NR" count="2867">Not Recorded</enum>
+			<enum code="P" count="5">Possible</enum>
+			<enum code="OE" count="1">Other Experiencer</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077291.v1.p1.c2" var_name="RIGHT_VENTRICULAR_HYPERTROPHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Right Ventricular Hypertrophy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C50734">C50734</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="NA" count="148">Not Assessed</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077292.v1.p1" var_name="CORONARY_ARTERY_DISEASE" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Any evidence of CAD, including bypass surgery and myocardial infarction or ischemia</description>
+	<comment>External variable resource: SNOMED; source ID: 53741008</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="431.6" sd="668.6" median_count="148" min_count="18" max_count="1806"/>
+			<enum code="NR" count="1806">Not Recorded</enum>
+			<enum code="OE" count="820">Other Experiencer</enum>
+			<enum code="N" count="167">Negated</enum>
+			<enum code="NA" count="148">Not Assessed</enum>
+			<enum code="AR" count="41">At risk for</enum>
+			<enum code="P" count="21">Possible</enum>
+			<enum code="A" count="18">Asserted</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077292.v1.p1.c1" var_name="CORONARY_ARTERY_DISEASE" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Any evidence of CAD, including bypass surgery and myocardial infarction or ischemia</description>
+	<comment>External variable resource: SNOMED; source ID: 53741008</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="478.8" sd="719.5" median_count="104" min_count="18" max_count="1806"/>
+			<enum code="NR" count="1806">Not Recorded</enum>
+			<enum code="OE" count="820">Other Experiencer</enum>
+			<enum code="N" count="167">Negated</enum>
+			<enum code="AR" count="41">At risk for</enum>
+			<enum code="P" count="21">Possible</enum>
+			<enum code="A" count="18">Asserted</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077292.v1.p1.c2" var_name="CORONARY_ARTERY_DISEASE" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Any evidence of CAD, including bypass surgery and myocardial infarction or ischemia</description>
+	<comment>External variable resource: SNOMED; source ID: 53741008</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="NA" count="148">Not Assessed</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077293.v1.p1" var_name="CARDIOMYOPATHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Cardiomyopathy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C34830">C34830</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>3021</case>
+			</case_control>
+			<sex>
+				<male>1197</male>
+				<female>1824</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3021" nulls="0" mean_count="503.5" sd="1152" median_count="9" min_count="1" max_count="2853"/>
+			<enum code="NR" count="2853">Not Recorded</enum>
+			<enum code="NA" count="148">Not Assessed</enum>
+			<enum code="OE" count="15">Other Experiencer</enum>
+			<enum code="N" count="3">Negated</enum>
+			<enum code="A" count="1">Asserted</enum>
+			<enum code="AR" count="1">At risk for</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077293.v1.p1.c1" var_name="CARDIOMYOPATHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Cardiomyopathy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C34830">C34830</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2873</case>
+			</case_control>
+			<sex>
+				<male>1157</male>
+				<female>1716</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2873" nulls="0" mean_count="574.6" sd="1274" median_count="3" min_count="1" max_count="2853"/>
+			<enum code="NR" count="2853">Not Recorded</enum>
+			<enum code="OE" count="15">Other Experiencer</enum>
+			<enum code="N" count="3">Negated</enum>
+			<enum code="A" count="1">Asserted</enum>
+			<enum code="AR" count="1">At risk for</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00077293.v1.p1.c2" var_name="CARDIOMYOPATHY" calculated_type="enum_integer" reported_type="string, encoded value">
+	<description>Cardiomyopathy status at the time of the first electrocardiogram</description>
+	<comment><![CDATA[External variable resource: caBig; source ID: <a href="http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C34830">C34830</a>]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>148</case>
+			</case_control>
+			<sex>
+				<male>40</male>
+				<female>108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="148" nulls="0" mean_count="148" median_count="148" min_count="148" max_count="148"/>
+			<enum code="NA" count="148">Not Assessed</enum>
+		</stats>
+	</total>
+</variable>
+
+</data_table>
+

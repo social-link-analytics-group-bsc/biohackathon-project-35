@@ -1,0 +1,1199 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="MS_DATA_ASCT" dataset_id="pht000749.v1" study_name="Genetic Multiple Sclerosis Associations - GeneMSA" study_id="phs000171.v1" participant_set="1" date_created="12/11/2009">
+
+<variable id="phv00072719.v1.p1" var_name="SUBJID" calculated_type="string" reported_type="string">
+	<description>Subject&#39;s ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072719.v1.p1.c1" var_name="SUBJID" calculated_type="string" reported_type="string">
+	<description>Subject&#39;s ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072720.v1.p1" var_name="CASE_CONTROL" calculated_type="enum_integer" reported_type="string, encoded values">
+	<description>Type of subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="56.57" median_count="960" min_count="920" max_count="1000"/>
+			<enum code="CASE" count="1000">Affected subject per Protocol</enum>
+			<enum code="CNTL" count="920">Control subject per Protocol</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="1000" median_count="1000" min_count="1000" max_count="1000"/>
+			<enum code="CASE" count="1000">Affected subject per Protocol</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="920" median_count="920" min_count="920" max_count="920"/>
+			<enum code="CNTL" count="920">Control subject per Protocol</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072720.v1.p1.c1" var_name="CASE_CONTROL" calculated_type="enum_integer" reported_type="string, encoded values">
+	<description>Type of subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="56.57" median_count="960" min_count="920" max_count="1000"/>
+			<enum code="CASE" count="1000">Affected subject per Protocol</enum>
+			<enum code="CNTL" count="920">Control subject per Protocol</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="1000" median_count="1000" min_count="1000" max_count="1000"/>
+			<enum code="CASE" count="1000">Affected subject per Protocol</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="920" median_count="920" min_count="920" max_count="920"/>
+			<enum code="CNTL" count="920">Control subject per Protocol</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072721.v1.p1" var_name="STUDY" calculated_type="string" reported_type="string">
+	<description>Study ID</description>
+	<comment>Always RES101833</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0"/>
+			<enum count="1920">RES101833</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0"/>
+			<enum count="1000">RES101833</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0"/>
+			<enum count="920">RES101833</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072721.v1.p1.c1" var_name="STUDY" calculated_type="string" reported_type="string">
+	<description>Study ID</description>
+	<comment>Always RES101833</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0"/>
+			<enum count="1920">RES101833</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0"/>
+			<enum count="1000">RES101833</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0"/>
+			<enum count="920">RES101833</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072722.v1.p1" var_name="INVSITE" calculated_type="integer" reported_type="string">
+	<description>Investigator site ID</description>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean="20476" sd="1.219" median="20475" min="20475" max="20478"/>
+			<enum count="968">20475</enum>
+			<enum count="481">20476</enum>
+			<enum count="471">20478</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean="20476" sd="1.242" median="20475" min="20475" max="20478"/>
+			<enum count="508">20475</enum>
+			<enum count="258">20478</enum>
+			<enum count="234">20476</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean="20476" sd="1.194" median="20476" min="20475" max="20478"/>
+			<enum count="460">20475</enum>
+			<enum count="247">20476</enum>
+			<enum count="213">20478</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072722.v1.p1.c1" var_name="INVSITE" calculated_type="integer" reported_type="string">
+	<description>Investigator site ID</description>
+	<comment>Numeric code identifying the site (for internal use)</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean="20476" sd="1.219" median="20475" min="20475" max="20478"/>
+			<enum count="968">20475</enum>
+			<enum count="481">20476</enum>
+			<enum count="471">20478</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean="20476" sd="1.242" median="20475" min="20475" max="20478"/>
+			<enum count="508">20475</enum>
+			<enum count="258">20478</enum>
+			<enum count="234">20476</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean="20476" sd="1.194" median="20476" min="20475" max="20478"/>
+			<enum count="460">20475</enum>
+			<enum count="247">20476</enum>
+			<enum count="213">20478</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072723.v1.p1" var_name="INV" calculated_type="integer" reported_type="string">
+	<description>Investigator&#39;s ID</description>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean="39501" sd="7126" median="43562" min="27005" max="43563"/>
+			<enum count="968">43562</enum>
+			<enum count="481">43563</enum>
+			<enum count="471">27005</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean="39291" sd="7248" median="43562" min="27005" max="43563"/>
+			<enum count="508">43562</enum>
+			<enum count="258">27005</enum>
+			<enum count="234">43563</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean="39729" sd="6988" median="43562" min="27005" max="43563"/>
+			<enum count="460">43562</enum>
+			<enum count="247">43563</enum>
+			<enum count="213">27005</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072723.v1.p1.c1" var_name="INV" calculated_type="integer" reported_type="string">
+	<description>Investigator&#39;s ID</description>
+	<comment>Numeric code identifying the investigator (for internal use)</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean="39501" sd="7126" median="43562" min="27005" max="43563"/>
+			<enum count="968">43562</enum>
+			<enum count="481">43563</enum>
+			<enum count="471">27005</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean="39291" sd="7248" median="43562" min="27005" max="43563"/>
+			<enum count="508">43562</enum>
+			<enum count="258">27005</enum>
+			<enum count="234">43563</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean="39729" sd="6988" median="43562" min="27005" max="43563"/>
+			<enum count="460">43562</enum>
+			<enum count="247">43563</enum>
+			<enum count="213">27005</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072724.v1.p1" var_name="VISIT" calculated_type="enum_integer" reported_type="string">
+	<description>Visit name</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="1920" median_count="1920" min_count="1920" max_count="1920"/>
+			<enum code="ELIGIBILITY" count="1920">Eligibility questionnaire</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="1000" median_count="1000" min_count="1000" max_count="1000"/>
+			<enum code="ELIGIBILITY" count="1000">Eligibility questionnaire</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="920" median_count="920" min_count="920" max_count="920"/>
+			<enum code="ELIGIBILITY" count="920">Eligibility questionnaire</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072724.v1.p1.c1" var_name="VISIT" calculated_type="enum_integer" reported_type="string">
+	<description>Visit name</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="1920" median_count="1920" min_count="1920" max_count="1920"/>
+			<enum code="ELIGIBILITY" count="1920">Eligibility questionnaire</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="1000" median_count="1000" min_count="1000" max_count="1000"/>
+			<enum code="ELIGIBILITY" count="1000">Eligibility questionnaire</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="920" median_count="920" min_count="920" max_count="920"/>
+			<enum code="ELIGIBILITY" count="920">Eligibility questionnaire</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072725.v1.p1" var_name="VISIT_DATE" calculated_type="integer" reported_type="date">
+	<description>Visit date</description>
+	<comment>Truncated to YYYY</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean="2005" sd="0.6013" median="2005" min="2004" max="2006"/>
+			<enum count="1180">2005</enum>
+			<enum count="519">2004</enum>
+			<enum count="221">2006</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean="2005" sd="0.4749" median="2005" min="2004" max="2005"/>
+			<enum count="657">2005</enum>
+			<enum count="343">2004</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean="2005" sd="0.6554" median="2005" min="2004" max="2006"/>
+			<enum count="523">2005</enum>
+			<enum count="221">2006</enum>
+			<enum count="176">2004</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072725.v1.p1.c1" var_name="VISIT_DATE" calculated_type="integer" reported_type="date">
+	<description>Visit date</description>
+	<comment>Truncated to YYYY</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean="2005" sd="0.6013" median="2005" min="2004" max="2006"/>
+			<enum count="1180">2005</enum>
+			<enum count="519">2004</enum>
+			<enum count="221">2006</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean="2005" sd="0.4749" median="2005" min="2004" max="2005"/>
+			<enum count="657">2005</enum>
+			<enum count="343">2004</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean="2005" sd="0.6554" median="2005" min="2004" max="2006"/>
+			<enum count="523">2005</enum>
+			<enum count="221">2006</enum>
+			<enum count="176">2004</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072726.v1.p1" var_name="CLINIC" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>Recruitment through: clinic</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="275.8" median_count="960" min_count="765" max_count="1155"/>
+			<enum code="N" count="1155">No</enum>
+			<enum code="Y" count="765">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="500" sd="371.9" median_count="500" min_count="237" max_count="763"/>
+			<enum code="Y" count="763">Yes</enum>
+			<enum code="N" count="237">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="460" sd="647.7" median_count="460" min_count="2" max_count="918"/>
+			<enum code="N" count="918">No</enum>
+			<enum code="Y" count="2">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072726.v1.p1.c1" var_name="CLINIC" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>Recruitment through: clinic</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="275.8" median_count="960" min_count="765" max_count="1155"/>
+			<enum code="N" count="1155">No</enum>
+			<enum code="Y" count="765">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="500" sd="371.9" median_count="500" min_count="237" max_count="763"/>
+			<enum code="Y" count="763">Yes</enum>
+			<enum code="N" count="237">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="460" sd="647.7" median_count="460" min_count="2" max_count="918"/>
+			<enum code="N" count="918">No</enum>
+			<enum code="Y" count="2">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072727.v1.p1" var_name="CLNSBTYP" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>If recruitment through clinic: type of clinic - subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>763</case>
+				<control>2</control>
+			</case_control>
+			<sex>
+				<male>238</male>
+				<female>527</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="765" nulls="1155" mean_count="191.3" sd="293.8" median_count="71.5" min_count="1" max_count="621"/>
+			<enum code="SR" count="621">Retrospective (return subject to this speciality clinic)</enum>
+			<enum code="SP" count="140">Prospective (new subject to this speciality clinic)</enum>
+			<enum code="PG" count="3">Prospective (new subject to this clinic)</enum>
+			<enum code="RG" count="1">Retrospective (return subject to this clinic)</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>238</male>
+				<female>525</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="763" nulls="237" mean_count="190.8" sd="293.4" median_count="71" min_count="1" max_count="620"/>
+			<enum code="SR" count="620">Retrospective (return subject to this speciality clinic)</enum>
+			<enum code="SP" count="139">Prospective (new subject to this speciality clinic)</enum>
+			<enum code="PG" count="3">Prospective (new subject to this clinic)</enum>
+			<enum code="RG" count="1">Retrospective (return subject to this clinic)</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>2</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2" nulls="918" mean_count="1" sd="0" median_count="1" min_count="1" max_count="1"/>
+			<enum code="SR" count="1">Retrospective (return subject to this speciality clinic)</enum>
+			<enum code="SP" count="1">Prospective (new subject to this speciality clinic)</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072727.v1.p1.c1" var_name="CLNSBTYP" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>If recruitment through clinic: type of clinic - subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>763</case>
+				<control>2</control>
+			</case_control>
+			<sex>
+				<male>238</male>
+				<female>527</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="765" nulls="1155" mean_count="191.3" sd="293.8" median_count="71.5" min_count="1" max_count="621"/>
+			<enum code="SR" count="621">Retrospective (return subject to this speciality clinic)</enum>
+			<enum code="SP" count="140">Prospective (new subject to this speciality clinic)</enum>
+			<enum code="PG" count="3">Prospective (new subject to this clinic)</enum>
+			<enum code="RG" count="1">Retrospective (return subject to this clinic)</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>238</male>
+				<female>525</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="763" nulls="237" mean_count="190.8" sd="293.4" median_count="71" min_count="1" max_count="620"/>
+			<enum code="SR" count="620">Retrospective (return subject to this speciality clinic)</enum>
+			<enum code="SP" count="139">Prospective (new subject to this speciality clinic)</enum>
+			<enum code="PG" count="3">Prospective (new subject to this clinic)</enum>
+			<enum code="RG" count="1">Retrospective (return subject to this clinic)</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<female>2</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2" nulls="918" mean_count="1" sd="0" median_count="1" min_count="1" max_count="1"/>
+			<enum code="SR" count="1">Retrospective (return subject to this speciality clinic)</enum>
+			<enum code="SP" count="1">Prospective (new subject to this speciality clinic)</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072728.v1.p1" var_name="RECRTTYP" calculated_type="string" reported_type="Encoded Value">
+	<description>Recruitment type</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>234</case>
+			</case_control>
+			<sex>
+				<male>92</male>
+				<female>142</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="234" nulls="1686"/>
+			<enum code="POD" count="234">Previous or ongoing studies of this disease</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00072728.v1.p1.c1" var_name="RECRTTYP" calculated_type="string" reported_type="Encoded Value">
+	<description>Recruitment type</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>234</case>
+			</case_control>
+			<sex>
+				<male>92</male>
+				<female>142</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="234" nulls="1686"/>
+			<enum code="POD" count="234">Previous or ongoing studies of this disease</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00072729.v1.p1" var_name="RECRUIT" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>Recruitment from existing study populations</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="1027" median_count="960" min_count="234" max_count="1686"/>
+			<enum code="N" count="1686">No</enum>
+			<enum code="Y" count="234">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="500" sd="376.2" median_count="500" min_count="234" max_count="766"/>
+			<enum code="N" count="766">No</enum>
+			<enum code="Y" count="234">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="920" median_count="920" min_count="920" max_count="920"/>
+			<enum code="N" count="920">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072729.v1.p1.c1" var_name="RECRUIT" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>Recruitment from existing study populations</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="1027" median_count="960" min_count="234" max_count="1686"/>
+			<enum code="N" count="1686">No</enum>
+			<enum code="Y" count="234">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="500" sd="376.2" median_count="500" min_count="234" max_count="766"/>
+			<enum code="N" count="766">No</enum>
+			<enum code="Y" count="234">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="920" median_count="920" min_count="920" max_count="920"/>
+			<enum code="N" count="920">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072730.v1.p1" var_name="REFERRAL" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>Recruitment through: referral</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="52.33" median_count="960" min_count="923" max_count="997"/>
+			<enum code="N" count="997">No</enum>
+			<enum code="Y" count="923">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="500" sd="700" median_count="500" min_count="5" max_count="995"/>
+			<enum code="N" count="995">No</enum>
+			<enum code="Y" count="5">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="460" sd="647.7" median_count="460" min_count="2" max_count="918"/>
+			<enum code="Y" count="918">Yes</enum>
+			<enum code="N" count="2">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072730.v1.p1.c1" var_name="REFERRAL" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>Recruitment through: referral</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>920</control>
+			</case_control>
+			<sex>
+				<male>636</male>
+				<female>1284</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1920" nulls="0" mean_count="960" sd="52.33" median_count="960" min_count="923" max_count="997"/>
+			<enum code="N" count="997">No</enum>
+			<enum code="Y" count="923">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>330</male>
+				<female>670</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="0" mean_count="500" sd="700" median_count="500" min_count="5" max_count="995"/>
+			<enum code="N" count="995">No</enum>
+			<enum code="Y" count="5">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>614</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="920" nulls="0" mean_count="460" sd="647.7" median_count="460" min_count="2" max_count="918"/>
+			<enum code="Y" count="918">Yes</enum>
+			<enum code="N" count="2">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072731.v1.p1" var_name="REFTYP" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>If recruitment through referral: type of referral</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>5</case>
+				<control>918</control>
+			</case_control>
+			<sex>
+				<male>306</male>
+				<female>617</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="923" nulls="997" mean_count="230.8" sd="303" median_count="120.5" min_count="5" max_count="677"/>
+			<enum code="RA" count="677">Referral from relative or acquaintance</enum>
+			<enum code="S" count="142">Other, self referral</enum>
+			<enum code="AD" count="99">Response to advertisements</enum>
+			<enum code="DS" count="5">Disorder related specialist</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>5</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5" nulls="995" mean_count="2.5" sd="0.7071" median_count="2.5" min_count="2" max_count="3"/>
+			<enum code="DS" count="3">Disorder related specialist</enum>
+			<enum code="RA" count="2">Referral from relative or acquaintance</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>612</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="918" nulls="2" mean_count="229.5" sd="302.7" median_count="120.5" min_count="2" max_count="675"/>
+			<enum code="RA" count="675">Referral from relative or acquaintance</enum>
+			<enum code="S" count="142">Other, self referral</enum>
+			<enum code="AD" count="99">Response to advertisements</enum>
+			<enum code="DS" count="2">Disorder related specialist</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072731.v1.p1.c1" var_name="REFTYP" calculated_type="enum_integer" reported_type="Encoded Value">
+	<description>If recruitment through referral: type of referral</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>5</case>
+				<control>918</control>
+			</case_control>
+			<sex>
+				<male>306</male>
+				<female>617</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="923" nulls="997" mean_count="230.8" sd="303" median_count="120.5" min_count="5" max_count="677"/>
+			<enum code="RA" count="677">Referral from relative or acquaintance</enum>
+			<enum code="S" count="142">Other, self referral</enum>
+			<enum code="AD" count="99">Response to advertisements</enum>
+			<enum code="DS" count="5">Disorder related specialist</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<female>5</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="5" nulls="995" mean_count="2.5" sd="0.7071" median_count="2.5" min_count="2" max_count="3"/>
+			<enum code="DS" count="3">Disorder related specialist</enum>
+			<enum code="RA" count="2">Referral from relative or acquaintance</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>306</male>
+				<female>612</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="918" nulls="2" mean_count="229.5" sd="302.7" median_count="120.5" min_count="2" max_count="675"/>
+			<enum code="RA" count="675">Referral from relative or acquaintance</enum>
+			<enum code="S" count="142">Other, self referral</enum>
+			<enum code="AD" count="99">Response to advertisements</enum>
+			<enum code="DS" count="2">Disorder related specialist</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00072732.v1.p1" var_name="OTHTX" calculated_type="string" reported_type="String">
+	<description>Other (referral type) - text</description>
+	<comment>Free text field</comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="1920"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00072732.v1.p1.c1" var_name="OTHTX" calculated_type="string" reported_type="String">
+	<description>Other (referral type) - text</description>
+	<comment>Free text field</comment>
+	<total>
+		<stats>
+			<stat n="0" nulls="1920"/>
+		</stats>
+	</total>
+</variable>
+
+</data_table>
+

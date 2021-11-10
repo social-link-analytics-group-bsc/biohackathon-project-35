@@ -1,0 +1,2957 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="T2D_Starr_Data" dataset_id="pht000644.v1" study_name="Starr County Health Studies&#39; Genetics of Diabetes Study" study_id="phs000143.v1" participant_set="1" date_created="02/25/2011">
+
+<variable id="phv00066504.v1.p1" var_name="cidrid" calculated_type="string" reported_type="String">
+	<description>Study identification number</description>
+	<comment>This is an assigned de-identified number for each sample. The format consists of &#39;CD&#39; followed by a 4 digit integer</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066504.v1.p1.c1" var_name="cidrid" calculated_type="string" reported_type="String">
+	<description>Study identification number</description>
+	<comment>This is an assigned de-identified number for each sample. The format consists of &#39;CD&#39; followed by a 4 digit integer</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066505.v1.p1" var_name="casestat" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Case/control status</description>
+	<comment>Cases were chosen as individuals with type 2 diabetes that were identified as Mexican Americans. Classification of diabetes was based on National Diabetes Data Group recommendations from 1978. All such individuals also meet current recommendations. Indivi
+		Controls were chosen because they had no history of diabetes and were negative for diabetes on an oral glucose tolerance test using a 75 gm glucose load. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="990" sd="0" median_count="990" min_count="990" max_count="990"/>
+			<enum code="2" count="990">Case</enum>
+			<enum code="1" count="990">Control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="2" count="990">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="1" count="990">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066505.v1.p1.c1" var_name="casestat" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Case/control status</description>
+	<comment>Cases were chosen as individuals with type 2 diabetes that were identified as Mexican Americans. Classification of diabetes was based on National Diabetes Data Group recommendations from 1978. All such individuals also meet current recommendations. Indivi
+		Controls were chosen because they had no history of diabetes and were negative for diabetes on an oral glucose tolerance test using a 75 gm glucose load. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="990" sd="0" median_count="990" min_count="990" max_count="990"/>
+			<enum code="2" count="990">Case</enum>
+			<enum code="1" count="990">Control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="2" count="990">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="1" count="990">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066506.v1.p1" var_name="age" calculated_type="integer" units="Years old" reported_type="Integer">
+	<description>Age in years</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean="47.69" sd="13.98" median="46" min="25" max="87"/>
+			<example count="67">48</example>
+			<example count="62">43</example>
+			<example count="58">42</example>
+			<example count="56">35</example>
+			<example count="53">49</example>
+			<example count="53">46</example>
+			<example count="53">50</example>
+			<example count="52">44</example>
+			<example count="52">41</example>
+			<example count="51">28</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="56.55" sd="11.93" median="56" min="25" max="87"/>
+			<example count="48">52</example>
+			<example count="38">61</example>
+			<example count="35">56</example>
+			<example count="34">62</example>
+			<example count="33">58</example>
+			<example count="32">59</example>
+			<example count="32">53</example>
+			<example count="32">54</example>
+			<example count="31">72</example>
+			<example count="30">51</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="38.84" sd="9.573" median="38" min="26" max="77"/>
+			<example count="49">28</example>
+			<example count="48">35</example>
+			<example count="48">29</example>
+			<example count="46">32</example>
+			<example count="44">26</example>
+			<example count="44">31</example>
+			<example count="44">41</example>
+			<example count="42">33</example>
+			<example count="41">48</example>
+			<example count="40">43</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066506.v1.p1.c1" var_name="age" calculated_type="integer" units="Years old" reported_type="Integer">
+	<description>Age in years</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean="47.69" sd="13.98" median="46" min="25" max="87"/>
+			<example count="67">48</example>
+			<example count="62">43</example>
+			<example count="58">42</example>
+			<example count="56">35</example>
+			<example count="53">49</example>
+			<example count="53">46</example>
+			<example count="53">50</example>
+			<example count="52">44</example>
+			<example count="52">41</example>
+			<example count="51">28</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="56.55" sd="11.93" median="56" min="25" max="87"/>
+			<example count="48">52</example>
+			<example count="38">61</example>
+			<example count="35">56</example>
+			<example count="34">62</example>
+			<example count="33">58</example>
+			<example count="32">59</example>
+			<example count="32">53</example>
+			<example count="32">54</example>
+			<example count="31">72</example>
+			<example count="30">51</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="38.84" sd="9.573" median="38" min="26" max="77"/>
+			<example count="49">28</example>
+			<example count="48">35</example>
+			<example count="48">29</example>
+			<example count="46">32</example>
+			<example count="44">26</example>
+			<example count="44">31</example>
+			<example count="44">41</example>
+			<example count="42">33</example>
+			<example count="41">48</example>
+			<example count="40">43</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066507.v1.p1" var_name="gender" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Gender</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="990" sd="461" median_count="990" min_count="664" max_count="1316"/>
+			<enum code="2" count="1316">Female</enum>
+			<enum code="1" count="664">Male</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="495" sd="154.1" median_count="495" min_count="386" max_count="604"/>
+			<enum code="2" count="604">Female</enum>
+			<enum code="1" count="386">Male</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="495" sd="306.9" median_count="495" min_count="278" max_count="712"/>
+			<enum code="2" count="712">Female</enum>
+			<enum code="1" count="278">Male</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066507.v1.p1.c1" var_name="gender" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Gender</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="990" sd="461" median_count="990" min_count="664" max_count="1316"/>
+			<enum code="2" count="1316">Female</enum>
+			<enum code="1" count="664">Male</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="495" sd="154.1" median_count="495" min_count="386" max_count="604"/>
+			<enum code="2" count="604">Female</enum>
+			<enum code="1" count="386">Male</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="495" sd="306.9" median_count="495" min_count="278" max_count="712"/>
+			<enum code="2" count="712">Female</enum>
+			<enum code="1" count="278">Male</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066508.v1.p1" var_name="usamex" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Country of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="495" sd="571.2" median_count="405.5" min_count="16" max_count="1153"/>
+			<enum code="2" count="1153">Mexico</enum>
+			<enum code="1" count="793">USA</enum>
+			<enum code="3" count="18">Other</enum>
+			<enum code="9" count="16">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="247.5" sd="269.6" median_count="237.5" min_count="13" max_count="502"/>
+			<enum code="2" count="502">Mexico</enum>
+			<enum code="1" count="459">USA</enum>
+			<enum code="9" count="16">Unknown</enum>
+			<enum code="3" count="13">Other</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="323" median_count="334" min_count="5" max_count="651"/>
+			<enum code="2" count="651">Mexico</enum>
+			<enum code="1" count="334">USA</enum>
+			<enum code="3" count="5">Other</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066508.v1.p1.c1" var_name="usamex" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Country of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="495" sd="571.2" median_count="405.5" min_count="16" max_count="1153"/>
+			<enum code="2" count="1153">Mexico</enum>
+			<enum code="1" count="793">USA</enum>
+			<enum code="3" count="18">Other</enum>
+			<enum code="9" count="16">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="247.5" sd="269.6" median_count="237.5" min_count="13" max_count="502"/>
+			<enum code="2" count="502">Mexico</enum>
+			<enum code="1" count="459">USA</enum>
+			<enum code="9" count="16">Unknown</enum>
+			<enum code="3" count="13">Other</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="323" median_count="334" min_count="5" max_count="651"/>
+			<enum code="2" count="651">Mexico</enum>
+			<enum code="1" count="334">USA</enum>
+			<enum code="3" count="5">Other</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066509.v1.p1" var_name="bmi" calculated_type="decimal" reported_type="Decimal">
+	<description>Body mass index (BMI)</description>
+	<comment>Calculated as weight in kg divided by the height in meters squared.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1958" nulls="0" mean="30.95" sd="6.392" median="30" min="15.4" max="60.8"/>
+			<example count="22">28.3</example>
+			<example code="-99.9" count="22">Missing</example>
+			<example count="20">23.8</example>
+			<example count="20">26.7</example>
+			<example count="19">25.2</example>
+			<example count="19">26.6</example>
+			<example count="18">27.4</example>
+			<example count="18">28.9</example>
+			<example count="18">29.7</example>
+			<example count="18">27.3</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="968" nulls="0" mean="31.63" sd="6.362" median="30.7" min="15.4" max="60.8"/>
+			<example code="-99.9" count="22">Missing</example>
+			<example count="11">29.8</example>
+			<example count="11">28.4</example>
+			<example count="11">28.3</example>
+			<example count="11">29.7</example>
+			<example count="10">29</example>
+			<example count="10">31.9</example>
+			<example count="10">27.4</example>
+			<example count="10">26.7</example>
+			<example count="10">22.7</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="30.28" sd="6.354" median="29.4" min="16.5" max="58.4"/>
+			<example count="12">26.3</example>
+			<example count="12">28.7</example>
+			<example count="11">29.4</example>
+			<example count="11">31</example>
+			<example count="11">23.8</example>
+			<example count="11">25.2</example>
+			<example count="11">26.4</example>
+			<example count="11">28.3</example>
+			<example count="11">26.6</example>
+			<example count="10">30.4</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066509.v1.p1.c1" var_name="bmi" calculated_type="decimal" reported_type="Decimal">
+	<description>Body mass index (BMI)</description>
+	<comment>Calculated as weight in kg divided by the height in meters squared.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1958" nulls="0" mean="30.95" sd="6.392" median="30" min="15.4" max="60.8"/>
+			<example count="22">28.3</example>
+			<example code="-99.9" count="22">Missing</example>
+			<example count="20">23.8</example>
+			<example count="20">26.7</example>
+			<example count="19">25.2</example>
+			<example count="19">26.6</example>
+			<example count="18">27.4</example>
+			<example count="18">28.9</example>
+			<example count="18">29.7</example>
+			<example count="18">27.3</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="968" nulls="0" mean="31.63" sd="6.362" median="30.7" min="15.4" max="60.8"/>
+			<example code="-99.9" count="22">Missing</example>
+			<example count="11">29.8</example>
+			<example count="11">28.4</example>
+			<example count="11">28.3</example>
+			<example count="11">29.7</example>
+			<example count="10">29</example>
+			<example count="10">31.9</example>
+			<example count="10">27.4</example>
+			<example count="10">26.7</example>
+			<example count="10">22.7</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="30.28" sd="6.354" median="29.4" min="16.5" max="58.4"/>
+			<example count="12">26.3</example>
+			<example count="12">28.7</example>
+			<example count="11">29.4</example>
+			<example count="11">31</example>
+			<example count="11">23.8</example>
+			<example count="11">25.2</example>
+			<example count="11">26.4</example>
+			<example count="11">28.3</example>
+			<example count="11">26.6</example>
+			<example count="10">30.4</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066510.v1.p1" var_name="wtohip" calculated_type="decimal" reported_type="Decimal">
+	<description>Waist to hip ratio</description>
+	<comment>Waist circumference at the umbilicus measured in cm divided by the hip circumference (at widest point) also measured in cm.
+		In one series of potential cases, circumferences were not obtained thus explaining a higher than ordinary number of missing values. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1782" nulls="0" mean="0.9325" sd="0.09281" median="0.94" min="0.55" max="1.28"/>
+			<example code="-99.9" count="198">Missing</example>
+			<example count="86">0.98</example>
+			<example count="80">0.99</example>
+			<example count="74">0.92</example>
+			<example count="72">1.02</example>
+			<example count="71">0.87</example>
+			<example count="70">1.01</example>
+			<example count="68">0.95</example>
+			<example count="67">1.04</example>
+			<example count="64">0.94</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="792" nulls="0" mean="0.993" sd="0.0672" median="1" min="0.59" max="1.23"/>
+			<example code="-99.9" count="198">Missing</example>
+			<example count="61">1.04</example>
+			<example count="60">1.02</example>
+			<example count="56">0.99</example>
+			<example count="53">1.01</example>
+			<example count="51">0.98</example>
+			<example count="44">1</example>
+			<example count="44">1.05</example>
+			<example count="43">0.97</example>
+			<example count="41">1.03</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="0.8841" sd="0.08136" median="0.88" min="0.55" max="1.28"/>
+			<example count="63">0.87</example>
+			<example count="54">0.92</example>
+			<example count="52">0.86</example>
+			<example count="48">0.84</example>
+			<example count="48">0.83</example>
+			<example count="46">0.89</example>
+			<example count="45">0.85</example>
+			<example count="45">0.91</example>
+			<example count="43">0.9</example>
+			<example count="41">0.88</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066510.v1.p1.c1" var_name="wtohip" calculated_type="decimal" reported_type="Decimal">
+	<description>Waist to hip ratio</description>
+	<comment>Waist circumference at the umbilicus measured in cm divided by the hip circumference (at widest point) also measured in cm.
+		In one series of potential cases, circumferences were not obtained thus explaining a higher than ordinary number of missing values. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1782" nulls="0" mean="0.9325" sd="0.09281" median="0.94" min="0.55" max="1.28"/>
+			<example code="-99.9" count="198">Missing</example>
+			<example count="86">0.98</example>
+			<example count="80">0.99</example>
+			<example count="74">0.92</example>
+			<example count="72">1.02</example>
+			<example count="71">0.87</example>
+			<example count="70">1.01</example>
+			<example count="68">0.95</example>
+			<example count="67">1.04</example>
+			<example count="64">0.94</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="792" nulls="0" mean="0.993" sd="0.0672" median="1" min="0.59" max="1.23"/>
+			<example code="-99.9" count="198">Missing</example>
+			<example count="61">1.04</example>
+			<example count="60">1.02</example>
+			<example count="56">0.99</example>
+			<example count="53">1.01</example>
+			<example count="51">0.98</example>
+			<example count="44">1</example>
+			<example count="44">1.05</example>
+			<example count="43">0.97</example>
+			<example count="41">1.03</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="0.8841" sd="0.08136" median="0.88" min="0.55" max="1.28"/>
+			<example count="63">0.87</example>
+			<example count="54">0.92</example>
+			<example count="52">0.86</example>
+			<example count="48">0.84</example>
+			<example count="48">0.83</example>
+			<example count="46">0.89</example>
+			<example count="45">0.85</example>
+			<example count="45">0.91</example>
+			<example count="43">0.9</example>
+			<example count="41">0.88</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066511.v1.p1" var_name="chol" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Plasma cholesterol</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1960" nulls="0" mean="194.8" sd="41.96" median="190" min="76" max="443"/>
+			<example count="28">186</example>
+			<example count="26">185</example>
+			<example count="25">206</example>
+			<example count="25">198</example>
+			<example count="25">189</example>
+			<example count="25">158</example>
+			<example count="24">162</example>
+			<example count="24">183</example>
+			<example count="24">170</example>
+			<example count="23">163</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="972" nulls="0" mean="201.1" sd="45.83" median="197.5" min="76" max="443"/>
+			<example code="-99" count="18">Missing</example>
+			<example count="14">210</example>
+			<example count="13">206</example>
+			<example count="13">198</example>
+			<example count="13">162</example>
+			<example count="13">183</example>
+			<example count="13">185</example>
+			<example count="12">168</example>
+			<example count="12">213</example>
+			<example count="11">199</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="188.6" sd="36.74" median="185" min="84" max="367"/>
+			<example count="17">186</example>
+			<example count="16">189</example>
+			<example count="15">208</example>
+			<example count="15">191</example>
+			<example count="15">167</example>
+			<example count="14">163</example>
+			<example count="14">177</example>
+			<example count="14">158</example>
+			<example count="14">170</example>
+			<example count="13">160</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066511.v1.p1.c1" var_name="chol" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Plasma cholesterol</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1960" nulls="0" mean="194.8" sd="41.96" median="190" min="76" max="443"/>
+			<example count="28">186</example>
+			<example count="26">185</example>
+			<example count="25">206</example>
+			<example count="25">198</example>
+			<example count="25">189</example>
+			<example count="25">158</example>
+			<example count="24">162</example>
+			<example count="24">183</example>
+			<example count="24">170</example>
+			<example count="23">163</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="972" nulls="0" mean="201.1" sd="45.83" median="197.5" min="76" max="443"/>
+			<example code="-99" count="18">Missing</example>
+			<example count="14">210</example>
+			<example count="13">206</example>
+			<example count="13">198</example>
+			<example count="13">162</example>
+			<example count="13">183</example>
+			<example count="13">185</example>
+			<example count="12">168</example>
+			<example count="12">213</example>
+			<example count="11">199</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="188.6" sd="36.74" median="185" min="84" max="367"/>
+			<example count="17">186</example>
+			<example count="16">189</example>
+			<example count="15">208</example>
+			<example count="15">191</example>
+			<example count="15">167</example>
+			<example count="14">163</example>
+			<example count="14">177</example>
+			<example count="14">158</example>
+			<example count="14">170</example>
+			<example count="13">160</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066512.v1.p1" var_name="trig" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Plasma triglycerides</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean="178.4" sd="155.2" median="144" min="-99" max="2014"/>
+			<example count="21">-99</example>
+			<example count="17">90</example>
+			<example count="17">149</example>
+			<example count="16">127</example>
+			<example count="16">138</example>
+			<example count="16">99</example>
+			<example count="16">130</example>
+			<example count="15">162</example>
+			<example count="15">115</example>
+			<example count="15">116</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="215.1" sd="190.5" median="168" min="-99" max="2014"/>
+			<example count="19">-99</example>
+			<example count="10">117</example>
+			<example count="9">138</example>
+			<example count="9">600</example>
+			<example count="8">127</example>
+			<example count="8">163</example>
+			<example count="8">145</example>
+			<example count="8">154</example>
+			<example count="8">116</example>
+			<example count="8">143</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="141.8" sd="95.96" median="118" min="-99" max="1019"/>
+			<example count="13">75</example>
+			<example count="12">90</example>
+			<example count="11">83</example>
+			<example count="11">99</example>
+			<example count="10">115</example>
+			<example count="10">91</example>
+			<example count="10">100</example>
+			<example count="10">79</example>
+			<example count="10">88</example>
+			<example count="9">84</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066512.v1.p1.c1" var_name="trig" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Plasma triglycerides</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean="178.4" sd="155.2" median="144" min="-99" max="2014"/>
+			<example count="21">-99</example>
+			<example count="17">90</example>
+			<example count="17">149</example>
+			<example count="16">127</example>
+			<example count="16">138</example>
+			<example count="16">99</example>
+			<example count="16">130</example>
+			<example count="15">162</example>
+			<example count="15">115</example>
+			<example count="15">116</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="215.1" sd="190.5" median="168" min="-99" max="2014"/>
+			<example count="19">-99</example>
+			<example count="10">117</example>
+			<example count="9">138</example>
+			<example count="9">600</example>
+			<example count="8">127</example>
+			<example count="8">163</example>
+			<example count="8">145</example>
+			<example count="8">154</example>
+			<example count="8">116</example>
+			<example count="8">143</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="141.8" sd="95.96" median="118" min="-99" max="1019"/>
+			<example count="13">75</example>
+			<example count="12">90</example>
+			<example count="11">83</example>
+			<example count="11">99</example>
+			<example count="10">115</example>
+			<example count="10">91</example>
+			<example count="10">100</example>
+			<example count="10">79</example>
+			<example count="10">88</example>
+			<example count="9">84</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066513.v1.p1" var_name="hdlt" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Total plasma high density lipoprotein cholesterol</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1958" nulls="0" mean="46.59" sd="13.52" median="45" min="18" max="293"/>
+			<example count="88">45</example>
+			<example count="88">44</example>
+			<example count="85">43</example>
+			<example count="81">46</example>
+			<example count="79">41</example>
+			<example count="75">39</example>
+			<example count="72">42</example>
+			<example count="69">38</example>
+			<example count="67">49</example>
+			<example count="65">52</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="970" nulls="0" mean="43.52" sd="15.12" median="42" min="18" max="293"/>
+			<example count="47">45</example>
+			<example count="43">43</example>
+			<example count="43">41</example>
+			<example count="42">39</example>
+			<example count="39">38</example>
+			<example count="38">46</example>
+			<example count="37">37</example>
+			<example count="37">36</example>
+			<example count="37">34</example>
+			<example count="36">35</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="49.62" sd="10.93" median="48" min="23" max="110"/>
+			<example count="57">44</example>
+			<example count="43">46</example>
+			<example count="42">43</example>
+			<example count="42">42</example>
+			<example count="42">50</example>
+			<example count="41">45</example>
+			<example count="40">49</example>
+			<example count="39">52</example>
+			<example count="39">48</example>
+			<example count="36">41</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066513.v1.p1.c1" var_name="hdlt" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Total plasma high density lipoprotein cholesterol</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1958" nulls="0" mean="46.59" sd="13.52" median="45" min="18" max="293"/>
+			<example count="88">45</example>
+			<example count="88">44</example>
+			<example count="85">43</example>
+			<example count="81">46</example>
+			<example count="79">41</example>
+			<example count="75">39</example>
+			<example count="72">42</example>
+			<example count="69">38</example>
+			<example count="67">49</example>
+			<example count="65">52</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="970" nulls="0" mean="43.52" sd="15.12" median="42" min="18" max="293"/>
+			<example count="47">45</example>
+			<example count="43">43</example>
+			<example count="43">41</example>
+			<example count="42">39</example>
+			<example count="39">38</example>
+			<example count="38">46</example>
+			<example count="37">37</example>
+			<example count="37">36</example>
+			<example count="37">34</example>
+			<example count="36">35</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="49.62" sd="10.93" median="48" min="23" max="110"/>
+			<example count="57">44</example>
+			<example count="43">46</example>
+			<example count="42">43</example>
+			<example count="42">42</example>
+			<example count="42">50</example>
+			<example count="41">45</example>
+			<example count="40">49</example>
+			<example count="39">52</example>
+			<example count="39">48</example>
+			<example count="36">41</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066514.v1.p1" var_name="ldl" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Calculated low density lipoprotein cholesterol</description>
+	<comment>Calculated according to the Friedewald equation (Chol - Trig/5 - HDLT) when Trig &lt; 400. For Trig &gt;= 400, LDL is set to missing</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1845" nulls="0" mean="113.9" sd="32.54" median="111" min="14" max="239"/>
+			<example code="-99" count="135">Missing</example>
+			<example count="35">114</example>
+			<example count="31">92</example>
+			<example count="30">107</example>
+			<example count="29">118</example>
+			<example count="28">100</example>
+			<example count="28">106</example>
+			<example count="28">105</example>
+			<example count="27">102</example>
+			<example count="27">96</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="879" nulls="0" mean="116.9" sd="35.45" median="114" min="18" max="238"/>
+			<example code="-99" count="111">Missing</example>
+			<example count="17">102</example>
+			<example count="16">105</example>
+			<example count="15">103</example>
+			<example count="15">107</example>
+			<example count="14">124</example>
+			<example count="13">118</example>
+			<example count="13">145</example>
+			<example count="13">91</example>
+			<example count="13">121</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="966" nulls="0" mean="111.2" sd="29.41" median="110" min="14" max="239"/>
+			<example code="-99" count="24">Missing</example>
+			<example count="23">114</example>
+			<example count="23">96</example>
+			<example count="18">106</example>
+			<example count="18">92</example>
+			<example count="17">101</example>
+			<example count="17">100</example>
+			<example count="17">88</example>
+			<example count="17">111</example>
+			<example count="16">118</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066514.v1.p1.c1" var_name="ldl" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Calculated low density lipoprotein cholesterol</description>
+	<comment>Calculated according to the Friedewald equation (Chol - Trig/5 - HDLT) when Trig &lt; 400. For Trig &gt;= 400, LDL is set to missing</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1845" nulls="0" mean="113.9" sd="32.54" median="111" min="14" max="239"/>
+			<example code="-99" count="135">Missing</example>
+			<example count="35">114</example>
+			<example count="31">92</example>
+			<example count="30">107</example>
+			<example count="29">118</example>
+			<example count="28">100</example>
+			<example count="28">106</example>
+			<example count="28">105</example>
+			<example count="27">102</example>
+			<example count="27">96</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="879" nulls="0" mean="116.9" sd="35.45" median="114" min="18" max="238"/>
+			<example code="-99" count="111">Missing</example>
+			<example count="17">102</example>
+			<example count="16">105</example>
+			<example count="15">103</example>
+			<example count="15">107</example>
+			<example count="14">124</example>
+			<example count="13">118</example>
+			<example count="13">145</example>
+			<example count="13">91</example>
+			<example count="13">121</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="966" nulls="0" mean="111.2" sd="29.41" median="110" min="14" max="239"/>
+			<example code="-99" count="24">Missing</example>
+			<example count="23">114</example>
+			<example count="23">96</example>
+			<example count="18">106</example>
+			<example count="18">92</example>
+			<example count="17">101</example>
+			<example count="17">100</example>
+			<example count="17">88</example>
+			<example count="17">111</example>
+			<example count="16">118</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066515.v1.p1" var_name="sbp" calculated_type="integer" units="mmHg" reported_type="Integer">
+	<description>Systolic blood pressure</description>
+	<comment>Taken as the average of two measures (2nd and 3rd) using a Hawksley Random Zero Sphygmomanometer</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1963" nulls="0" mean="122.4" sd="20.45" median="119" min="66" max="213"/>
+			<example count="49">104</example>
+			<example count="49">116</example>
+			<example count="48">119</example>
+			<example count="44">118</example>
+			<example count="44">117</example>
+			<example count="43">115</example>
+			<example count="43">122</example>
+			<example count="43">125</example>
+			<example count="43">106</example>
+			<example count="42">114</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="974" nulls="0" mean="131.5" sd="21.08" median="129" min="66" max="213"/>
+			<example count="28">132</example>
+			<example count="26">115</example>
+			<example count="26">116</example>
+			<example count="25">119</example>
+			<example count="25">125</example>
+			<example count="24">129</example>
+			<example count="24">120</example>
+			<example count="24">130</example>
+			<example count="21">124</example>
+			<example count="20">127</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="989" nulls="0" mean="113.5" sd="15.26" median="111" min="79" max="202"/>
+			<example count="37">104</example>
+			<example count="35">106</example>
+			<example count="33">103</example>
+			<example count="30">102</example>
+			<example count="30">109</example>
+			<example count="30">117</example>
+			<example count="29">110</example>
+			<example count="28">105</example>
+			<example count="27">113</example>
+			<example count="27">100</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066515.v1.p1.c1" var_name="sbp" calculated_type="integer" units="mmHg" reported_type="Integer">
+	<description>Systolic blood pressure</description>
+	<comment>Taken as the average of two measures (2nd and 3rd) using a Hawksley Random Zero Sphygmomanometer</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1963" nulls="0" mean="122.4" sd="20.45" median="119" min="66" max="213"/>
+			<example count="49">104</example>
+			<example count="49">116</example>
+			<example count="48">119</example>
+			<example count="44">118</example>
+			<example count="44">117</example>
+			<example count="43">115</example>
+			<example count="43">122</example>
+			<example count="43">125</example>
+			<example count="43">106</example>
+			<example count="42">114</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="974" nulls="0" mean="131.5" sd="21.08" median="129" min="66" max="213"/>
+			<example count="28">132</example>
+			<example count="26">115</example>
+			<example count="26">116</example>
+			<example count="25">119</example>
+			<example count="25">125</example>
+			<example count="24">129</example>
+			<example count="24">120</example>
+			<example count="24">130</example>
+			<example count="21">124</example>
+			<example count="20">127</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="989" nulls="0" mean="113.5" sd="15.26" median="111" min="79" max="202"/>
+			<example count="37">104</example>
+			<example count="35">106</example>
+			<example count="33">103</example>
+			<example count="30">102</example>
+			<example count="30">109</example>
+			<example count="30">117</example>
+			<example count="29">110</example>
+			<example count="28">105</example>
+			<example count="27">113</example>
+			<example count="27">100</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066516.v1.p1" var_name="dbp" calculated_type="integer" units="mmHg" reported_type="Integer">
+	<description>Diastolic blood pressure</description>
+	<comment>Taken as the average of two measures (2nd and 3rd) using a Hawksley Random Zero Sphygmomanometer</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1963" nulls="0" mean="73.34" sd="11.1" median="73" min="32" max="139"/>
+			<example count="92">75</example>
+			<example count="91">76</example>
+			<example count="88">73</example>
+			<example count="75">77</example>
+			<example count="74">71</example>
+			<example count="73">69</example>
+			<example count="73">72</example>
+			<example count="71">74</example>
+			<example count="71">68</example>
+			<example count="69">70</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="974" nulls="0" mean="74.95" sd="12.08" median="75" min="37" max="139"/>
+			<example count="47">76</example>
+			<example count="44">75</example>
+			<example count="38">73</example>
+			<example count="38">80</example>
+			<example count="34">74</example>
+			<example count="34">77</example>
+			<example count="34">69</example>
+			<example count="34">72</example>
+			<example count="33">78</example>
+			<example count="32">71</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="989" nulls="0" mean="71.76" sd="9.797" median="72" min="32" max="124"/>
+			<example count="50">73</example>
+			<example count="48">75</example>
+			<example count="47">68</example>
+			<example count="44">76</example>
+			<example count="42">71</example>
+			<example count="41">77</example>
+			<example count="39">69</example>
+			<example count="39">72</example>
+			<example count="39">70</example>
+			<example count="37">74</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066516.v1.p1.c1" var_name="dbp" calculated_type="integer" units="mmHg" reported_type="Integer">
+	<description>Diastolic blood pressure</description>
+	<comment>Taken as the average of two measures (2nd and 3rd) using a Hawksley Random Zero Sphygmomanometer</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1963" nulls="0" mean="73.34" sd="11.1" median="73" min="32" max="139"/>
+			<example count="92">75</example>
+			<example count="91">76</example>
+			<example count="88">73</example>
+			<example count="75">77</example>
+			<example count="74">71</example>
+			<example count="73">69</example>
+			<example count="73">72</example>
+			<example count="71">74</example>
+			<example count="71">68</example>
+			<example count="69">70</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="974" nulls="0" mean="74.95" sd="12.08" median="75" min="37" max="139"/>
+			<example count="47">76</example>
+			<example count="44">75</example>
+			<example count="38">73</example>
+			<example count="38">80</example>
+			<example count="34">74</example>
+			<example count="34">77</example>
+			<example count="34">69</example>
+			<example count="34">72</example>
+			<example count="33">78</example>
+			<example count="32">71</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="989" nulls="0" mean="71.76" sd="9.797" median="72" min="32" max="124"/>
+			<example count="50">73</example>
+			<example count="48">75</example>
+			<example count="47">68</example>
+			<example count="44">76</example>
+			<example count="42">71</example>
+			<example count="41">77</example>
+			<example count="39">69</example>
+			<example count="39">72</example>
+			<example count="39">70</example>
+			<example count="37">74</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066517.v1.p1" var_name="smoke" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Smoking behavior</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="495" sd="536.5" median_count="350.5" min_count="15" max_count="1264"/>
+			<enum code="3" count="1264">Never smoke</enum>
+			<enum code="2" count="354">Former smoker</enum>
+			<enum code="1" count="347">Current smoker</enum>
+			<enum code="9" count="15">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="247.5" sd="242.7" median_count="196.5" min_count="15" max_count="582"/>
+			<enum code="3" count="582">Never smoke</enum>
+			<enum code="2" count="249">Former smoker</enum>
+			<enum code="1" count="144">Current smoker</enum>
+			<enum code="9" count="15">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="308.8" median_count="203" min_count="105" max_count="682"/>
+			<enum code="3" count="682">Never smoke</enum>
+			<enum code="1" count="203">Current smoker</enum>
+			<enum code="2" count="105">Former smoker</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066517.v1.p1.c1" var_name="smoke" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Smoking behavior</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="495" sd="536.5" median_count="350.5" min_count="15" max_count="1264"/>
+			<enum code="3" count="1264">Never smoke</enum>
+			<enum code="2" count="354">Former smoker</enum>
+			<enum code="1" count="347">Current smoker</enum>
+			<enum code="9" count="15">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="247.5" sd="242.7" median_count="196.5" min_count="15" max_count="582"/>
+			<enum code="3" count="582">Never smoke</enum>
+			<enum code="2" count="249">Former smoker</enum>
+			<enum code="1" count="144">Current smoker</enum>
+			<enum code="9" count="15">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="308.8" median_count="203" min_count="105" max_count="682"/>
+			<enum code="3" count="682">Never smoke</enum>
+			<enum code="1" count="203">Current smoker</enum>
+			<enum code="2" count="105">Former smoker</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066518.v1.p1" var_name="gluc0" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Fasting glucose</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1964" nulls="0" mean="132.6" sd="70.65" median="97" min="32" max="455"/>
+			<example count="58">85</example>
+			<example count="56">79</example>
+			<example count="54">84</example>
+			<example count="54">80</example>
+			<example count="52">77</example>
+			<example count="52">83</example>
+			<example count="51">78</example>
+			<example count="49">88</example>
+			<example count="48">86</example>
+			<example count="45">89</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="975" nulls="0" mean="181.4" sd="72.42" median="165" min="32" max="455"/>
+			<example code="-99" count="15">Missing</example>
+			<example count="14">140</example>
+			<example count="13">115</example>
+			<example count="12">132</example>
+			<example count="10">129</example>
+			<example count="9">139</example>
+			<example count="9">124</example>
+			<example count="9">138</example>
+			<example count="8">145</example>
+			<example count="8">131</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="989" nulls="0" mean="84.38" sd="8.278" median="84" min="60" max="117"/>
+			<example count="57">85</example>
+			<example count="54">79</example>
+			<example count="53">80</example>
+			<example count="51">83</example>
+			<example count="50">84</example>
+			<example count="50">77</example>
+			<example count="49">78</example>
+			<example count="47">88</example>
+			<example count="45">86</example>
+			<example count="41">87</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066518.v1.p1.c1" var_name="gluc0" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>Fasting glucose</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1964" nulls="0" mean="132.6" sd="70.65" median="97" min="32" max="455"/>
+			<example count="58">85</example>
+			<example count="56">79</example>
+			<example count="54">84</example>
+			<example count="54">80</example>
+			<example count="52">77</example>
+			<example count="52">83</example>
+			<example count="51">78</example>
+			<example count="49">88</example>
+			<example count="48">86</example>
+			<example count="45">89</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="975" nulls="0" mean="181.4" sd="72.42" median="165" min="32" max="455"/>
+			<example code="-99" count="15">Missing</example>
+			<example count="14">140</example>
+			<example count="13">115</example>
+			<example count="12">132</example>
+			<example count="10">129</example>
+			<example count="9">139</example>
+			<example count="9">124</example>
+			<example count="9">138</example>
+			<example count="8">145</example>
+			<example count="8">131</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="989" nulls="0" mean="84.38" sd="8.278" median="84" min="60" max="117"/>
+			<example count="57">85</example>
+			<example count="54">79</example>
+			<example count="53">80</example>
+			<example count="51">83</example>
+			<example count="50">84</example>
+			<example count="50">77</example>
+			<example count="49">78</example>
+			<example count="47">88</example>
+			<example count="45">86</example>
+			<example count="41">87</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066519.v1.p1" var_name="gluc120" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>120 minute post-load glucose</description>
+	<comment>Oral glucose tolerance test was performed using a 75 gm glucose load
+		Not performed in Cases. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="981" nulls="0" mean="134.3" sd="30.84" median="134" min="53" max="199"/>
+			<example code="-99" count="999">Missing</example>
+			<example count="22">123</example>
+			<example count="20">127</example>
+			<example count="20">133</example>
+			<example count="20">130</example>
+			<example count="16">118</example>
+			<example count="15">136</example>
+			<example count="15">158</example>
+			<example count="15">121</example>
+			<example count="15">149</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99" count="990">Missing</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="981" nulls="0" mean="134.3" sd="30.84" median="134" min="53" max="199"/>
+			<example count="22">123</example>
+			<example count="20">127</example>
+			<example count="20">133</example>
+			<example count="20">130</example>
+			<example count="16">118</example>
+			<example count="15">136</example>
+			<example count="15">158</example>
+			<example count="15">121</example>
+			<example count="15">149</example>
+			<example count="15">111</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066519.v1.p1.c1" var_name="gluc120" calculated_type="integer" units="mg/dl" reported_type="Integer">
+	<description>120 minute post-load glucose</description>
+	<comment>Oral glucose tolerance test was performed using a 75 gm glucose load
+		Not performed in Cases. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="981" nulls="0" mean="134.3" sd="30.84" median="134" min="53" max="199"/>
+			<example code="-99" count="999">Missing</example>
+			<example count="22">123</example>
+			<example count="20">127</example>
+			<example count="20">133</example>
+			<example count="20">130</example>
+			<example count="16">118</example>
+			<example count="15">136</example>
+			<example count="15">158</example>
+			<example count="15">121</example>
+			<example count="15">149</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99" count="990">Missing</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="981" nulls="0" mean="134.3" sd="30.84" median="134" min="53" max="199"/>
+			<example count="22">123</example>
+			<example count="20">127</example>
+			<example count="20">133</example>
+			<example count="20">130</example>
+			<example count="16">118</example>
+			<example count="15">136</example>
+			<example count="15">158</example>
+			<example count="15">121</example>
+			<example count="15">149</example>
+			<example count="15">111</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066520.v1.p1" var_name="dxage" calculated_type="integer" units="Years old" reported_type="Integer">
+	<description>Age at diabetes diagnosis</description>
+	<comment>Not applicable in Controls</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="46.65" sd="11.02" median="46" min="20" max="79"/>
+			<example code="-99" count="990">Missing</example>
+			<example count="51">50</example>
+			<example count="44">38</example>
+			<example count="40">48</example>
+			<example count="37">45</example>
+			<example count="36">40</example>
+			<example count="34">43</example>
+			<example count="33">35</example>
+			<example count="33">42</example>
+			<example count="32">52</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="46.65" sd="11.02" median="46" min="20" max="79"/>
+			<example count="51">50</example>
+			<example count="44">38</example>
+			<example count="40">48</example>
+			<example count="37">45</example>
+			<example count="36">40</example>
+			<example count="34">43</example>
+			<example count="33">35</example>
+			<example count="33">42</example>
+			<example count="32">52</example>
+			<example count="32">46</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99" count="990">Missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066520.v1.p1.c1" var_name="dxage" calculated_type="integer" units="Years old" reported_type="Integer">
+	<description>Age at diabetes diagnosis</description>
+	<comment>Not applicable in Controls</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="46.65" sd="11.02" median="46" min="20" max="79"/>
+			<example code="-99" count="990">Missing</example>
+			<example count="51">50</example>
+			<example count="44">38</example>
+			<example count="40">48</example>
+			<example count="37">45</example>
+			<example count="36">40</example>
+			<example count="34">43</example>
+			<example count="33">35</example>
+			<example count="33">42</example>
+			<example count="32">52</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="46.65" sd="11.02" median="46" min="20" max="79"/>
+			<example count="51">50</example>
+			<example count="44">38</example>
+			<example count="40">48</example>
+			<example count="37">45</example>
+			<example count="36">40</example>
+			<example count="34">43</example>
+			<example count="33">35</example>
+			<example count="33">42</example>
+			<example count="32">52</example>
+			<example count="32">46</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99" count="990">Missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066521.v1.p1" var_name="retinop" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Presence of diabetic retinopathy</description>
+	<comment>Retinopathy was classified based on stereoscopic fundus photographs of seven standard fields as implemented in the Early Treatment of Diabetic Retinopathy trial. Retinopathy was considered to be present for any grading of 20 or more based on the Modified</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="660" sd="351.2" median_count="475" min_count="440" max_count="1065"/>
+			<enum code="9" count="1065">Missing, unknown or not applicable</enum>
+			<enum code="1" count="475">Yes</enum>
+			<enum code="2" count="440">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="221.5" median_count="440" min_count="75" max_count="475"/>
+			<enum code="1" count="475">Yes</enum>
+			<enum code="2" count="440">No</enum>
+			<enum code="9" count="75">Missing, unknown or not applicable</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="9" count="990">Missing, unknown or not applicable</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066521.v1.p1.c1" var_name="retinop" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Presence of diabetic retinopathy</description>
+	<comment>Retinopathy was classified based on stereoscopic fundus photographs of seven standard fields as implemented in the Early Treatment of Diabetic Retinopathy trial. Retinopathy was considered to be present for any grading of 20 or more based on the Modified</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="660" sd="351.2" median_count="475" min_count="440" max_count="1065"/>
+			<enum code="9" count="1065">Missing, unknown or not applicable</enum>
+			<enum code="1" count="475">Yes</enum>
+			<enum code="2" count="440">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="221.5" median_count="440" min_count="75" max_count="475"/>
+			<enum code="1" count="475">Yes</enum>
+			<enum code="2" count="440">No</enum>
+			<enum code="9" count="75">Missing, unknown or not applicable</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="9" count="990">Missing, unknown or not applicable</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066522.v1.p1" var_name="hba1c" calculated_type="decimal" units="%" reported_type="Decimal">
+	<description>Glycosylated hemoglobin</description>
+	<comment>No measured in Controls</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="964" nulls="0" mean="11" sd="3.735" median="10.3" min="4.2" max="26.2"/>
+			<example code="-99.9" count="1016">Missing</example>
+			<example count="20">7.4</example>
+			<example count="18">8.8</example>
+			<example count="17">9.6</example>
+			<example count="14">8.2</example>
+			<example count="14">10.9</example>
+			<example count="13">15</example>
+			<example count="13">6.6</example>
+			<example count="13">8.5</example>
+			<example count="13">7.6</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="964" nulls="0" mean="11" sd="3.735" median="10.3" min="4.2" max="26.2"/>
+			<example code="-99.9" count="26">Missing</example>
+			<example count="20">7.4</example>
+			<example count="18">8.8</example>
+			<example count="17">9.6</example>
+			<example count="14">8.2</example>
+			<example count="14">10.9</example>
+			<example count="13">15</example>
+			<example count="13">6.6</example>
+			<example count="13">8.5</example>
+			<example count="13">7.6</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99.9" count="990">Missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066522.v1.p1.c1" var_name="hba1c" calculated_type="decimal" units="%" reported_type="Decimal">
+	<description>Glycosylated hemoglobin</description>
+	<comment>No measured in Controls</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="964" nulls="0" mean="11" sd="3.735" median="10.3" min="4.2" max="26.2"/>
+			<example code="-99.9" count="1016">Missing</example>
+			<example count="20">7.4</example>
+			<example count="18">8.8</example>
+			<example count="17">9.6</example>
+			<example count="14">8.2</example>
+			<example count="14">10.9</example>
+			<example count="13">15</example>
+			<example count="13">6.6</example>
+			<example count="13">8.5</example>
+			<example count="13">7.6</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="964" nulls="0" mean="11" sd="3.735" median="10.3" min="4.2" max="26.2"/>
+			<example code="-99.9" count="26">Missing</example>
+			<example count="20">7.4</example>
+			<example count="18">8.8</example>
+			<example count="17">9.6</example>
+			<example count="14">8.2</example>
+			<example count="14">10.9</example>
+			<example count="13">15</example>
+			<example count="13">6.6</example>
+			<example count="13">8.5</example>
+			<example count="13">7.6</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99.9" count="990">Missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066523.v1.p1" var_name="creatinine" calculated_type="decimal" units="mg/dl" reported_type="Decimal">
+	<description>Serum creatinine</description>
+	<comment>Serum creatinine was only measured in one of our surveys, hence there are a large number of missing values</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="318" nulls="0" mean="0.8744" sd="0.8305" median="0.7" min="0.25" max="8.15"/>
+			<example code="-9.99" count="1662">Missing</example>
+			<example count="45">0.5</example>
+			<example count="42">0.7</example>
+			<example count="36">0.6</example>
+			<example count="29">0.8</example>
+			<example count="17">0.9</example>
+			<example count="17">0.4</example>
+			<example count="14">0.65</example>
+			<example count="13">1</example>
+			<example count="12">0.45</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="318" nulls="0" mean="0.8744" sd="0.8305" median="0.7" min="0.25" max="8.15"/>
+			<example code="-9.99" count="672">Missing</example>
+			<example count="45">0.5</example>
+			<example count="42">0.7</example>
+			<example count="36">0.6</example>
+			<example count="29">0.8</example>
+			<example count="17">0.9</example>
+			<example count="17">0.4</example>
+			<example count="14">0.65</example>
+			<example count="13">1</example>
+			<example count="12">0.45</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-9.99" count="990">Missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066523.v1.p1.c1" var_name="creatinine" calculated_type="decimal" units="mg/dl" reported_type="Decimal">
+	<description>Serum creatinine</description>
+	<comment>Serum creatinine was only measured in one of our surveys, hence there are a large number of missing values</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="318" nulls="0" mean="0.8744" sd="0.8305" median="0.7" min="0.25" max="8.15"/>
+			<example code="-9.99" count="1662">Missing</example>
+			<example count="45">0.5</example>
+			<example count="42">0.7</example>
+			<example count="36">0.6</example>
+			<example count="29">0.8</example>
+			<example count="17">0.9</example>
+			<example count="17">0.4</example>
+			<example count="14">0.65</example>
+			<example count="13">1</example>
+			<example count="12">0.45</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="318" nulls="0" mean="0.8744" sd="0.8305" median="0.7" min="0.25" max="8.15"/>
+			<example code="-9.99" count="672">Missing</example>
+			<example count="45">0.5</example>
+			<example count="42">0.7</example>
+			<example count="36">0.6</example>
+			<example count="29">0.8</example>
+			<example count="17">0.9</example>
+			<example count="17">0.4</example>
+			<example count="14">0.65</example>
+			<example count="13">1</example>
+			<example count="12">0.45</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-9.99" count="990">Missing</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066524.v1.p1" var_name="albumin" calculated_type="integer" units="mg/dl" reported_type="Mixed">
+	<description>Urinary albumin</description>
+	<comment>Measured via Roche Chemstrip Micral Urine Test Strip</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>516</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>1015</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1506" nulls="0" mean="-72.8" sd="62.21" median="-99" min="-99" max="999"/>
+			<enum count="1236">-99</enum>
+			<enum code="NEG" count="474">No albumin</enum>
+			<enum count="120">050</enum>
+			<enum count="115">020</enum>
+			<enum count="33">100</enum>
+			<enum count="1">131</enum>
+			<enum count="1">999</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>213</male>
+				<female>303</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="516" nulls="0" mean="-22.53" sd="86.35" median="20" min="-99" max="999"/>
+			<enum code="NEG" count="474">No albumin</enum>
+			<enum count="246">-99</enum>
+			<enum count="120">050</enum>
+			<enum count="115">020</enum>
+			<enum count="33">100</enum>
+			<enum count="1">131</enum>
+			<enum count="1">999</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="-99" sd="0" median="-99" min="-99" max="-99"/>
+			<enum count="990">-99</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066524.v1.p1.c1" var_name="albumin" calculated_type="integer" units="mg/dl" reported_type="Mixed">
+	<description>Urinary albumin</description>
+	<comment>Measured via Roche Chemstrip Micral Urine Test Strip</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>516</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>1015</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1506" nulls="0" mean="-72.8" sd="62.21" median="-99" min="-99" max="999"/>
+			<enum count="1236">-99</enum>
+			<enum code="NEG" count="474">No albumin</enum>
+			<enum count="120">050</enum>
+			<enum count="115">020</enum>
+			<enum count="33">100</enum>
+			<enum count="1">131</enum>
+			<enum count="1">999</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>213</male>
+				<female>303</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="516" nulls="0" mean="-22.53" sd="86.35" median="20" min="-99" max="999"/>
+			<enum code="NEG" count="474">No albumin</enum>
+			<enum count="246">-99</enum>
+			<enum count="120">050</enum>
+			<enum count="115">020</enum>
+			<enum count="33">100</enum>
+			<enum count="1">131</enum>
+			<enum count="1">999</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean="-99" sd="0" median="-99" min="-99" max="-99"/>
+			<enum count="990">-99</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066525.v1.p1" var_name="ifg" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Impaired fasting glucose</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="495" sd="548.8" median_count="491" min_count="8" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+			<enum code="1" count="950">Negative</enum>
+			<enum code="2" count="32">Gluc0 &gt;= 100 and &lt; 110</enum>
+			<enum code="3" count="8">Gluc0 &gt;= 110 and &lt; 126</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="537.1" median_count="32" min_count="8" max_count="950"/>
+			<enum code="1" count="950">Negative</enum>
+			<enum code="2" count="32">Gluc0 &gt;= 100 and &lt; 110</enum>
+			<enum code="3" count="8">Gluc0 &gt;= 110 and &lt; 126</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066525.v1.p1.c1" var_name="ifg" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Impaired fasting glucose</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="495" sd="548.8" median_count="491" min_count="8" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+			<enum code="1" count="950">Negative</enum>
+			<enum code="2" count="32">Gluc0 &gt;= 100 and &lt; 110</enum>
+			<enum code="3" count="8">Gluc0 &gt;= 110 and &lt; 126</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="330" sd="537.1" median_count="32" min_count="8" max_count="950"/>
+			<enum code="1" count="950">Negative</enum>
+			<enum code="2" count="32">Gluc0 &gt;= 100 and &lt; 110</enum>
+			<enum code="3" count="8">Gluc0 &gt;= 110 and &lt; 126</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066526.v1.p1" var_name="igt" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Impaired glucose tolerance</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="660" sd="293.8" median_count="563" min_count="427" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+			<enum code="1" count="563">Negative</enum>
+			<enum code="2" count="427">Gluc120 &gt;= 140 and &lt; 200</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="495" sd="96.17" median_count="495" min_count="427" max_count="563"/>
+			<enum code="1" count="563">Negative</enum>
+			<enum code="2" count="427">Gluc120 &gt;= 140 and &lt; 200</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066526.v1.p1.c1" var_name="igt" calculated_type="enum_integer" reported_type="Encoded">
+	<description>Impaired glucose tolerance</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1980" nulls="0" mean_count="660" sd="293.8" median_count="563" min_count="427" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+			<enum code="1" count="563">Negative</enum>
+			<enum code="2" count="427">Gluc120 &gt;= 140 and &lt; 200</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="990" median_count="990" min_count="990" max_count="990"/>
+			<enum code="9" count="990">Missing or not applicable</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="990" nulls="0" mean_count="495" sd="96.17" median_count="495" min_count="427" max_count="563"/>
+			<enum code="1" count="563">Negative</enum>
+			<enum code="2" count="427">Gluc120 &gt;= 140 and &lt; 200</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066527.v1.p1" var_name="ins000" calculated_type="decimal" units="mIU/mL" reported_type="Decimal">
+	<description>Fasting insulin</description>
+	<comment>Coat-A-Count insulin RIA (radioimmunoassay) in plasma stored at -80
+		Not performed in Cases. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="986" nulls="0" mean="7.357" sd="8.535" median="5.4" min="0" max="102.3"/>
+			<example code="-99.9" count="994">Missing</example>
+			<example count="65">0</example>
+			<example count="16">3.1</example>
+			<example count="14">5.2</example>
+			<example count="13">3.2</example>
+			<example count="13">2.5</example>
+			<example count="13">1.7</example>
+			<example count="13">2.1</example>
+			<example count="13">2.3</example>
+			<example count="12">2.8</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99.9" count="990">Missing</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="986" nulls="0" mean="7.357" sd="8.535" median="5.4" min="0" max="102.3"/>
+			<example count="65">0</example>
+			<example count="16">3.1</example>
+			<example count="14">5.2</example>
+			<example count="13">3.2</example>
+			<example count="13">2.5</example>
+			<example count="13">1.7</example>
+			<example count="13">2.1</example>
+			<example count="13">2.3</example>
+			<example count="12">2.8</example>
+			<example count="12">2.6</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00066527.v1.p1.c1" var_name="ins000" calculated_type="decimal" units="mIU/mL" reported_type="Decimal">
+	<description>Fasting insulin</description>
+	<comment>Coat-A-Count insulin RIA (radioimmunoassay) in plasma stored at -80
+		Not performed in Cases. </comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>990</case>
+				<control>990</control>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1316</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="986" nulls="0" mean="7.357" sd="8.535" median="5.4" min="0" max="102.3"/>
+			<example code="-99.9" count="994">Missing</example>
+			<example count="65">0</example>
+			<example count="16">3.1</example>
+			<example count="14">5.2</example>
+			<example count="13">3.2</example>
+			<example count="13">2.5</example>
+			<example count="13">1.7</example>
+			<example count="13">2.1</example>
+			<example count="13">2.3</example>
+			<example count="12">2.8</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>386</male>
+				<female>604</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="0" nulls="0"/>
+			<enum code="-99.9" count="990">Missing</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>712</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="986" nulls="0" mean="7.357" sd="8.535" median="5.4" min="0" max="102.3"/>
+			<example count="65">0</example>
+			<example count="16">3.1</example>
+			<example count="14">5.2</example>
+			<example count="13">3.2</example>
+			<example count="13">2.5</example>
+			<example count="13">1.7</example>
+			<example count="13">2.1</example>
+			<example count="13">2.3</example>
+			<example count="12">2.8</example>
+			<example count="12">2.6</example>
+		</stats>
+	</controls>
+</variable>
+
+</data_table>
+

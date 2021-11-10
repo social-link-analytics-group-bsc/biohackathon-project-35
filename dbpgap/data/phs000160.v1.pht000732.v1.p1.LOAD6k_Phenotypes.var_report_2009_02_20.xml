@@ -1,0 +1,1349 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="LOAD6k_Phenotypes" dataset_id="pht000732.v1" study_name="Genetics Consortium for Late Onset of Alzheimer&#39;s Disease (LOAD CIDR Project)" study_id="phs000160.v1" participant_set="1" date_created="Fri Feb 20 11:36:01 2009">
+
+<variable id="phv00071841.v1.p1" var_name="CIDR_FamID" calculated_type="integer" reported_type="integer">
+	<description>Family ID</description>
+	<comment><![CDATA[
+		De-identified ID
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2398</other>
+			</case_control>
+			<sex>
+				<male>925</male>
+				<female>1473</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2398" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071841.v1.p1.c1" var_name="CIDR_FamID" calculated_type="integer" reported_type="integer">
+	<description>Family ID</description>
+	<comment><![CDATA[
+		De-identified ID
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1137</other>
+			</case_control>
+			<sex>
+				<male>428</male>
+				<female>709</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1137" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071841.v1.p1.c2" var_name="CIDR_FamID" calculated_type="integer" reported_type="integer">
+	<description>Family ID</description>
+	<comment><![CDATA[
+		De-identified ID
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>22</other>
+			</case_control>
+			<sex>
+				<male>8</male>
+				<female>14</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="22" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071841.v1.p1.c3" var_name="CIDR_FamID" calculated_type="integer" reported_type="integer">
+	<description>Family ID</description>
+	<comment><![CDATA[
+		De-identified ID
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1057</other>
+			</case_control>
+			<sex>
+				<male>419</male>
+				<female>638</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1057" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071841.v1.p1.c4" var_name="CIDR_FamID" calculated_type="integer" reported_type="integer">
+	<description>Family ID</description>
+	<comment><![CDATA[
+		De-identified ID
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>182</other>
+			</case_control>
+			<sex>
+				<male>70</male>
+				<female>112</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="182" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071842.v1.p1" var_name="SubjectID" calculated_type="string" reported_type="integer">
+	<description>Subject ID</description>
+	<comment><![CDATA[
+		De-identified ID, unique subject ID for dbGaP
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2398</other>
+			</case_control>
+			<sex>
+				<male>925</male>
+				<female>1473</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2398" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071842.v1.p1.c1" var_name="SubjectID" calculated_type="string" reported_type="integer">
+	<description>Subject ID</description>
+	<comment><![CDATA[
+		De-identified ID, unique subject ID for dbGaP
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1137</other>
+			</case_control>
+			<sex>
+				<male>428</male>
+				<female>709</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1137" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071842.v1.p1.c2" var_name="SubjectID" calculated_type="string" reported_type="integer">
+	<description>Subject ID</description>
+	<comment><![CDATA[
+		De-identified ID, unique subject ID for dbGaP
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>22</other>
+			</case_control>
+			<sex>
+				<male>8</male>
+				<female>14</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="22" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071842.v1.p1.c3" var_name="SubjectID" calculated_type="string" reported_type="integer">
+	<description>Subject ID</description>
+	<comment><![CDATA[
+		De-identified ID, unique subject ID for dbGaP
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1057</other>
+			</case_control>
+			<sex>
+				<male>419</male>
+				<female>638</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1057" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071842.v1.p1.c4" var_name="SubjectID" calculated_type="string" reported_type="integer">
+	<description>Subject ID</description>
+	<comment><![CDATA[
+		De-identified ID, unique subject ID for dbGaP
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>182</other>
+			</case_control>
+			<sex>
+				<male>70</male>
+				<female>112</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="182" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071843.v1.p1" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2398</other>
+			</case_control>
+			<sex>
+				<male>925</male>
+				<female>1473</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2398" nulls="0" mean_count="1199" sd="387.5" median_count="1199" min_count="925" max_count="1473"/>
+			<enum code="2" count="1473">Female</enum>
+			<enum code="1" count="925">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071843.v1.p1.c1" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1137</other>
+			</case_control>
+			<sex>
+				<male>428</male>
+				<female>709</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1137" nulls="0" mean_count="568.5" sd="198.7" median_count="568.5" min_count="428" max_count="709"/>
+			<enum code="2" count="709">Female</enum>
+			<enum code="1" count="428">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071843.v1.p1.c2" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>22</other>
+			</case_control>
+			<sex>
+				<male>8</male>
+				<female>14</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="22" nulls="0" mean_count="11" sd="4.243" median_count="11" min_count="8" max_count="14"/>
+			<enum code="2" count="14">Female</enum>
+			<enum code="1" count="8">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071843.v1.p1.c3" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1057</other>
+			</case_control>
+			<sex>
+				<male>419</male>
+				<female>638</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1057" nulls="0" mean_count="528.5" sd="154.9" median_count="528.5" min_count="419" max_count="638"/>
+			<enum code="2" count="638">Female</enum>
+			<enum code="1" count="419">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071843.v1.p1.c4" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender: male or female</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>182</other>
+			</case_control>
+			<sex>
+				<male>70</male>
+				<female>112</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="182" nulls="0" mean_count="91" sd="29.7" median_count="91" min_count="70" max_count="112"/>
+			<enum code="2" count="112">Female</enum>
+			<enum code="1" count="70">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071844.v1.p1" var_name="BirthYr" calculated_type="integer" units="Year" reported_type="year">
+	<description>Subject&#39;s year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2388</other>
+			</case_control>
+			<sex>
+				<male>921</male>
+				<female>1467</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2388" nulls="10" mean="1933" sd="14.07" median="1930" min="1899" max="1980"/>
+			<example count="94">1924</example>
+			<example count="82">1925</example>
+			<example count="80">1927</example>
+			<example count="79">1922</example>
+			<example count="77">1921</example>
+			<example count="77">1923</example>
+			<example count="75">1929</example>
+			<example count="71">1926</example>
+			<example count="68">1930</example>
+			<example count="67">1918</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071844.v1.p1.c1" var_name="BirthYr" calculated_type="integer" units="Year" reported_type="year">
+	<description>Subject&#39;s year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1128</other>
+			</case_control>
+			<sex>
+				<male>424</male>
+				<female>704</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1128" nulls="9" mean="1933" sd="13.34" median="1931" min="1903" max="1968"/>
+			<example count="47">1925</example>
+			<example count="44">1924</example>
+			<example count="39">1927</example>
+			<example count="37">1926</example>
+			<example count="37">1922</example>
+			<example count="37">1923</example>
+			<example count="35">1928</example>
+			<example count="34">1921</example>
+			<example count="34">1930</example>
+			<example count="34">1931</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071844.v1.p1.c2" var_name="BirthYr" calculated_type="integer" units="Year" reported_type="year">
+	<description>Subject&#39;s year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>22</other>
+			</case_control>
+			<sex>
+				<male>8</male>
+				<female>14</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="22" nulls="0" mean="1936" sd="13.05" median="1934" min="1918" max="1959"/>
+			<example count="2">1953</example>
+			<example count="2">1934</example>
+			<example count="2">1918</example>
+			<example count="1">1932</example>
+			<example count="1">1944</example>
+			<example count="1">1957</example>
+			<example count="1">1926</example>
+			<example count="1">1933</example>
+			<example count="1">1929</example>
+			<example count="1">1940</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071844.v1.p1.c3" var_name="BirthYr" calculated_type="integer" units="Year" reported_type="year">
+	<description>Subject&#39;s year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1056</other>
+			</case_control>
+			<sex>
+				<male>419</male>
+				<female>637</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1056" nulls="1" mean="1932" sd="14.15" median="1929" min="1899" max="1980"/>
+			<example count="39">1924</example>
+			<example count="38">1927</example>
+			<example count="38">1929</example>
+			<example count="37">1921</example>
+			<example count="34">1922</example>
+			<example count="33">1920</example>
+			<example count="33">1923</example>
+			<example count="33">1918</example>
+			<example count="31">1931</example>
+			<example count="30">1928</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071844.v1.p1.c4" var_name="BirthYr" calculated_type="integer" units="Year" reported_type="year">
+	<description>Subject&#39;s year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>182</other>
+			</case_control>
+			<sex>
+				<male>70</male>
+				<female>112</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="182" nulls="0" mean="1937" sd="17" median="1933" min="1904" max="1977"/>
+			<example count="10">1924</example>
+			<example count="8">1922</example>
+			<example count="7">1930</example>
+			<example count="6">1921</example>
+			<example count="6">1929</example>
+			<example count="6">1920</example>
+			<example count="6">1923</example>
+			<example count="5">1926</example>
+			<example count="5">1933</example>
+			<example count="5">1925</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071845.v1.p1" var_name="Autopsy" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Has an autopsy been performed?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1959</other>
+			</case_control>
+			<sex>
+				<male>754</male>
+				<female>1205</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1959" nulls="439" mean_count="653" sd="857.5" median_count="175" min_count="141" max_count="1643"/>
+			<enum code="2" count="1643">No</enum>
+			<enum code="9" count="175">Missing/unknown</enum>
+			<enum code="1" count="141">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071845.v1.p1.c1" var_name="Autopsy" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Has an autopsy been performed?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>888</other>
+			</case_control>
+			<sex>
+				<male>335</male>
+				<female>553</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="888" nulls="249" mean_count="296" sd="437.8" median_count="63" min_count="24" max_count="801"/>
+			<enum code="2" count="801">No</enum>
+			<enum code="1" count="63">Yes</enum>
+			<enum code="9" count="24">Missing/unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071845.v1.p1.c2" var_name="Autopsy" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Has an autopsy been performed?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>16</other>
+			</case_control>
+			<sex>
+				<male>5</male>
+				<female>11</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="16" nulls="6" mean_count="5.333" sd="6.658" median_count="2" min_count="1" max_count="13"/>
+			<enum code="2" count="13">No</enum>
+			<enum code="9" count="2">Missing/unknown</enum>
+			<enum code="1" count="1">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071845.v1.p1.c3" var_name="Autopsy" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Has an autopsy been performed?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>896</other>
+			</case_control>
+			<sex>
+				<male>353</male>
+				<female>543</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="896" nulls="161" mean_count="298.7" sd="397" median_count="76" min_count="63" max_count="757"/>
+			<enum code="2" count="757">No</enum>
+			<enum code="9" count="76">Missing/unknown</enum>
+			<enum code="1" count="63">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071845.v1.p1.c4" var_name="Autopsy" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Has an autopsy been performed?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>159</other>
+			</case_control>
+			<sex>
+				<male>61</male>
+				<female>98</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="159" nulls="23" mean_count="53" sd="33.78" median_count="72" min_count="14" max_count="73"/>
+			<enum code="9" count="73">Missing/unknown</enum>
+			<enum code="2" count="72">No</enum>
+			<enum code="1" count="14">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071846.v1.p1" var_name="Race" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Subject&#39;s race</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2368</other>
+			</case_control>
+			<sex>
+				<male>911</male>
+				<female>1457</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2368" nulls="30" mean_count="473.6" sd="978.1" median_count="19" min_count="8" max_count="2222"/>
+			<enum code="1" count="2222">White</enum>
+			<enum code="2" count="101">Black</enum>
+			<enum code="4" count="19">Asian or Pacific Islander</enum>
+			<enum code="50" count="18">Other</enum>
+			<enum code="3" count="8">American Indian or Alaskan Native</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071846.v1.p1.c1" var_name="Race" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Subject&#39;s race</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1121</other>
+			</case_control>
+			<sex>
+				<male>419</male>
+				<female>702</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1121" nulls="16" mean_count="224.2" sd="463.2" median_count="8" min_count="3" max_count="1052"/>
+			<enum code="1" count="1052">White</enum>
+			<enum code="2" count="52">Black</enum>
+			<enum code="3" count="8">American Indian or Alaskan Native</enum>
+			<enum code="50" count="6">Other</enum>
+			<enum code="4" count="3">Asian or Pacific Islander</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071846.v1.p1.c2" var_name="Race" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Subject&#39;s race</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>20</other>
+			</case_control>
+			<sex>
+				<male>7</male>
+				<female>13</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="20" nulls="2" mean_count="6.667" sd="9.815" median_count="1" min_count="1" max_count="18"/>
+			<enum code="1" count="18">White</enum>
+			<enum code="4" count="1">Asian or Pacific Islander</enum>
+			<enum code="2" count="1">Black</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071846.v1.p1.c3" var_name="Race" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Subject&#39;s race</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1052</other>
+			</case_control>
+			<sex>
+				<male>417</male>
+				<female>635</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1052" nulls="5" mean_count="263" sd="487" median_count="28" min_count="3" max_count="993"/>
+			<enum code="1" count="993">White</enum>
+			<enum code="2" count="44">Black</enum>
+			<enum code="4" count="12">Asian or Pacific Islander</enum>
+			<enum code="50" count="3">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071846.v1.p1.c4" var_name="Race" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Subject&#39;s race</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>175</other>
+			</case_control>
+			<sex>
+				<male>68</male>
+				<female>107</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="175" nulls="7" mean_count="43.75" sd="76.88" median_count="6.5" min_count="3" max_count="159"/>
+			<enum code="1" count="159">White</enum>
+			<enum code="50" count="9">Other</enum>
+			<enum code="2" count="4">Black</enum>
+			<enum code="4" count="3">Asian or Pacific Islander</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071847.v1.p1" var_name="Hispanic" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject Spanish/Hispanic/Latino?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2368</other>
+			</case_control>
+			<sex>
+				<male>911</male>
+				<female>1457</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2368" nulls="30" mean_count="1184" sd="1595" median_count="1184" min_count="56" max_count="2312"/>
+			<enum code="2" count="2312">No</enum>
+			<enum code="1" count="56">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071847.v1.p1.c1" var_name="Hispanic" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject Spanish/Hispanic/Latino?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1121</other>
+			</case_control>
+			<sex>
+				<male>419</male>
+				<female>702</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1121" nulls="16" mean_count="560.5" sd="738.9" median_count="560.5" min_count="38" max_count="1083"/>
+			<enum code="2" count="1083">No</enum>
+			<enum code="1" count="38">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071847.v1.p1.c2" var_name="Hispanic" calculated_type="string" reported_type="encoded value">
+	<description>Is the subject Spanish/Hispanic/Latino?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>20</other>
+			</case_control>
+			<sex>
+				<male>7</male>
+				<female>13</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="20" nulls="2"/>
+			<enum code="2" count="20">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071847.v1.p1.c3" var_name="Hispanic" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject Spanish/Hispanic/Latino?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1052</other>
+			</case_control>
+			<sex>
+				<male>417</male>
+				<female>635</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1052" nulls="5" mean_count="526" sd="732.6" median_count="526" min_count="8" max_count="1044"/>
+			<enum code="2" count="1044">No</enum>
+			<enum code="1" count="8">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071847.v1.p1.c4" var_name="Hispanic" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject Spanish/Hispanic/Latino?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>175</other>
+			</case_control>
+			<sex>
+				<male>68</male>
+				<female>107</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="175" nulls="7" mean_count="87.5" sd="109.6" median_count="87.5" min_count="10" max_count="165"/>
+			<enum code="2" count="165">No</enum>
+			<enum code="1" count="10">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071848.v1.p1" var_name="ClinDem" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject demented?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2110</other>
+			</case_control>
+			<sex>
+				<male>820</male>
+				<female>1290</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2110" nulls="288" mean_count="703.3" sd="626.1" median_count="883" min_count="7" max_count="1220"/>
+			<enum code="2" count="1220">No</enum>
+			<enum code="1" count="883">Yes</enum>
+			<enum code="9" count="7">Missing/unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071848.v1.p1.c1" var_name="ClinDem" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject demented?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1014</other>
+			</case_control>
+			<sex>
+				<male>384</male>
+				<female>630</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1014" nulls="123" mean_count="338" sd="300.1" median_count="425" min_count="4" max_count="585"/>
+			<enum code="2" count="585">No</enum>
+			<enum code="1" count="425">Yes</enum>
+			<enum code="9" count="4">Missing/unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071848.v1.p1.c2" var_name="ClinDem" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject demented?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>12</other>
+			</case_control>
+			<sex>
+				<male>4</male>
+				<female>8</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="12" nulls="10" mean_count="4" sd="3" median_count="4" min_count="1" max_count="7"/>
+			<enum code="1" count="7">Yes</enum>
+			<enum code="2" count="4">No</enum>
+			<enum code="9" count="1">Missing/unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071848.v1.p1.c3" var_name="ClinDem" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject demented?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>930</other>
+			</case_control>
+			<sex>
+				<male>374</male>
+				<female>556</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="930" nulls="127" mean_count="310" sd="280" median_count="379" min_count="2" max_count="549"/>
+			<enum code="2" count="549">No</enum>
+			<enum code="1" count="379">Yes</enum>
+			<enum code="9" count="2">Missing/unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071848.v1.p1.c4" var_name="ClinDem" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the subject demented?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>154</other>
+			</case_control>
+			<sex>
+				<male>58</male>
+				<female>96</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="154" nulls="28" mean_count="77" sd="7.071" median_count="77" min_count="72" max_count="82"/>
+			<enum code="2" count="82">No</enum>
+			<enum code="1" count="72">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071849.v1.p1" var_name="NotDemCi" calculated_type="enum_integer" reported_type="encoded value">
+	<description>If the subject does not meet criteria for dementia, what is the diagnosis?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1670</other>
+			</case_control>
+			<sex>
+				<male>664</male>
+				<female>1006</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1670" nulls="728" mean_count="278.3" sd="450.3" median_count="113" min_count="3" max_count="1186"/>
+			<enum code="1" count="1186">Not demented, no neurological disorder</enum>
+			<enum code="9" count="208">Missing/unknown</enum>
+			<enum code="6" count="136">No diagnosis made</enum>
+			<enum code="3" count="90">Questionable dementia (e.g., CDR = 0.5) or cognitive impairment (MCI, AAMI)</enum>
+			<enum code="2" count="47">Not demented, but has other neurological disorder (such as Parkinson disease, MS, etc.)</enum>
+			<enum code="5" count="3">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071849.v1.p1.c1" var_name="NotDemCi" calculated_type="enum_integer" reported_type="encoded value">
+	<description>If the subject does not meet criteria for dementia, what is the diagnosis?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>775</other>
+			</case_control>
+			<sex>
+				<male>299</male>
+				<female>476</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="775" nulls="362" mean_count="129.2" sd="183.5" median_count="64.5" min_count="2" max_count="494"/>
+			<enum code="1" count="494">Not demented, no neurological disorder</enum>
+			<enum code="6" count="120">No diagnosis made</enum>
+			<enum code="9" count="84">Missing/unknown</enum>
+			<enum code="3" count="45">Questionable dementia (e.g., CDR = 0.5) or cognitive impairment (MCI, AAMI)</enum>
+			<enum code="2" count="30">Not demented, but has other neurological disorder (such as Parkinson disease, MS, etc.)</enum>
+			<enum code="5" count="2">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071849.v1.p1.c2" var_name="NotDemCi" calculated_type="enum_integer" reported_type="encoded value">
+	<description>If the subject does not meet criteria for dementia, what is the diagnosis?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>14</other>
+			</case_control>
+			<sex>
+				<male>4</male>
+				<female>10</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="14" nulls="8" mean_count="3.5" sd="3.697" median_count="2" min_count="1" max_count="9"/>
+			<enum code="1" count="9">Not demented, no neurological disorder</enum>
+			<enum code="9" count="2">Missing/unknown</enum>
+			<enum code="6" count="2">No diagnosis made</enum>
+			<enum code="2" count="1">Not demented, but has other neurological disorder (such as Parkinson disease, MS, etc.)</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071849.v1.p1.c3" var_name="NotDemCi" calculated_type="enum_integer" reported_type="encoded value">
+	<description>If the subject does not meet criteria for dementia, what is the diagnosis?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>746</other>
+			</case_control>
+			<sex>
+				<male>305</male>
+				<female>441</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="746" nulls="311" mean_count="124.3" sd="230.8" median_count="27.5" min_count="1" max_count="591"/>
+			<enum code="1" count="591">Not demented, no neurological disorder</enum>
+			<enum code="9" count="88">Missing/unknown</enum>
+			<enum code="3" count="42">Questionable dementia (e.g., CDR = 0.5) or cognitive impairment (MCI, AAMI)</enum>
+			<enum code="6" count="13">No diagnosis made</enum>
+			<enum code="2" count="11">Not demented, but has other neurological disorder (such as Parkinson disease, MS, etc.)</enum>
+			<enum code="5" count="1">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071849.v1.p1.c4" var_name="NotDemCi" calculated_type="enum_integer" reported_type="encoded value">
+	<description>If the subject does not meet criteria for dementia, what is the diagnosis?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>135</other>
+			</case_control>
+			<sex>
+				<male>56</male>
+				<female>79</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="135" nulls="47" mean_count="27" sd="38.76" median_count="5" min_count="1" max_count="92"/>
+			<enum code="1" count="92">Not demented, no neurological disorder</enum>
+			<enum code="9" count="34">Missing/unknown</enum>
+			<enum code="2" count="5">Not demented, but has other neurological disorder (such as Parkinson disease, MS, etc.)</enum>
+			<enum code="3" count="3">Questionable dementia (e.g., CDR = 0.5) or cognitive impairment (MCI, AAMI)</enum>
+			<enum code="6" count="1">No diagnosis made</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071850.v1.p1" var_name="DemDx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the primary clinical dementia diagnosis Alzheimer&#39;s disease (AD)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1298</other>
+			</case_control>
+			<sex>
+				<male>482</male>
+				<female>816</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1298" nulls="1100" mean_count="185.4" sd="256.6" median_count="61" min_count="10" max_count="672"/>
+			<enum code="2" count="672">Probable AD</enum>
+			<enum code="9" count="406">Missing/unknown</enum>
+			<enum code="3" count="123">Possible AD</enum>
+			<enum code="1" count="61">Definite AD (autopsy confirmed)</enum>
+			<enum code="4" count="15">Dementia, unspecified</enum>
+			<enum code="5" count="11">Non-Alzheimer&#39;s Dementia</enum>
+			<enum code="6" count="10">Dementia by family report</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071850.v1.p1.c1" var_name="DemDx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the primary clinical dementia diagnosis Alzheimer&#39;s disease (AD)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>576</other>
+			</case_control>
+			<sex>
+				<male>214</male>
+				<female>362</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="576" nulls="561" mean_count="82.29" sd="118.2" median_count="20" min_count="3" max_count="323"/>
+			<enum code="2" count="323">Probable AD</enum>
+			<enum code="9" count="148">Missing/unknown</enum>
+			<enum code="3" count="67">Possible AD</enum>
+			<enum code="1" count="20">Definite AD (autopsy confirmed)</enum>
+			<enum code="4" count="9">Dementia, unspecified</enum>
+			<enum code="6" count="6">Dementia by family report</enum>
+			<enum code="5" count="3">Non-Alzheimer&#39;s Dementia</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071850.v1.p1.c2" var_name="DemDx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the primary clinical dementia diagnosis Alzheimer&#39;s disease (AD)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>10</other>
+			</case_control>
+			<sex>
+				<male>4</male>
+				<female>6</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="10" nulls="12" mean_count="5" sd="2.828" median_count="5" min_count="3" max_count="7"/>
+			<enum code="2" count="7">Probable AD</enum>
+			<enum code="9" count="3">Missing/unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071850.v1.p1.c3" var_name="DemDx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the primary clinical dementia diagnosis Alzheimer&#39;s disease (AD)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>569</other>
+			</case_control>
+			<sex>
+				<male>210</male>
+				<female>359</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="569" nulls="488" mean_count="81.29" sd="108.7" median_count="34" min_count="3" max_count="281"/>
+			<enum code="2" count="281">Probable AD</enum>
+			<enum code="9" count="185">Missing/unknown</enum>
+			<enum code="3" count="52">Possible AD</enum>
+			<enum code="1" count="34">Definite AD (autopsy confirmed)</enum>
+			<enum code="5" count="8">Non-Alzheimer&#39;s Dementia</enum>
+			<enum code="4" count="6">Dementia, unspecified</enum>
+			<enum code="6" count="3">Dementia by family report</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071850.v1.p1.c4" var_name="DemDx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Is the primary clinical dementia diagnosis Alzheimer&#39;s disease (AD)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>143</other>
+			</case_control>
+			<sex>
+				<male>54</male>
+				<female>89</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="143" nulls="39" mean_count="28.6" sd="33.9" median_count="7" min_count="1" max_count="70"/>
+			<enum code="9" count="70">Missing/unknown</enum>
+			<enum code="2" count="61">Probable AD</enum>
+			<enum code="1" count="7">Definite AD (autopsy confirmed)</enum>
+			<enum code="3" count="4">Possible AD</enum>
+			<enum code="6" count="1">Dementia by family report</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071851.v1.p1" var_name="AgeDxDem" calculated_type="integer" units="Years old" reported_type="years">
+	<description>At what age was the subject diagnosed with Alzheimer&#39;s disease or other non-Alzheimer&#39;s dementia?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>602</other>
+			</case_control>
+			<sex>
+				<male>227</male>
+				<female>375</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="524" nulls="1796" special_values="78" mean="76.16" sd="7.413" median="76" min="50" max="98"/>
+			<example count="34">80</example>
+			<example count="31">70</example>
+			<example count="29">75</example>
+			<example count="29">76</example>
+			<example count="28">82</example>
+			<example count="27">78</example>
+			<example count="27">79</example>
+			<example count="24">72</example>
+			<example count="23">74</example>
+			<example count="23">81</example>
+			<special_value code="999" count="78">Missing/unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071851.v1.p1.c1" var_name="AgeDxDem" calculated_type="integer" units="Years old" reported_type="years">
+	<description>At what age was the subject diagnosed with Alzheimer&#39;s disease or other non-Alzheimer&#39;s dementia?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>270</other>
+			</case_control>
+			<sex>
+				<male>101</male>
+				<female>169</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="244" nulls="867" special_values="26" mean="76.06" sd="7.279" median="76" min="50" max="94"/>
+			<example count="18">82</example>
+			<example count="16">80</example>
+			<example count="16">70</example>
+			<example count="14">74</example>
+			<example count="14">76</example>
+			<example count="13">78</example>
+			<example count="13">72</example>
+			<example count="11">71</example>
+			<example count="11">77</example>
+			<example count="11">79</example>
+			<special_value code="999" count="26">Missing/unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071851.v1.p1.c2" var_name="AgeDxDem" calculated_type="integer" units="Years old" reported_type="years">
+	<description>At what age was the subject diagnosed with Alzheimer&#39;s disease or other non-Alzheimer&#39;s dementia?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>5</other>
+			</case_control>
+			<sex>
+				<male>3</male>
+				<female>2</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="4" nulls="17" special_values="1" mean="71.75" sd="4.349" median="70.5" min="68" max="78"/>
+			<enum count="1">71</enum>
+			<enum count="1">78</enum>
+			<enum count="1">68</enum>
+			<enum count="1">70</enum>
+			<special_value code="999" count="1">Missing/unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071851.v1.p1.c3" var_name="AgeDxDem" calculated_type="integer" units="Years old" reported_type="years">
+	<description>At what age was the subject diagnosed with Alzheimer&#39;s disease or other non-Alzheimer&#39;s dementia?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>268</other>
+			</case_control>
+			<sex>
+				<male>103</male>
+				<female>165</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="226" nulls="789" special_values="42" mean="76.41" sd="7.419" median="76" min="54" max="98"/>
+			<example count="17">75</example>
+			<example count="16">80</example>
+			<example count="13">76</example>
+			<example count="13">79</example>
+			<example count="13">73</example>
+			<example count="12">81</example>
+			<example count="11">77</example>
+			<example count="10">70</example>
+			<example count="9">69</example>
+			<example count="8">71</example>
+			<special_value code="999" count="42">Missing/unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071851.v1.p1.c4" var_name="AgeDxDem" calculated_type="integer" units="Years old" reported_type="years">
+	<description>At what age was the subject diagnosed with Alzheimer&#39;s disease or other non-Alzheimer&#39;s dementia?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>59</other>
+			</case_control>
+			<sex>
+				<male>20</male>
+				<female>39</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="50" nulls="123" special_values="9" mean="75.88" sd="8.238" median="78" min="50" max="93"/>
+			<example count="6">78</example>
+			<example count="4">81</example>
+			<example count="4">70</example>
+			<example count="3">75</example>
+			<example count="3">79</example>
+			<example count="3">72</example>
+			<example count="3">83</example>
+			<example count="2">71</example>
+			<example count="2">74</example>
+			<example count="2">80</example>
+			<special_value code="999" count="9">Missing/unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071852.v1.p1" var_name="Analysis" calculated_type="enum_integer">
+	<description>Individual/sample included in the analysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>2398</other>
+			</case_control>
+			<sex>
+				<male>925</male>
+				<female>1473</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2398" nulls="0" mean_count="1199" sd="1475" median_count="1199" min_count="156" max_count="2242"/>
+			<enum code="1" count="2242">Yes</enum>
+			<enum code="2" count="156">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071852.v1.p1.c1" var_name="Analysis" calculated_type="enum_integer">
+	<description>Individual/sample included in the analysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1137</other>
+			</case_control>
+			<sex>
+				<male>428</male>
+				<female>709</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1137" nulls="0" mean_count="568.5" sd="716.3" median_count="568.5" min_count="62" max_count="1075"/>
+			<enum code="1" count="1075">Yes</enum>
+			<enum code="2" count="62">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071852.v1.p1.c2" var_name="Analysis" calculated_type="enum_integer">
+	<description>Individual/sample included in the analysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>22</other>
+			</case_control>
+			<sex>
+				<male>8</male>
+				<female>14</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="22" nulls="0" mean_count="11" sd="12.73" median_count="11" min_count="2" max_count="20"/>
+			<enum code="1" count="20">Yes</enum>
+			<enum code="2" count="2">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071852.v1.p1.c3" var_name="Analysis" calculated_type="enum_integer">
+	<description>Individual/sample included in the analysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>1057</other>
+			</case_control>
+			<sex>
+				<male>419</male>
+				<female>638</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1057" nulls="0" mean_count="528.5" sd="634.3" median_count="528.5" min_count="80" max_count="977"/>
+			<enum code="1" count="977">Yes</enum>
+			<enum code="2" count="80">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00071852.v1.p1.c4" var_name="Analysis" calculated_type="enum_integer">
+	<description>Individual/sample included in the analysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<other>182</other>
+			</case_control>
+			<sex>
+				<male>70</male>
+				<female>112</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="182" nulls="0" mean_count="91" sd="111.7" median_count="91" min_count="12" max_count="170"/>
+			<enum code="1" count="170">Yes</enum>
+			<enum code="2" count="12">No</enum>
+		</stats>
+	</total>
+</variable>
+
+</data_table>

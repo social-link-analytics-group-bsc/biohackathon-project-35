@@ -1,0 +1,1253 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="T2D_Case_Data" dataset_id="pht000630.v1" study_name="A Whole Genome Association Search for Type 2 Diabetes Genes in African Americans" study_id="phs000140.v1" participant_set="1" date_created="11/24/2010">
+
+<variable id="phv00066337.v1.p1" var_name="SUBJID" calculated_type="string" reported_type="text">
+	<description>Subject ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066337.v1.p1.c1" var_name="SUBJID" calculated_type="string" reported_type="text">
+	<description>Subject ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066338.v1.p1" var_name="Race" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Race, ethnicity of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="971" median_count="971" min_count="971" max_count="971"/>
+			<enum code="AA" count="971">African American</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066338.v1.p1.c1" var_name="Race" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Race, ethnicity of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="971" median_count="971" min_count="971" max_count="971"/>
+			<enum code="AA" count="971">African American</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066339.v1.p1" var_name="Age" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age at recruitment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>938</case>
+			</case_control>
+			<sex>
+				<male>365</male>
+				<female>573</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="938" nulls="33" mean="61.53" sd="10.54" median="61" min="28" max="&gt;89"/>
+			<example count="41">69</example>
+			<example count="41">58</example>
+			<example count="41">60</example>
+			<example count="36">59</example>
+			<example count="35">53</example>
+			<example count="34">56</example>
+			<example count="33">57</example>
+			<example count="33">65</example>
+			<example count="33">66</example>
+			<example count="31">67</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066339.v1.p1.c1" var_name="Age" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age at recruitment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>938</case>
+			</case_control>
+			<sex>
+				<male>365</male>
+				<female>573</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="938" nulls="33" mean="61.53" sd="10.54" median="61" min="28" max="&gt;89"/>
+			<example count="41">69</example>
+			<example count="41">58</example>
+			<example count="41">60</example>
+			<example count="36">59</example>
+			<example count="35">53</example>
+			<example count="34">56</example>
+			<example count="33">57</example>
+			<example count="33">65</example>
+			<example count="33">66</example>
+			<example count="31">67</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066340.v1.p1" var_name="Gender" calculated_type="enum_integer" reported_type="continuous integer">
+	<description>Gender of participant has been confirmed with genotyping: 1 = Male, 2 = Female</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="485.5" sd="153.4" median_count="485.5" min_count="377" max_count="594"/>
+			<enum code="2" count="594">Female</enum>
+			<enum code="1" count="377">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066340.v1.p1.c1" var_name="Gender" calculated_type="enum_integer" reported_type="continuous integer">
+	<description>Gender of participant has been confirmed with genotyping: 1 = Male, 2 = Female</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="485.5" sd="153.4" median_count="485.5" min_count="377" max_count="594"/>
+			<enum code="2" count="594">Female</enum>
+			<enum code="1" count="377">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066341.v1.p1" var_name="BMI" calculated_type="decimal" units="kg/m2" reported_type="continuous decimal">
+	<description>Body Mass Index</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>941</case>
+			</case_control>
+			<sex>
+				<male>369</male>
+				<female>572</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="941" nulls="30" mean="29.66" sd="7.131" median="28.8" min="0" max="69.8"/>
+			<example count="11">31.3</example>
+			<example count="11">28.3</example>
+			<example count="11">28.9</example>
+			<example count="10">31</example>
+			<example count="10">22.6</example>
+			<example count="10">25.8</example>
+			<example count="10">26.5</example>
+			<example count="9">29</example>
+			<example count="9">21.3</example>
+			<example count="9">26.9</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066341.v1.p1.c1" var_name="BMI" calculated_type="decimal" units="kg/m2" reported_type="continuous decimal">
+	<description>Body Mass Index</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>941</case>
+			</case_control>
+			<sex>
+				<male>369</male>
+				<female>572</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="941" nulls="30" mean="29.66" sd="7.131" median="28.8" min="0" max="69.8"/>
+			<example count="11">31.3</example>
+			<example count="11">28.3</example>
+			<example count="11">28.9</example>
+			<example count="10">31</example>
+			<example count="10">22.6</example>
+			<example count="10">25.8</example>
+			<example count="10">26.5</example>
+			<example count="9">29</example>
+			<example count="9">21.3</example>
+			<example count="9">26.9</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066342.v1.p1" var_name="Consent" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Consent form(s) signed by participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="69.36" sd="74.65" median_count="45" min_count="1" max_count="215"/>
+			<example code="A" count="215">BG91-0129</example>
+			<example code="B" count="165">BG92-0090</example>
+			<example code="E_001, H" count="156">BG00-427_001,  Reconsent form</example>
+			<example code="G_001" count="150">BG01-299-001</example>
+			<example code="D" count="101">BG00-028</example>
+			<example code="F" count="71">BG01-059</example>
+			<example code="E_001,X" count="49">BG00-427_001, Deceased participant</example>
+			<example code="G_001,X" count="41">BG01-299-001, Deceased participant</example>
+			<example code="G_002" count="11">BG01-299-002</example>
+			<example code="G_002, H" count="7">BG01-299-002, Reconsent form</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066342.v1.p1.c1" var_name="Consent" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Consent form(s) signed by participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="69.36" sd="74.65" median_count="45" min_count="1" max_count="215"/>
+			<example code="A" count="215">BG91-0129</example>
+			<example code="B" count="165">BG92-0090</example>
+			<example code="E_001, H" count="156">BG00-427_001,  Reconsent form</example>
+			<example code="G_001" count="150">BG01-299-001</example>
+			<example code="D" count="101">BG00-028</example>
+			<example code="F" count="71">BG01-059</example>
+			<example code="E_001,X" count="49">BG00-427_001, Deceased participant</example>
+			<example code="G_001,X" count="41">BG01-299-001, Deceased participant</example>
+			<example code="G_002" count="11">BG01-299-002</example>
+			<example code="G_002, H" count="7">BG01-299-002, Reconsent form</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066343.v1.p1" var_name="T2DM Age of Onset" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age of T2DM (Type 2 Diabetes Mellitus) diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>906</case>
+			</case_control>
+			<sex>
+				<male>352</male>
+				<female>554</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="906" nulls="0" mean="41.61" sd="12.38" median="40" min="15" max="81"/>
+			<example count="70">35</example>
+			<example code="." count="65">Unknown</example>
+			<example count="58">40</example>
+			<example count="52">30</example>
+			<example count="44">50</example>
+			<example count="38">45</example>
+			<example count="32">42</example>
+			<example count="32">48</example>
+			<example count="30">38</example>
+			<example count="27">25</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066343.v1.p1.c1" var_name="T2DM Age of Onset" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age of T2DM (Type 2 Diabetes Mellitus) diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>906</case>
+			</case_control>
+			<sex>
+				<male>352</male>
+				<female>554</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="906" nulls="0" mean="41.61" sd="12.38" median="40" min="15" max="81"/>
+			<example count="70">35</example>
+			<example code="." count="65">Unknown</example>
+			<example count="58">40</example>
+			<example count="52">30</example>
+			<example count="44">50</example>
+			<example count="38">45</example>
+			<example count="32">42</example>
+			<example count="32">48</example>
+			<example count="30">38</example>
+			<example count="27">25</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066344.v1.p1" var_name="ESRD Age of Onset" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age of ESRD (End Stage Renal Disease) diagnosis, start of dialysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>909</case>
+			</case_control>
+			<sex>
+				<male>352</male>
+				<female>557</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="909" nulls="0" mean="57.94" sd="10.91" median="58" min="25" max="86"/>
+			<example code="." count="62">Unknown</example>
+			<example count="37">53</example>
+			<example count="35">64</example>
+			<example count="35">56</example>
+			<example count="34">55</example>
+			<example count="34">62</example>
+			<example count="34">65</example>
+			<example count="33">63</example>
+			<example count="33">50</example>
+			<example count="31">52</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066344.v1.p1.c1" var_name="ESRD Age of Onset" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age of ESRD (End Stage Renal Disease) diagnosis, start of dialysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>909</case>
+			</case_control>
+			<sex>
+				<male>352</male>
+				<female>557</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="909" nulls="0" mean="57.94" sd="10.91" median="58" min="25" max="86"/>
+			<example code="." count="62">Unknown</example>
+			<example count="37">53</example>
+			<example count="35">64</example>
+			<example count="35">56</example>
+			<example count="34">55</example>
+			<example count="34">62</example>
+			<example count="34">65</example>
+			<example count="33">63</example>
+			<example count="33">50</example>
+			<example count="31">52</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066345.v1.p1" var_name="HTN Age of Onset" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age of hypertension diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>502</case>
+			</case_control>
+			<sex>
+				<male>202</male>
+				<female>300</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="502" nulls="1" mean="40.97" sd="13.05" median="40" min="6" max="77"/>
+			<example code="." count="468">Unknown</example>
+			<example count="48">35</example>
+			<example count="33">45</example>
+			<example count="31">40</example>
+			<example count="28">30</example>
+			<example count="25">50</example>
+			<example count="21">25</example>
+			<example count="16">60</example>
+			<example count="16">38</example>
+			<example count="14">33</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066345.v1.p1.c1" var_name="HTN Age of Onset" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Age of hypertension diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>502</case>
+			</case_control>
+			<sex>
+				<male>202</male>
+				<female>300</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="502" nulls="1" mean="40.97" sd="13.05" median="40" min="6" max="77"/>
+			<example code="." count="468">Unknown</example>
+			<example count="48">35</example>
+			<example count="33">45</example>
+			<example count="31">40</example>
+			<example count="28">30</example>
+			<example count="25">50</example>
+			<example count="21">25</example>
+			<example count="16">60</example>
+			<example count="16">38</example>
+			<example count="14">33</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066346.v1.p1" var_name="Duration T2DM" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Duration of T2DM (Type 2 Diabetes Mellitus) since diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>876</case>
+			</case_control>
+			<sex>
+				<male>343</male>
+				<female>533</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="876" nulls="0" mean="19.68" sd="10.68" median="19" min="0" max="54"/>
+			<example code="." count="95">Unknown</example>
+			<example count="43">20</example>
+			<example count="37">18</example>
+			<example count="35">15</example>
+			<example count="35">14</example>
+			<example count="33">16</example>
+			<example count="33">10</example>
+			<example count="32">21</example>
+			<example count="29">19</example>
+			<example count="28">13</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066346.v1.p1.c1" var_name="Duration T2DM" calculated_type="integer" units="Years" reported_type="continuous integer">
+	<description>Duration of T2DM (Type 2 Diabetes Mellitus) since diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>876</case>
+			</case_control>
+			<sex>
+				<male>343</male>
+				<female>533</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="876" nulls="0" mean="19.68" sd="10.68" median="19" min="0" max="54"/>
+			<example code="." count="95">Unknown</example>
+			<example count="43">20</example>
+			<example count="37">18</example>
+			<example count="35">15</example>
+			<example count="35">14</example>
+			<example count="33">16</example>
+			<example count="33">10</example>
+			<example count="32">21</example>
+			<example count="29">19</example>
+			<example count="28">13</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066347.v1.p1" var_name="ESRD" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Individual has reported that he/she is on dialysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="485.5" sd="683.8" median_count="485.5" min_count="2" max_count="969"/>
+			<enum code="yes" count="969">Yes</enum>
+			<enum code="no" count="2">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066347.v1.p1.c1" var_name="ESRD" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Individual has reported that he/she is on dialysis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0" mean_count="485.5" sd="683.8" median_count="485.5" min_count="2" max_count="969"/>
+			<enum code="yes" count="969">Yes</enum>
+			<enum code="no" count="2">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066348.v1.p1" var_name="HTN" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Individual has self reported hypertension (yes, no, unknown)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>970</case>
+			</case_control>
+			<sex>
+				<male>376</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="970" nulls="1" mean_count="323.3" sd="272.5" median_count="297" min_count="65" max_count="608"/>
+			<enum code="yes" count="608">Yes</enum>
+			<enum code="unknown" count="297">Unknown</enum>
+			<enum code="no" count="65">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066348.v1.p1.c1" var_name="HTN" calculated_type="enum_integer" reported_type="enumerated text">
+	<description>Individual has self reported hypertension (yes, no, unknown)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>970</case>
+			</case_control>
+			<sex>
+				<male>376</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="970" nulls="1" mean_count="323.3" sd="272.5" median_count="297" min_count="65" max_count="608"/>
+			<enum code="yes" count="608">Yes</enum>
+			<enum code="unknown" count="297">Unknown</enum>
+			<enum code="no" count="65">No</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066349.v1.p1" var_name="Retinopathy" calculated_type="string" reported_type="enumerated text">
+	<description>Individual has diabetic retinopathy reported by ophthalmologist or laser treatment with photocoagulation</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0"/>
+			<enum count="507">yes</enum>
+			<enum count="290">no</enum>
+			<enum count="174">unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066349.v1.p1.c1" var_name="Retinopathy" calculated_type="string" reported_type="enumerated text">
+	<description>Individual has diabetic retinopathy reported by ophthalmologist or laser treatment with photocoagulation</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>971</case>
+			</case_control>
+			<sex>
+				<male>377</male>
+				<female>594</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="971" nulls="0"/>
+			<enum count="507">yes</enum>
+			<enum count="290">no</enum>
+			<enum count="174">unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066350.v1.p1" var_name="HBA1C" calculated_type="decimal" units="%" reported_type="enumerated integer">
+	<description>Hemoglobin1AC, test</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>113</case>
+			</case_control>
+			<sex>
+				<male>45</male>
+				<female>68</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="113" nulls="0" mean="7.549" sd="1.722" median="7.1" min="4.6" max="12.3"/>
+			<example code="." count="858">Unknown</example>
+			<example count="6">7</example>
+			<example count="5">6.8</example>
+			<example count="5">5.7</example>
+			<example count="4">6.1</example>
+			<example count="4">8.5</example>
+			<example count="4">8.9</example>
+			<example count="4">8.6</example>
+			<example count="3">9.3</example>
+			<example count="3">6.3</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00066350.v1.p1.c1" var_name="HBA1C" calculated_type="decimal" units="%" reported_type="enumerated integer">
+	<description>Hemoglobin1AC, test</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>113</case>
+			</case_control>
+			<sex>
+				<male>45</male>
+				<female>68</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="113" nulls="0" mean="7.549" sd="1.722" median="7.1" min="4.6" max="12.3"/>
+			<example code="." count="858">Unknown</example>
+			<example count="6">7</example>
+			<example count="5">6.8</example>
+			<example count="5">5.7</example>
+			<example count="4">6.1</example>
+			<example count="4">8.5</example>
+			<example count="4">8.9</example>
+			<example count="4">8.6</example>
+			<example count="3">9.3</example>
+			<example count="3">6.3</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076433.v1.p1" var_name="pc1" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 1: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.2293" sd="0.1463" median="0.1945" min="0.01319" max="0.9085"/>
+			<example count="1">0.1095489872</example>
+			<example count="1">0.1926320732</example>
+			<example count="1">0.2676937163</example>
+			<example count="1">0.1173498806</example>
+			<example count="1">0.3530950177</example>
+			<example count="1">0.2161445079</example>
+			<example count="1">0.0439445263</example>
+			<example count="1">0.2482860084</example>
+			<example count="1">0.2715202806</example>
+			<example count="1">0.491724085</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076433.v1.p1.c1" var_name="pc1" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 1: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.2293" sd="0.1463" median="0.1945" min="0.01319" max="0.9085"/>
+			<example count="1">0.1095489872</example>
+			<example count="1">0.1926320732</example>
+			<example count="1">0.2676937163</example>
+			<example count="1">0.1173498806</example>
+			<example count="1">0.3530950177</example>
+			<example count="1">0.2161445079</example>
+			<example count="1">0.0439445263</example>
+			<example count="1">0.2482860084</example>
+			<example count="1">0.2715202806</example>
+			<example count="1">0.491724085</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076434.v1.p1" var_name="pc2" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 2: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4488" sd="0.1222" median="0.4483" min="1.1E-08" max="1"/>
+			<example count="1">0.1586475877</example>
+			<example count="1">0.4657107458</example>
+			<example count="1">0.5381656209</example>
+			<example count="1">0.4230179128</example>
+			<example count="1">0.4142699766</example>
+			<example count="1">0.588275476</example>
+			<example count="1">0.4651820488</example>
+			<example count="1">0.475119156</example>
+			<example count="1">0.4161372798</example>
+			<example count="1">0.453975483</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076434.v1.p1.c1" var_name="pc2" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 2: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4488" sd="0.1222" median="0.4483" min="1.1E-08" max="1"/>
+			<example count="1">0.1586475877</example>
+			<example count="1">0.4657107458</example>
+			<example count="1">0.5381656209</example>
+			<example count="1">0.4230179128</example>
+			<example count="1">0.4142699766</example>
+			<example count="1">0.588275476</example>
+			<example count="1">0.4651820488</example>
+			<example count="1">0.475119156</example>
+			<example count="1">0.4161372798</example>
+			<example count="1">0.453975483</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076435.v1.p1" var_name="pc3" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 3: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.463" sd="0.09504" median="0.4596" min="0.05735" max="0.8233"/>
+			<example count="1">0.4623962018</example>
+			<example count="1">0.4681300594</example>
+			<example count="1">0.5283774911</example>
+			<example count="1">0.343462453</example>
+			<example count="1">0.4294482464</example>
+			<example count="1">0.4945354529</example>
+			<example count="1">0.5054539385</example>
+			<example count="1">0.4443401485</example>
+			<example count="1">0.4958747449</example>
+			<example count="1">0.3994131138</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076435.v1.p1.c1" var_name="pc3" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 3: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.463" sd="0.09504" median="0.4596" min="0.05735" max="0.8233"/>
+			<example count="1">0.4623962018</example>
+			<example count="1">0.4681300594</example>
+			<example count="1">0.5283774911</example>
+			<example count="1">0.343462453</example>
+			<example count="1">0.4294482464</example>
+			<example count="1">0.4945354529</example>
+			<example count="1">0.5054539385</example>
+			<example count="1">0.4443401485</example>
+			<example count="1">0.4958747449</example>
+			<example count="1">0.3994131138</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076436.v1.p1" var_name="pc4" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 4: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4424" sd="0.1276" median="0.4348" min="2.0E-08" max="0.8852"/>
+			<example count="1">0.4468120391</example>
+			<example count="1">0.3124108311</example>
+			<example count="1">0.5238863593</example>
+			<example count="1">0.6187437198</example>
+			<example count="1">0.315120319</example>
+			<example count="1">0.6319873307</example>
+			<example count="1">0.3763450191</example>
+			<example count="1">0.4545486754</example>
+			<example count="1">0.5248324538</example>
+			<example count="1">0.3413620885</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076436.v1.p1.c1" var_name="pc4" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 4: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4424" sd="0.1276" median="0.4348" min="2.0E-08" max="0.8852"/>
+			<example count="1">0.4468120391</example>
+			<example count="1">0.3124108311</example>
+			<example count="1">0.5238863593</example>
+			<example count="1">0.6187437198</example>
+			<example count="1">0.315120319</example>
+			<example count="1">0.6319873307</example>
+			<example count="1">0.3763450191</example>
+			<example count="1">0.4545486754</example>
+			<example count="1">0.5248324538</example>
+			<example count="1">0.3413620885</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076437.v1.p1" var_name="pc5" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 5: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4091" sd="0.1159" median="0.4002" min="0.06948" max="1"/>
+			<example count="1">0.3985257945</example>
+			<example count="1">0.4788242004</example>
+			<example count="1">0.2796766488</example>
+			<example count="1">0.35680477</example>
+			<example count="1">0.4165533212</example>
+			<example count="1">0.5002604643</example>
+			<example count="1">0.3206245802</example>
+			<example count="1">0.5150218759</example>
+			<example count="1">0.4020283325</example>
+			<example count="1">0.4109414393</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076437.v1.p1.c1" var_name="pc5" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 5: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4091" sd="0.1159" median="0.4002" min="0.06948" max="1"/>
+			<example count="1">0.3985257945</example>
+			<example count="1">0.4788242004</example>
+			<example count="1">0.2796766488</example>
+			<example count="1">0.35680477</example>
+			<example count="1">0.4165533212</example>
+			<example count="1">0.5002604643</example>
+			<example count="1">0.3206245802</example>
+			<example count="1">0.5150218759</example>
+			<example count="1">0.4020283325</example>
+			<example count="1">0.4109414393</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076438.v1.p1" var_name="pc6" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 6: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.5141" sd="0.1249" median="0.5073" min="7.1E-08" max="0.9665"/>
+			<example count="1">0.7946052598</example>
+			<example count="1">0.4276201769</example>
+			<example count="1">0.6557894247</example>
+			<example count="1">0.4634615823</example>
+			<example count="1">0.4566450915</example>
+			<example count="1">0.6031384584</example>
+			<example count="1">0.3942703366</example>
+			<example count="1">0.4867104012</example>
+			<example count="1">0.517567082</example>
+			<example count="1">0.5951006358</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076438.v1.p1.c1" var_name="pc6" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 6: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.5141" sd="0.1249" median="0.5073" min="7.1E-08" max="0.9665"/>
+			<example count="1">0.7946052598</example>
+			<example count="1">0.4276201769</example>
+			<example count="1">0.6557894247</example>
+			<example count="1">0.4634615823</example>
+			<example count="1">0.4566450915</example>
+			<example count="1">0.6031384584</example>
+			<example count="1">0.3942703366</example>
+			<example count="1">0.4867104012</example>
+			<example count="1">0.517567082</example>
+			<example count="1">0.5951006358</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076439.v1.p1" var_name="pc7" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 7: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.5077" sd="0.1067" median="0.5081" min="0.1512" max="1"/>
+			<example count="1">0.518555993</example>
+			<example count="1">0.4956338955</example>
+			<example count="1">0.5198634899</example>
+			<example count="1">0.4903608305</example>
+			<example count="1">0.1982147961</example>
+			<example count="1">0.4947553734</example>
+			<example count="1">0.5618739919</example>
+			<example count="1">0.6908400129</example>
+			<example count="1">0.6084935698</example>
+			<example count="1">0.6675788096</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076439.v1.p1.c1" var_name="pc7" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 7: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.5077" sd="0.1067" median="0.5081" min="0.1512" max="1"/>
+			<example count="1">0.518555993</example>
+			<example count="1">0.4956338955</example>
+			<example count="1">0.5198634899</example>
+			<example count="1">0.4903608305</example>
+			<example count="1">0.1982147961</example>
+			<example count="1">0.4947553734</example>
+			<example count="1">0.5618739919</example>
+			<example count="1">0.6908400129</example>
+			<example count="1">0.6084935698</example>
+			<example count="1">0.6675788096</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076440.v1.p1" var_name="pc8" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 8: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4898" sd="0.1194" median="0.4944" min="0" max="1"/>
+			<example count="1">0.2487375046</example>
+			<example count="1">0.5083609139</example>
+			<example count="1">0.4883005261</example>
+			<example count="1">0.6660325602</example>
+			<example count="1">0.4333820254</example>
+			<example count="1">0.4408730969</example>
+			<example count="1">0.4307589463</example>
+			<example count="1">0.3757894199</example>
+			<example count="1">0.5592395725</example>
+			<example count="1">0.5830186299</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076440.v1.p1.c1" var_name="pc8" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 8: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4898" sd="0.1194" median="0.4944" min="0" max="1"/>
+			<example count="1">0.2487375046</example>
+			<example count="1">0.5083609139</example>
+			<example count="1">0.4883005261</example>
+			<example count="1">0.6660325602</example>
+			<example count="1">0.4333820254</example>
+			<example count="1">0.4408730969</example>
+			<example count="1">0.4307589463</example>
+			<example count="1">0.3757894199</example>
+			<example count="1">0.5592395725</example>
+			<example count="1">0.5830186299</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076441.v1.p1" var_name="pc9" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 9: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4679" sd="0.1164" median="0.4648" min="9.1E-10" max="1"/>
+			<example count="1">0.3452699969</example>
+			<example count="1">0.4263303639</example>
+			<example count="1">0.2255808825</example>
+			<example count="1">0.372196194</example>
+			<example count="1">0.4887652968</example>
+			<example count="1">0.5880924668</example>
+			<example count="1">0.6131261482</example>
+			<example count="1">0.4215904675</example>
+			<example count="1">0.4058793896</example>
+			<example count="1">0.6356781838</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076441.v1.p1.c1" var_name="pc9" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 9: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4679" sd="0.1164" median="0.4648" min="9.1E-10" max="1"/>
+			<example count="1">0.3452699969</example>
+			<example count="1">0.4263303639</example>
+			<example count="1">0.2255808825</example>
+			<example count="1">0.372196194</example>
+			<example count="1">0.4887652968</example>
+			<example count="1">0.5880924668</example>
+			<example count="1">0.6131261482</example>
+			<example count="1">0.4215904675</example>
+			<example count="1">0.4058793896</example>
+			<example count="1">0.6356781838</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076442.v1.p1" var_name="pc10" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 10: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4973" sd="0.1268" median="0.4907" min="0.03004" max="0.9821"/>
+			<example count="1">0.2928582727</example>
+			<example count="1">0.5836698468</example>
+			<example count="1">0.7032393612</example>
+			<example count="1">0.7869962348</example>
+			<example count="1">0.6178423803</example>
+			<example count="1">0.5225902311</example>
+			<example count="1">0.4715782702</example>
+			<example count="1">0.5642520229</example>
+			<example count="1">0.5157792552</example>
+			<example count="1">0.4062612374</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00076442.v1.p1.c1" var_name="pc10" calculated_type="decimal" reported_type="continuous decimal">
+	<description>Principal component 10: a mathematical tool commonly used in statistical analysis. It seeks to identify an orthogonal coordinate system that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components (PC). This method allows for the separation of individuals on the basis of differences in their properties and can also be used to evaluate the properties that contribute the most to these separations. The principal components are ordered in terms of the amount of variation in the dataset that they explain such that the first PC explains the largest fraction of the total variance, and so on. There exist a number of methods to determine the number of PC to be retained for a specific analysis. However, none of them uniformly dominates the others. Following a practice largely adopted in the field, we present the first 10 PC computed on this dataset.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>958</case>
+			</case_control>
+			<sex>
+				<male>372</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="958" nulls="13" mean="0.4973" sd="0.1268" median="0.4907" min="0.03004" max="0.9821"/>
+			<example count="1">0.2928582727</example>
+			<example count="1">0.5836698468</example>
+			<example count="1">0.7032393612</example>
+			<example count="1">0.7869962348</example>
+			<example count="1">0.6178423803</example>
+			<example count="1">0.5225902311</example>
+			<example count="1">0.4715782702</example>
+			<example count="1">0.5642520229</example>
+			<example count="1">0.5157792552</example>
+			<example count="1">0.4062612374</example>
+		</stats>
+	</total>
+</variable>
+
+</data_table>
+

@@ -1,0 +1,3314 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="cde_ctl" dataset_id="pht000189.v1" study_name="Ischemic Stroke Genetics Study (ISGS)" study_id="phs000102.v1" participant_set="1" date_created="Mon Jun 16 14:31:57 2008">
+
+<variable id="phv00024262.v1.p1" var_name="Catalog_ID" calculated_type="string">
+	<description>Subject ID number assigned by NINDS Repository</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024262.v1.p1.c1" var_name="Catalog_ID" calculated_type="string">
+	<description>Subject ID number assigned by NINDS Repository</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024262.v1.p1.c2" var_name="Catalog_ID" calculated_type="string">
+	<description>Subject ID number assigned by NINDS Repository</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024263.v1.p1" var_name="In_Panel" calculated_type="enum_integer">
+	<description>Indicates whether DNA from this subject is included in any panels available through the NINDS Repository catalog</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean_count="266" sd="undef" median_count="266" min_count="266" max_count="266"/>
+			<enum code="Y" count="266">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024263.v1.p1.c1" var_name="In_Panel" calculated_type="enum_integer">
+	<description>Indicates whether DNA from this subject is included in any panels available through the NINDS Repository catalog</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean_count="266" sd="undef" median_count="266" min_count="266" max_count="266"/>
+			<enum code="Y" count="266">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024263.v1.p1.c2" var_name="In_Panel" calculated_type="string">
+	<description>Indicates whether DNA from this subject is included in any panels available through the NINDS Repository catalog</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024264.v1.p1" var_name="Age" calculated_type="integer" units="Years">
+	<description>Age, at sampling, of the subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean="69.65" sd="8.75" median="70" min="55" max="88"/>
+			<example count="13">71</example>
+			<example count="13">67</example>
+			<example count="11">58</example>
+			<example count="11">76</example>
+			<example count="11">69</example>
+			<example count="11">72</example>
+			<example count="11">70</example>
+			<example count="10">62</example>
+			<example count="10">64</example>
+			<example count="10">59</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024264.v1.p1.c1" var_name="Age" calculated_type="integer" units="Years">
+	<description>Age, at sampling, of the subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean="69.65" sd="8.75" median="70" min="55" max="88"/>
+			<example count="13">71</example>
+			<example count="13">67</example>
+			<example count="11">58</example>
+			<example count="11">76</example>
+			<example count="11">69</example>
+			<example count="11">72</example>
+			<example count="11">70</example>
+			<example count="10">62</example>
+			<example count="10">64</example>
+			<example count="10">59</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024264.v1.p1.c2" var_name="Age" calculated_type="string" units="Years">
+	<description>Age, at sampling, of the subject</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024265.v1.p1" var_name="Gender" calculated_type="enum_integer">
+	<description>Gender of the subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean_count="133" sd="5.657" median_count="133" min_count="129" max_count="137"/>
+			<enum code="F" count="137">Female</enum>
+			<enum code="M" count="129">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024265.v1.p1.c1" var_name="Gender" calculated_type="enum_integer">
+	<description>Gender of the subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean_count="133" sd="5.657" median_count="133" min_count="129" max_count="137"/>
+			<enum code="F" count="137">Female</enum>
+			<enum code="M" count="129">Male</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024265.v1.p1.c2" var_name="Gender" calculated_type="string">
+	<description>Gender of the subject</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024266.v1.p1" var_name="Race" calculated_type="string">
+	<description>Race of the subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">Caucasian</enum>
+			<enum count="1">African American</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024266.v1.p1.c1" var_name="Race" calculated_type="string">
+	<description>Race of the subject</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">Caucasian</enum>
+			<enum count="1">African American</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024266.v1.p1.c2" var_name="Race" calculated_type="string">
+	<description>Race of the subject</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024267.v1.p1" var_name="Ethnicity" calculated_type="string">
+	<description>Subject&#39;s ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">Not Hispanic/Latino</enum>
+			<enum count="1">Hispanic/Latino</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024267.v1.p1.c1" var_name="Ethnicity" calculated_type="string">
+	<description>Subject&#39;s ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">Not Hispanic/Latino</enum>
+			<enum count="1">Hispanic/Latino</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024267.v1.p1.c2" var_name="Ethnicity" calculated_type="string">
+	<description>Subject&#39;s ethnicity</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024268.v1.p1" var_name="Clinical_Data_Source" calculated_type="string">
+	<description>The source of the clinical data</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>261</control>
+			</case_control>
+			<sex>
+				<male>126</male>
+				<female>135</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="261" nulls="5"/>
+			<enum count="260">Submitter</enum>
+			<enum count="1">Specialist report</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024268.v1.p1.c1" var_name="Clinical_Data_Source" calculated_type="string">
+	<description>The source of the clinical data</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>261</control>
+			</case_control>
+			<sex>
+				<male>126</male>
+				<female>135</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="261" nulls="5"/>
+			<enum count="260">Submitter</enum>
+			<enum count="1">Specialist report</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024268.v1.p1.c2" var_name="Clinical_Data_Source" calculated_type="string">
+	<description>The source of the clinical data</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024269.v1.p1" var_name="Clinician_Type" calculated_type="string">
+	<description>Type of clinician that collected the clinical data</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>247</control>
+			</case_control>
+			<sex>
+				<male>119</male>
+				<female>128</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="247" nulls="19"/>
+			<enum count="137">Specialist in this diag</enum>
+			<enum count="102">Neurologist</enum>
+			<enum count="5">Not reported</enum>
+			<enum count="3">Research Coordinator</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024269.v1.p1.c1" var_name="Clinician_Type" calculated_type="string">
+	<description>Type of clinician that collected the clinical data</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>247</control>
+			</case_control>
+			<sex>
+				<male>119</male>
+				<female>128</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="247" nulls="19"/>
+			<enum count="137">Specialist in this diag</enum>
+			<enum count="102">Neurologist</enum>
+			<enum count="5">Not reported</enum>
+			<enum count="3">Research Coordinator</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024269.v1.p1.c2" var_name="Clinician_Type" calculated_type="string">
+	<description>Type of clinician that collected the clinical data</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024270.v1.p1" var_name="Country_Origin" calculated_type="string">
+	<description>Subject&#39;s country of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">USA</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024270.v1.p1.c1" var_name="Country_Origin" calculated_type="string">
+	<description>Subject&#39;s country of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">USA</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024270.v1.p1.c2" var_name="Country_Origin" calculated_type="string">
+	<description>Subject&#39;s country of birth</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024271.v1.p1" var_name="Zip_Abbrev" calculated_type="string">
+	<description>First 3 digits of subject&#39;s zip code</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="266"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024271.v1.p1.c1" var_name="Zip_Abbrev" calculated_type="string">
+	<description>First 3 digits of subject&#39;s zip code</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="266"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024271.v1.p1.c2" var_name="Zip_Abbrev" calculated_type="string">
+	<description>First 3 digits of subject&#39;s zip code</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024272.v1.p1" var_name="Data collected by This data was collected by" calculated_type="string">
+	<description>Define category of person who completed the form</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>1</control>
+			</case_control>
+			<sex>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1" nulls="265"/>
+			<enum count="1">clinical research assistant...</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024272.v1.p1.c1" var_name="Data collected by This data was collected by" calculated_type="string">
+	<description>Define category of person who completed the form</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>1</control>
+			</case_control>
+			<sex>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1" nulls="265"/>
+			<enum count="1">clinical research assistant...</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024272.v1.p1.c2" var_name="Data collected by This data was collected by" calculated_type="string">
+	<description>Define category of person who completed the form</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024273.v1.p1" var_name="Family History Amyotrophic lateral sclerosis" calculated_type="string">
+	<description>The presence or absence of amyotrophic lateral sclerosis in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  MATERNAL AUNT</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024273.v1.p1.c1" var_name="Family History Amyotrophic lateral sclerosis" calculated_type="string">
+	<description>The presence or absence of amyotrophic lateral sclerosis in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  MATERNAL AUNT</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024273.v1.p1.c2" var_name="Family History Amyotrophic lateral sclerosis" calculated_type="string">
+	<description>The presence or absence of amyotrophic lateral sclerosis in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024274.v1.p1" var_name="Family History Ataxia" calculated_type="string">
+	<description>The presence or absence of ataxia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024274.v1.p1.c1" var_name="Family History Ataxia" calculated_type="string">
+	<description>The presence or absence of ataxia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024274.v1.p1.c2" var_name="Family History Ataxia" calculated_type="string">
+	<description>The presence or absence of ataxia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024275.v1.p1" var_name="Family History Autism" calculated_type="string">
+	<description>The presence or absence of autism in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024275.v1.p1.c1" var_name="Family History Autism" calculated_type="string">
+	<description>The presence or absence of autism in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024275.v1.p1.c2" var_name="Family History Autism" calculated_type="string">
+	<description>The presence or absence of autism in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024276.v1.p1" var_name="Family History Bipolar (manic-depressive)" calculated_type="string">
+	<description>The presence or absence of bipolar disorder in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  SISTER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024276.v1.p1.c1" var_name="Family History Bipolar (manic-depressive)" calculated_type="string">
+	<description>The presence or absence of bipolar disorder in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  SISTER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024276.v1.p1.c2" var_name="Family History Bipolar (manic-depressive)" calculated_type="string">
+	<description>The presence or absence of bipolar disorder in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024277.v1.p1" var_name="Family History Brain aneurysm" calculated_type="string">
+	<description>The presence or absence of brain aneurysm in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024277.v1.p1.c1" var_name="Family History Brain aneurysm" calculated_type="string">
+	<description>The presence or absence of brain aneurysm in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024277.v1.p1.c2" var_name="Family History Brain aneurysm" calculated_type="string">
+	<description>The presence or absence of brain aneurysm in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024278.v1.p1" var_name="Family History Cancer" calculated_type="string">
+	<description>The presence or absence of cancer in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean_count="4.75" sd="19.8" median_count="1" min_count="1" max_count="148"/>
+			<example count="148">absent</example>
+			<example count="19">present  MOTHER</example>
+			<example count="15">present  FATHER</example>
+			<example count="14">present  FAMILY MEMBER</example>
+			<example count="5">present  FAM. MEMBER NOT SP...</example>
+			<example count="5">present  SISTER</example>
+			<example count="4">&quot;present  MOTHER, FATHER&quot;</example>
+			<example count="4">present  BROTHER</example>
+			<example count="2">present  MOTHER COLON CANCER</example>
+			<example count="2">&quot;present  FATHER, COLON&quot;</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024278.v1.p1.c1" var_name="Family History Cancer" calculated_type="string">
+	<description>The presence or absence of cancer in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0" mean_count="4.75" sd="19.8" median_count="1" min_count="1" max_count="148"/>
+			<example count="148">absent</example>
+			<example count="19">present  MOTHER</example>
+			<example count="15">present  FATHER</example>
+			<example count="14">present  FAMILY MEMBER</example>
+			<example count="5">present  FAM. MEMBER NOT SP...</example>
+			<example count="5">present  SISTER</example>
+			<example count="4">&quot;present  MOTHER, FATHER&quot;</example>
+			<example count="4">present  BROTHER</example>
+			<example count="2">present  MOTHER COLON CANCER</example>
+			<example count="2">&quot;present  FATHER, COLON&quot;</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024278.v1.p1.c2" var_name="Family History Cancer" calculated_type="string">
+	<description>The presence or absence of cancer in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024279.v1.p1" var_name="Family History Dementia" calculated_type="string">
+	<description>The presence or absence of dementia in the subject blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="252">absent</enum>
+			<enum count="5">Dementia</enum>
+			<enum count="2">&quot;Dementia  GRANDMOTHER, DEM...</enum>
+			<enum count="1">&quot;Dementia  GRANDFATHER, DEM...</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  SON, ALZHEIMER&quot;</enum>
+			<enum count="1">Dementia  GRANDMOTHER</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  GRANDMOTHER,...</enum>
+			<enum count="1">Alzheimer&#39;s  GRANDMOTHER</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  MOTHER, ALZHE...</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  AUNT, COUSIN&quot;</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024279.v1.p1.c1" var_name="Family History Dementia" calculated_type="string">
+	<description>The presence or absence of dementia in the subject blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="252">absent</enum>
+			<enum count="5">Dementia</enum>
+			<enum count="2">&quot;Dementia  GRANDMOTHER, DEM...</enum>
+			<enum count="1">&quot;Dementia  GRANDFATHER, DEM...</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  SON, ALZHEIMER&quot;</enum>
+			<enum count="1">Dementia  GRANDMOTHER</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  GRANDMOTHER,...</enum>
+			<enum count="1">Alzheimer&#39;s  GRANDMOTHER</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  MOTHER, ALZHE...</enum>
+			<enum count="1">&quot;Alzheimer&#39;s  AUNT, COUSIN&quot;</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024279.v1.p1.c2" var_name="Family History Dementia" calculated_type="string">
+	<description>The presence or absence of dementia in the subject blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024280.v1.p1" var_name="Family History Depression" calculated_type="string">
+	<description>The presence or absence of depression in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="259">absent</enum>
+			<enum count="3">present  MOTHER</enum>
+			<enum count="2">present  FATHER</enum>
+			<enum count="1">present  SIBLING</enum>
+			<enum count="1">present  AUNT/UNCLE</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024280.v1.p1.c1" var_name="Family History Depression" calculated_type="string">
+	<description>The presence or absence of depression in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="259">absent</enum>
+			<enum count="3">present  MOTHER</enum>
+			<enum count="2">present  FATHER</enum>
+			<enum count="1">present  SIBLING</enum>
+			<enum count="1">present  AUNT/UNCLE</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024280.v1.p1.c2" var_name="Family History Depression" calculated_type="string">
+	<description>The presence or absence of depression in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024281.v1.p1" var_name="Family History Diabetes" calculated_type="string">
+	<description>The presence or absence of diabetes in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<example count="208">absent</example>
+			<example count="12">present  MOTHER</example>
+			<example count="7">present  FAMILY MEMBER</example>
+			<example count="5">present  FATHER</example>
+			<example count="5">present  GRANDMOTHER</example>
+			<example count="2">present  UNCLE</example>
+			<example count="2">&quot;present  SISTER, BROTHER&quot;</example>
+			<example count="1">&quot;present  MOTHER, FATHER&quot;</example>
+			<example count="1">&quot;present  1 BROTHER &amp; 1 SIS...</example>
+			<example count="1">present  DAUGHTER</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024281.v1.p1.c1" var_name="Family History Diabetes" calculated_type="string">
+	<description>The presence or absence of diabetes in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<example count="208">absent</example>
+			<example count="12">present  MOTHER</example>
+			<example count="7">present  FAMILY MEMBER</example>
+			<example count="5">present  FATHER</example>
+			<example count="5">present  GRANDMOTHER</example>
+			<example count="2">present  UNCLE</example>
+			<example count="2">&quot;present  SISTER, BROTHER&quot;</example>
+			<example count="1">&quot;present  MOTHER, FATHER&quot;</example>
+			<example count="1">&quot;present  1 BROTHER &amp; 1 SIS...</example>
+			<example count="1">present  DAUGHTER</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024281.v1.p1.c2" var_name="Family History Diabetes" calculated_type="string">
+	<description>The presence or absence of diabetes in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024282.v1.p1" var_name="Family History Dystonia" calculated_type="string">
+	<description>The presence or absence of dystonia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024282.v1.p1.c1" var_name="Family History Dystonia" calculated_type="string">
+	<description>The presence or absence of dystonia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024282.v1.p1.c2" var_name="Family History Dystonia" calculated_type="string">
+	<description>The presence or absence of dystonia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024283.v1.p1" var_name="Family History Epilepsy" calculated_type="string">
+	<description>The presence or absence of epilepsy in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  PATERNAL AUNT</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024283.v1.p1.c1" var_name="Family History Epilepsy" calculated_type="string">
+	<description>The presence or absence of epilepsy in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  PATERNAL AUNT</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024283.v1.p1.c2" var_name="Family History Epilepsy" calculated_type="string">
+	<description>The presence or absence of epilepsy in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024284.v1.p1" var_name="Family History Heart disease" calculated_type="string">
+	<description>The presence or absence of heart disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<example count="150">absent</example>
+			<example count="30">present  FATHER</example>
+			<example count="21">present  MOTHER</example>
+			<example count="13">present  FAMILY MEMBER</example>
+			<example count="10">&quot;present  MOTHER, FATHER&quot;</example>
+			<example count="4">present  BROTHER</example>
+			<example count="3">&quot;present  FATHER, BROTHER&quot;</example>
+			<example count="2">&quot;present  MOTHER, FATHER, B...</example>
+			<example count="2">present  PARENT</example>
+			<example count="2">&quot;present  MOTHER, BROTHER&quot;</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024284.v1.p1.c1" var_name="Family History Heart disease" calculated_type="string">
+	<description>The presence or absence of heart disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<example count="150">absent</example>
+			<example count="30">present  FATHER</example>
+			<example count="21">present  MOTHER</example>
+			<example count="13">present  FAMILY MEMBER</example>
+			<example count="10">&quot;present  MOTHER, FATHER&quot;</example>
+			<example count="4">present  BROTHER</example>
+			<example count="3">&quot;present  FATHER, BROTHER&quot;</example>
+			<example count="2">&quot;present  MOTHER, FATHER, B...</example>
+			<example count="2">present  PARENT</example>
+			<example count="2">&quot;present  MOTHER, BROTHER&quot;</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024284.v1.p1.c2" var_name="Family History Heart disease" calculated_type="string">
+	<description>The presence or absence of heart disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024285.v1.p1" var_name="Family History Hypertension" calculated_type="string">
+	<description>The presence or absence of hypertension in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>255</control>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>131</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="255" nulls="11"/>
+			<enum count="247">absent</enum>
+			<enum count="3">present</enum>
+			<enum count="2">present  MOTHER</enum>
+			<enum count="1">present  MOTHER WITH HYPERT...</enum>
+			<enum count="1">present  BROTHER</enum>
+			<enum count="1">&quot;present  2 BROTHERS, 1 SIS...</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024285.v1.p1.c1" var_name="Family History Hypertension" calculated_type="string">
+	<description>The presence or absence of hypertension in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>255</control>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>131</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="255" nulls="11"/>
+			<enum count="247">absent</enum>
+			<enum count="3">present</enum>
+			<enum count="2">present  MOTHER</enum>
+			<enum count="1">present  MOTHER WITH HYPERT...</enum>
+			<enum count="1">present  BROTHER</enum>
+			<enum count="1">&quot;present  2 BROTHERS, 1 SIS...</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024285.v1.p1.c2" var_name="Family History Hypertension" calculated_type="string">
+	<description>The presence or absence of hypertension in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024286.v1.p1" var_name="Family History memory loss" calculated_type="string">
+	<description>The presence or absence of memory loss in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>175</control>
+			</case_control>
+			<sex>
+				<male>78</male>
+				<female>97</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="175" nulls="91"/>
+			<enum count="175">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024286.v1.p1.c1" var_name="Family History memory loss" calculated_type="string">
+	<description>The presence or absence of memory loss in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>175</control>
+			</case_control>
+			<sex>
+				<male>78</male>
+				<female>97</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="175" nulls="91"/>
+			<enum count="175">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024286.v1.p1.c2" var_name="Family History memory loss" calculated_type="string">
+	<description>The presence or absence of memory loss in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024287.v1.p1" var_name="Family History Migraine" calculated_type="string">
+	<description>The presence or absence of migraine in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="263">absent</enum>
+			<enum count="1">present  DAUGHTER</enum>
+			<enum count="1">present  PARENT</enum>
+			<enum count="1">present  SISTER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024287.v1.p1.c1" var_name="Family History Migraine" calculated_type="string">
+	<description>The presence or absence of migraine in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="263">absent</enum>
+			<enum count="1">present  DAUGHTER</enum>
+			<enum count="1">present  PARENT</enum>
+			<enum count="1">present  SISTER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024287.v1.p1.c2" var_name="Family History Migraine" calculated_type="string">
+	<description>The presence or absence of migraine in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024288.v1.p1" var_name="Family History Multiple sclerosis" calculated_type="string">
+	<description>The presence or absence of multiple sclerosis in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  GRANDAUGHTER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024288.v1.p1.c1" var_name="Family History Multiple sclerosis" calculated_type="string">
+	<description>The presence or absence of multiple sclerosis in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present  GRANDAUGHTER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024288.v1.p1.c2" var_name="Family History Multiple sclerosis" calculated_type="string">
+	<description>The presence or absence of multiple sclerosis in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024289.v1.p1" var_name="Family History Muscle disease" calculated_type="string">
+	<description>The presence or absence of any type of muscle disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024289.v1.p1.c1" var_name="Family History Muscle disease" calculated_type="string">
+	<description>The presence or absence of any type of muscle disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024289.v1.p1.c2" var_name="Family History Muscle disease" calculated_type="string">
+	<description>The presence or absence of any type of muscle disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024290.v1.p1" var_name="Family History Obsessive Compulsive" calculated_type="string">
+	<description>The presence or absence of obsessive compulsive disorder in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>1</control>
+			</case_control>
+			<sex>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1" nulls="265"/>
+			<enum count="1">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024290.v1.p1.c1" var_name="Family History Obsessive Compulsive" calculated_type="string">
+	<description>The presence or absence of obsessive compulsive disorder in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>1</control>
+			</case_control>
+			<sex>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1" nulls="265"/>
+			<enum count="1">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024290.v1.p1.c2" var_name="Family History Obsessive Compulsive" calculated_type="string">
+	<description>The presence or absence of obsessive compulsive disorder in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024291.v1.p1" var_name="Family History Other" calculated_type="string">
+	<description>The clinician interviewing the subject asks about any other known medical illnesses in blood relatives and notes them as comments if they exist.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="260">absent</enum>
+			<enum count="1">&quot;present  MOTHER, CIRCULATO...</enum>
+			<enum count="1">present  FATHER EMPHYZEMA</enum>
+			<enum count="1">&quot;present  MATERNAL AUNT MEN...</enum>
+			<enum count="1">present  SISTER SARCOIDOSIS</enum>
+			<enum count="1">&quot;present  MOTHER, PULMONARY...</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024291.v1.p1.c1" var_name="Family History Other" calculated_type="string">
+	<description>The clinician interviewing the subject asks about any other known medical illnesses in blood relatives and notes them as comments if they exist.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="260">absent</enum>
+			<enum count="1">&quot;present  MOTHER, CIRCULATO...</enum>
+			<enum count="1">present  FATHER EMPHYZEMA</enum>
+			<enum count="1">&quot;present  MATERNAL AUNT MEN...</enum>
+			<enum count="1">present  SISTER SARCOIDOSIS</enum>
+			<enum count="1">&quot;present  MOTHER, PULMONARY...</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024291.v1.p1.c2" var_name="Family History Other" calculated_type="string">
+	<description>The clinician interviewing the subject asks about any other known medical illnesses in blood relatives and notes them as comments if they exist.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024292.v1.p1" var_name="Family History Parkinson&#39;s" calculated_type="string">
+	<description>The presence or absence of Parkinson&#39;s disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="261">absent</enum>
+			<enum count="1">present  FATHER&#39;S COUSIN</enum>
+			<enum count="1">present  AUNT/UNCLE</enum>
+			<enum count="1">present  GRANDMOTHER</enum>
+			<enum count="1">present  PARENT</enum>
+			<enum count="1">present  COUSIN</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024292.v1.p1.c1" var_name="Family History Parkinson&#39;s" calculated_type="string">
+	<description>The presence or absence of Parkinson&#39;s disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="261">absent</enum>
+			<enum count="1">present  FATHER&#39;S COUSIN</enum>
+			<enum count="1">present  AUNT/UNCLE</enum>
+			<enum count="1">present  GRANDMOTHER</enum>
+			<enum count="1">present  PARENT</enum>
+			<enum count="1">present  COUSIN</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024292.v1.p1.c2" var_name="Family History Parkinson&#39;s" calculated_type="string">
+	<description>The presence or absence of Parkinson&#39;s disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024293.v1.p1" var_name="Family History Schizophrenia" calculated_type="string">
+	<description>The presence or absence of schizophrenia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="264">absent</enum>
+			<enum count="1">present  MOTHER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024293.v1.p1.c1" var_name="Family History Schizophrenia" calculated_type="string">
+	<description>The presence or absence of schizophrenia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="264">absent</enum>
+			<enum count="1">present  MOTHER</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024293.v1.p1.c2" var_name="Family History Schizophrenia" calculated_type="string">
+	<description>The presence or absence of schizophrenia in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024294.v1.p1" var_name="Family History Stroke" calculated_type="string">
+	<description>The presence or absence of cerebrovascular disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<example count="252">absent</example>
+			<example count="3">present  MOTHER</example>
+			<example count="3">present  MATERNAL GRANDMOTHER</example>
+			<example count="1">present  FATHER</example>
+			<example count="1">present  2 PATERNAL UNCLES</example>
+			<example count="1">&quot;present  MATERNAL, PATERNA...</example>
+			<example count="1">present  GRANDPARENT</example>
+			<example count="1">present  UNCLE</example>
+			<example count="1">present  GRANDMOTHER</example>
+			<example count="1">present  MATERNAL GRANDFATHER</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024294.v1.p1.c1" var_name="Family History Stroke" calculated_type="string">
+	<description>The presence or absence of cerebrovascular disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<example count="252">absent</example>
+			<example count="3">present  MOTHER</example>
+			<example count="3">present  MATERNAL GRANDMOTHER</example>
+			<example count="1">present  FATHER</example>
+			<example count="1">present  2 PATERNAL UNCLES</example>
+			<example count="1">&quot;present  MATERNAL, PATERNA...</example>
+			<example count="1">present  GRANDPARENT</example>
+			<example count="1">present  UNCLE</example>
+			<example count="1">present  GRANDMOTHER</example>
+			<example count="1">present  MATERNAL GRANDFATHER</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024294.v1.p1.c2" var_name="Family History Stroke" calculated_type="string">
+	<description>The presence or absence of cerebrovascular disease in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024295.v1.p1" var_name="Family History Suicide/Attempt" calculated_type="string">
+	<description>The presence or absence of a suicide attempt in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="262">absent</enum>
+			<enum count="1">present  MOTHER</enum>
+			<enum count="1">present  MATERNAL UNCLE</enum>
+			<enum count="1">present  AUNT/UNCLE</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024295.v1.p1.c1" var_name="Family History Suicide/Attempt" calculated_type="string">
+	<description>The presence or absence of a suicide attempt in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="262">absent</enum>
+			<enum count="1">present  MOTHER</enum>
+			<enum count="1">present  MATERNAL UNCLE</enum>
+			<enum count="1">present  AUNT/UNCLE</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024295.v1.p1.c2" var_name="Family History Suicide/Attempt" calculated_type="string">
+	<description>The presence or absence of a suicide attempt in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024296.v1.p1" var_name="Family History Tourettes" calculated_type="string">
+	<description>The presence or absence of Tourette&#39;s syndrome in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>2</control>
+			</case_control>
+			<sex>
+				<male>1</male>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2" nulls="264"/>
+			<enum count="2">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024296.v1.p1.c1" var_name="Family History Tourettes" calculated_type="string">
+	<description>The presence or absence of Tourette&#39;s syndrome in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>2</control>
+			</case_control>
+			<sex>
+				<male>1</male>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2" nulls="264"/>
+			<enum count="2">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024296.v1.p1.c2" var_name="Family History Tourettes" calculated_type="string">
+	<description>The presence or absence of Tourette&#39;s syndrome in the subject&#39;s blood relatives as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024297.v1.p1" var_name="Longitudinal Data Is this data Longitudinal (Follow-Up) Data?" calculated_type="string">
+	<description>Is the data longitudinal or an initial assessment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">no</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024297.v1.p1.c1" var_name="Longitudinal Data Is this data Longitudinal (Follow-Up) Data?" calculated_type="string">
+	<description>Is the data longitudinal or an initial assessment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">no</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024297.v1.p1.c2" var_name="Longitudinal Data Is this data Longitudinal (Follow-Up) Data?" calculated_type="string">
+	<description>Is the data longitudinal or an initial assessment</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024298.v1.p1" var_name="Medical History Amyotrophic lateral sclerosis" calculated_type="string">
+	<description>The presence or absence of amyotrophic lateral sclerosis in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024298.v1.p1.c1" var_name="Medical History Amyotrophic lateral sclerosis" calculated_type="string">
+	<description>The presence or absence of amyotrophic lateral sclerosis in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024298.v1.p1.c2" var_name="Medical History Amyotrophic lateral sclerosis" calculated_type="string">
+	<description>The presence or absence of amyotrophic lateral sclerosis in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024299.v1.p1" var_name="Medical History Ataxia" calculated_type="string">
+	<description>The presence or absence of ataxia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024299.v1.p1.c1" var_name="Medical History Ataxia" calculated_type="string">
+	<description>The presence or absence of ataxia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024299.v1.p1.c2" var_name="Medical History Ataxia" calculated_type="string">
+	<description>The presence or absence of ataxia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024300.v1.p1" var_name="Medical History Autism" calculated_type="string">
+	<description>The presence or absence of autism in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024300.v1.p1.c1" var_name="Medical History Autism" calculated_type="string">
+	<description>The presence or absence of autism in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024300.v1.p1.c2" var_name="Medical History Autism" calculated_type="string">
+	<description>The presence or absence of autism in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024301.v1.p1" var_name="Medical History Bipolar (manic-depressive)" calculated_type="string">
+	<description>The presence or absence of bipolar disorder in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024301.v1.p1.c1" var_name="Medical History Bipolar (manic-depressive)" calculated_type="string">
+	<description>The presence or absence of bipolar disorder in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024301.v1.p1.c2" var_name="Medical History Bipolar (manic-depressive)" calculated_type="string">
+	<description>The presence or absence of bipolar disorder in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024302.v1.p1" var_name="Medical History Brain aneurysm" calculated_type="string">
+	<description>The presence or absence of brain aneurysm in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024302.v1.p1.c1" var_name="Medical History Brain aneurysm" calculated_type="string">
+	<description>The presence or absence of brain aneurysm in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024302.v1.p1.c2" var_name="Medical History Brain aneurysm" calculated_type="string">
+	<description>The presence or absence of brain aneurysm in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024303.v1.p1" var_name="Medical History Cancer" calculated_type="string">
+	<description>The presence or absence of cancer in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="221">absent</enum>
+			<enum count="45">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024303.v1.p1.c1" var_name="Medical History Cancer" calculated_type="string">
+	<description>The presence or absence of cancer in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="221">absent</enum>
+			<enum count="45">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024303.v1.p1.c2" var_name="Medical History Cancer" calculated_type="string">
+	<description>The presence or absence of cancer in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024304.v1.p1" var_name="Medical History Dementia" calculated_type="string">
+	<description>The presence or absence of dementia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024304.v1.p1.c1" var_name="Medical History Dementia" calculated_type="string">
+	<description>The presence or absence of dementia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024304.v1.p1.c2" var_name="Medical History Dementia" calculated_type="string">
+	<description>The presence or absence of dementia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024305.v1.p1" var_name="Medical History Depression" calculated_type="string">
+	<description>The presence or absence of depression in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="259">absent</enum>
+			<enum count="7">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024305.v1.p1.c1" var_name="Medical History Depression" calculated_type="string">
+	<description>The presence or absence of depression in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="259">absent</enum>
+			<enum count="7">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024305.v1.p1.c2" var_name="Medical History Depression" calculated_type="string">
+	<description>The presence or absence of depression in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024306.v1.p1" var_name="Medical History Diabetes" calculated_type="string">
+	<description>The presence or absence of diabetes in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="246">absent</enum>
+			<enum count="20">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024306.v1.p1.c1" var_name="Medical History Diabetes" calculated_type="string">
+	<description>The presence or absence of diabetes in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="246">absent</enum>
+			<enum count="20">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024306.v1.p1.c2" var_name="Medical History Diabetes" calculated_type="string">
+	<description>The presence or absence of diabetes in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024307.v1.p1" var_name="Medical History Dystonia" calculated_type="string">
+	<description>The presence or absence of dystonia in the subjects themselves as determined by clinician&#39;s interview</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024307.v1.p1.c1" var_name="Medical History Dystonia" calculated_type="string">
+	<description>The presence or absence of dystonia in the subjects themselves as determined by clinician&#39;s interview</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024307.v1.p1.c2" var_name="Medical History Dystonia" calculated_type="string">
+	<description>The presence or absence of dystonia in the subjects themselves as determined by clinician&#39;s interview</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024308.v1.p1" var_name="Medical History Epilepsy" calculated_type="string">
+	<description>The presence or absence of epilepsy in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024308.v1.p1.c1" var_name="Medical History Epilepsy" calculated_type="string">
+	<description>The presence or absence of epilepsy in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024308.v1.p1.c2" var_name="Medical History Epilepsy" calculated_type="string">
+	<description>The presence or absence of epilepsy in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024309.v1.p1" var_name="Medical History Heart disease" calculated_type="string">
+	<description>The presence or absence of heart disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="231">absent</enum>
+			<enum count="35">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024309.v1.p1.c1" var_name="Medical History Heart disease" calculated_type="string">
+	<description>The presence or absence of heart disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="231">absent</enum>
+			<enum count="35">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024309.v1.p1.c2" var_name="Medical History Heart disease" calculated_type="string">
+	<description>The presence or absence of heart disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024310.v1.p1" var_name="Medical History Hypertension" calculated_type="string">
+	<description>The presence or absence of hypertension in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="187">absent</enum>
+			<enum count="79">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024310.v1.p1.c1" var_name="Medical History Hypertension" calculated_type="string">
+	<description>The presence or absence of hypertension in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="187">absent</enum>
+			<enum count="79">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024310.v1.p1.c2" var_name="Medical History Hypertension" calculated_type="string">
+	<description>The presence or absence of hypertension in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024311.v1.p1" var_name="Medical History memory loss" calculated_type="string">
+	<description>The presence or absence of memory loss in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>169</control>
+			</case_control>
+			<sex>
+				<male>74</male>
+				<female>95</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="169" nulls="97"/>
+			<enum count="168">absent</enum>
+			<enum count="1">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024311.v1.p1.c1" var_name="Medical History memory loss" calculated_type="string">
+	<description>The presence or absence of memory loss in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>169</control>
+			</case_control>
+			<sex>
+				<male>74</male>
+				<female>95</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="169" nulls="97"/>
+			<enum count="168">absent</enum>
+			<enum count="1">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024311.v1.p1.c2" var_name="Medical History memory loss" calculated_type="string">
+	<description>The presence or absence of memory loss in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024312.v1.p1" var_name="Medical History Migraine" calculated_type="string">
+	<description>The presence or absence of migraine in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="261">absent</enum>
+			<enum count="5">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024312.v1.p1.c1" var_name="Medical History Migraine" calculated_type="string">
+	<description>The presence or absence of migraine in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="261">absent</enum>
+			<enum count="5">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024312.v1.p1.c2" var_name="Medical History Migraine" calculated_type="string">
+	<description>The presence or absence of migraine in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024313.v1.p1" var_name="Medical History Multiple sclerosis" calculated_type="string">
+	<description>The presence or absence of multiple sclerosis in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024313.v1.p1.c1" var_name="Medical History Multiple sclerosis" calculated_type="string">
+	<description>The presence or absence of multiple sclerosis in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024313.v1.p1.c2" var_name="Medical History Multiple sclerosis" calculated_type="string">
+	<description>The presence or absence of multiple sclerosis in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024314.v1.p1" var_name="Medical History Muscle disease" calculated_type="string">
+	<description>The presence or absence of muscle disease in the subjects themselves as determined by clinical interview; if present, the clinical interview will describe the type of muscle disease and thus may capture disorders that result in weakness, but are n...</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024314.v1.p1.c1" var_name="Medical History Muscle disease" calculated_type="string">
+	<description>The presence or absence of muscle disease in the subjects themselves as determined by clinical interview; if present, the clinical interview will describe the type of muscle disease and thus may capture disorders that result in weakness, but are n...</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="265">absent</enum>
+			<enum count="1">present</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024314.v1.p1.c2" var_name="Medical History Muscle disease" calculated_type="string">
+	<description>The presence or absence of muscle disease in the subjects themselves as determined by clinical interview; if present, the clinical interview will describe the type of muscle disease and thus may capture disorders that result in weakness, but are n...</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024315.v1.p1" var_name="Medical History Obsessive Compulsive" calculated_type="string">
+	<description>The presence or absence of obsessive compulsive disorder in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>1</control>
+			</case_control>
+			<sex>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1" nulls="265"/>
+			<enum count="1">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024315.v1.p1.c1" var_name="Medical History Obsessive Compulsive" calculated_type="string">
+	<description>The presence or absence of obsessive compulsive disorder in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>1</control>
+			</case_control>
+			<sex>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1" nulls="265"/>
+			<enum count="1">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024315.v1.p1.c2" var_name="Medical History Obsessive Compulsive" calculated_type="string">
+	<description>The presence or absence of obsessive compulsive disorder in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024316.v1.p1" var_name="Medical History Other" calculated_type="string">
+	<description>The clinician interviewing the subject asks about any other medical illnesses and notes them as comments if they exist.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>261</control>
+			</case_control>
+			<sex>
+				<male>126</male>
+				<female>135</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="261" nulls="5"/>
+			<example count="212">absent</example>
+			<example count="2">absent  PROSTATE CANCER</example>
+			<example count="2">present  ARTHRITIS</example>
+			<example count="2">present  ATRIAL FIBRILLATION</example>
+			<example count="1">present  HYPERTHYROIDISM- R...</example>
+			<example count="1">present  LYMPHOMA</example>
+			<example count="1">&quot;present  CAROTID ARTERY ST...</example>
+			<example count="1">present  THYROID DISEASE</example>
+			<example count="1">present  RHEUMATIC FEVER AS...</example>
+			<example count="1">present  SPINAL STENOSIS</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024316.v1.p1.c1" var_name="Medical History Other" calculated_type="string">
+	<description>The clinician interviewing the subject asks about any other medical illnesses and notes them as comments if they exist.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>261</control>
+			</case_control>
+			<sex>
+				<male>126</male>
+				<female>135</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="261" nulls="5"/>
+			<example count="212">absent</example>
+			<example count="2">absent  PROSTATE CANCER</example>
+			<example count="2">present  ARTHRITIS</example>
+			<example count="2">present  ATRIAL FIBRILLATION</example>
+			<example count="1">present  HYPERTHYROIDISM- R...</example>
+			<example count="1">present  LYMPHOMA</example>
+			<example count="1">&quot;present  CAROTID ARTERY ST...</example>
+			<example count="1">present  THYROID DISEASE</example>
+			<example count="1">present  RHEUMATIC FEVER AS...</example>
+			<example count="1">present  SPINAL STENOSIS</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024316.v1.p1.c2" var_name="Medical History Other" calculated_type="string">
+	<description>The clinician interviewing the subject asks about any other medical illnesses and notes them as comments if they exist.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024317.v1.p1" var_name="Medical History Parkinson&#39;s" calculated_type="string">
+	<description>The presence or absence of Parkinson&#39;s disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024317.v1.p1.c1" var_name="Medical History Parkinson&#39;s" calculated_type="string">
+	<description>The presence or absence of Parkinson&#39;s disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024317.v1.p1.c2" var_name="Medical History Parkinson&#39;s" calculated_type="string">
+	<description>The presence or absence of Parkinson&#39;s disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024318.v1.p1" var_name="Medical History Schizophrenia" calculated_type="string">
+	<description>The presence or absence of schizophrenia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="265">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024318.v1.p1.c1" var_name="Medical History Schizophrenia" calculated_type="string">
+	<description>The presence or absence of schizophrenia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="265">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024318.v1.p1.c2" var_name="Medical History Schizophrenia" calculated_type="string">
+	<description>The presence or absence of schizophrenia in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024319.v1.p1" var_name="Medical History Stroke" calculated_type="string">
+	<description>The presence or absence of cerebrovascular disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024319.v1.p1.c1" var_name="Medical History Stroke" calculated_type="string">
+	<description>The presence or absence of cerebrovascular disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="266">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024319.v1.p1.c2" var_name="Medical History Stroke" calculated_type="string">
+	<description>The presence or absence of cerebrovascular disease in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024320.v1.p1" var_name="Medical History Suicide/Attempt" calculated_type="string">
+	<description>The subjects themselves endorses a past suicide attempt as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="265">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024320.v1.p1.c1" var_name="Medical History Suicide/Attempt" calculated_type="string">
+	<description>The subjects themselves endorses a past suicide attempt as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>265</control>
+			</case_control>
+			<sex>
+				<male>128</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="265" nulls="1"/>
+			<enum count="265">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024320.v1.p1.c2" var_name="Medical History Suicide/Attempt" calculated_type="string">
+	<description>The subjects themselves endorses a past suicide attempt as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024321.v1.p1" var_name="Medical History Tourettes" calculated_type="string">
+	<description>The presence or absence of Tourette&#39;s syndrome in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>2</control>
+			</case_control>
+			<sex>
+				<male>1</male>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2" nulls="264"/>
+			<enum count="2">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024321.v1.p1.c1" var_name="Medical History Tourettes" calculated_type="string">
+	<description>The presence or absence of Tourette&#39;s syndrome in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>2</control>
+			</case_control>
+			<sex>
+				<male>1</male>
+				<female>1</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2" nulls="264"/>
+			<enum count="2">absent</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024321.v1.p1.c2" var_name="Medical History Tourettes" calculated_type="string">
+	<description>The presence or absence of Tourette&#39;s syndrome in the subjects themselves as determined by clinician&#39;s interview.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024322.v1.p1" var_name="Optional data Handedness" calculated_type="string">
+	<description>The subject has a hand preference (left, right), or uses both hands equally well (ambidextrous).</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="266"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024322.v1.p1.c1" var_name="Optional data Handedness" calculated_type="string">
+	<description>The subject has a hand preference (left, right), or uses both hands equally well (ambidextrous).</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="266"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024322.v1.p1.c2" var_name="Optional data Handedness" calculated_type="string">
+	<description>The subject has a hand preference (left, right), or uses both hands equally well (ambidextrous).</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024323.v1.p1" var_name="Optional data MMSE (enter score and date)" calculated_type="string">
+	<description>The score obtained in the Folstein Mini Mental Status examination.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>133</control>
+			</case_control>
+			<sex>
+				<male>66</male>
+				<female>67</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="133" nulls="133"/>
+			<enum count="94">30/30</enum>
+			<enum count="22">29/30</enum>
+			<enum count="9">28/30</enum>
+			<enum count="4">27/30</enum>
+			<enum count="4">26/30</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024323.v1.p1.c1" var_name="Optional data MMSE (enter score and date)" calculated_type="string">
+	<description>The score obtained in the Folstein Mini Mental Status examination.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>133</control>
+			</case_control>
+			<sex>
+				<male>66</male>
+				<female>67</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="133" nulls="133"/>
+			<enum count="94">30/30</enum>
+			<enum count="22">29/30</enum>
+			<enum count="9">28/30</enum>
+			<enum count="4">27/30</enum>
+			<enum count="4">26/30</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024323.v1.p1.c2" var_name="Optional data MMSE (enter score and date)" calculated_type="string">
+	<description>The score obtained in the Folstein Mini Mental Status examination.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024324.v1.p1" var_name="Optional data Neurological examination" calculated_type="string">
+	<description>The subject either did (yes) or did not (no) undergo a neurological examination.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="261">no</enum>
+			<enum count="5">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024324.v1.p1.c1" var_name="Optional data Neurological examination" calculated_type="string">
+	<description>The subject either did (yes) or did not (no) undergo a neurological examination.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="261">no</enum>
+			<enum count="5">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024324.v1.p1.c2" var_name="Optional data Neurological examination" calculated_type="string">
+	<description>The subject either did (yes) or did not (no) undergo a neurological examination.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024325.v1.p1" var_name="Optional data smoking history" calculated_type="string">
+	<description>Record of an individual&#39;s background with regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarettes smoked, attempts to quit, and others.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>256</control>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>132</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="256" nulls="10"/>
+			<enum count="146">never</enum>
+			<enum count="91">former smoker</enum>
+			<enum count="19">current smoker</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024325.v1.p1.c1" var_name="Optional data smoking history" calculated_type="string">
+	<description>Record of an individual&#39;s background with regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarettes smoked, attempts to quit, and others.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>256</control>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>132</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="256" nulls="10"/>
+			<enum count="146">never</enum>
+			<enum count="91">former smoker</enum>
+			<enum count="19">current smoker</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024325.v1.p1.c2" var_name="Optional data smoking history" calculated_type="string">
+	<description>Record of an individual&#39;s background with regard to smoking tobacco. This would include such factors as start date, end date (if applicable), number of cigarettes smoked, attempts to quit, and others.</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024326.v1.p1" var_name="Optional data years smoking" calculated_type="integer" units="Years">
+	<description>How many years did the person smoke - if the person is a current or former smoker?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>82</control>
+			</case_control>
+			<sex>
+				<male>55</male>
+				<female>27</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="82" nulls="183" invalid_values="1" mean="21.91" sd="13.49" median="20" min="1" max="60"/>
+			<example count="12">20</example>
+			<example count="11">10</example>
+			<example count="11">30</example>
+			<example count="6">15</example>
+			<example count="6">40</example>
+			<example count="5">25</example>
+			<example count="4">35</example>
+			<example count="3">5</example>
+			<example count="3">50</example>
+			<example count="3">3</example>
+			<invalid_value count="1">&lt;1</invalid_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024326.v1.p1.c1" var_name="Optional data years smoking" calculated_type="integer" units="Years">
+	<description>How many years did the person smoke - if the person is a current or former smoker?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>82</control>
+			</case_control>
+			<sex>
+				<male>55</male>
+				<female>27</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="82" nulls="183" invalid_values="1" mean="21.91" sd="13.49" median="20" min="1" max="60"/>
+			<example count="12">20</example>
+			<example count="11">10</example>
+			<example count="11">30</example>
+			<example count="6">15</example>
+			<example count="6">40</example>
+			<example count="5">25</example>
+			<example count="4">35</example>
+			<example count="3">5</example>
+			<example count="3">50</example>
+			<example count="3">3</example>
+			<invalid_value count="1">&lt;1</invalid_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024326.v1.p1.c2" var_name="Optional data years smoking" calculated_type="string" units="Years">
+	<description>How many years did the person smoke - if the person is a current or former smoker?</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024327.v1.p1" var_name="Type of Control Type of Control" calculated_type="string">
+	<description>Defines the type of control</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="164">Population control</enum>
+			<enum count="102">Unaffected spouse</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024327.v1.p1.c1" var_name="Type of Control Type of Control" calculated_type="string">
+	<description>Defines the type of control</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<control>266</control>
+			</case_control>
+			<sex>
+				<male>129</male>
+				<female>137</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="266" nulls="0"/>
+			<enum count="164">Population control</enum>
+			<enum count="102">Unaffected spouse</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00024327.v1.p1.c2" var_name="Type of Control Type of Control" calculated_type="string">
+	<description>Defines the type of control</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+</data_table>

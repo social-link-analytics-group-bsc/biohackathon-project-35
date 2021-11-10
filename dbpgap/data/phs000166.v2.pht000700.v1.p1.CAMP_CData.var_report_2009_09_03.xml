@@ -1,0 +1,2779 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="CAMP_CData" dataset_id="pht000700.v1" study_name="SNP Health Association Resource (SHARe) Asthma Resource Project (SHARP)" study_id="phs000166.v2" participant_set="1" date_created="09/03/2009">
+
+<variable id="phv00070931.v1.p1" var_name="SUBJ_ID" calculated_type="string" reported_type="integer">
+	<description>Deidentified Subject ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070931.v1.p1.c1" var_name="SUBJ_ID" calculated_type="string" reported_type="integer">
+	<description>Deidentified Subject ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070932.v1.p1" var_name="protocol" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Protocol - Study name</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="101" count="813">CAMP</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070932.v1.p1.c1" var_name="protocol" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Protocol - Study name</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="101" count="813">CAMP</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070933.v1.p1" var_name="base_vnum" calculated_type="integer" reported_type="integer">
+	<description>Visit number used for Baseline visit in SHARP.  In many studies the first visit was the Baseline visit.  In other studies there were up to five visits before the Baseline visit.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="1" sd="0" median="1" min="1" max="1"/>
+			<enum count="813">1</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070933.v1.p1.c1" var_name="base_vnum" calculated_type="integer" reported_type="integer">
+	<description>Visit number used for Baseline visit in SHARP.  In many studies the first visit was the Baseline visit.  In other studies there were up to five visits before the Baseline visit.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="1" sd="0" median="1" min="1" max="1"/>
+			<enum count="813">1</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070934.v1.p1" var_name="case_control" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Affection status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="2" count="813">case</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070934.v1.p1.c1" var_name="case_control" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Affection status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="2" count="813">case</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070935.v1.p1" var_name="case_control_peak" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Affection status in PEAK</description>
+	<comment>PEAK has less strict affection status criteria.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="2" count="813">case</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070935.v1.p1.c1" var_name="case_control_peak" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Affection status in PEAK</description>
+	<comment>PEAK has less strict affection status criteria.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="2" count="813">case</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070936.v1.p1" var_name="gender" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="132.2" median_count="406.5" min_count="313" max_count="500"/>
+			<enum code="1" count="500">Male</enum>
+			<enum code="2" count="313">Female</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070936.v1.p1.c1" var_name="gender" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="132.2" median_count="406.5" min_count="313" max_count="500"/>
+			<enum code="1" count="500">Male</enum>
+			<enum code="2" count="313">Female</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070937.v1.p1" var_name="race" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Race of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="203.3" sd="236.3" median_count="92" min_count="72" max_count="557"/>
+			<enum code="1" count="557">Caucasian</enum>
+			<enum code="2" count="107">African American</enum>
+			<enum code="3" count="77">Hispanic</enum>
+			<enum code="4" count="72">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070937.v1.p1.c1" var_name="race" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Race of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="203.3" sd="236.3" median_count="92" min_count="72" max_count="557"/>
+			<enum code="1" count="557">Caucasian</enum>
+			<enum code="2" count="107">African American</enum>
+			<enum code="3" count="77">Hispanic</enum>
+			<enum code="4" count="72">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070938.v1.p1" var_name="age_baseline" calculated_type="decimal" units="years" reported_type="decimal">
+	<description>Age at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="8.908" sd="2.13" median="8.9" min="5.2" max="13.2"/>
+			<example count="20">9.3</example>
+			<example count="19">8.7</example>
+			<example count="17">7</example>
+			<example count="17">10.4</example>
+			<example count="17">9.9</example>
+			<example count="16">10</example>
+			<example count="16">6.5</example>
+			<example count="15">7.8</example>
+			<example count="15">8.1</example>
+			<example count="15">7.6</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070938.v1.p1.c1" var_name="age_baseline" calculated_type="decimal" units="years" reported_type="decimal">
+	<description>Age at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="8.908" sd="2.13" median="8.9" min="5.2" max="13.2"/>
+			<example count="20">9.3</example>
+			<example count="19">8.7</example>
+			<example count="17">7</example>
+			<example count="17">10.4</example>
+			<example count="17">9.9</example>
+			<example count="16">10</example>
+			<example count="16">6.5</example>
+			<example count="15">7.8</example>
+			<example count="15">8.1</example>
+			<example count="15">7.6</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070939.v1.p1" var_name="age_onset" calculated_type="decimal" units="years" reported_type="decimal">
+	<description>Age at first asthma symptoms</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>812</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="812" nulls="1" mean="3.05" sd="2.417" median="2.4" min="0" max="12"/>
+			<example count="111">2</example>
+			<example count="82">3</example>
+			<example count="77">1</example>
+			<example count="63">4</example>
+			<example count="50">5</example>
+			<example count="48">0.5</example>
+			<example count="43">1.5</example>
+			<example count="42">6</example>
+			<example count="26">7</example>
+			<example count="23">8</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070939.v1.p1.c1" var_name="age_onset" calculated_type="decimal" units="years" reported_type="decimal">
+	<description>Age at first asthma symptoms</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>812</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="812" nulls="1" mean="3.05" sd="2.417" median="2.4" min="0" max="12"/>
+			<example count="111">2</example>
+			<example count="82">3</example>
+			<example count="77">1</example>
+			<example count="63">4</example>
+			<example count="50">5</example>
+			<example count="48">0.5</example>
+			<example count="43">1.5</example>
+			<example count="42">6</example>
+			<example count="26">7</example>
+			<example count="23">8</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070940.v1.p1" var_name="htcm_baseline" calculated_type="decimal" units="cm" reported_type="decimal">
+	<description>Baseline standing height</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>807</case>
+			</case_control>
+			<sex>
+				<male>496</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="807" nulls="6" mean="133.5" sd="13.74" median="132.8" min="102.4" max="171"/>
+			<example count="9">131.2</example>
+			<example count="6">125</example>
+			<example count="6">142.1</example>
+			<example count="5">130.1</example>
+			<example count="5">140.4</example>
+			<example count="5">130.7</example>
+			<example count="5">135.5</example>
+			<example count="5">142.2</example>
+			<example count="5">142</example>
+			<example count="5">123</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070940.v1.p1.c1" var_name="htcm_baseline" calculated_type="decimal" units="cm" reported_type="decimal">
+	<description>Baseline standing height</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>807</case>
+			</case_control>
+			<sex>
+				<male>496</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="807" nulls="6" mean="133.5" sd="13.74" median="132.8" min="102.4" max="171"/>
+			<example count="9">131.2</example>
+			<example count="6">125</example>
+			<example count="6">142.1</example>
+			<example count="5">130.1</example>
+			<example count="5">140.4</example>
+			<example count="5">130.7</example>
+			<example count="5">135.5</example>
+			<example count="5">142.2</example>
+			<example count="5">142</example>
+			<example count="5">123</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070941.v1.p1" var_name="WTKG_baseline" calculated_type="decimal" units="kg" reported_type="decimal">
+	<description>Baseline weight</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>809</case>
+			</case_control>
+			<sex>
+				<male>496</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="809" nulls="4" mean="33.43" sd="12.08" median="31" min="14.4" max="84.2"/>
+			<example count="11">25.5</example>
+			<example count="10">22.5</example>
+			<example count="10">24</example>
+			<example count="9">33</example>
+			<example count="9">21</example>
+			<example count="8">24.5</example>
+			<example count="8">27.5</example>
+			<example count="8">32.5</example>
+			<example count="8">34</example>
+			<example count="7">32</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070941.v1.p1.c1" var_name="WTKG_baseline" calculated_type="decimal" units="kg" reported_type="decimal">
+	<description>Baseline weight</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>809</case>
+			</case_control>
+			<sex>
+				<male>496</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="809" nulls="4" mean="33.43" sd="12.08" median="31" min="14.4" max="84.2"/>
+			<example count="11">25.5</example>
+			<example count="10">22.5</example>
+			<example count="10">24</example>
+			<example count="9">33</example>
+			<example count="9">21</example>
+			<example count="8">24.5</example>
+			<example count="8">27.5</example>
+			<example count="8">32.5</example>
+			<example count="8">34</example>
+			<example count="7">32</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070942.v1.p1" var_name="bmi_baseline" calculated_type="decimal" units="kg/m^2" reported_type="decimal">
+	<description>Baseline BMI</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>803</case>
+			</case_control>
+			<sex>
+				<male>492</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="803" nulls="10" mean="18.24" sd="3.513" median="17.25" min="12.99" max="34.34"/>
+			<example count="6">15.53</example>
+			<example count="5">16.82</example>
+			<example count="5">15.74</example>
+			<example count="5">15.63</example>
+			<example count="5">16.95</example>
+			<example count="4">15.91</example>
+			<example count="4">15.17</example>
+			<example count="4">16.37</example>
+			<example count="4">15.81</example>
+			<example count="4">15.34</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070942.v1.p1.c1" var_name="bmi_baseline" calculated_type="decimal" units="kg/m^2" reported_type="decimal">
+	<description>Baseline BMI</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>803</case>
+			</case_control>
+			<sex>
+				<male>492</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="803" nulls="10" mean="18.24" sd="3.513" median="17.25" min="12.99" max="34.34"/>
+			<example count="6">15.53</example>
+			<example count="5">16.82</example>
+			<example count="5">15.74</example>
+			<example count="5">15.63</example>
+			<example count="5">16.95</example>
+			<example count="4">15.91</example>
+			<example count="4">15.17</example>
+			<example count="4">16.37</example>
+			<example count="4">15.81</example>
+			<example count="4">15.34</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070943.v1.p1" var_name="bmiz_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Baseline BMIZ</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>803</case>
+			</case_control>
+			<sex>
+				<male>492</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="803" nulls="10" mean="0.5139" sd="1.012" median="0.5" min="-3.08" max="3.1"/>
+			<example count="8">0.08</example>
+			<example count="8">0.77</example>
+			<example count="7">0.76</example>
+			<example count="7">1.47</example>
+			<example count="7">0.13</example>
+			<example count="7">-0.2</example>
+			<example count="6">0.2</example>
+			<example count="6">1.16</example>
+			<example count="6">0.33</example>
+			<example count="6">-0.04</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070943.v1.p1.c1" var_name="bmiz_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Baseline BMIZ</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>803</case>
+			</case_control>
+			<sex>
+				<male>492</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="803" nulls="10" mean="0.5139" sd="1.012" median="0.5" min="-3.08" max="3.1"/>
+			<example count="8">0.08</example>
+			<example count="8">0.77</example>
+			<example count="7">0.76</example>
+			<example count="7">1.47</example>
+			<example count="7">0.13</example>
+			<example count="7">-0.2</example>
+			<example count="6">0.2</example>
+			<example count="6">1.16</example>
+			<example count="6">0.33</example>
+			<example count="6">-0.04</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070944.v1.p1" var_name="tx_grp" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group as assigned at Baseline.  The following is a map between the CAMP treatment group and this tx_grp: Budesonide: formerly a value of 1 is tx_grp=4; Nedocrimil: formerly a value of 2 is tx_grp=8; Placebo: formerly a value of 3 is tx_grp=9</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="44.98" median_count="254" min_count="237" max_count="322"/>
+			<enum code="9" count="322">Placebo</enum>
+			<enum code="4" count="254">Budesonide</enum>
+			<enum code="8" count="237">Nedocromil</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070944.v1.p1.c1" var_name="tx_grp" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group as assigned at Baseline.  The following is a map between the CAMP treatment group and this tx_grp: Budesonide: formerly a value of 1 is tx_grp=4; Nedocrimil: formerly a value of 2 is tx_grp=8; Placebo: formerly a value of 3 is tx_grp=9</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="44.98" median_count="254" min_count="237" max_count="322"/>
+			<enum code="9" count="322">Placebo</enum>
+			<enum code="4" count="254">Budesonide</enum>
+			<enum code="8" count="237">Nedocromil</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070945.v1.p1" var_name="saba_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group assigned at Baseline was SABA (Short acting B-agonist) arm</description>
+	<total>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="." count="813">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070945.v1.p1.c1" var_name="saba_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group assigned at Baseline was SABA (Short acting B-agonist) arm</description>
+	<total>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="." count="813">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070946.v1.p1" var_name="laba_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group assigned at Baseline was LABA (Long acting B-agonist) arm</description>
+	<total>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="." count="813">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070946.v1.p1.c1" var_name="laba_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group assigned at Baseline was LABA (Long acting B-agonist) arm</description>
+	<total>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="." count="813">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070947.v1.p1" var_name="cs_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group assigned at Baseline was steroid arm</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="215.7" median_count="406.5" min_count="254" max_count="559"/>
+			<enum code="0" count="559">no</enum>
+			<enum code="1" count="254">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070947.v1.p1.c1" var_name="cs_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment group assigned at Baseline was steroid arm</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="215.7" median_count="406.5" min_count="254" max_count="559"/>
+			<enum code="0" count="559">no</enum>
+			<enum code="1" count="254">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070948.v1.p1" var_name="cs_comb_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Participant assigned to Combination Therapy Group (Steroid Treatment + other)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="0" count="813">no</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070948.v1.p1.c1" var_name="cs_comb_tx" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Participant assigned to Combination Therapy Group (Steroid Treatment + other)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="813" median_count="813" min_count="813" max_count="813"/>
+			<enum code="0" count="813">no</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070949.v1.p1" var_name="cs_dose" calculated_type="integer" units="mcg/day" reported_type="integer">
+	<description>Corticosteroid dose</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>254</case>
+			</case_control>
+			<sex>
+				<male>149</male>
+				<female>105</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="254" nulls="559" mean="180" sd="0" median="180" min="180" max="180"/>
+			<enum count="254">180</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070949.v1.p1.c1" var_name="cs_dose" calculated_type="integer" units="mcg/day" reported_type="integer">
+	<description>Corticosteroid dose</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>254</case>
+			</case_control>
+			<sex>
+				<male>149</male>
+				<female>105</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="254" nulls="559" mean="180" sd="0" median="180" min="180" max="180"/>
+			<enum count="254">180</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070951.v1.p1" var_name="clinic_city" calculated_type="enum_integer" reported_type="encoded value">
+	<description>City of the clinic.  The following is the map of CAMP clinics to CAMP clinic_city: if clinic=5 then clinic_city=8; if clinic=6 then clinic_city=10; if clinic=7 then clinic_city=11; if clinic=8 then clinic_city=12; else clinic_city=clinic</description>
+	<comment>Note that the city may be the same, but clinics between CAMP, CARE, and ACRN studies are different and may have measurements that vary slightly.  In order to distinguish between the CAMP, ACRN, and CARE data include the variable protocol along with clinic.  Protocol is the project.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="101.6" sd="12.79" median_count="99.5" min_count="87" max_count="120"/>
+			<enum code="4" count="120">City D</enum>
+			<enum code="10" count="117">City J</enum>
+			<enum code="11" count="110">City K</enum>
+			<enum code="2" count="100">City B</enum>
+			<enum code="8" count="99">City H</enum>
+			<enum code="3" count="92">City C</enum>
+			<enum code="12" count="88">City L</enum>
+			<enum code="1" count="87">City A</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070951.v1.p1.c1" var_name="clinic_city" calculated_type="enum_integer" reported_type="encoded value">
+	<description>City of the clinic.  The following is the map of CAMP clinics to CAMP clinic_city: if clinic=5 then clinic_city=8; if clinic=6 then clinic_city=10; if clinic=7 then clinic_city=11; if clinic=8 then clinic_city=12; else clinic_city=clinic</description>
+	<comment>Note that the city may be the same, but clinics between CAMP, CARE, and ACRN studies are different and may have measurements that vary slightly.  In order to distinguish between the CAMP, ACRN, and CARE data include the variable protocol along with clinic.  Protocol is the project.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="101.6" sd="12.79" median_count="99.5" min_count="87" max_count="120"/>
+			<enum code="4" count="120">City D</enum>
+			<enum code="10" count="117">City J</enum>
+			<enum code="11" count="110">City K</enum>
+			<enum code="2" count="100">City B</enum>
+			<enum code="8" count="99">City H</enum>
+			<enum code="3" count="92">City C</enum>
+			<enum code="12" count="88">City L</enum>
+			<enum code="1" count="87">City A</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070952.v1.p1" var_name="smoke" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Participant smoked during trial</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="552.3" median_count="406.5" min_count="16" max_count="797"/>
+			<enum code="0" count="797">no</enum>
+			<enum code="1" count="16">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070952.v1.p1.c1" var_name="smoke" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Participant smoked during trial</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="552.3" median_count="406.5" min_count="16" max_count="797"/>
+			<enum code="0" count="797">no</enum>
+			<enum code="1" count="16">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070953.v1.p1" var_name="ENV_SMOKE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Either parent smoked during trial</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>806</case>
+			</case_control>
+			<sex>
+				<male>498</male>
+				<female>308</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="237.4" median_count="339" min_count="7" max_count="467"/>
+			<enum code="0" count="467">no</enum>
+			<enum code="1" count="339">yes</enum>
+			<enum code="." count="7">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070953.v1.p1.c1" var_name="ENV_SMOKE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Either parent smoked during trial</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>806</case>
+			</case_control>
+			<sex>
+				<male>498</male>
+				<female>308</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="237.4" median_count="339" min_count="7" max_count="467"/>
+			<enum code="0" count="467">no</enum>
+			<enum code="1" count="339">yes</enum>
+			<enum code="." count="7">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070954.v1.p1" var_name="ENV_SMOKE_pretrial" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Home exposure to smoke prior to trial enrollment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>808</case>
+			</case_control>
+			<sex>
+				<male>498</male>
+				<female>310</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="239.4" median_count="339" min_count="5" max_count="469"/>
+			<enum code="0" count="469">no</enum>
+			<enum code="1" count="339">yes</enum>
+			<enum code="." count="5">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070954.v1.p1.c1" var_name="ENV_SMOKE_pretrial" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Home exposure to smoke prior to trial enrollment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>808</case>
+			</case_control>
+			<sex>
+				<male>498</male>
+				<female>310</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="239.4" median_count="339" min_count="5" max_count="469"/>
+			<enum code="0" count="469">no</enum>
+			<enum code="1" count="339">yes</enum>
+			<enum code="." count="5">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070955.v1.p1" var_name="IUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>In utero smoke: mother smoked when pregnant with participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>809</case>
+			</case_control>
+			<sex>
+				<male>498</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="376.8" median_count="107" min_count="4" max_count="702"/>
+			<enum code="0" count="702">no</enum>
+			<enum code="1" count="107">yes</enum>
+			<enum code="." count="4">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070955.v1.p1.c1" var_name="IUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>In utero smoke: mother smoked when pregnant with participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>809</case>
+			</case_control>
+			<sex>
+				<male>498</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="271" sd="376.8" median_count="107" min_count="4" max_count="702"/>
+			<enum code="0" count="702">no</enum>
+			<enum code="1" count="107">yes</enum>
+			<enum code="." count="4">missing</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070957.v1.p1" var_name="tot_pred_bursts" calculated_type="integer" reported_type="integer">
+	<description>Total prednisone bursts during trial</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="4.129" sd="4.879" median="3" min="0" max="44"/>
+			<example count="189">0</example>
+			<example count="118">1</example>
+			<example count="88">2</example>
+			<example count="78">3</example>
+			<example count="68">4</example>
+			<example count="50">6</example>
+			<example count="38">8</example>
+			<example count="37">5</example>
+			<example count="27">9</example>
+			<example count="25">7</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070957.v1.p1.c1" var_name="tot_pred_bursts" calculated_type="integer" reported_type="integer">
+	<description>Total prednisone bursts during trial</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="4.129" sd="4.879" median="3" min="0" max="44"/>
+			<example count="189">0</example>
+			<example count="118">1</example>
+			<example count="88">2</example>
+			<example count="78">3</example>
+			<example count="68">4</example>
+			<example count="50">6</example>
+			<example count="38">8</example>
+			<example count="37">5</example>
+			<example count="27">9</example>
+			<example count="25">7</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070958.v1.p1" var_name="pred_bursts_event1_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to first prednisone burst.  With the exception of a visit at 2 months, vists are four months apart.  At each visit a participant answers whether prednisone was used since the previous visit.  If prednisone had been used, the value of this variable is the number of months that the visit is from Baseline.  For example, if the first burst was used between the four month and the eight month visit, the pred_bursts_event1_month variable has a value of eight assigned.</description>
+	<comment>If there were no prednisone bursts for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="19.56" sd="18.26" median="12" min="2" max="48"/>
+			<example count="195">48</example>
+			<example count="156">2</example>
+			<example count="137">8</example>
+			<example count="109">4</example>
+			<example count="58">12</example>
+			<example count="42">16</example>
+			<example count="29">20</example>
+			<example count="24">24</example>
+			<example count="16">28</example>
+			<example count="16">36</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070958.v1.p1.c1" var_name="pred_bursts_event1_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to first prednisone burst.  With the exception of a visit at 2 months, vists are four months apart.  At each visit a participant answers whether prednisone was used since the previous visit.  If prednisone had been used, the value of this variable is the number of months that the visit is from Baseline.  For example, if the first burst was used between the four month and the eight month visit, the pred_bursts_event1_month variable has a value of eight assigned.</description>
+	<comment>If there were no prednisone bursts for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="19.56" sd="18.26" median="12" min="2" max="48"/>
+			<example count="195">48</example>
+			<example count="156">2</example>
+			<example count="137">8</example>
+			<example count="109">4</example>
+			<example count="58">12</example>
+			<example count="42">16</example>
+			<example count="29">20</example>
+			<example count="24">24</example>
+			<example count="16">28</example>
+			<example count="16">36</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070959.v1.p1" var_name="pred_bursts_event1_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to first prednisone burst.  See description of pred_bursts_event1_month variable.  The same assignment is done using months and then weeks are calculated from the months.</description>
+	<comment>If there were no prednisone bursts for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="84.54" sd="78.66" median="52" min="9" max="207"/>
+			<example count="195">207</example>
+			<example count="156">9</example>
+			<example count="137">35</example>
+			<example count="109">17</example>
+			<example count="58">52</example>
+			<example count="42">69</example>
+			<example count="29">86</example>
+			<example count="24">104</example>
+			<example count="16">156</example>
+			<example count="16">121</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070959.v1.p1.c1" var_name="pred_bursts_event1_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to first prednisone burst.  See description of pred_bursts_event1_month variable.  The same assignment is done using months and then weeks are calculated from the months.</description>
+	<comment>If there were no prednisone bursts for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="84.54" sd="78.66" median="52" min="9" max="207"/>
+			<example count="195">207</example>
+			<example count="156">9</example>
+			<example count="137">35</example>
+			<example count="109">17</example>
+			<example count="58">52</example>
+			<example count="42">69</example>
+			<example count="29">86</example>
+			<example count="24">104</example>
+			<example count="16">156</example>
+			<example count="16">121</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070960.v1.p1" var_name="pred_bursts_event2_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to second prednisone burst.  See description of pre_bursts_event1_month variable.  The assignment is done in the same manner using the second prednisone bursts.</description>
+	<comment>If there was not a second prednisone burst for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="30.14" sd="17.38" median="32" min="4" max="48"/>
+			<example count="352">48</example>
+			<example count="104">8</example>
+			<example count="79">12</example>
+			<example count="56">16</example>
+			<example count="52">4</example>
+			<example count="48">20</example>
+			<example count="33">24</example>
+			<example count="29">28</example>
+			<example count="23">32</example>
+			<example count="22">36</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070960.v1.p1.c1" var_name="pred_bursts_event2_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to second prednisone burst.  See description of pre_bursts_event1_month variable.  The assignment is done in the same manner using the second prednisone bursts.</description>
+	<comment>If there was not a second prednisone burst for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="30.14" sd="17.38" median="32" min="4" max="48"/>
+			<example count="352">48</example>
+			<example count="104">8</example>
+			<example count="79">12</example>
+			<example count="56">16</example>
+			<example count="52">4</example>
+			<example count="48">20</example>
+			<example count="33">24</example>
+			<example count="29">28</example>
+			<example count="23">32</example>
+			<example count="22">36</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070961.v1.p1" var_name="pred_bursts_event2_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to second prednisone burst.  The assignment is done in the same manner as pred_bursts_event1_week for the second prednisone burst.</description>
+	<comment>If there was not a second prednisone burst for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="130.1" sd="74.87" median="138" min="17" max="207"/>
+			<example count="352">207</example>
+			<example count="104">35</example>
+			<example count="79">52</example>
+			<example count="56">69</example>
+			<example count="52">17</example>
+			<example count="48">86</example>
+			<example count="33">104</example>
+			<example count="29">122</example>
+			<example count="23">138</example>
+			<example count="22">156</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070961.v1.p1.c1" var_name="pred_bursts_event2_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to second prednisone burst.  The assignment is done in the same manner as pred_bursts_event1_week for the second prednisone burst.</description>
+	<comment>If there was not a second prednisone burst for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="130.1" sd="74.87" median="138" min="17" max="207"/>
+			<example count="352">207</example>
+			<example count="104">35</example>
+			<example count="79">52</example>
+			<example count="56">69</example>
+			<example count="52">17</example>
+			<example count="48">86</example>
+			<example count="33">104</example>
+			<example count="29">122</example>
+			<example count="23">138</example>
+			<example count="22">156</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070962.v1.p1" var_name="tot_edhos" calculated_type="integer" reported_type="integer">
+	<description>Total ER visit or hospitalization during CAMP from Baseline to month 48</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="0.8143" sd="1.612" median="0" min="0" max="11"/>
+			<example count="535">0</example>
+			<example count="133">1</example>
+			<example count="54">2</example>
+			<example count="36">3</example>
+			<example count="19">4</example>
+			<example count="15">5</example>
+			<example count="7">7</example>
+			<example count="5">6</example>
+			<example count="3">10</example>
+			<example count="3">8</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070962.v1.p1.c1" var_name="tot_edhos" calculated_type="integer" reported_type="integer">
+	<description>Total ER visit or hospitalization during CAMP from Baseline to month 48</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="0.8143" sd="1.612" median="0" min="0" max="11"/>
+			<example count="535">0</example>
+			<example count="133">1</example>
+			<example count="54">2</example>
+			<example count="36">3</example>
+			<example count="19">4</example>
+			<example count="15">5</example>
+			<example count="7">7</example>
+			<example count="5">6</example>
+			<example count="3">10</example>
+			<example count="3">8</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070963.v1.p1" var_name="edhos_event1_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to first ER visit or hospitalization.  See month assignments in pred_bursts_event1_month.</description>
+	<comment>If there were no ER/hospitalizations for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="37.67" sd="16.25" median="48" min="2" max="48"/>
+			<example count="545">48</example>
+			<example count="49">8</example>
+			<example count="40">12</example>
+			<example count="28">16</example>
+			<example count="27">2</example>
+			<example count="25">4</example>
+			<example count="21">32</example>
+			<example count="19">28</example>
+			<example count="17">20</example>
+			<example count="14">24</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070963.v1.p1.c1" var_name="edhos_event1_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to first ER visit or hospitalization.  See month assignments in pred_bursts_event1_month.</description>
+	<comment>If there were no ER/hospitalizations for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="37.67" sd="16.25" median="48" min="2" max="48"/>
+			<example count="545">48</example>
+			<example count="49">8</example>
+			<example count="40">12</example>
+			<example count="28">16</example>
+			<example count="27">2</example>
+			<example count="25">4</example>
+			<example count="21">32</example>
+			<example count="19">28</example>
+			<example count="17">20</example>
+			<example count="14">24</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070964.v1.p1" var_name="edhos_event1_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to first ER visit or hospitalization. See week assignments in pred_bursts_event1_week.</description>
+	<comment>If there were no ER/hospitalizations for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="162.5" sd="69.97" median="207" min="9" max="207"/>
+			<example count="545">207</example>
+			<example count="49">35</example>
+			<example count="40">52</example>
+			<example count="28">69</example>
+			<example count="27">9</example>
+			<example count="25">17</example>
+			<example count="21">138</example>
+			<example count="19">121</example>
+			<example count="17">86</example>
+			<example count="14">104</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070964.v1.p1.c1" var_name="edhos_event1_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to first ER visit or hospitalization. See week assignments in pred_bursts_event1_week.</description>
+	<comment>If there were no ER/hospitalizations for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="162.5" sd="69.97" median="207" min="9" max="207"/>
+			<example count="545">207</example>
+			<example count="49">35</example>
+			<example count="40">52</example>
+			<example count="28">69</example>
+			<example count="27">9</example>
+			<example count="25">17</example>
+			<example count="21">138</example>
+			<example count="19">121</example>
+			<example count="17">86</example>
+			<example count="14">104</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070965.v1.p1" var_name="edhos_event2_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to second ER visit or hospitalization.  See month assignments in pred_bursts_event1_month.</description>
+	<comment>If there was not a second ER/hospitalization for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="44.66" sd="9.423" median="48" min="4" max="48"/>
+			<example count="702">48</example>
+			<example count="17">16</example>
+			<example count="16">20</example>
+			<example count="14">12</example>
+			<example count="10">28</example>
+			<example count="9">44</example>
+			<example count="9">40</example>
+			<example count="8">32</example>
+			<example count="8">24</example>
+			<example count="8">36</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070965.v1.p1.c1" var_name="edhos_event2_month" calculated_type="integer" units="month" reported_type="integer">
+	<description>Number of months from Baseline to second ER visit or hospitalization.  See month assignments in pred_bursts_event1_month.</description>
+	<comment>If there was not a second ER/hospitalization for a subject, then the month represents the month that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="44.66" sd="9.423" median="48" min="4" max="48"/>
+			<example count="702">48</example>
+			<example count="17">16</example>
+			<example count="16">20</example>
+			<example count="14">12</example>
+			<example count="10">28</example>
+			<example count="9">44</example>
+			<example count="9">40</example>
+			<example count="8">32</example>
+			<example count="8">24</example>
+			<example count="8">36</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070966.v1.p1" var_name="edhos_event2_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to second ER visit or hospitalization.  See week assignments in pred_bursts_event1_week.</description>
+	<comment>If there was not a second ER/hospitalization for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="192.6" sd="40.57" median="207" min="17" max="207"/>
+			<example count="702">207</example>
+			<example count="17">69</example>
+			<example count="16">86</example>
+			<example count="14">52</example>
+			<example count="10">122</example>
+			<example count="9">190</example>
+			<example count="9">173</example>
+			<example count="8">35</example>
+			<example count="8">138</example>
+			<example count="8">156</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070966.v1.p1.c1" var_name="edhos_event2_week" calculated_type="integer" units="week" reported_type="integer">
+	<description>Number of weeks from Baseline to second ER visit or hospitalization.  See week assignments in pred_bursts_event1_week.</description>
+	<comment>If there was not a second ER/hospitalization for a subject, then the week represents the week that the subject was terminated from the study whether at the end of the study or on early withdrawal.  In these cases, tot_edhos has a value of zero.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="192.6" sd="40.57" median="207" min="17" max="207"/>
+			<example count="702">207</example>
+			<example count="17">69</example>
+			<example count="16">86</example>
+			<example count="14">52</example>
+			<example count="10">122</example>
+			<example count="9">190</example>
+			<example count="9">173</example>
+			<example count="8">35</example>
+			<example count="8">138</example>
+			<example count="8">156</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070967.v1.p1" var_name="prech_long" calculated_type="decimal" reported_type="decimal">
+	<description>Long term change in Pre-FEV1 between Baseline and a year after Baseline. The calculation is: 100*(Month12 PREFEV - Baseline PREFEV)/Baseline PREFEV.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>797</case>
+			</case_control>
+			<sex>
+				<male>494</male>
+				<female>303</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="797" nulls="16" mean="15.9" sd="16.51" median="13.55" min="-49.06" max="111.7"/>
+			<example count="9">0</example>
+			<example count="7">25</example>
+			<example count="5">10</example>
+			<example count="4">19.69</example>
+			<example count="4">12.5</example>
+			<example count="3">11.9</example>
+			<example count="3">9.52</example>
+			<example count="3">16.67</example>
+			<example count="3">14.29</example>
+			<example count="3">9.09</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070967.v1.p1.c1" var_name="prech_long" calculated_type="decimal" reported_type="decimal">
+	<description>Long term change in Pre-FEV1 between Baseline and a year after Baseline. The calculation is: 100*(Month12 PREFEV - Baseline PREFEV)/Baseline PREFEV.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>797</case>
+			</case_control>
+			<sex>
+				<male>494</male>
+				<female>303</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="797" nulls="16" mean="15.9" sd="16.51" median="13.55" min="-49.06" max="111.7"/>
+			<example count="9">0</example>
+			<example count="7">25</example>
+			<example count="5">10</example>
+			<example count="4">19.69</example>
+			<example count="4">12.5</example>
+			<example count="3">11.9</example>
+			<example count="3">9.52</example>
+			<example count="3">16.67</example>
+			<example count="3">14.29</example>
+			<example count="3">9.09</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070968.v1.p1" var_name="prech_short" calculated_type="decimal" reported_type="decimal">
+	<description>Short term change in Pre-FEV1 between Baseline and two months after Baseline. The calculation is: 100*(Month2 PREFEV - Baseline PREFEV)/Baseline PREFEV.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>783</case>
+			</case_control>
+			<sex>
+				<male>484</male>
+				<female>299</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="783" nulls="30" mean="4.719" sd="14.03" median="3.85" min="-40.63" max="86.11"/>
+			<example count="19">0</example>
+			<example count="5">3.16</example>
+			<example count="5">7.14</example>
+			<example count="4">9.52</example>
+			<example count="4">4.76</example>
+			<example count="3">16.67</example>
+			<example count="3">6.25</example>
+			<example count="3">-9.09</example>
+			<example count="3">4.32</example>
+			<example count="3">-2.04</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070968.v1.p1.c1" var_name="prech_short" calculated_type="decimal" reported_type="decimal">
+	<description>Short term change in Pre-FEV1 between Baseline and two months after Baseline. The calculation is: 100*(Month2 PREFEV - Baseline PREFEV)/Baseline PREFEV.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>783</case>
+			</case_control>
+			<sex>
+				<male>484</male>
+				<female>299</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="783" nulls="30" mean="4.719" sd="14.03" median="3.85" min="-40.63" max="86.11"/>
+			<example count="19">0</example>
+			<example count="5">3.16</example>
+			<example count="5">7.14</example>
+			<example count="4">9.52</example>
+			<example count="4">4.76</example>
+			<example count="3">16.67</example>
+			<example count="3">6.25</example>
+			<example count="3">-9.09</example>
+			<example count="3">4.32</example>
+			<example count="3">-2.04</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070969.v1.p1" var_name="eno_baseline" calculated_type="string" units="ppb" reported_type="decimal">
+	<description>Baseline exhaled nitric oxide</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="813"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070969.v1.p1.c1" var_name="eno_baseline" calculated_type="string" units="ppb" reported_type="decimal">
+	<description>Baseline exhaled nitric oxide</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="813"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070970.v1.p1" var_name="PC20_baseline" calculated_type="decimal" units="mg/ml" reported_type="decimal">
+	<description>Baseline FEV1 PC20 methacholine</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="2.039" sd="2.44" median="1.064" min="0.023" max="13.27"/>
+			<example count="5">0.57</example>
+			<example count="4">0.68</example>
+			<example count="3">0.39</example>
+			<example count="3">1.051</example>
+			<example count="3">1.292</example>
+			<example count="3">0.627</example>
+			<example count="3">1.047</example>
+			<example count="3">0.33</example>
+			<example count="3">0.14</example>
+			<example count="3">7.179</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070970.v1.p1.c1" var_name="PC20_baseline" calculated_type="decimal" units="mg/ml" reported_type="decimal">
+	<description>Baseline FEV1 PC20 methacholine</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="2.039" sd="2.44" median="1.064" min="0.023" max="13.27"/>
+			<example count="5">0.57</example>
+			<example count="4">0.68</example>
+			<example count="3">0.39</example>
+			<example count="3">1.051</example>
+			<example count="3">1.292</example>
+			<example count="3">0.627</example>
+			<example count="3">1.047</example>
+			<example count="3">0.33</example>
+			<example count="3">0.14</example>
+			<example count="3">7.179</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070971.v1.p1" var_name="LNPC20_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Natural log PC20 at Baseline</description>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the PC20 value.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="0.07367" sd="1.184" median="0.06" min="-3.77" max="2.59"/>
+			<example count="9">-0.56</example>
+			<example count="7">0.26</example>
+			<example count="7">0.27</example>
+			<example count="7">0.02</example>
+			<example count="7">0.05</example>
+			<example count="6">-1.35</example>
+			<example count="6">-0.64</example>
+			<example count="6">-0.52</example>
+			<example count="5">1.95</example>
+			<example count="5">0.18</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070971.v1.p1.c1" var_name="LNPC20_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Natural log PC20 at Baseline</description>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the PC20 value.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>311</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="0.07367" sd="1.184" median="0.06" min="-3.77" max="2.59"/>
+			<example count="9">-0.56</example>
+			<example count="7">0.26</example>
+			<example count="7">0.27</example>
+			<example count="7">0.02</example>
+			<example count="7">0.05</example>
+			<example count="6">-1.35</example>
+			<example count="6">-0.64</example>
+			<example count="6">-0.52</example>
+			<example count="5">1.95</example>
+			<example count="5">0.18</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070972.v1.p1" var_name="PREFEV_baseline" calculated_type="decimal" units="liters" reported_type="decimal">
+	<description>Baseline FEV1</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="1.64" sd="0.47" median="1.58" min="0.42" max="3.26"/>
+			<example count="13">1.5</example>
+			<example count="12">1.43</example>
+			<example count="12">1.79</example>
+			<example count="12">1.77</example>
+			<example count="11">1.65</example>
+			<example count="11">1.64</example>
+			<example count="11">1.68</example>
+			<example count="10">1.46</example>
+			<example count="10">1.39</example>
+			<example count="10">1.15</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070972.v1.p1.c1" var_name="PREFEV_baseline" calculated_type="decimal" units="liters" reported_type="decimal">
+	<description>Baseline FEV1</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="1.64" sd="0.47" median="1.58" min="0.42" max="3.26"/>
+			<example count="13">1.5</example>
+			<example count="12">1.43</example>
+			<example count="12">1.79</example>
+			<example count="12">1.77</example>
+			<example count="11">1.65</example>
+			<example count="11">1.64</example>
+			<example count="11">1.68</example>
+			<example count="10">1.46</example>
+			<example count="10">1.39</example>
+			<example count="10">1.15</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070973.v1.p1" var_name="PREFVC_baseline" calculated_type="decimal" units="liters" reported_type="decimal">
+	<description>Baseline FVC</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="2.081" sd="0.635" median="2" min="0.7" max="4.58"/>
+			<example count="10">1.94</example>
+			<example count="10">1.8</example>
+			<example count="9">2.27</example>
+			<example count="9">1.61</example>
+			<example count="8">2.01</example>
+			<example count="8">1.74</example>
+			<example count="8">2.36</example>
+			<example count="8">1.93</example>
+			<example count="8">1.7</example>
+			<example count="8">1.75</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070973.v1.p1.c1" var_name="PREFVC_baseline" calculated_type="decimal" units="liters" reported_type="decimal">
+	<description>Baseline FVC</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="2.081" sd="0.635" median="2" min="0.7" max="4.58"/>
+			<example count="10">1.94</example>
+			<example count="10">1.8</example>
+			<example count="9">2.27</example>
+			<example count="9">1.61</example>
+			<example count="8">2.01</example>
+			<example count="8">1.74</example>
+			<example count="8">2.36</example>
+			<example count="8">1.93</example>
+			<example count="8">1.7</example>
+			<example count="8">1.75</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070974.v1.p1" var_name="PREFF_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline FEV1/FVC ratio</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="79.58" sd="8.252" median="80" min="52" max="100"/>
+			<example count="52">82</example>
+			<example count="46">83</example>
+			<example count="44">79</example>
+			<example count="41">84</example>
+			<example count="41">80</example>
+			<example count="40">77</example>
+			<example count="34">87</example>
+			<example count="34">75</example>
+			<example count="32">76</example>
+			<example count="32">85</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070974.v1.p1.c1" var_name="PREFF_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline FEV1/FVC ratio</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="79.58" sd="8.252" median="80" min="52" max="100"/>
+			<example count="52">82</example>
+			<example count="46">83</example>
+			<example count="44">79</example>
+			<example count="41">84</example>
+			<example count="41">80</example>
+			<example count="40">77</example>
+			<example count="34">87</example>
+			<example count="34">75</example>
+			<example count="32">76</example>
+			<example count="32">85</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070975.v1.p1" var_name="PREFEVPP_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline FEV1 percent predicted</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>805</case>
+			</case_control>
+			<sex>
+				<male>495</male>
+				<female>310</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="805" nulls="8" mean="93.39" sd="14.15" median="93" min="46" max="148"/>
+			<example count="29">87</example>
+			<example count="27">95</example>
+			<example count="27">81</example>
+			<example count="26">99</example>
+			<example count="26">94</example>
+			<example count="24">92</example>
+			<example count="23">89</example>
+			<example count="23">106</example>
+			<example count="23">98</example>
+			<example count="22">86</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070975.v1.p1.c1" var_name="PREFEVPP_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline FEV1 percent predicted</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>805</case>
+			</case_control>
+			<sex>
+				<male>495</male>
+				<female>310</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="805" nulls="8" mean="93.39" sd="14.15" median="93" min="46" max="148"/>
+			<example count="29">87</example>
+			<example count="27">95</example>
+			<example count="27">81</example>
+			<example count="26">99</example>
+			<example count="26">94</example>
+			<example count="24">92</example>
+			<example count="23">89</example>
+			<example count="23">106</example>
+			<example count="23">98</example>
+			<example count="22">86</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070976.v1.p1" var_name="PREFVCPP_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline FVC percent predicted</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>805</case>
+			</case_control>
+			<sex>
+				<male>495</male>
+				<female>310</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="805" nulls="8" mean="103.7" sd="13.05" median="103" min="56" max="158"/>
+			<example count="35">103</example>
+			<example count="32">99</example>
+			<example count="31">97</example>
+			<example count="29">101</example>
+			<example count="29">104</example>
+			<example count="27">106</example>
+			<example count="27">108</example>
+			<example count="25">107</example>
+			<example count="25">100</example>
+			<example count="25">105</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070976.v1.p1.c1" var_name="PREFVCPP_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline FVC percent predicted</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>805</case>
+			</case_control>
+			<sex>
+				<male>495</male>
+				<female>310</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="805" nulls="8" mean="103.7" sd="13.05" median="103" min="56" max="158"/>
+			<example count="35">103</example>
+			<example count="32">99</example>
+			<example count="31">97</example>
+			<example count="29">101</example>
+			<example count="29">104</example>
+			<example count="27">106</example>
+			<example count="27">108</example>
+			<example count="25">107</example>
+			<example count="25">100</example>
+			<example count="25">105</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070977.v1.p1" var_name="bdrabpct_baseline" calculated_type="integer" reported_type="decimal">
+	<description>Baseline bronchodilator percent change. The calculation is: (POSFEV - PREFEV)/PREFEV.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="10.68" sd="9.852" median="8" min="-17" max="62"/>
+			<example count="54">6</example>
+			<example count="51">7</example>
+			<example count="49">8</example>
+			<example count="49">5</example>
+			<example count="48">4</example>
+			<example count="41">10</example>
+			<example count="39">3</example>
+			<example count="36">2</example>
+			<example count="35">9</example>
+			<example count="32">11</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070977.v1.p1.c1" var_name="bdrabpct_baseline" calculated_type="integer" reported_type="decimal">
+	<description>Baseline bronchodilator percent change. The calculation is: (POSFEV - PREFEV)/PREFEV.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>811</case>
+			</case_control>
+			<sex>
+				<male>499</male>
+				<female>312</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="811" nulls="2" mean="10.68" sd="9.852" median="8" min="-17" max="62"/>
+			<example count="54">6</example>
+			<example count="51">7</example>
+			<example count="49">8</example>
+			<example count="49">5</example>
+			<example count="48">4</example>
+			<example count="41">10</example>
+			<example count="39">3</example>
+			<example count="36">2</example>
+			<example count="35">9</example>
+			<example count="32">11</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070978.v1.p1" var_name="ATOPY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Child had atopic dermatitus for 2 yrs and was seen by a doctor for it.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="293.4" median_count="406.5" min_count="199" max_count="614"/>
+			<enum code="0" count="614">no</enum>
+			<enum code="1" count="199">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070978.v1.p1.c1" var_name="ATOPY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Child had atopic dermatitus for 2 yrs and was seen by a doctor for it.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="293.4" median_count="406.5" min_count="199" max_count="614"/>
+			<enum code="0" count="614">no</enum>
+			<enum code="1" count="199">yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070979.v1.p1" var_name="eos_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline blood eosinophils</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>798</case>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>307</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="798" nulls="15" mean="485.7" sd="409.2" median="400" min="0" max="3171"/>
+			<example count="34">200</example>
+			<example count="21">500</example>
+			<example count="19">0</example>
+			<example count="18">300</example>
+			<example count="17">400</example>
+			<example count="17">100</example>
+			<example count="16">70</example>
+			<example count="13">700</example>
+			<example count="11">211</example>
+			<example count="9">264</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070979.v1.p1.c1" var_name="eos_baseline" calculated_type="integer" reported_type="integer">
+	<description>Baseline blood eosinophils</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>798</case>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>307</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="798" nulls="15" mean="485.7" sd="409.2" median="400" min="0" max="3171"/>
+			<example count="34">200</example>
+			<example count="21">500</example>
+			<example count="19">0</example>
+			<example count="18">300</example>
+			<example count="17">400</example>
+			<example count="17">100</example>
+			<example count="16">70</example>
+			<example count="13">700</example>
+			<example count="11">211</example>
+			<example count="9">264</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070980.v1.p1" var_name="log10eos_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Baseline log10 blood eosinophils</description>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the EOS value.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>798</case>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>307</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="798" nulls="15" mean="2.499" sd="0.5359" median="2.603" min="0" max="3.501"/>
+			<example count="34">2.3031960574</example>
+			<example count="21">2.6998377259</example>
+			<example count="19">0</example>
+			<example count="18">2.4785664956</example>
+			<example count="17">2.6031443726</example>
+			<example count="17">2.0043213738</example>
+			<example count="16">1.8512583487</example>
+			<example count="13">2.845718018</example>
+			<example count="11">2.3263358609</example>
+			<example count="9">2.2013971243</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070980.v1.p1.c1" var_name="log10eos_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Baseline log10 blood eosinophils</description>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the EOS value.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>798</case>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>307</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="798" nulls="15" mean="2.499" sd="0.5359" median="2.603" min="0" max="3.501"/>
+			<example count="34">2.3031960574</example>
+			<example count="21">2.6998377259</example>
+			<example count="19">0</example>
+			<example count="18">2.4785664956</example>
+			<example count="17">2.6031443726</example>
+			<example count="17">2.0043213738</example>
+			<example count="16">1.8512583487</example>
+			<example count="13">2.845718018</example>
+			<example count="11">2.3263358609</example>
+			<example count="9">2.2013971243</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070981.v1.p1" var_name="IGE_baseline" calculated_type="integer" units="ng/ml" reported_type="integer">
+	<description>Baseline total IgE</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>802</case>
+			</case_control>
+			<sex>
+				<male>493</male>
+				<female>309</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="802" nulls="11" mean="1130" sd="2082" median="437.5" min="1" max="24395"/>
+			<example count="6">18</example>
+			<example count="4">29</example>
+			<example count="4">24</example>
+			<example count="4">187</example>
+			<example count="4">12</example>
+			<example count="4">66</example>
+			<example count="4">25</example>
+			<example count="3">32</example>
+			<example count="3">84</example>
+			<example count="3">378</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070981.v1.p1.c1" var_name="IGE_baseline" calculated_type="integer" units="ng/ml" reported_type="integer">
+	<description>Baseline total IgE</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>802</case>
+			</case_control>
+			<sex>
+				<male>493</male>
+				<female>309</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="802" nulls="11" mean="1130" sd="2082" median="437.5" min="1" max="24395"/>
+			<example count="6">18</example>
+			<example count="4">29</example>
+			<example count="4">24</example>
+			<example count="4">187</example>
+			<example count="4">12</example>
+			<example count="4">66</example>
+			<example count="4">25</example>
+			<example count="3">32</example>
+			<example count="3">84</example>
+			<example count="3">378</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070982.v1.p1" var_name="LOG10IGE_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Baseline log10 IgE</description>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the IgE value.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>802</case>
+			</case_control>
+			<sex>
+				<male>493</male>
+				<female>309</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="802" nulls="11" mean="2.633" sd="0.6609" median="2.64" min="0.3" max="4.39"/>
+			<example count="10">2.53</example>
+			<example count="9">2.54</example>
+			<example count="9">3.07</example>
+			<example count="9">2.63</example>
+			<example count="9">3.03</example>
+			<example count="9">2.6</example>
+			<example count="7">2.26</example>
+			<example count="7">2.98</example>
+			<example count="7">2.39</example>
+			<example count="7">2.61</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070982.v1.p1.c1" var_name="LOG10IGE_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Baseline log10 IgE</description>
+	<comment>Prior to calculating the log, a constant of &#39;1&#39; was added to the IgE value.</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>802</case>
+			</case_control>
+			<sex>
+				<male>493</male>
+				<female>309</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="802" nulls="11" mean="2.633" sd="0.6609" median="2.64" min="0.3" max="4.39"/>
+			<example count="10">2.53</example>
+			<example count="9">2.54</example>
+			<example count="9">3.07</example>
+			<example count="9">2.63</example>
+			<example count="9">3.03</example>
+			<example count="9">2.6</example>
+			<example count="7">2.26</example>
+			<example count="7">2.98</example>
+			<example count="7">2.39</example>
+			<example count="7">2.61</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070983.v1.p1" var_name="ampf_baseline" calculated_type="decimal" units="liters/minute" reported_type="integer">
+	<description>Average Baseline AM peak flow (L/min) as recorded in daily diary card data between visits.  Visits are in most cases four months apart.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>790</case>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>299</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="790" nulls="23" mean="250.9" sd="64.42" median="250.4" min="83" max="461.1"/>
+			<example count="7">270</example>
+			<example count="6">200</example>
+			<example count="6">190</example>
+			<example count="6">220</example>
+			<example count="6">300</example>
+			<example count="5">175</example>
+			<example count="5">255</example>
+			<example count="5">240</example>
+			<example count="5">295</example>
+			<example count="5">250</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070983.v1.p1.c1" var_name="ampf_baseline" calculated_type="decimal" units="liters/minute" reported_type="integer">
+	<description>Average Baseline AM peak flow (L/min) as recorded in daily diary card data between visits.  Visits are in most cases four months apart.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>790</case>
+			</case_control>
+			<sex>
+				<male>491</male>
+				<female>299</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="790" nulls="23" mean="250.9" sd="64.42" median="250.4" min="83" max="461.1"/>
+			<example count="7">270</example>
+			<example count="6">200</example>
+			<example count="6">190</example>
+			<example count="6">220</example>
+			<example count="6">300</example>
+			<example count="5">175</example>
+			<example count="5">255</example>
+			<example count="5">240</example>
+			<example count="5">295</example>
+			<example count="5">250</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070984.v1.p1" var_name="totres_baseline" calculated_type="decimal" units="puffs" reported_type="integer">
+	<description>Baseline total rescue use per day</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>657</case>
+			</case_control>
+			<sex>
+				<male>417</male>
+				<female>240</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="657" nulls="156" mean="2.725" sd="1.837" median="2.4" min="0" max="12.57"/>
+			<example count="110">2</example>
+			<example count="27">0</example>
+			<example count="26">3</example>
+			<example count="20">4</example>
+			<example count="17">2.6666666667</example>
+			<example count="12">2.5</example>
+			<example count="10">1</example>
+			<example count="10">3.3333333333</example>
+			<example count="7">3.2</example>
+			<example count="7">2.2857142857</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070984.v1.p1.c1" var_name="totres_baseline" calculated_type="decimal" units="puffs" reported_type="integer">
+	<description>Baseline total rescue use per day</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>657</case>
+			</case_control>
+			<sex>
+				<male>417</male>
+				<female>240</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="657" nulls="156" mean="2.725" sd="1.837" median="2.4" min="0" max="12.57"/>
+			<example count="110">2</example>
+			<example count="27">0</example>
+			<example count="26">3</example>
+			<example count="20">4</example>
+			<example count="17">2.6666666667</example>
+			<example count="12">2.5</example>
+			<example count="10">1</example>
+			<example count="10">3.3333333333</example>
+			<example count="7">3.2</example>
+			<example count="7">2.2857142857</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070985.v1.p1" var_name="amsym_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Average Baseline AM symptoms as recorded in daily diary card data between visits.  Visits are in most cases four months apart.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>791</case>
+			</case_control>
+			<sex>
+				<male>489</male>
+				<female>302</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="791" nulls="22" mean="0.6145" sd="0.4484" median="0.5714" min="0" max="2.125"/>
+			<example count="104">1</example>
+			<example count="92">0</example>
+			<example count="32">0.5</example>
+			<example count="18">0.6666666667</example>
+			<example count="17">0.3333333333</example>
+			<example count="16">0.4</example>
+			<example count="12">0.0666666667</example>
+			<example count="11">0.75</example>
+			<example count="11">0.6</example>
+			<example count="9">0.1666666667</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070985.v1.p1.c1" var_name="amsym_baseline" calculated_type="decimal" reported_type="decimal">
+	<description>Average Baseline AM symptoms as recorded in daily diary card data between visits.  Visits are in most cases four months apart.</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>791</case>
+			</case_control>
+			<sex>
+				<male>489</male>
+				<female>302</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="791" nulls="22" mean="0.6145" sd="0.4484" median="0.5714" min="0" max="2.125"/>
+			<example count="104">1</example>
+			<example count="92">0</example>
+			<example count="32">0.5</example>
+			<example count="18">0.6666666667</example>
+			<example count="17">0.3333333333</example>
+			<example count="16">0.4</example>
+			<example count="12">0.0666666667</example>
+			<example count="11">0.75</example>
+			<example count="11">0.6</example>
+			<example count="9">0.1666666667</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070986.v1.p1" var_name="POS_SKINTEST_baseline" calculated_type="enum_integer" reported_type="encoded value">
+	<description>One or more skintest positive at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="437.7" median_count="406.5" min_count="97" max_count="716"/>
+			<enum code="1" count="716">yes</enum>
+			<enum code="0" count="97">no</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070986.v1.p1.c1" var_name="POS_SKINTEST_baseline" calculated_type="enum_integer" reported_type="encoded value">
+	<description>One or more skintest positive at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean_count="406.5" sd="437.7" median_count="406.5" min_count="97" max_count="716"/>
+			<enum code="1" count="716">yes</enum>
+			<enum code="0" count="97">no</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070987.v1.p1" var_name="NALL_SKINTEST_baseline" calculated_type="integer" reported_type="integer">
+	<description>Number of skin tests (all tests) at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="16.26" sd="2.124" median="17" min="10" max="20"/>
+			<enum count="291">18</enum>
+			<enum count="184">17</enum>
+			<enum count="172">14</enum>
+			<enum count="110">13</enum>
+			<enum count="22">20</enum>
+			<enum count="21">19</enum>
+			<enum count="5">15</enum>
+			<enum count="3">16</enum>
+			<enum count="3">11</enum>
+			<enum count="2">10</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070987.v1.p1.c1" var_name="NALL_SKINTEST_baseline" calculated_type="integer" reported_type="integer">
+	<description>Number of skin tests (all tests) at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="16.26" sd="2.124" median="17" min="10" max="20"/>
+			<enum count="291">18</enum>
+			<enum count="184">17</enum>
+			<enum count="172">14</enum>
+			<enum count="110">13</enum>
+			<enum count="22">20</enum>
+			<enum count="21">19</enum>
+			<enum count="5">15</enum>
+			<enum count="3">16</enum>
+			<enum count="3">11</enum>
+			<enum count="2">10</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070988.v1.p1" var_name="NPOS_SKINTEST_baseline" calculated_type="integer" reported_type="integer">
+	<description>Number of positive skin tests (all tests) at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="5.418" sd="4.235" median="5" min="0" max="18"/>
+			<example count="97">0</example>
+			<example count="92">2</example>
+			<example count="80">3</example>
+			<example count="69">5</example>
+			<example count="67">6</example>
+			<example count="66">4</example>
+			<example count="57">1</example>
+			<example count="52">7</example>
+			<example count="50">8</example>
+			<example count="40">10</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00070988.v1.p1.c1" var_name="NPOS_SKINTEST_baseline" calculated_type="integer" reported_type="integer">
+	<description>Number of positive skin tests (all tests) at Baseline</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>813</case>
+			</case_control>
+			<sex>
+				<male>500</male>
+				<female>313</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="813" nulls="0" mean="5.418" sd="4.235" median="5" min="0" max="18"/>
+			<example count="97">0</example>
+			<example count="92">2</example>
+			<example count="80">3</example>
+			<example count="69">5</example>
+			<example count="67">6</example>
+			<example count="66">4</example>
+			<example count="57">1</example>
+			<example count="52">7</example>
+			<example count="50">8</example>
+			<example count="40">10</example>
+		</stats>
+	</total>
+</variable>
+
+</data_table>
+

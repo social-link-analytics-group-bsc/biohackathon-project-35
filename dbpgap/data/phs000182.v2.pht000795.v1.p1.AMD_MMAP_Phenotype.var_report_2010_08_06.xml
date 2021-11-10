@@ -1,0 +1,1448 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="AMD_MMAP_Phenotype" dataset_id="pht000795.v1" study_name="AMD-MMAP Cohort Study: A Joint Genome Wide Association Study" study_id="phs000182.v2" participant_set="1" date_created="08/06/2010">
+
+<variable id="phv00073519.v1.p1" var_name="Subject_ID" calculated_type="string" reported_type="integer, string">
+	<description>Sample IDs of samples being genotyped</description>
+	<comment>Deidentified ID</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073519.v1.p1.c1" var_name="Subject_ID" calculated_type="string" reported_type="integer, string">
+	<description>Sample IDs of samples being genotyped</description>
+	<comment>Deidentified ID</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073519.v1.p1.c2" var_name="Subject_ID" calculated_type="string" reported_type="integer, string">
+	<description>Sample IDs of samples being genotyped</description>
+	<comment>Deidentified ID</comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073520.v1.p1" var_name="Collection Center" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Location where sample was sent from</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0" mean_count="835" sd="391.7" median_count="787.5" min_count="446" max_count="1319"/>
+			<enum code="1" count="1319">University of Michigan</enum>
+			<enum code="4" count="975">Mayo Clinic</enum>
+			<enum code="2" count="600">University of Pennsylvania</enum>
+			<enum code="3" count="446">AREDS study</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0" mean_count="546.2" sd="179" median_count="493" min_count="399" max_count="800"/>
+			<enum code="1" count="800">University of Michigan</enum>
+			<enum code="4" count="540">Mayo Clinic</enum>
+			<enum code="3" count="446">AREDS study</enum>
+			<enum code="2" count="399">University of Pennsylvania</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0" mean_count="385" sd="164.8" median_count="435" min_count="201" max_count="519"/>
+			<enum code="1" count="519">University of Michigan</enum>
+			<enum code="4" count="435">Mayo Clinic</enum>
+			<enum code="2" count="201">University of Pennsylvania</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073520.v1.p1.c1" var_name="Collection Center" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Location where sample was sent from</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0" mean_count="515" sd="414.4" median_count="399" min_count="171" max_count="975"/>
+			<enum code="4" count="975">Mayo Clinic</enum>
+			<enum code="3" count="399">AREDS study</enum>
+			<enum code="2" count="171">University of Pennsylvania</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0" mean_count="313.3" sd="279.5" median_count="399" min_count="1" max_count="540"/>
+			<enum code="4" count="540">Mayo Clinic</enum>
+			<enum code="3" count="399">AREDS study</enum>
+			<enum code="2" count="1">University of Pennsylvania</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0" mean_count="302.5" sd="187.4" median_count="302.5" min_count="170" max_count="435"/>
+			<enum code="4" count="435">Mayo Clinic</enum>
+			<enum code="2" count="170">University of Pennsylvania</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073520.v1.p1.c2" var_name="Collection Center" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Location where sample was sent from</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0" mean_count="598.3" sd="652.7" median_count="429" min_count="47" max_count="1319"/>
+			<enum code="1" count="1319">University of Michigan</enum>
+			<enum code="2" count="429">University of Pennsylvania</enum>
+			<enum code="3" count="47">AREDS study</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0" mean_count="415" sd="376.8" median_count="398" min_count="47" max_count="800"/>
+			<enum code="1" count="800">University of Michigan</enum>
+			<enum code="2" count="398">University of Pennsylvania</enum>
+			<enum code="3" count="47">AREDS study</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0" mean_count="275" sd="345.1" median_count="275" min_count="31" max_count="519"/>
+			<enum code="1" count="519">University of Michigan</enum>
+			<enum code="2" count="31">University of Pennsylvania</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073521.v1.p1" var_name="Case_Control" calculated_type="enum_integer" reported_type="encoded value">
+	<description>AMD case or control patient status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0" mean_count="1670" sd="728.3" median_count="1670" min_count="1155" max_count="2185"/>
+			<enum code="1" count="2185">Case</enum>
+			<enum code="2" count="1155">Control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0" mean_count="2185" median_count="2185" min_count="2185" max_count="2185"/>
+			<enum code="1" count="2185">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0" mean_count="1155" median_count="1155" min_count="1155" max_count="1155"/>
+			<enum code="2" count="1155">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073521.v1.p1.c1" var_name="Case_Control" calculated_type="enum_integer" reported_type="encoded value">
+	<description>AMD case or control patient status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0" mean_count="772.5" sd="236.9" median_count="772.5" min_count="605" max_count="940"/>
+			<enum code="1" count="940">Case</enum>
+			<enum code="2" count="605">Control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0" mean_count="940" median_count="940" min_count="940" max_count="940"/>
+			<enum code="1" count="940">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0" mean_count="605" median_count="605" min_count="605" max_count="605"/>
+			<enum code="2" count="605">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073521.v1.p1.c2" var_name="Case_Control" calculated_type="enum_integer" reported_type="encoded value">
+	<description>AMD case or control patient status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0" mean_count="897.5" sd="491.4" median_count="897.5" min_count="550" max_count="1245"/>
+			<enum code="1" count="1245">Case</enum>
+			<enum code="2" count="550">Control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0" mean_count="1245" median_count="1245" min_count="1245" max_count="1245"/>
+			<enum code="1" count="1245">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0" mean_count="550" median_count="550" min_count="550" max_count="550"/>
+			<enum code="2" count="550">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073522.v1.p1" var_name="Grading_ID" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Type of AMD for cases</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0" mean_count="477.1" sd="434" median_count="474" min_count="1" max_count="1155"/>
+			<enum code="0" count="1155">Control</enum>
+			<enum code="3" count="897">Exudative</enum>
+			<enum code="1" count="534">AMD with large drusen</enum>
+			<enum code="2" count="474">GA</enum>
+			<enum code="4" count="274">Both GA and Exudative</enum>
+			<enum code="5" count="5">Affected, unspecified</enum>
+			<enum code="6" count="1">Exclude</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0" mean_count="364.2" sd="344.6" median_count="374" min_count="1" max_count="897"/>
+			<enum code="3" count="897">Exudative</enum>
+			<enum code="1" count="534">AMD with large drusen</enum>
+			<enum code="2" count="474">GA</enum>
+			<enum code="4" count="274">Both GA and Exudative</enum>
+			<enum code="5" count="5">Affected, unspecified</enum>
+			<enum code="6" count="1">Exclude</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0" mean_count="1155" median_count="1155" min_count="1155" max_count="1155"/>
+			<enum code="0" count="1155">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073522.v1.p1.c1" var_name="Grading_ID" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Type of AMD for cases</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0" mean_count="220.7" sd="223.1" median_count="182" min_count="1" max_count="605"/>
+			<enum code="0" count="605">Control</enum>
+			<enum code="3" count="410">Exudative</enum>
+			<enum code="1" count="253">AMD with large drusen</enum>
+			<enum code="2" count="182">GA</enum>
+			<enum code="4" count="91">Both GA and Exudative</enum>
+			<enum code="5" count="3">Affected, unspecified</enum>
+			<enum code="6" count="1">Exclude</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0" mean_count="156.7" sd="158.9" median_count="136.5" min_count="1" max_count="410"/>
+			<enum code="3" count="410">Exudative</enum>
+			<enum code="1" count="253">AMD with large drusen</enum>
+			<enum code="2" count="182">GA</enum>
+			<enum code="4" count="91">Both GA and Exudative</enum>
+			<enum code="5" count="3">Affected, unspecified</enum>
+			<enum code="6" count="1">Exclude</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0" mean_count="605" median_count="605" min_count="605" max_count="605"/>
+			<enum code="0" count="605">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073522.v1.p1.c2" var_name="Grading_ID" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Type of AMD for cases</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0" mean_count="299.2" sd="200.2" median_count="286.5" min_count="2" max_count="550"/>
+			<enum code="0" count="550">Control</enum>
+			<enum code="3" count="487">Exudative</enum>
+			<enum code="2" count="292">GA</enum>
+			<enum code="1" count="281">AMD with large drusen</enum>
+			<enum code="4" count="183">Both GA and Exudative</enum>
+			<enum code="5" count="2">Affected, unspecified</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0" mean_count="249" sd="176.7" median_count="281" min_count="2" max_count="487"/>
+			<enum code="3" count="487">Exudative</enum>
+			<enum code="2" count="292">GA</enum>
+			<enum code="1" count="281">AMD with large drusen</enum>
+			<enum code="4" count="183">Both GA and Exudative</enum>
+			<enum code="5" count="2">Affected, unspecified</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0" mean_count="550" median_count="550" min_count="550" max_count="550"/>
+			<enum code="0" count="550">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073523.v1.p1" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0" mean_count="1670" sd="465.3" median_count="1670" min_count="1341" max_count="1999"/>
+			<enum code="2" count="1999">Female</enum>
+			<enum code="1" count="1341">Male</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0" mean_count="1093" sd="368.4" median_count="1093" min_count="832" max_count="1353"/>
+			<enum code="2" count="1353">Female</enum>
+			<enum code="1" count="832">Male</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0" mean_count="577.5" sd="96.87" median_count="577.5" min_count="509" max_count="646"/>
+			<enum code="2" count="646">Female</enum>
+			<enum code="1" count="509">Male</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073523.v1.p1.c1" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0" mean_count="772.5" sd="188.8" median_count="772.5" min_count="639" max_count="906"/>
+			<enum code="2" count="906">Female</enum>
+			<enum code="1" count="639">Male</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0" mean_count="470" sd="154.1" median_count="470" min_count="361" max_count="579"/>
+			<enum code="2" count="579">Female</enum>
+			<enum code="1" count="361">Male</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0" mean_count="302.5" sd="34.65" median_count="302.5" min_count="278" max_count="327"/>
+			<enum code="2" count="327">Female</enum>
+			<enum code="1" count="278">Male</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073523.v1.p1.c2" var_name="Sex" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Gender of participant</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0" mean_count="897.5" sd="276.5" median_count="897.5" min_count="702" max_count="1093"/>
+			<enum code="2" count="1093">Female</enum>
+			<enum code="1" count="702">Male</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0" mean_count="622.5" sd="214.3" median_count="622.5" min_count="471" max_count="774"/>
+			<enum code="2" count="774">Female</enum>
+			<enum code="1" count="471">Male</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0" mean_count="275" sd="62.23" median_count="275" min_count="231" max_count="319"/>
+			<enum code="2" count="319">Female</enum>
+			<enum code="1" count="231">Male</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073524.v1.p1" var_name="Age" calculated_type="decimal" units="Years" reported_type="integer">
+	<description>Age of participant at most recent grading</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0" mean="77.05" sd="7.884" median="77.56" min="43" max="&gt;89"/>
+			<example count="84">76</example>
+			<example count="84">77</example>
+			<example count="79">74</example>
+			<example count="77">79</example>
+			<example count="75">80</example>
+			<example count="73">72</example>
+			<example count="73">75</example>
+			<example count="70">78</example>
+			<example count="69">73</example>
+			<example count="66">71</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0" mean="78.63" sd="7.818" median="79.5" min="43" max="&gt;89"/>
+			<example count="57">80</example>
+			<example count="56">76</example>
+			<example count="51">78</example>
+			<example count="51">77</example>
+			<example count="48">79</example>
+			<example count="46">83</example>
+			<example count="46">75</example>
+			<example count="44">82</example>
+			<example count="44">81</example>
+			<example count="40">72</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0" mean="74.05" sd="7.1" median="74.08" min="51" max="&gt;89"/>
+			<example count="42">74</example>
+			<example count="40">73</example>
+			<example count="33">77</example>
+			<example count="33">72</example>
+			<example count="31">71</example>
+			<example count="29">79</example>
+			<example count="28">76</example>
+			<example count="27">75</example>
+			<example count="25">65</example>
+			<example count="24">69</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073524.v1.p1.c1" var_name="Age" calculated_type="decimal" units="Years" reported_type="integer">
+	<description>Age of participant at most recent grading</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0" mean="76.07" sd="8.433" median="77" min="43" max="&gt;89"/>
+			<example count="61">77</example>
+			<example count="57">72</example>
+			<example count="56">74</example>
+			<example count="55">79</example>
+			<example count="55">73</example>
+			<example count="54">80</example>
+			<example count="53">76</example>
+			<example count="52">82</example>
+			<example count="48">71</example>
+			<example count="47">75</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0" mean="78.77" sd="7.717" median="80" min="43" max="&gt;89"/>
+			<example count="37">80</example>
+			<example count="36">82</example>
+			<example count="30">77</example>
+			<example count="29">76</example>
+			<example count="29">83</example>
+			<example count="28">78</example>
+			<example count="27">79</example>
+			<example count="25">85</example>
+			<example count="25">72</example>
+			<example count="24">75</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0" mean="71.88" sd="7.762" median="72" min="51" max="&gt;89"/>
+			<example count="39">74</example>
+			<example count="39">73</example>
+			<example count="32">72</example>
+			<example count="31">77</example>
+			<example count="30">71</example>
+			<example count="28">79</example>
+			<example count="24">76</example>
+			<example count="24">70</example>
+			<example count="23">69</example>
+			<example count="23">65</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073524.v1.p1.c2" var_name="Age" calculated_type="decimal" units="Years" reported_type="integer">
+	<description>Age of participant at most recent grading</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0" mean="77.89" sd="7.276" median="78" min="52" max="&gt;89"/>
+			<example count="31">76</example>
+			<example count="26">75</example>
+			<example count="24">78</example>
+			<example count="23">74</example>
+			<example count="23">77</example>
+			<example count="22">79</example>
+			<example count="22">81</example>
+			<example count="21">80</example>
+			<example count="18">71</example>
+			<example count="18">83</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0" mean="78.53" sd="7.895" median="79" min="52" max="&gt;89"/>
+			<example count="27">76</example>
+			<example count="23">78</example>
+			<example count="22">75</example>
+			<example count="21">77</example>
+			<example count="21">79</example>
+			<example count="21">81</example>
+			<example count="20">74</example>
+			<example count="20">80</example>
+			<example count="17">71</example>
+			<example count="17">83</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0" mean="76.44" sd="5.36" median="75.98" min="62" max="&gt;89"/>
+			<example count="4">76</example>
+			<example count="4">75</example>
+			<example count="3">74</example>
+			<example count="3">82</example>
+			<example count="2">70.0328767123288</example>
+			<example count="2">80.0876712328767</example>
+			<example count="2">74.3342465753425</example>
+			<example count="2">73.6958904109589</example>
+			<example count="2">77.2684931506849</example>
+			<example count="2">69.427397260274</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073525.v1.p1" var_name="EverSmoked" calculated_type="enum_integer" reported_type="string">
+	<description>Participant has ever been a smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0" mean_count="1113" sd="935.9" median_count="1558" min_count="38" max_count="1744"/>
+			<enum code="Y" count="1744">Yes</enum>
+			<enum code="N" count="1558">No</enum>
+			<enum code="9999" count="38">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0" mean_count="728.3" sd="615.9" median_count="989" min_count="25" max_count="1171"/>
+			<enum code="Y" count="1171">Yes</enum>
+			<enum code="N" count="989">No</enum>
+			<enum code="9999" count="25">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0" mean_count="385" sd="322.2" median_count="569" min_count="13" max_count="573"/>
+			<enum code="Y" count="573">Yes</enum>
+			<enum code="N" count="569">No</enum>
+			<enum code="9999" count="13">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073525.v1.p1.c1" var_name="EverSmoked" calculated_type="enum_integer" reported_type="string">
+	<description>Participant has ever been a smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0" mean_count="515" sd="418" median_count="735" min_count="33" max_count="777"/>
+			<enum code="Y" count="777">Yes</enum>
+			<enum code="N" count="735">No</enum>
+			<enum code="9999" count="33">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0" mean_count="313.3" sd="255.2" median_count="415" min_count="23" max_count="502"/>
+			<enum code="Y" count="502">Yes</enum>
+			<enum code="N" count="415">No</enum>
+			<enum code="9999" count="23">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0" mean_count="201.7" sd="167.5" median_count="275" min_count="10" max_count="320"/>
+			<enum code="N" count="320">No</enum>
+			<enum code="Y" count="275">Yes</enum>
+			<enum code="9999" count="10">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073525.v1.p1.c2" var_name="EverSmoked" calculated_type="enum_integer" reported_type="string">
+	<description>Participant has ever been a smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0" mean_count="598.3" sd="518.9" median_count="823" min_count="5" max_count="967"/>
+			<enum code="Y" count="967">Yes</enum>
+			<enum code="N" count="823">No</enum>
+			<enum code="9999" count="5">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0" mean_count="415" sd="360.8" median_count="574" min_count="2" max_count="669"/>
+			<enum code="Y" count="669">Yes</enum>
+			<enum code="N" count="574">No</enum>
+			<enum code="9999" count="2">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0" mean_count="183.3" sd="158.1" median_count="249" min_count="3" max_count="298"/>
+			<enum code="Y" count="298">Yes</enum>
+			<enum code="N" count="249">No</enum>
+			<enum code="9999" count="3">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073526.v1.p1" var_name="CurrentSmoker" calculated_type="enum_integer" reported_type="string">
+	<description>Participant is current smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3340" nulls="0" mean_count="1113" sd="1737" median_count="181" min_count="42" max_count="3117"/>
+			<enum code="N" count="3117">No</enum>
+			<enum code="Y" count="181">Yes</enum>
+			<enum code="9999" count="42">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2185" nulls="0" mean_count="728.3" sd="1128" median_count="126" min_count="29" max_count="2030"/>
+			<enum code="N" count="2030">No</enum>
+			<enum code="Y" count="126">Yes</enum>
+			<enum code="9999" count="29">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1155" nulls="0" mean_count="385" sd="608.3" median_count="55" min_count="13" max_count="1087"/>
+			<enum code="N" count="1087">No</enum>
+			<enum code="Y" count="55">Yes</enum>
+			<enum code="9999" count="13">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073526.v1.p1.c1" var_name="CurrentSmoker" calculated_type="enum_integer" reported_type="string">
+	<description>Participant is current smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1545" nulls="0" mean_count="515" sd="787.7" median_count="88" min_count="33" max_count="1424"/>
+			<enum code="N" count="1424">No</enum>
+			<enum code="Y" count="88">Yes</enum>
+			<enum code="9999" count="33">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="940" nulls="0" mean_count="313.3" sd="477.1" median_count="53" min_count="23" max_count="864"/>
+			<enum code="N" count="864">No</enum>
+			<enum code="Y" count="53">Yes</enum>
+			<enum code="9999" count="23">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="605" nulls="0" mean_count="201.7" sd="310.6" median_count="35" min_count="10" max_count="560"/>
+			<enum code="N" count="560">No</enum>
+			<enum code="Y" count="35">Yes</enum>
+			<enum code="9999" count="10">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073526.v1.p1.c2" var_name="CurrentSmoker" calculated_type="enum_integer" reported_type="string">
+	<description>Participant is current smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1795" nulls="0" mean_count="598.3" sd="948.9" median_count="93" min_count="9" max_count="1693"/>
+			<enum code="N" count="1693">No</enum>
+			<enum code="Y" count="93">Yes</enum>
+			<enum code="9999" count="9">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1245" nulls="0" mean_count="415" sd="651.2" median_count="73" min_count="6" max_count="1166"/>
+			<enum code="N" count="1166">No</enum>
+			<enum code="Y" count="73">Yes</enum>
+			<enum code="9999" count="6">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="550" nulls="0" mean_count="183.3" sd="297.7" median_count="20" min_count="3" max_count="527"/>
+			<enum code="N" count="527">No</enum>
+			<enum code="Y" count="20">Yes</enum>
+			<enum code="9999" count="3">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073527.v1.p1" var_name="YearsSmoked" calculated_type="decimal" units="Years" reported_type="integer, encoded value">
+	<description>Number of years participant has been a smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>2185</case>
+				<control>1155</control>
+			</case_control>
+			<sex>
+				<male>1341</male>
+				<female>1999</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2912" nulls="0" mean="14.8" sd="20.01" median="0" min="0" max="72"/>
+			<example count="1558">0</example>
+			<example code="9999" count="428">Unknown</example>
+			<example count="102">20</example>
+			<example count="68">40</example>
+			<example count="65">30</example>
+			<example count="64">10</example>
+			<example count="52">50</example>
+			<example count="45">15</example>
+			<example count="43">25</example>
+			<example count="42">35</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>832</male>
+				<female>1353</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1819" nulls="0" mean="13.85" sd="18.91" median="0" min="0" max="72"/>
+			<example count="989">0</example>
+			<example code="9999" count="366">Unknown</example>
+			<example count="72">20</example>
+			<example count="54">30</example>
+			<example count="52">40</example>
+			<example count="46">10</example>
+			<example count="37">50</example>
+			<example count="30">35</example>
+			<example count="26">25</example>
+			<example count="25">15</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>509</male>
+				<female>646</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1093" nulls="0" mean="16.38" sd="21.63" median="0" min="0" max="72"/>
+			<example count="569">0</example>
+			<example code="9999" count="62">Unknown</example>
+			<example count="30">20</example>
+			<example count="20">15</example>
+			<example count="18">10</example>
+			<example count="17">25</example>
+			<example count="16">40</example>
+			<example count="15">59</example>
+			<example count="15">50</example>
+			<example count="13">61</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073527.v1.p1.c1" var_name="YearsSmoked" calculated_type="decimal" units="Years" reported_type="integer, encoded value">
+	<description>Number of years participant has been a smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>940</case>
+				<control>605</control>
+			</case_control>
+			<sex>
+				<male>639</male>
+				<female>906</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1170" nulls="0" mean="12.75" sd="20.4" median="0" min="0" max="72"/>
+			<example count="735">0</example>
+			<example code="9999" count="375">Unknown</example>
+			<example count="34">20</example>
+			<example count="23">40</example>
+			<example count="19">10</example>
+			<example count="19">30</example>
+			<example count="17">25</example>
+			<example count="15">59</example>
+			<example count="12">35</example>
+			<example count="11">58</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>361</male>
+				<female>579</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="615" nulls="0" mean="9.481" sd="16.59" median="0" min="0" max="70"/>
+			<example count="415">0</example>
+			<example code="9999" count="325">Unknown</example>
+			<example count="19">40</example>
+			<example count="16">20</example>
+			<example count="15">30</example>
+			<example count="10">10</example>
+			<example count="9">25</example>
+			<example count="7">35</example>
+			<example count="6">32</example>
+			<example count="6">15</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>278</male>
+				<female>327</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="555" nulls="0" mean="16.37" sd="23.41" median="0" min="0" max="72"/>
+			<example count="320">0</example>
+			<example code="9999" count="50">Unknown</example>
+			<example count="18">20</example>
+			<example count="14">59</example>
+			<example count="11">58</example>
+			<example count="9">61</example>
+			<example count="9">10</example>
+			<example count="8">25</example>
+			<example count="7">62</example>
+			<example count="7">63</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00073527.v1.p1.c2" var_name="YearsSmoked" calculated_type="decimal" units="Years" reported_type="integer, encoded value">
+	<description>Number of years participant has been a smoker</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1245</case>
+				<control>550</control>
+			</case_control>
+			<sex>
+				<male>702</male>
+				<female>1093</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1742" nulls="0" mean="16.18" sd="19.63" median="3.5" min="0" max="72"/>
+			<example count="823">0</example>
+			<example count="68">20</example>
+			<example code="9999" count="53">Unknown</example>
+			<example count="46">30</example>
+			<example count="45">10</example>
+			<example count="45">40</example>
+			<example count="42">50</example>
+			<example count="34">15</example>
+			<example count="30">35</example>
+			<example count="26">25</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>471</male>
+				<female>774</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1204" nulls="0" mean="16.08" sd="19.63" median="3" min="0" max="72"/>
+			<example count="574">0</example>
+			<example count="56">20</example>
+			<example code="9999" count="41">Unknown</example>
+			<example count="39">30</example>
+			<example count="36">10</example>
+			<example count="33">40</example>
+			<example count="32">50</example>
+			<example count="23">35</example>
+			<example count="19">15</example>
+			<example count="17">25</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>231</male>
+				<female>319</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="538" nulls="0" mean="16.4" sd="19.65" median="6" min="0" max="69"/>
+			<example count="249">0</example>
+			<example count="15">15</example>
+			<example count="12">20</example>
+			<example count="12">40</example>
+			<example code="9999" count="12">Unknown</example>
+			<example count="10">50</example>
+			<example count="9">25</example>
+			<example count="9">10</example>
+			<example count="9">32</example>
+			<example count="8">8</example>
+		</stats>
+	</controls>
+</variable>
+
+</data_table>
+

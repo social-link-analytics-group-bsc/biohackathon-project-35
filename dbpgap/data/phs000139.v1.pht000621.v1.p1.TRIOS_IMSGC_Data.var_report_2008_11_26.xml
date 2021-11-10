@@ -1,0 +1,2621 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="TRIOS_IMSGC_Data" dataset_id="pht000621.v1" study_name="IMSGC Genome Wide Association Study of Multiple Sclerosis" study_id="phs000139.v1" participant_set="1" date_created="Thu Nov 20 13:22:56 2008">
+
+<variable id="phv00065548.v1.p1" var_name="SUBJID" calculated_type="integer" reported_type="integer">
+	<description>Deidentified Subject ID</description>
+	<comment><![CDATA[
+		Deidentified ID. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+				<control>1967</control>
+			</case_control>
+			<sex>
+				<male>1247</male>
+				<female>1755</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3002" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>976</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1967" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065548.v1.p1.c1" var_name="SUBJID" calculated_type="integer" reported_type="integer">
+	<description>Deidentified Subject ID</description>
+	<comment><![CDATA[
+		Deidentified ID. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+				<control>902</control>
+			</case_control>
+			<sex>
+				<male>561</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1368" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>453</male>
+				<female>449</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="902" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065548.v1.p1.c2" var_name="SUBJID" calculated_type="integer" reported_type="integer">
+	<description>Deidentified Subject ID</description>
+	<comment><![CDATA[
+		Deidentified ID. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+				<control>939</control>
+			</case_control>
+			<sex>
+				<male>598</male>
+				<female>842</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1440" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>474</male>
+				<female>465</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="939" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065548.v1.p1.c3" var_name="SUBJID" calculated_type="integer" reported_type="integer">
+	<description>Deidentified Subject ID</description>
+	<comment><![CDATA[
+		Deidentified ID. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+				<control>126</control>
+			</case_control>
+			<sex>
+				<male>88</male>
+				<female>106</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="194" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>64</male>
+				<female>62</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="126" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065549.v1.p1" var_name="AFFECTION_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Case or control?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+				<control>1967</control>
+			</case_control>
+			<sex>
+				<male>1247</male>
+				<female>1755</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3002" nulls="0" mean_count="1501" sd="659" median_count="1501" min_count="1035" max_count="1967"/>
+			<enum code="1" count="1967">Control</enum>
+			<enum code="2" count="1035">Case</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="0" mean_count="1035" sd="undef" median_count="1035" min_count="1035" max_count="1035"/>
+			<enum code="2" count="1035">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>976</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1967" nulls="0" mean_count="1967" sd="undef" median_count="1967" min_count="1967" max_count="1967"/>
+			<enum code="1" count="1967">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065549.v1.p1.c1" var_name="AFFECTION_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Case or control?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+				<control>902</control>
+			</case_control>
+			<sex>
+				<male>561</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1368" nulls="0" mean_count="684" sd="308.3" median_count="684" min_count="466" max_count="902"/>
+			<enum code="1" count="902">Control</enum>
+			<enum code="2" count="466">Case</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="0" mean_count="466" sd="undef" median_count="466" min_count="466" max_count="466"/>
+			<enum code="2" count="466">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>453</male>
+				<female>449</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="902" nulls="0" mean_count="902" sd="undef" median_count="902" min_count="902" max_count="902"/>
+			<enum code="1" count="902">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065549.v1.p1.c2" var_name="AFFECTION_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Case or control?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+				<control>939</control>
+			</case_control>
+			<sex>
+				<male>598</male>
+				<female>842</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1440" nulls="0" mean_count="720" sd="309.7" median_count="720" min_count="501" max_count="939"/>
+			<enum code="1" count="939">Control</enum>
+			<enum code="2" count="501">Case</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="0" mean_count="501" sd="undef" median_count="501" min_count="501" max_count="501"/>
+			<enum code="2" count="501">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>474</male>
+				<female>465</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="939" nulls="0" mean_count="939" sd="undef" median_count="939" min_count="939" max_count="939"/>
+			<enum code="1" count="939">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065549.v1.p1.c3" var_name="AFFECTION_STATUS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Case or control?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+				<control>126</control>
+			</case_control>
+			<sex>
+				<male>88</male>
+				<female>106</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="194" nulls="0" mean_count="97" sd="41.01" median_count="97" min_count="68" max_count="126"/>
+			<enum code="1" count="126">Control</enum>
+			<enum code="2" count="68">Case</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="0" mean_count="68" sd="undef" median_count="68" min_count="68" max_count="68"/>
+			<enum code="2" count="68">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>64</male>
+				<female>62</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="126" nulls="0" mean_count="126" sd="undef" median_count="126" min_count="126" max_count="126"/>
+			<enum code="1" count="126">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065550.v1.p1" var_name="NIH_ETHNICITY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH ethnic group</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+				<control>1967</control>
+			</case_control>
+			<sex>
+				<male>1247</male>
+				<female>1755</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3002" nulls="0" mean_count="1001" sd="1239" median_count="478" min_count="109" max_count="2415"/>
+			<enum code="NH" count="2415">Not Hispanic or Latino</enum>
+			<enum code="U" count="478">Unknown or Not Reported</enum>
+			<enum code="HI" count="109">Hispanic or Latino</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="0" mean_count="345" sd="420.9" median_count="165" min_count="44" max_count="826"/>
+			<enum code="NH" count="826">Not Hispanic or Latino</enum>
+			<enum code="U" count="165">Unknown or Not Reported</enum>
+			<enum code="HI" count="44">Hispanic or Latino</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>976</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1967" nulls="0" mean_count="655.7" sd="817.7" median_count="313" min_count="65" max_count="1589"/>
+			<enum code="NH" count="1589">Not Hispanic or Latino</enum>
+			<enum code="U" count="313">Unknown or Not Reported</enum>
+			<enum code="HI" count="65">Hispanic or Latino</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065550.v1.p1.c1" var_name="NIH_ETHNICITY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH ethnic group</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+				<control>902</control>
+			</case_control>
+			<sex>
+				<male>561</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1368" nulls="0" mean_count="456" sd="701.6" median_count="103" min_count="1" max_count="1264"/>
+			<enum code="NH" count="1264">Not Hispanic or Latino</enum>
+			<enum code="HI" count="103">Hispanic or Latino</enum>
+			<enum code="U" count="1">Unknown or Not Reported</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="0" mean_count="233" sd="270.1" median_count="233" min_count="42" max_count="424"/>
+			<enum code="NH" count="424">Not Hispanic or Latino</enum>
+			<enum code="HI" count="42">Hispanic or Latino</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>453</male>
+				<female>449</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="902" nulls="0" mean_count="300.7" sd="468" median_count="61" min_count="1" max_count="840"/>
+			<enum code="NH" count="840">Not Hispanic or Latino</enum>
+			<enum code="HI" count="61">Hispanic or Latino</enum>
+			<enum code="U" count="1">Unknown or Not Reported</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065550.v1.p1.c2" var_name="NIH_ETHNICITY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH ethnic group</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+				<control>939</control>
+			</case_control>
+			<sex>
+				<male>598</male>
+				<female>842</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1440" nulls="0" mean_count="720" sd="359.2" median_count="720" min_count="466" max_count="974"/>
+			<enum code="NH" count="974">Not Hispanic or Latino</enum>
+			<enum code="U" count="466">Unknown or Not Reported</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="0" mean_count="250.5" sd="123.7" median_count="250.5" min_count="163" max_count="338"/>
+			<enum code="NH" count="338">Not Hispanic or Latino</enum>
+			<enum code="U" count="163">Unknown or Not Reported</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>474</male>
+				<female>465</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="939" nulls="0" mean_count="469.5" sd="235.5" median_count="469.5" min_count="303" max_count="636"/>
+			<enum code="NH" count="636">Not Hispanic or Latino</enum>
+			<enum code="U" count="303">Unknown or Not Reported</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065550.v1.p1.c3" var_name="NIH_ETHNICITY" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH ethnic group</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+				<control>126</control>
+			</case_control>
+			<sex>
+				<male>88</male>
+				<female>106</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="194" nulls="0" mean_count="64.67" sd="97.32" median_count="11" min_count="6" max_count="177"/>
+			<enum code="NH" count="177">Not Hispanic or Latino</enum>
+			<enum code="U" count="11">Unknown or Not Reported</enum>
+			<enum code="HI" count="6">Hispanic or Latino</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="0" mean_count="22.67" sd="35.8" median_count="2" min_count="2" max_count="64"/>
+			<enum code="NH" count="64">Not Hispanic or Latino</enum>
+			<enum code="U" count="2">Unknown or Not Reported</enum>
+			<enum code="HI" count="2">Hispanic or Latino</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>64</male>
+				<female>62</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="126" nulls="0" mean_count="42" sd="61.54" median_count="9" min_count="4" max_count="113"/>
+			<enum code="NH" count="113">Not Hispanic or Latino</enum>
+			<enum code="U" count="9">Unknown or Not Reported</enum>
+			<enum code="HI" count="4">Hispanic or Latino</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065551.v1.p1" var_name="NIH_RACE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH racial background</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+				<control>1967</control>
+			</case_control>
+			<sex>
+				<male>1247</male>
+				<female>1755</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3002" nulls="0" mean_count="375.3" sd="852.4" median_count="8.5" min_count="1" max_count="2439"/>
+			<enum code="WH" count="2439">White</enum>
+			<enum code="U" count="513">Unknown</enum>
+			<enum code="AI  WH" count="30">American Indian/Alaska Native and White</enum>
+			<enum code="WH  AI" count="14">White and American Indian/Alaska Native</enum>
+			<enum code="AS  WH" count="3">Asian and White</enum>
+			<enum code="AS" count="1">Asian</enum>
+			<enum code="U  WH" count="1">Unknown and White</enum>
+			<enum code="WH  AI  WH" count="1">White and American Indian/Alaska Native and White</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="0" mean_count="172.5" sd="333.1" median_count="11" min_count="1" max_count="839"/>
+			<enum code="WH" count="839">White</enum>
+			<enum code="U" count="171">Unknown</enum>
+			<enum code="AI  WH" count="14">American Indian/Alaska Native and White</enum>
+			<enum code="WH  AI" count="8">White and American Indian/Alaska Native</enum>
+			<enum code="AS  WH" count="2">Asian and White</enum>
+			<enum code="WH  AI  WH" count="1">White and American Indian/Alaska Native and White</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>976</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1967" nulls="0" mean_count="281" sd="595.1" median_count="6" min_count="1" max_count="1600"/>
+			<enum code="WH" count="1600">White</enum>
+			<enum code="U" count="342">Unknown</enum>
+			<enum code="AI  WH" count="16">American Indian/Alaska Native and White</enum>
+			<enum code="WH  AI" count="6">White and American Indian/Alaska Native</enum>
+			<enum code="AS" count="1">Asian</enum>
+			<enum code="AS  WH" count="1">Asian and White</enum>
+			<enum code="U  WH" count="1">Unknown and White</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065551.v1.p1.c1" var_name="NIH_RACE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH racial background</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+				<control>902</control>
+			</case_control>
+			<sex>
+				<male>561</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1368" nulls="0" mean_count="171" sd="451.1" median_count="8.5" min_count="1" max_count="1287"/>
+			<enum code="WH" count="1287">White</enum>
+			<enum code="U" count="31">Unknown</enum>
+			<enum code="AI  WH" count="30">American Indian/Alaska Native and White</enum>
+			<enum code="WH  AI" count="14">White and American Indian/Alaska Native</enum>
+			<enum code="AS  WH" count="3">Asian and White</enum>
+			<enum code="AS" count="1">Asian</enum>
+			<enum code="U  WH" count="1">Unknown and White</enum>
+			<enum code="WH  AI  WH" count="1">White and American Indian/Alaska Native and White</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="0" mean_count="77.67" sd="175.6" median_count="6.5" min_count="1" max_count="436"/>
+			<enum code="WH" count="436">White</enum>
+			<enum code="AI  WH" count="14">American Indian/Alaska Native and White</enum>
+			<enum code="WH  AI" count="8">White and American Indian/Alaska Native</enum>
+			<enum code="U" count="5">Unknown</enum>
+			<enum code="AS  WH" count="2">Asian and White</enum>
+			<enum code="WH  AI  WH" count="1">White and American Indian/Alaska Native and White</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>453</male>
+				<female>449</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="902" nulls="0" mean_count="128.9" sd="318.6" median_count="6" min_count="1" max_count="851"/>
+			<enum code="WH" count="851">White</enum>
+			<enum code="U" count="26">Unknown</enum>
+			<enum code="AI  WH" count="16">American Indian/Alaska Native and White</enum>
+			<enum code="WH  AI" count="6">White and American Indian/Alaska Native</enum>
+			<enum code="AS" count="1">Asian</enum>
+			<enum code="AS  WH" count="1">Asian and White</enum>
+			<enum code="U  WH" count="1">Unknown and White</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065551.v1.p1.c2" var_name="NIH_RACE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH racial background</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+				<control>939</control>
+			</case_control>
+			<sex>
+				<male>598</male>
+				<female>842</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1440" nulls="0" mean_count="720" sd="359.2" median_count="720" min_count="466" max_count="974"/>
+			<enum code="WH" count="974">White</enum>
+			<enum code="U" count="466">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="0" mean_count="250.5" sd="123.7" median_count="250.5" min_count="163" max_count="338"/>
+			<enum code="WH" count="338">White</enum>
+			<enum code="U" count="163">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>474</male>
+				<female>465</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="939" nulls="0" mean_count="469.5" sd="235.5" median_count="469.5" min_count="303" max_count="636"/>
+			<enum code="WH" count="636">White</enum>
+			<enum code="U" count="303">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065551.v1.p1.c3" var_name="NIH_RACE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>NIH racial background</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+				<control>126</control>
+			</case_control>
+			<sex>
+				<male>88</male>
+				<female>106</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="194" nulls="0" mean_count="97" sd="114.6" median_count="97" min_count="16" max_count="178"/>
+			<enum code="WH" count="178">White</enum>
+			<enum code="U" count="16">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="0" mean_count="34" sd="43.84" median_count="34" min_count="3" max_count="65"/>
+			<enum code="WH" count="65">White</enum>
+			<enum code="U" count="3">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>64</male>
+				<female>62</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="126" nulls="0" mean_count="63" sd="70.71" median_count="63" min_count="13" max_count="113"/>
+			<enum code="WH" count="113">White</enum>
+			<enum code="U" count="13">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065552.v1.p1" var_name="POPULATION" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Population</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>249</case>
+				<control>484</control>
+			</case_control>
+			<sex>
+				<male>306</male>
+				<female>427</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="733" nulls="2269" mean_count="66.64" sd="116.7" median_count="28" min_count="1" max_count="402"/>
+			<example code="W" count="402">Western European</example>
+			<example code="USC" count="119">US/Canada (not Hispanic Origin)</example>
+			<example code="S" count="57">Scandinavian</example>
+			<example code="D" count="55">Mediterranean</example>
+			<example code="E" count="44">Eastern European</example>
+			<example code="SP" count="28">Special Population</example>
+			<example code="RA" count="13">Russian</example>
+			<example code="X" count="9">Caribbean</example>
+			<example code="O" count="3">Other</example>
+			<example code="OSP" count="2">Other Special Population</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>58</male>
+				<female>191</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="249" nulls="786" mean_count="27.67" sd="41.92" median_count="15" min_count="1" max_count="135"/>
+			<enum code="W" count="135">Western European</enum>
+			<enum code="USC" count="38">US/Canada (not Hispanic Origin)</enum>
+			<enum code="S" count="24">Scandinavian</enum>
+			<enum code="D" count="19">Mediterranean</enum>
+			<enum code="E" count="15">Eastern European</enum>
+			<enum code="SP" count="9">Special Population</enum>
+			<enum code="RA" count="5">Russian</enum>
+			<enum code="X" count="3">Caribbean</enum>
+			<enum code="O" count="1">Other</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>248</male>
+				<female>236</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="484" nulls="1483" mean_count="44" sd="77.62" median_count="19" min_count="1" max_count="267"/>
+			<example code="W" count="267">Western European</example>
+			<example code="USC" count="81">US/Canada (not Hispanic Origin)</example>
+			<example code="D" count="36">Mediterranean</example>
+			<example code="S" count="33">Scandinavian</example>
+			<example code="E" count="29">Eastern European</example>
+			<example code="SP" count="19">Special Population</example>
+			<example code="RA" count="8">Russian</example>
+			<example code="X" count="6">Caribbean</example>
+			<example code="O" count="2">Other</example>
+			<example code="OSP" count="2">Other Special Population</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065552.v1.p1.c1" var_name="POPULATION" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Population</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>249</case>
+				<control>484</control>
+			</case_control>
+			<sex>
+				<male>306</male>
+				<female>427</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="733" nulls="635" mean_count="66.64" sd="116.7" median_count="28" min_count="1" max_count="402"/>
+			<example code="W" count="402">Western European</example>
+			<example code="USC" count="119">US/Canada (not Hispanic Origin)</example>
+			<example code="S" count="57">Scandinavian</example>
+			<example code="D" count="55">Mediterranean</example>
+			<example code="E" count="44">Eastern European</example>
+			<example code="SP" count="28">Special Population</example>
+			<example code="RA" count="13">Russian</example>
+			<example code="X" count="9">Caribbean</example>
+			<example code="O" count="3">Other</example>
+			<example code="OSP" count="2">Other Special Population</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>58</male>
+				<female>191</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="249" nulls="217" mean_count="27.67" sd="41.92" median_count="15" min_count="1" max_count="135"/>
+			<enum code="W" count="135">Western European</enum>
+			<enum code="USC" count="38">US/Canada (not Hispanic Origin)</enum>
+			<enum code="S" count="24">Scandinavian</enum>
+			<enum code="D" count="19">Mediterranean</enum>
+			<enum code="E" count="15">Eastern European</enum>
+			<enum code="SP" count="9">Special Population</enum>
+			<enum code="RA" count="5">Russian</enum>
+			<enum code="X" count="3">Caribbean</enum>
+			<enum code="O" count="1">Other</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>248</male>
+				<female>236</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="484" nulls="418" mean_count="44" sd="77.62" median_count="19" min_count="1" max_count="267"/>
+			<example code="W" count="267">Western European</example>
+			<example code="USC" count="81">US/Canada (not Hispanic Origin)</example>
+			<example code="D" count="36">Mediterranean</example>
+			<example code="S" count="33">Scandinavian</example>
+			<example code="E" count="29">Eastern European</example>
+			<example code="SP" count="19">Special Population</example>
+			<example code="RA" count="8">Russian</example>
+			<example code="X" count="6">Caribbean</example>
+			<example code="O" count="2">Other</example>
+			<example code="OSP" count="2">Other Special Population</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065552.v1.p1.c2" var_name="POPULATION" calculated_type="string" reported_type="encoded value">
+	<description>Population</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="1440"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065552.v1.p1.c3" var_name="POPULATION" calculated_type="string" reported_type="encoded value">
+	<description>Population</description>
+	<total>
+		<stats>
+			<stat n="0" nulls="194"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065553.v1.p1" var_name="YOB" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+				<control>1967</control>
+			</case_control>
+			<sex>
+				<male>1247</male>
+				<female>1755</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2502" nulls="0" special_values="500" mean="1944" sd="16.25" median="1943" min="1907" max="1989"/>
+			<example count="75">1932</example>
+			<example count="71">1931</example>
+			<example count="64">1934</example>
+			<example count="61">1947</example>
+			<example count="61">1928</example>
+			<example count="57">1938</example>
+			<example count="56">1952</example>
+			<example count="56">1937</example>
+			<example count="55">1936</example>
+			<example count="55">1946</example>
+			<special_value code="1800" count="500">Unknown</special_value>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1026" nulls="0" special_values="9" mean="1960" sd="9.224" median="1960" min="1916" max="1989"/>
+			<example count="52">1960</example>
+			<example count="51">1964</example>
+			<example count="51">1965</example>
+			<example count="48">1959</example>
+			<example count="44">1952</example>
+			<example count="43">1962</example>
+			<example count="42">1961</example>
+			<example count="39">1957</example>
+			<example count="39">1956</example>
+			<example count="37">1958</example>
+			<special_value code="1800" count="9">Unknown</special_value>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>976</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1476" nulls="0" special_values="491" mean="1933" sd="9.529" median="1933" min="1907" max="1963"/>
+			<example count="74">1932</example>
+			<example count="71">1931</example>
+			<example count="63">1934</example>
+			<example count="61">1928</example>
+			<example count="56">1937</example>
+			<example count="55">1936</example>
+			<example count="54">1933</example>
+			<example count="53">1925</example>
+			<example count="52">1927</example>
+			<example count="52">1938</example>
+			<special_value code="1800" count="491">Unknown</special_value>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065553.v1.p1.c1" var_name="YOB" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+				<control>902</control>
+			</case_control>
+			<sex>
+				<male>561</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1195" nulls="0" special_values="173" mean="1946" sd="16.03" median="1945" min="1911" max="1989"/>
+			<example count="35">1938</example>
+			<example count="35">1931</example>
+			<example count="33">1946</example>
+			<example count="31">1932</example>
+			<example count="31">1947</example>
+			<example count="30">1936</example>
+			<example count="27">1952</example>
+			<example count="27">1942</example>
+			<example count="26">1950</example>
+			<example count="26">1934</example>
+			<special_value code="1800" count="173">Unknown</special_value>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="465" nulls="0" special_values="1" mean="1962" sd="9.539" median="1963" min="1916" max="1989"/>
+			<example count="25">1965</example>
+			<example count="23">1964</example>
+			<example count="22">1960</example>
+			<example count="19">1971</example>
+			<example count="18">1952</example>
+			<example count="17">1969</example>
+			<example count="17">1956</example>
+			<example count="17">1959</example>
+			<example count="16">1955</example>
+			<example count="15">1957</example>
+			<special_value code="1800" count="1">Unknown</special_value>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>453</male>
+				<female>449</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="730" nulls="0" special_values="172" mean="1936" sd="9.516" median="1936" min="1911" max="1963"/>
+			<example count="35">1931</example>
+			<example count="33">1938</example>
+			<example count="31">1932</example>
+			<example count="30">1936</example>
+			<example count="28">1946</example>
+			<example count="26">1934</example>
+			<example count="26">1942</example>
+			<example count="25">1929</example>
+			<example count="25">1940</example>
+			<example count="25">1930</example>
+			<special_value code="1800" count="172">Unknown</special_value>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065553.v1.p1.c2" var_name="YOB" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+				<control>939</control>
+			</case_control>
+			<sex>
+				<male>598</male>
+				<female>842</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1113" nulls="0" special_values="327" mean="1942" sd="16.23" median="1939" min="1907" max="1978"/>
+			<example count="37">1932</example>
+			<example count="35">1928</example>
+			<example count="35">1931</example>
+			<example count="33">1934</example>
+			<example count="31">1959</example>
+			<example count="30">1933</example>
+			<example count="29">1920</example>
+			<example count="27">1927</example>
+			<example count="27">1922</example>
+			<example count="27">1960</example>
+			<special_value code="1800" count="327">Unknown</special_value>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="493" nulls="0" special_values="8" mean="1958" sd="8.105" median="1958" min="1926" max="1978"/>
+			<example count="31">1959</example>
+			<example count="27">1960</example>
+			<example count="27">1962</example>
+			<example count="26">1952</example>
+			<example count="25">1961</example>
+			<example count="24">1964</example>
+			<example count="23">1957</example>
+			<example count="22">1950</example>
+			<example count="22">1965</example>
+			<example count="21">1956</example>
+			<special_value code="1800" count="8">Unknown</special_value>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>474</male>
+				<female>465</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="620" nulls="0" special_values="319" mean="1929" sd="8.283" median="1930" min="1907" max="1953"/>
+			<example count="36">1932</example>
+			<example count="35">1928</example>
+			<example count="35">1931</example>
+			<example count="32">1934</example>
+			<example count="30">1933</example>
+			<example count="29">1920</example>
+			<example count="27">1927</example>
+			<example count="27">1922</example>
+			<example count="27">1925</example>
+			<example count="25">1921</example>
+			<special_value code="1800" count="319">Unknown</special_value>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065553.v1.p1.c3" var_name="YOB" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of birth</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+				<control>126</control>
+			</case_control>
+			<sex>
+				<male>88</male>
+				<female>106</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="194" nulls="0" mean="1948" sd="15.63" median="1945" min="1921" max="1981"/>
+			<example count="10">1946</example>
+			<example count="9">1935</example>
+			<example count="8">1947</example>
+			<example count="8">1929</example>
+			<example count="8">1936</example>
+			<example count="7">1932</example>
+			<example count="7">1937</example>
+			<example count="6">1944</example>
+			<example count="6">1967</example>
+			<example count="5">1930</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="0" mean="1966" sd="8.578" median="1966" min="1940" max="1981"/>
+			<example count="6">1967</example>
+			<example count="5">1958</example>
+			<example count="4">1976</example>
+			<example count="4">1964</example>
+			<example count="4">1965</example>
+			<example count="4">1966</example>
+			<example count="3">1969</example>
+			<example count="3">1963</example>
+			<example count="3">1968</example>
+			<example count="3">1960</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>64</male>
+				<female>62</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="126" nulls="0" mean="1938" sd="8.053" median="1937" min="1921" max="1955"/>
+			<example count="9">1935</example>
+			<example count="9">1946</example>
+			<example count="8">1947</example>
+			<example count="8">1929</example>
+			<example count="8">1936</example>
+			<example count="7">1932</example>
+			<example count="7">1937</example>
+			<example count="5">1944</example>
+			<example count="5">1930</example>
+			<example count="5">1938</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00065554.v1.p1" var_name="XMDATE" calculated_type="integer" reported_type="string, encoded value">
+	<description>Date of exam</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="1967" special_values="35" mean="1999" sd="3.336" median="1997" min="1991" max="2007"/>
+			<example count="420">1997</example>
+			<example count="93">1996</example>
+			<example count="74">2004</example>
+			<example count="71">2003</example>
+			<example count="57">2000</example>
+			<example count="57">1999</example>
+			<example count="52">2002</example>
+			<example count="44">2005</example>
+			<example count="44">2007</example>
+			<example count="41">1998</example>
+			<special_value code="1800" count="35">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065554.v1.p1.c1" var_name="XMDATE" calculated_type="integer" reported_type="string, encoded value">
+	<description>Date of exam</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="453" nulls="902" special_values="13" mean="2001" sd="2.623" median="2001" min="1991" max="2005"/>
+			<example count="71">2004</example>
+			<example count="71">2003</example>
+			<example count="57">1999</example>
+			<example count="55">2000</example>
+			<example count="48">2002</example>
+			<example count="41">1998</example>
+			<example count="36">1997</example>
+			<example count="35">2005</example>
+			<example count="30">2001</example>
+			<example count="4">1996</example>
+			<special_value code="1800" count="13">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065554.v1.p1.c2" var_name="XMDATE" calculated_type="integer" reported_type="string, encoded value">
+	<description>Date of exam</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="479" nulls="939" special_values="22" mean="1997" sd="0.6448" median="1997" min="1996" max="2002"/>
+			<enum count="384">1997</enum>
+			<enum count="89">1996</enum>
+			<enum count="4">2002</enum>
+			<enum count="2">2000</enum>
+			<special_value code="1800" count="22">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065554.v1.p1.c3" var_name="XMDATE" calculated_type="integer" reported_type="string, encoded value">
+	<description>Date of exam</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126" mean="2006" sd="0.8863" median="2007" min="2004" max="2007"/>
+			<enum count="44">2007</enum>
+			<enum count="12">2006</enum>
+			<enum count="9">2005</enum>
+			<enum count="3">2004</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065555.v1.p1" var_name="YR_SYM_1ST" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of first symptoms</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="1967" special_values="35" mean="1989" sd="8.577" median="1989" min="1956" max="2004"/>
+			<example count="57">1990</example>
+			<example count="52">1988</example>
+			<example count="52">1989</example>
+			<example count="51">1994</example>
+			<example count="45">1992</example>
+			<example count="39">1987</example>
+			<example count="38">1995</example>
+			<example count="37">1998</example>
+			<example count="37">1986</example>
+			<example count="35">1991</example>
+			<special_value code="1800" count="35">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065555.v1.p1.c1" var_name="YR_SYM_1ST" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of first symptoms</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="453" nulls="902" special_values="13" mean="1992" sd="8.408" median="1994" min="1956" max="2004"/>
+			<example count="30">1998</example>
+			<example count="27">1997</example>
+			<example count="26">1999</example>
+			<example count="26">1994</example>
+			<example count="24">1996</example>
+			<example count="23">1992</example>
+			<example count="20">2002</example>
+			<example count="20">2000</example>
+			<example count="19">1991</example>
+			<example count="19">1995</example>
+			<special_value code="1800" count="13">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065555.v1.p1.c2" var_name="YR_SYM_1ST" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of first symptoms</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="479" nulls="939" special_values="22" mean="1985" sd="6.955" median="1986" min="1964" max="1998"/>
+			<example count="37">1990</example>
+			<example count="36">1988</example>
+			<example count="32">1989</example>
+			<example count="27">1986</example>
+			<example count="26">1987</example>
+			<example count="25">1982</example>
+			<example count="24">1984</example>
+			<example count="23">1994</example>
+			<example count="22">1980</example>
+			<example count="20">1992</example>
+			<special_value code="1800" count="22">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065555.v1.p1.c3" var_name="YR_SYM_1ST" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of first symptoms</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126" mean="1995" sd="7.036" median="1997" min="1975" max="2004"/>
+			<example count="7">2000</example>
+			<example count="7">1995</example>
+			<example count="6">2002</example>
+			<example count="6">1998</example>
+			<example count="4">1997</example>
+			<example count="4">1990</example>
+			<example count="4">1999</example>
+			<example count="4">2003</example>
+			<example count="3">1983</example>
+			<example count="3">1987</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065556.v1.p1" var_name="YR_DX" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of diagnosis</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="927" nulls="1967" special_values="108" mean="1992" sd="7.107" median="1993" min="1966" max="2005"/>
+			<example count="76">1996</example>
+			<example count="61">1991</example>
+			<example count="61">1994</example>
+			<example count="57">1992</example>
+			<example count="53">1995</example>
+			<example count="50">1990</example>
+			<example count="49">1993</example>
+			<example count="41">1997</example>
+			<example count="40">1998</example>
+			<example count="40">1987</example>
+			<special_value code="1800" count="108">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065556.v1.p1.c1" var_name="YR_DX" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of diagnosis</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="450" nulls="902" special_values="16" mean="1995" sd="7.31" median="1997" min="1966" max="2005"/>
+			<example count="38">1998</example>
+			<example count="31">2004</example>
+			<example count="30">1997</example>
+			<example count="29">2000</example>
+			<example count="29">1996</example>
+			<example count="28">2001</example>
+			<example count="24">2002</example>
+			<example count="23">1999</example>
+			<example count="22">1995</example>
+			<example count="21">1994</example>
+			<special_value code="1800" count="16">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065556.v1.p1.c2" var_name="YR_DX" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of diagnosis</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="477" nulls="939" special_values="24" mean="1989" sd="5.745" median="1991" min="1970" max="1999"/>
+			<example count="47">1991</example>
+			<example count="47">1996</example>
+			<example count="40">1994</example>
+			<example count="39">1992</example>
+			<example count="37">1990</example>
+			<example count="37">1993</example>
+			<example count="31">1995</example>
+			<example count="30">1987</example>
+			<example count="23">1989</example>
+			<example count="19">1985</example>
+			<special_value code="1800" count="24">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065556.v1.p1.c3" var_name="YR_DX" calculated_type="string" reported_type="integer, encoded value">
+	<description>Year of diagnosis</description>
+	<comment><![CDATA[
+		YYYY. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="1800" count="68">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065557.v1.p1" var_name="EDSS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>EDSS (Expanded Disability Status Scale) at date of exam</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967" mean_count="172.5" sd="153.5" median_count="112.5" min_count="41" max_count="449"/>
+			<enum code="2.5" count="449">&lt;=2.5</enum>
+			<enum code="5.5" count="251">3.0 to &lt;=5.5</enum>
+			<enum code="6" count="113">6.0 (unilateral assistance)</enum>
+			<enum code="7" count="112">&gt;=7.0 (not walking)</enum>
+			<enum code="6.5" count="69">6.5 (bilateral assistance)</enum>
+			<enum code="U" count="41">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065557.v1.p1.c1" var_name="EDSS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>EDSS (Expanded Disability Status Scale) at date of exam</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902" mean_count="77.67" sd="98.02" median_count="25" min_count="19" max_count="266"/>
+			<enum code="2.5" count="266">&lt;=2.5</enum>
+			<enum code="5.5" count="106">3.0 to &lt;=5.5</enum>
+			<enum code="6" count="25">6.0 (unilateral assistance)</enum>
+			<enum code="7" count="25">&gt;=7.0 (not walking)</enum>
+			<enum code="6.5" count="25">6.5 (bilateral assistance)</enum>
+			<enum code="U" count="19">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065557.v1.p1.c2" var_name="EDSS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>EDSS (Expanded Disability Status Scale) at date of exam</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939" mean_count="83.5" sd="47.55" median_count="83" min_count="22" max_count="138"/>
+			<enum code="2.5" count="138">&lt;=2.5</enum>
+			<enum code="5.5" count="135">3.0 to &lt;=5.5</enum>
+			<enum code="6" count="85">6.0 (unilateral assistance)</enum>
+			<enum code="7" count="81">&gt;=7.0 (not walking)</enum>
+			<enum code="6.5" count="40">6.5 (bilateral assistance)</enum>
+			<enum code="U" count="22">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065557.v1.p1.c3" var_name="EDSS" calculated_type="enum_integer" reported_type="encoded value">
+	<description>EDSS (Expanded Disability Status Scale) at date of exam</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126" mean_count="13.6" sd="17.76" median_count="6" min_count="3" max_count="45"/>
+			<enum code="2.5" count="45">&lt;=2.5</enum>
+			<enum code="5.5" count="10">3.0 to &lt;=5.5</enum>
+			<enum code="7" count="6">&gt;=7.0 (not walking)</enum>
+			<enum code="6.5" count="4">6.5 (bilateral assistance)</enum>
+			<enum code="6" count="3">6.0 (unilateral assistance)</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065558.v1.p1" var_name="YR_EDSS_6" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year at which patient sustained an EDSS (Expanded Disability Status Scale) = 6.0</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="58" nulls="1967" special_values="977" mean="1995" sd="7.502" median="1997" min="1965" max="2003"/>
+			<example count="8">1997</example>
+			<example count="6">1998</example>
+			<example count="6">1996</example>
+			<example count="5">2000</example>
+			<example count="4">1994</example>
+			<example count="4">2003</example>
+			<example count="3">1988</example>
+			<example count="3">1995</example>
+			<example count="3">1989</example>
+			<example count="3">1999</example>
+			<special_value code="1800" count="977">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065558.v1.p1.c1" var_name="YR_EDSS_6" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year at which patient sustained an EDSS (Expanded Disability Status Scale) = 6.0</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="58" nulls="902" special_values="408" mean="1995" sd="7.502" median="1997" min="1965" max="2003"/>
+			<example count="8">1997</example>
+			<example count="6">1998</example>
+			<example count="6">1996</example>
+			<example count="5">2000</example>
+			<example count="4">1994</example>
+			<example count="4">2003</example>
+			<example count="3">1988</example>
+			<example count="3">1995</example>
+			<example count="3">1989</example>
+			<example count="3">1999</example>
+			<special_value code="1800" count="408">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065558.v1.p1.c2" var_name="YR_EDSS_6" calculated_type="string" reported_type="integer, encoded value">
+	<description>Year at which patient sustained an EDSS (Expanded Disability Status Scale) = 6.0</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939"/>
+			<enum code="1800" count="501">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065558.v1.p1.c3" var_name="YR_EDSS_6" calculated_type="string" reported_type="integer, encoded value">
+	<description>Year at which patient sustained an EDSS (Expanded Disability Status Scale) = 6.0</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="1800" count="68">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065559.v1.p1" var_name="DZ_COURSE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Disease course at date of exam</description>
+	<comment><![CDATA[
+		Only indicate one. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967" mean_count="172.5" sd="268.8" median_count="47" min_count="1" max_count="689"/>
+			<enum code="RR" count="689">Relapsing-Remitting</enum>
+			<enum code="SP" count="246">Secondary Progressive</enum>
+			<enum code="PP" count="58">Primary Progressive</enum>
+			<enum code="U" count="36">Unknown</enum>
+			<enum code="PR" count="5">Progressive Relapsing</enum>
+			<enum code="CIS" count="1">Clinically Isolated Syndrome</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065559.v1.p1.c1" var_name="DZ_COURSE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Disease course at date of exam</description>
+	<comment><![CDATA[
+		Only indicate one. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902" mean_count="77.67" sd="138.6" median_count="14.5" min_count="1" max_count="355"/>
+			<enum code="RR" count="355">Relapsing-Remitting</enum>
+			<enum code="SP" count="76">Secondary Progressive</enum>
+			<enum code="PP" count="15">Primary Progressive</enum>
+			<enum code="U" count="14">Unknown</enum>
+			<enum code="PR" count="5">Progressive Relapsing</enum>
+			<enum code="CIS" count="1">Clinically Isolated Syndrome</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065559.v1.p1.c2" var_name="DZ_COURSE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Disease course at date of exam</description>
+	<comment><![CDATA[
+		Only indicate one. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939" mean_count="125.3" sd="121.8" median_count="98" min_count="22" max_count="283"/>
+			<enum code="RR" count="283">Relapsing-Remitting</enum>
+			<enum code="SP" count="159">Secondary Progressive</enum>
+			<enum code="PP" count="37">Primary Progressive</enum>
+			<enum code="U" count="22">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065559.v1.p1.c3" var_name="DZ_COURSE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Disease course at date of exam</description>
+	<comment><![CDATA[
+		Only indicate one. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126" mean_count="22.67" sd="24.66" median_count="11" min_count="6" max_count="51"/>
+			<enum code="RR" count="51">Relapsing-Remitting</enum>
+			<enum code="SP" count="11">Secondary Progressive</enum>
+			<enum code="PP" count="6">Primary Progressive</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065560.v1.p1" var_name="YR_RS_RR_SP" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of transition from relapsing remitting to secondary progressive</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="62" nulls="1967" special_values="973" mean="1994" sd="7.795" median="1996" min="1965" max="2004"/>
+			<example count="7">2000</example>
+			<example count="6">2002</example>
+			<example count="6">1997</example>
+			<example count="5">1994</example>
+			<example count="4">1990</example>
+			<example count="3">2001</example>
+			<example count="3">1995</example>
+			<example count="3">1992</example>
+			<example count="3">2003</example>
+			<example count="2">1991</example>
+			<special_value code="1800" count="973">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065560.v1.p1.c1" var_name="YR_RS_RR_SP" calculated_type="integer" reported_type="integer, encoded value">
+	<description>Year of transition from relapsing remitting to secondary progressive</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="62" nulls="902" special_values="404" mean="1994" sd="7.795" median="1996" min="1965" max="2004"/>
+			<example count="7">2000</example>
+			<example count="6">2002</example>
+			<example count="6">1997</example>
+			<example count="5">1994</example>
+			<example count="4">1990</example>
+			<example count="3">2001</example>
+			<example count="3">1995</example>
+			<example count="3">1992</example>
+			<example count="3">2003</example>
+			<example count="2">1991</example>
+			<special_value code="1800" count="404">Unknown</special_value>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065560.v1.p1.c2" var_name="YR_RS_RR_SP" calculated_type="string" reported_type="integer, encoded value">
+	<description>Year of transition from relapsing remitting to secondary progressive</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939"/>
+			<enum code="1800" count="501">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065560.v1.p1.c3" var_name="YR_RS_RR_SP" calculated_type="string" reported_type="integer, encoded value">
+	<description>Year of transition from relapsing remitting to secondary progressive</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="1800" count="68">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065561.v1.p1" var_name="INI_PRESENT" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Initial presentation</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>981</case>
+			</case_control>
+			<sex>
+				<male>239</male>
+				<female>742</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="981" nulls="2021" mean_count="26.51" sd="50.05" median_count="3" min_count="1" max_count="200"/>
+			<example code="ON" count="200">Optic Neuritis</example>
+			<example code="SC" count="185">Spinal Cord</example>
+			<example code="BS" count="141">Brainstem/Cerebella (code=BS)</example>
+			<example code="U" count="91">Unspecified</example>
+			<example code="LTS" count="77">Sensory</example>
+			<example code="SC LTS" count="49">Spinal Cord, Sensory</example>
+			<example code="B" count="46">Brainstem/Cerebella</example>
+			<example code="CB" count="30">Cerebral</example>
+			<example code="LTM" count="27">Motor</example>
+			<example code="SS" count="23">Sensory Symptoms Only</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065561.v1.p1.c1" var_name="INI_PRESENT" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Initial presentation</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>434</case>
+			</case_control>
+			<sex>
+				<male>97</male>
+				<female>337</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="434" nulls="934" mean_count="12.76" sd="20.79" median_count="2" min_count="1" max_count="79"/>
+			<example code="ON" count="79">Optic Neuritis</example>
+			<example code="LTS" count="77">Sensory</example>
+			<example code="SC LTS" count="49">Spinal Cord, Sensory</example>
+			<example code="B" count="46">Brainstem/Cerebella</example>
+			<example code="SC" count="30">Spinal Cord</example>
+			<example code="LTM" count="27">Motor</example>
+			<example code="U" count="22">Unspecified</example>
+			<example code="LTM LTS" count="21">Motor, Sensory</example>
+			<example code="SC LTM LTS" count="14">Spinal Cord, Motor, Sensory</example>
+			<example code="SC LTM" count="10">Spinal Cord, Motor</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065561.v1.p1.c2" var_name="INI_PRESENT" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Initial presentation</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>479</case>
+			</case_control>
+			<sex>
+				<male>118</male>
+				<female>361</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="479" nulls="961" mean_count="68.43" sd="67.12" median_count="23" min_count="1" max_count="155"/>
+			<enum code="SC" count="155">Spinal Cord</enum>
+			<enum code="BS" count="141">Brainstem/Cerebella</enum>
+			<enum code="ON" count="121">Optic Neuritis</enum>
+			<enum code="SS" count="23">Sensory Symptoms Only</enum>
+			<enum code="CB" count="21">Cerebral</enum>
+			<enum code="NS" count="17">Non-Specific</enum>
+			<enum code="U" count="1">Unspecified</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065561.v1.p1.c3" var_name="INI_PRESENT" calculated_type="string" reported_type="encoded value">
+	<description>Initial presentation</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="U" count="68">Unspecified</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065562.v1.p1" var_name="EVER_AFF" calculated_type="string" reported_type="encoded value">
+	<description>Ever affected in the following</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967"/>
+			<enum code="U" count="1035">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065562.v1.p1.c1" var_name="EVER_AFF" calculated_type="string" reported_type="encoded value">
+	<description>Ever affected in the following</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902"/>
+			<enum code="U" count="466">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065562.v1.p1.c2" var_name="EVER_AFF" calculated_type="string" reported_type="encoded value">
+	<description>Ever affected in the following</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939"/>
+			<enum code="U" count="501">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065562.v1.p1.c3" var_name="EVER_AFF" calculated_type="string" reported_type="encoded value">
+	<description>Ever affected in the following</description>
+	<comment><![CDATA[
+		More than one can be indicated. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="U" count="68">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065563.v1.p1" var_name="INTERFERON" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment - Interferon</description>
+	<comment><![CDATA[
+		Avonex, Betaseron, Rebif. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967" mean_count="517.5" sd="365.6" median_count="517.5" min_count="259" max_count="776"/>
+			<enum code="U" count="776">Unknown</enum>
+			<enum code="Y" count="259">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065563.v1.p1.c1" var_name="INTERFERON" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment - Interferon</description>
+	<comment><![CDATA[
+		Avonex, Betaseron, Rebif. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902" mean_count="233" sd="15.56" median_count="233" min_count="222" max_count="244"/>
+			<enum code="U" count="244">Unknown</enum>
+			<enum code="Y" count="222">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065563.v1.p1.c2" var_name="INTERFERON" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Interferon</description>
+	<comment><![CDATA[
+		Avonex, Betaseron, Rebif. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939"/>
+			<enum code="U" count="501">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065563.v1.p1.c3" var_name="INTERFERON" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment - Interferon</description>
+	<comment><![CDATA[
+		Avonex, Betaseron, Rebif. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126" mean_count="34" sd="4.243" median_count="34" min_count="31" max_count="37"/>
+			<enum code="Y" count="37">Yes</enum>
+			<enum code="U" count="31">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065564.v1.p1" var_name="G_ACETATE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment - Glatiramer Acetate</description>
+	<comment><![CDATA[
+		Copaxone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967" mean_count="517.5" sd="682.4" median_count="517.5" min_count="35" max_count="1000"/>
+			<enum code="U" count="1000">Unknown</enum>
+			<enum code="Y" count="35">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065564.v1.p1.c1" var_name="G_ACETATE" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Glatiramer Acetate</description>
+	<comment><![CDATA[
+		Copaxone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902"/>
+			<enum code="U" count="466">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065564.v1.p1.c2" var_name="G_ACETATE" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Glatiramer Acetate</description>
+	<comment><![CDATA[
+		Copaxone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939"/>
+			<enum code="U" count="501">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065564.v1.p1.c3" var_name="G_ACETATE" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment - Glatiramer Acetate</description>
+	<comment><![CDATA[
+		Copaxone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126" mean_count="34" sd="1.414" median_count="34" min_count="33" max_count="35"/>
+			<enum code="Y" count="35">Yes</enum>
+			<enum code="U" count="33">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065565.v1.p1" var_name="CYTO_CHEMO" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment - Cytotoxic Chemotherapy</description>
+	<comment><![CDATA[
+		Imuran, Methotrexate, Cytoxan, Novantrone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967" mean_count="517.5" sd="703.6" median_count="517.5" min_count="20" max_count="1015"/>
+			<enum code="U" count="1015">Unknown</enum>
+			<enum code="Y" count="20">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065565.v1.p1.c1" var_name="CYTO_CHEMO" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Treatment - Cytotoxic Chemotherapy</description>
+	<comment><![CDATA[
+		Imuran, Methotrexate, Cytoxan, Novantrone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902" mean_count="233" sd="301.2" median_count="233" min_count="20" max_count="446"/>
+			<enum code="U" count="446">Unknown</enum>
+			<enum code="Y" count="20">Yes</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065565.v1.p1.c2" var_name="CYTO_CHEMO" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Cytotoxic Chemotherapy</description>
+	<comment><![CDATA[
+		Imuran, Methotrexate, Cytoxan, Novantrone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939"/>
+			<enum code="U" count="501">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065565.v1.p1.c3" var_name="CYTO_CHEMO" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Cytotoxic Chemotherapy</description>
+	<comment><![CDATA[
+		Imuran, Methotrexate, Cytoxan, Novantrone. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="U" count="68">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065566.v1.p1" var_name="TRTMT_OTHER" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Other</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967"/>
+			<enum code="U" count="1035">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065566.v1.p1.c1" var_name="TRTMT_OTHER" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Other</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902"/>
+			<enum code="U" count="466">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065566.v1.p1.c2" var_name="TRTMT_OTHER" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Other</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939"/>
+			<enum code="U" count="501">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065566.v1.p1.c3" var_name="TRTMT_OTHER" calculated_type="string" reported_type="encoded value">
+	<description>Treatment - Other</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="U" count="68">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065567.v1.p1" var_name="DX" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Diagnostic criteria</description>
+	<comment><![CDATA[
+		Please see clinical form for details. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1035</case>
+			</case_control>
+			<sex>
+				<male>256</male>
+				<female>779</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1035" nulls="1967" mean_count="207" sd="352" median_count="72" min_count="10" max_count="832"/>
+			<enum code="1" count="832">Criteria 1: Two or more clinical attacks and two or more objective lesions</enum>
+			<enum code="U" count="110">Unknown</enum>
+			<enum code="2" count="72">Criteria 2: Two or more clinical attacks and one objective lesion and dissemination in space</enum>
+			<enum code="3" count="11">Criteria 3: One clinical attack and two or more objective lesions and dissemination in time</enum>
+			<enum code="4" count="10">Criteria 4: One clinical attack and one objective lesion (clinically isolated syndrome) and dissemination in space and dissemination in time</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065567.v1.p1.c1" var_name="DX" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Diagnostic criteria</description>
+	<comment><![CDATA[
+		Please see clinical form for details. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>466</case>
+			</case_control>
+			<sex>
+				<male>108</male>
+				<female>358</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="466" nulls="902" mean_count="233" sd="301.2" median_count="233" min_count="20" max_count="446"/>
+			<enum code="1" count="446">Criteria 1: Two or more clinical attacks and two or more objective lesions</enum>
+			<enum code="U" count="20">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065567.v1.p1.c2" var_name="DX" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Diagnostic criteria</description>
+	<comment><![CDATA[
+		Please see clinical form for details. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>501</case>
+			</case_control>
+			<sex>
+				<male>124</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="501" nulls="939" mean_count="100.2" sd="161.8" median_count="22" min_count="10" max_count="386"/>
+			<enum code="1" count="386">Criteria 1: Two or more clinical attacks and two or more objective lesions</enum>
+			<enum code="2" count="72">Criteria 2: Two or more clinical attacks and one objective lesion and dissemination in space</enum>
+			<enum code="U" count="22">Unknown</enum>
+			<enum code="3" count="11">Criteria 3: One clinical attack and two or more objective lesions and dissemination in time</enum>
+			<enum code="4" count="10">Criteria 4: One clinical attack and one objective lesion (clinically isolated syndrome) and dissemination in space and dissemination in time</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00065567.v1.p1.c3" var_name="DX" calculated_type="string" reported_type="encoded value">
+	<description>Diagnostic criteria</description>
+	<comment><![CDATA[
+		Please see clinical form for details. 
+	]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>68</case>
+			</case_control>
+			<sex>
+				<male>24</male>
+				<female>44</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="68" nulls="126"/>
+			<enum code="U" count="68">Unknown</enum>
+		</stats>
+	</total>
+</variable>
+
+</data_table>

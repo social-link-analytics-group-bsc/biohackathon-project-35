@@ -1,0 +1,1153 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="Diagnosis" dataset_id="pht000049.v2" study_name="International Multi-Center ADHD Genetics Project" study_id="phs000016.v2" participant_set="2" date_created="11/27/2009">
+
+<variable id="phv00011107.v2.p2" var_name="subid" calculated_type="string" reported_type="">
+	<description>Child&#39;s Project ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011107.v2.p2.c1" var_name="subid" calculated_type="string" reported_type="">
+	<description>Child&#39;s Project ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011108.v2.p2" var_name="father" calculated_type="integer" reported_type="">
+	<description>Father&#39;s Project ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" median="" min="" max=""/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011108.v2.p2.c1" var_name="father" calculated_type="integer" reported_type="">
+	<description>Father&#39;s Project ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" median="" min="" max=""/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011109.v2.p2" var_name="mother" calculated_type="integer" reported_type="">
+	<description>Mother&#39;s Project ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" median="" min="" max=""/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011109.v2.p2.c1" var_name="mother" calculated_type="integer" reported_type="">
+	<description>Mother&#39;s Project ID</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" median="" min="" max=""/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011110.v2.p2" var_name="sex" calculated_type="enum_integer" reported_type="">
+	<description>Gender of child</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="462" sd="480.8" median_count="462" min_count="122" max_count="802"/>
+			<enum code="1" count="802">Male</enum>
+			<enum code="2" count="122">Female</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011110.v2.p2.c1" var_name="sex" calculated_type="enum_integer" reported_type="">
+	<description>Gender of child</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="462" sd="480.8" median_count="462" min_count="122" max_count="802"/>
+			<enum code="1" count="802">Male</enum>
+			<enum code="2" count="122">Female</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011111.v2.p2" var_name="age" calculated_type="integer" units="YEARS" reported_type="">
+	<description>Age at assessment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>922</case>
+			</case_control>
+			<sex>
+				<male>800</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="922" nulls="0" mean="10.91" sd="2.826" median="11" min="5" max="19"/>
+			<example count="120">12</example>
+			<example count="114">11</example>
+			<example count="107">9</example>
+			<example count="104">10</example>
+			<example count="96">8</example>
+			<example count="91">13</example>
+			<example count="69">14</example>
+			<example count="65">7</example>
+			<example count="56">15</example>
+			<example count="39">6</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011111.v2.p2.c1" var_name="age" calculated_type="integer" units="YEARS" reported_type="">
+	<description>Age at assessment</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>922</case>
+			</case_control>
+			<sex>
+				<male>800</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="922" nulls="0" mean="10.91" sd="2.826" median="11" min="5" max="19"/>
+			<example count="120">12</example>
+			<example count="114">11</example>
+			<example count="107">9</example>
+			<example count="104">10</example>
+			<example count="96">8</example>
+			<example count="91">13</example>
+			<example count="69">14</example>
+			<example count="65">7</example>
+			<example count="56">15</example>
+			<example count="39">6</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011112.v2.p2" var_name="diag" calculated_type="enum_integer" reported_type="">
+	<description>Main Diagnosis: DSM-IV (Diagnostic and Statistical Manual [of mental disease], IVth edition) ADHD Diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="184.8" sd="370.3" median_count="22" min_count="9" max_count="847"/>
+			<enum code="3" count="847">Combined subtype</enum>
+			<enum code="1" count="33">Inattentive subtype</enum>
+			<enum code="4" count="22">ADHD-NOS (Attention Deficit Hyperactivity Disorder-Not Otherwise Specified)</enum>
+			<enum code="2" count="13">Hyperactive subtype</enum>
+			<enum code="NA" count="9">Not available</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011112.v2.p2.c1" var_name="diag" calculated_type="enum_integer" reported_type="">
+	<description>Main Diagnosis: DSM-IV (Diagnostic and Statistical Manual [of mental disease], IVth edition) ADHD Diagnosis</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="184.8" sd="370.3" median_count="22" min_count="9" max_count="847"/>
+			<enum code="3" count="847">Combined subtype</enum>
+			<enum code="1" count="33">Inattentive subtype</enum>
+			<enum code="4" count="22">ADHD-NOS (Attention Deficit Hyperactivity Disorder-Not Otherwise Specified)</enum>
+			<enum code="2" count="13">Hyperactive subtype</enum>
+			<enum code="NA" count="9">Not available</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011113.v2.p2" var_name="dna" calculated_type="string" reported_type="">
+	<description>DNA barcode at local database/ also sent to Perlegen</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011113.v2.p2.c1" var_name="dna" calculated_type="string" reported_type="">
+	<description>DNA barcode at local database/ also sent to Perlegen</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0"/>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011114.v2.p2" var_name="sdqp" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 1; prorated SDQ Hyperactivity T score, parent&#39;s version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>918</case>
+			</case_control>
+			<sex>
+				<male>796</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="918" nulls="0" mean="63.47" sd="5.79" median="64" min="36" max="77"/>
+			<example count="101">68</example>
+			<example count="94">67</example>
+			<example count="89">69</example>
+			<example count="72">64</example>
+			<example count="72">62</example>
+			<example count="69">65</example>
+			<example count="62">61</example>
+			<example count="56">60</example>
+			<example count="43">63</example>
+			<example count="35">59</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011114.v2.p2.c1" var_name="sdqp" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 1; prorated SDQ Hyperactivity T score, parent&#39;s version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>918</case>
+			</case_control>
+			<sex>
+				<male>796</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="918" nulls="0" mean="63.47" sd="5.79" median="64" min="36" max="77"/>
+			<example count="101">68</example>
+			<example count="94">67</example>
+			<example count="89">69</example>
+			<example count="72">64</example>
+			<example count="72">62</example>
+			<example count="69">65</example>
+			<example count="62">61</example>
+			<example count="56">60</example>
+			<example count="43">63</example>
+			<example count="35">59</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011115.v2.p2" var_name="sdqt" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 2; prorated SDQ Hyperactivity T score, teacher&#39;s version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>910</case>
+			</case_control>
+			<sex>
+				<male>788</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="910" nulls="0" mean="61.25" sd="5.701" median="62" min="40" max="76"/>
+			<example count="96">66</example>
+			<example count="82">60</example>
+			<example count="82">62</example>
+			<example count="74">63</example>
+			<example count="71">61</example>
+			<example count="55">67</example>
+			<example count="55">65</example>
+			<example count="51">64</example>
+			<example count="44">56</example>
+			<example count="37">58</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011115.v2.p2.c1" var_name="sdqt" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 2; prorated SDQ Hyperactivity T score, teacher&#39;s version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>910</case>
+			</case_control>
+			<sex>
+				<male>788</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="910" nulls="0" mean="61.25" sd="5.701" median="62" min="40" max="76"/>
+			<example count="96">66</example>
+			<example count="82">60</example>
+			<example count="82">62</example>
+			<example count="74">63</example>
+			<example count="71">61</example>
+			<example count="55">67</example>
+			<example count="55">65</example>
+			<example count="51">64</example>
+			<example count="44">56</example>
+			<example count="37">58</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011116.v2.p2" var_name="conp" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 3; prorated Conners&#39; Hyperactivity T score, parents&#39; version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>917</case>
+			</case_control>
+			<sex>
+				<male>795</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="917" nulls="0" mean="76.74" sd="9.505" median="78" min="41" max="90"/>
+			<example count="111">90</example>
+			<example count="54">80</example>
+			<example count="48">76</example>
+			<example count="39">71</example>
+			<example count="39">78</example>
+			<example count="38">79</example>
+			<example count="37">75</example>
+			<example count="33">70</example>
+			<example count="33">74</example>
+			<example count="31">85</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011116.v2.p2.c1" var_name="conp" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 3; prorated Conners&#39; Hyperactivity T score, parents&#39; version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>917</case>
+			</case_control>
+			<sex>
+				<male>795</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="917" nulls="0" mean="76.74" sd="9.505" median="78" min="41" max="90"/>
+			<example count="111">90</example>
+			<example count="54">80</example>
+			<example count="48">76</example>
+			<example count="39">71</example>
+			<example count="39">78</example>
+			<example count="38">79</example>
+			<example count="37">75</example>
+			<example count="33">70</example>
+			<example count="33">74</example>
+			<example count="31">85</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011117.v2.p2" var_name="cont" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 4; prorated Conners&#39; Hyperactivity T score, teachers&#39; version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>904</case>
+			</case_control>
+			<sex>
+				<male>783</male>
+				<female>121</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="904" nulls="0" mean="69.41" sd="10.66" median="69" min="42" max="90"/>
+			<example count="56">90</example>
+			<example count="51">70</example>
+			<example count="49">69</example>
+			<example count="43">66</example>
+			<example count="42">65</example>
+			<example count="40">72</example>
+			<example count="32">74</example>
+			<example count="30">67</example>
+			<example count="30">68</example>
+			<example count="30">73</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011117.v2.p2.c1" var_name="cont" calculated_type="integer" units="T-SCORE" reported_type="">
+	<description>Quantitative trait 4; prorated Conners&#39; Hyperactivity T score, teachers&#39; version</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>904</case>
+			</case_control>
+			<sex>
+				<male>783</male>
+				<female>121</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="904" nulls="0" mean="69.41" sd="10.66" median="69" min="42" max="90"/>
+			<example count="56">90</example>
+			<example count="51">70</example>
+			<example count="49">69</example>
+			<example count="43">66</example>
+			<example count="42">65</example>
+			<example count="40">72</example>
+			<example count="32">74</example>
+			<example count="30">67</example>
+			<example count="30">68</example>
+			<example count="30">73</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011118.v2.p2" var_name="cd" calculated_type="enum_integer" reported_type="">
+	<description>Comorbidity: Conduct Disorder</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="361" median_count="206" min_count="9" max_count="709"/>
+			<enum code="0" count="709">No</enum>
+			<enum code="1" count="206">Yes/probable</enum>
+			<enum code="9" count="9">Not enough information to make the diagnosis</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011118.v2.p2.c1" var_name="cd" calculated_type="enum_integer" reported_type="">
+	<description>Comorbidity: Conduct Disorder</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="361" median_count="206" min_count="9" max_count="709"/>
+			<enum code="0" count="709">No</enum>
+			<enum code="1" count="206">Yes/probable</enum>
+			<enum code="9" count="9">Not enough information to make the diagnosis</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011119.v2.p2" var_name="odd" calculated_type="enum_integer" reported_type="">
+	<description>Comorbidity: Oppositional Defiant Disorder</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="280.4" median_count="350" min_count="9" max_count="565"/>
+			<enum code="1" count="565">Yes/probable</enum>
+			<enum code="0" count="350">No</enum>
+			<enum code="9" count="9">Not enough information to make the diagnosis</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011119.v2.p2.c1" var_name="odd" calculated_type="enum_integer" reported_type="">
+	<description>Comorbidity: Oppositional Defiant Disorder</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="280.4" median_count="350" min_count="9" max_count="565"/>
+			<enum code="1" count="565">Yes/probable</enum>
+			<enum code="0" count="350">No</enum>
+			<enum code="9" count="9">Not enough information to make the diagnosis</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011120.v2.p2" var_name="med" calculated_type="enum_integer" reported_type="">
+	<description>Medication status and rating period</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="154" sd="109.6" median_count="136.5" min_count="4" max_count="328"/>
+			<enum code="3" count="328">Intermittent use of medication: rate behaviour for days off medication</enum>
+			<enum code="1" count="217">Currently not taking medication: rate behaviour over last 6 months with special reference to a representative period</enum>
+			<enum code="2" count="138">Off medication for 1-week: rate behaviour during time off medication</enum>
+			<enum code="4" count="135">Constant use of medication: rate behaviour for last period off medication (retrospective assessment)</enum>
+			<enum code="5" count="102">Constant use of medication, no period off in last 2-years: rating is for behaviour while medicated</enum>
+			<enum code="NA" count="4">Not Applicable</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011120.v2.p2.c1" var_name="med" calculated_type="enum_integer" reported_type="">
+	<description>Medication status and rating period</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="154" sd="109.6" median_count="136.5" min_count="4" max_count="328"/>
+			<enum code="3" count="328">Intermittent use of medication: rate behaviour for days off medication</enum>
+			<enum code="1" count="217">Currently not taking medication: rate behaviour over last 6 months with special reference to a representative period</enum>
+			<enum code="2" count="138">Off medication for 1-week: rate behaviour during time off medication</enum>
+			<enum code="4" count="135">Constant use of medication: rate behaviour for last period off medication (retrospective assessment)</enum>
+			<enum code="5" count="102">Constant use of medication, no period off in last 2-years: rating is for behaviour while medicated</enum>
+			<enum code="NA" count="4">Not Applicable</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011121.v2.p2" var_name="dges" calculated_type="integer" units="WEEKS" reported_type="">
+	<description>Subject&#39;s gestational age at birth in weeks</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>830</case>
+			</case_control>
+			<sex>
+				<male>732</male>
+				<female>98</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="830" nulls="0" mean="39.5" sd="2.063" median="40" min="28" max="44"/>
+			<example count="338">40</example>
+			<example count="106">41</example>
+			<example count="94">NA</example>
+			<example count="94">39</example>
+			<example count="90">38</example>
+			<example count="88">42</example>
+			<example count="36">37</example>
+			<example count="35">36</example>
+			<example count="12">43</example>
+			<example count="10">34</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011121.v2.p2.c1" var_name="dges" calculated_type="integer" units="WEEKS" reported_type="">
+	<description>Subject&#39;s gestational age at birth in weeks</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>830</case>
+			</case_control>
+			<sex>
+				<male>732</male>
+				<female>98</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="830" nulls="0" mean="39.5" sd="2.063" median="40" min="28" max="44"/>
+			<example count="338">40</example>
+			<example count="106">41</example>
+			<example count="94">NA</example>
+			<example count="94">39</example>
+			<example count="90">38</example>
+			<example count="88">42</example>
+			<example count="36">37</example>
+			<example count="35">36</example>
+			<example count="12">43</example>
+			<example count="10">34</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011122.v2.p2" var_name="iq" calculated_type="decimal" units="I.Q. SCORE" reported_type="">
+	<description>Full scale I.Q. (prorated)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>614</case>
+			</case_control>
+			<sex>
+				<male>538</male>
+				<female>76</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="614" nulls="0" mean="100.4" sd="15.65" median="100" min="55.8" max="154.4"/>
+			<example count="310">NA</example>
+			<example count="28">100</example>
+			<example count="18">105.1</example>
+			<example count="17">101.7</example>
+			<example count="16">98.3</example>
+			<example count="15">89.8</example>
+			<example count="15">96.6</example>
+			<example count="14">113.6</example>
+			<example count="14">103.4</example>
+			<example count="13">93.2</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011122.v2.p2.c1" var_name="iq" calculated_type="decimal" units="I.Q. SCORE" reported_type="">
+	<description>Full scale I.Q. (prorated)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>614</case>
+			</case_control>
+			<sex>
+				<male>538</male>
+				<female>76</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="614" nulls="0" mean="100.4" sd="15.65" median="100" min="55.8" max="154.4"/>
+			<example count="310">NA</example>
+			<example count="28">100</example>
+			<example count="18">105.1</example>
+			<example count="17">101.7</example>
+			<example count="16">98.3</example>
+			<example count="15">89.8</example>
+			<example count="15">96.6</example>
+			<example count="14">113.6</example>
+			<example count="14">103.4</example>
+			<example count="13">93.2</example>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011123.v2.p2" var_name="denm" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of natural mother</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="462" sd="557.2" median_count="462" min_count="68" max_count="856"/>
+			<enum code="1" count="856">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="68">Not answered</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011123.v2.p2.c1" var_name="denm" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of natural mother</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="462" sd="557.2" median_count="462" min_count="68" max_count="856"/>
+			<enum code="1" count="856">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="68">Not answered</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011124.v2.p2" var_name="degmm" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandmother (mother&#39;s mother)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="469.6" median_count="70" min_count="5" max_count="849"/>
+			<enum code="1" count="849">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="70">Not answered</enum>
+			<enum code="6" count="5">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011124.v2.p2.c1" var_name="degmm" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandmother (mother&#39;s mother)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="469.6" median_count="70" min_count="5" max_count="849"/>
+			<enum code="1" count="849">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="70">Not answered</enum>
+			<enum code="6" count="5">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011125.v2.p2" var_name="degfm" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandfather (mother&#39;s father)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="184.8" sd="369.7" median_count="6" min_count="1" max_count="844"/>
+			<enum code="1" count="844">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="72">Not answered</enum>
+			<enum code="6" count="6">Don&#39;t know</enum>
+			<enum code="4" count="1">Mixed ethnicity</enum>
+			<enum code="2" count="1">Asian origin</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011125.v2.p2.c1" var_name="degfm" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandfather (mother&#39;s father)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="184.8" sd="369.7" median_count="6" min_count="1" max_count="844"/>
+			<enum code="1" count="844">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="72">Not answered</enum>
+			<enum code="6" count="6">Don&#39;t know</enum>
+			<enum code="4" count="1">Mixed ethnicity</enum>
+			<enum code="2" count="1">Asian origin</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011126.v2.p2" var_name="denf" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of natural father</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="462" sd="502" median_count="462" min_count="107" max_count="817"/>
+			<enum code="1" count="817">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="107">Not answered</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011126.v2.p2.c1" var_name="denf" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of natural father</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="462" sd="502" median_count="462" min_count="107" max_count="817"/>
+			<enum code="1" count="817">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="107">Not answered</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011127.v2.p2" var_name="degmf" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandmother (father&#39;s mother)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="436.1" median_count="110" min_count="6" max_count="808"/>
+			<enum code="1" count="808">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="110">Not answered</enum>
+			<enum code="6" count="6">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011127.v2.p2.c1" var_name="degmf" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandmother (father&#39;s mother)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="436.1" median_count="110" min_count="6" max_count="808"/>
+			<enum code="1" count="808">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="110">Not answered</enum>
+			<enum code="6" count="6">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011128.v2.p2" var_name="degff" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandfather (father&#39;s father)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="435.3" median_count="111" min_count="6" max_count="807"/>
+			<enum code="1" count="807">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="111">Not answered</enum>
+			<enum code="6" count="6">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011128.v2.p2.c1" var_name="degff" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of grandfather (father&#39;s father)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="435.3" median_count="111" min_count="6" max_count="807"/>
+			<enum code="1" count="807">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="111">Not answered</enum>
+			<enum code="6" count="6">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011129.v2.p2" var_name="dech" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of child</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="438.3" median_count="113" min_count="1" max_count="810"/>
+			<enum code="1" count="810">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="113">Not answered</enum>
+			<enum code="6" count="1">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011129.v2.p2.c1" var_name="dech" calculated_type="enum_integer" reported_type="">
+	<description>Ethnicity of child</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="308" sd="438.3" median_count="113" min_count="1" max_count="810"/>
+			<enum code="1" count="810">European origin (predominantly white Caucasian)</enum>
+			<enum code="0" count="113">Not answered</enum>
+			<enum code="6" count="1">Don&#39;t know</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011130.v2.p2" var_name="motherocc" calculated_type="enum_integer" reported_type="">
+	<description>Mother&#39;s occupational status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="154" sd="257.6" median_count="56" min_count="18" max_count="675"/>
+			<enum code="1" count="675">Professional</enum>
+			<enum code="0" count="100">Not completed</enum>
+			<enum code="NA" count="84">Not Applicable</enum>
+			<enum code="2" count="28">Clerk</enum>
+			<enum code="4" count="19">Labourer</enum>
+			<enum code="3" count="18">Services/Sales</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011130.v2.p2.c1" var_name="motherocc" calculated_type="enum_integer" reported_type="">
+	<description>Mother&#39;s occupational status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="154" sd="257.6" median_count="56" min_count="18" max_count="675"/>
+			<enum code="1" count="675">Professional</enum>
+			<enum code="0" count="100">Not completed</enum>
+			<enum code="NA" count="84">Not Applicable</enum>
+			<enum code="2" count="28">Clerk</enum>
+			<enum code="4" count="19">Labourer</enum>
+			<enum code="3" count="18">Services/Sales</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011131.v2.p2" var_name="fatherocc" calculated_type="enum_integer" reported_type="">
+	<description>Father&#39;s occupational status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="132" sd="82.91" median_count="149" min_count="2" max_count="234"/>
+			<enum code="1" count="234">Professional</enum>
+			<enum code="0" count="202">Not completed</enum>
+			<enum code="3" count="183">Services/Sales</enum>
+			<enum code="2" count="149">Clerk</enum>
+			<enum code="NA" count="84">Not Applicable</enum>
+			<enum code="4" count="70">Labourer</enum>
+			<enum code="5" count="2">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+<variable id="phv00011131.v2.p2.c1" var_name="fatherocc" calculated_type="enum_integer" reported_type="">
+	<description>Father&#39;s occupational status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>924</case>
+			</case_control>
+			<sex>
+				<male>802</male>
+				<female>122</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="924" nulls="0" mean_count="132" sd="82.91" median_count="149" min_count="2" max_count="234"/>
+			<enum code="1" count="234">Professional</enum>
+			<enum code="0" count="202">Not completed</enum>
+			<enum code="3" count="183">Services/Sales</enum>
+			<enum code="2" count="149">Clerk</enum>
+			<enum code="NA" count="84">Not Applicable</enum>
+			<enum code="4" count="70">Labourer</enum>
+			<enum code="5" count="2">Other</enum>
+		</stats>
+	</total>
+</variable>
+
+</data_table>
+

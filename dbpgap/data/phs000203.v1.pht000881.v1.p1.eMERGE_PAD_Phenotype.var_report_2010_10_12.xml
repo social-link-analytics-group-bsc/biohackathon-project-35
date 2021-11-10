@@ -1,0 +1,3287 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="eMERGE_PAD_Phenotype" dataset_id="pht000881.v1" study_name="A Genome-Wide Association Study of Peripheral Arterial Disease" study_id="phs000203.v1" participant_set="1" date_created="10/12/2010">
+
+<variable id="phv00076109.v1.p1" var_name="SUBJID" calculated_type="string" reported_type="Integer">
+	<description>Deidentified Subject/eMERGE ID</description>
+	<comment><![CDATA[Non-enumerated value domain. Deidentified ID where the first two digits denote the origination site of the samples; site key: Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2181644 (Public ID) ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076109.v1.p1.c1" var_name="SUBJID" calculated_type="string" reported_type="Integer">
+	<description>Deidentified Subject/eMERGE ID</description>
+	<comment><![CDATA[Non-enumerated value domain. Deidentified ID where the first two digits denote the origination site of the samples; site key: Marshfield Clinic=16; Vanderbilt University=27; Group Health Cooperative=38; Mayo Clinic=49; Northwestern University=52 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2181644 (Public ID) ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076110.v1.p1" var_name="case_control" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Case - control status</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2529082 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="27.58" median_count="1669" min_count="1649" max_count="1688"/>
+			<enum code="C49152" count="1688">Case</enum>
+			<enum code="C28143" count="1649">Control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="1688" median_count="1688" min_count="1688" max_count="1688"/>
+			<enum code="C49152" count="1688">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="1649" median_count="1649" min_count="1649" max_count="1649"/>
+			<enum code="C28143" count="1649">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076110.v1.p1.c1" var_name="case_control" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Case - control status</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2529082 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="27.58" median_count="1669" min_count="1649" max_count="1688"/>
+			<enum code="C49152" count="1688">Case</enum>
+			<enum code="C28143" count="1649">Control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="1688" median_count="1688" min_count="1688" max_count="1688"/>
+			<enum code="C49152" count="1688">Case</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="1649" median_count="1649" min_count="1649" max_count="1649"/>
+			<enum code="C28143" count="1649">Control</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076111.v1.p1" var_name="Sex" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Gender of participant</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2200604 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="570.6" median_count="1669" min_count="1265" max_count="2072"/>
+			<enum code="C46109" count="2072">Male</enum>
+			<enum code="C46110" count="1265">Female</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="335.2" median_count="844" min_count="607" max_count="1081"/>
+			<enum code="C46109" count="1081">Male</enum>
+			<enum code="C46110" count="607">Female</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="235.5" median_count="824.5" min_count="658" max_count="991"/>
+			<enum code="C46109" count="991">Male</enum>
+			<enum code="C46110" count="658">Female</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076111.v1.p1.c1" var_name="Sex" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Gender of participant</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2200604 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="570.6" median_count="1669" min_count="1265" max_count="2072"/>
+			<enum code="C46109" count="2072">Male</enum>
+			<enum code="C46110" count="1265">Female</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="335.2" median_count="844" min_count="607" max_count="1081"/>
+			<enum code="C46109" count="1081">Male</enum>
+			<enum code="C46110" count="607">Female</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="235.5" median_count="824.5" min_count="658" max_count="991"/>
+			<enum code="C46109" count="991">Male</enum>
+			<enum code="C46110" count="658">Female</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076112.v1.p1" var_name="Race" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Race of participant</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 106 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="476.7" sd="1167" median_count="15" min_count="4" max_count="3119"/>
+			<enum code="C41261" count="3119">White</enum>
+			<enum code="C17998" count="167">Unknown</enum>
+			<enum code="C16352" count="16">Black or African American</enum>
+			<enum code="C17649" count="15">Other</enum>
+			<enum code="C54031" count="10">Missing</enum>
+			<enum code="C41259" count="6">American Indian or Alaska Native</enum>
+			<enum code="C41260" count="4">Asian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="281.3" sd="634.9" median_count="10" min_count="5" max_count="1576"/>
+			<enum code="C41261" count="1576">White</enum>
+			<enum code="C17998" count="81">Unknown</enum>
+			<enum code="C16352" count="11">Black or African American</enum>
+			<enum code="C17649" count="9">Other</enum>
+			<enum code="C54031" count="6">Missing</enum>
+			<enum code="C41259" count="5">American Indian or Alaska Native</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="235.6" sd="577.3" median_count="5" min_count="1" max_count="1543"/>
+			<enum code="C41261" count="1543">White</enum>
+			<enum code="C17998" count="86">Unknown</enum>
+			<enum code="C17649" count="6">Other</enum>
+			<enum code="C16352" count="5">Black or African American</enum>
+			<enum code="C41260" count="4">Asian</enum>
+			<enum code="C54031" count="4">Missing</enum>
+			<enum code="C41259" count="1">American Indian or Alaska Native</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076112.v1.p1.c1" var_name="Race" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Race of participant</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 106 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="476.7" sd="1167" median_count="15" min_count="4" max_count="3119"/>
+			<enum code="C41261" count="3119">White</enum>
+			<enum code="C17998" count="167">Unknown</enum>
+			<enum code="C16352" count="16">Black or African American</enum>
+			<enum code="C17649" count="15">Other</enum>
+			<enum code="C54031" count="10">Missing</enum>
+			<enum code="C41259" count="6">American Indian or Alaska Native</enum>
+			<enum code="C41260" count="4">Asian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="281.3" sd="634.9" median_count="10" min_count="5" max_count="1576"/>
+			<enum code="C41261" count="1576">White</enum>
+			<enum code="C17998" count="81">Unknown</enum>
+			<enum code="C16352" count="11">Black or African American</enum>
+			<enum code="C17649" count="9">Other</enum>
+			<enum code="C54031" count="6">Missing</enum>
+			<enum code="C41259" count="5">American Indian or Alaska Native</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="235.6" sd="577.3" median_count="5" min_count="1" max_count="1543"/>
+			<enum code="C41261" count="1543">White</enum>
+			<enum code="C17998" count="86">Unknown</enum>
+			<enum code="C17649" count="6">Other</enum>
+			<enum code="C16352" count="5">Black or African American</enum>
+			<enum code="C41260" count="4">Asian</enum>
+			<enum code="C54031" count="4">Missing</enum>
+			<enum code="C41259" count="1">American Indian or Alaska Native</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076113.v1.p1" var_name="Ethnicity" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Ethnicity of participant</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2002440 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1112" sd="965" median_count="1529" min_count="9" max_count="1799"/>
+			<enum code="C41222" count="1799">Not Hispanic or Latino</enum>
+			<enum code="C41221" count="1529">Unknown</enum>
+			<enum code="C17459" count="9">Hispanic or Latino</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="562.7" sd="487" median_count="795" min_count="3" max_count="890"/>
+			<enum code="C41222" count="890">Not Hispanic or Latino</enum>
+			<enum code="C41221" count="795">Unknown</enum>
+			<enum code="C17459" count="3">Hispanic or Latino</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="549.7" sd="478.9" median_count="734" min_count="6" max_count="909"/>
+			<enum code="C41222" count="909">Not Hispanic or Latino</enum>
+			<enum code="C41221" count="734">Unknown</enum>
+			<enum code="C17459" count="6">Hispanic or Latino</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076113.v1.p1.c1" var_name="Ethnicity" calculated_type="enum_integer" reported_type="String, Encoded value">
+	<description>Ethnicity of participant</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2002440 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1112" sd="965" median_count="1529" min_count="9" max_count="1799"/>
+			<enum code="C41222" count="1799">Not Hispanic or Latino</enum>
+			<enum code="C41221" count="1529">Unknown</enum>
+			<enum code="C17459" count="9">Hispanic or Latino</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="562.7" sd="487" median_count="795" min_count="3" max_count="890"/>
+			<enum code="C41222" count="890">Not Hispanic or Latino</enum>
+			<enum code="C41221" count="795">Unknown</enum>
+			<enum code="C17459" count="3">Hispanic or Latino</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="549.7" sd="478.9" median_count="734" min_count="6" max_count="909"/>
+			<enum code="C41222" count="909">Not Hispanic or Latino</enum>
+			<enum code="C41221" count="734">Unknown</enum>
+			<enum code="C17459" count="6">Hispanic or Latino</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076114.v1.p1" var_name="decade_birth" calculated_type="integer" units="Deciles" reported_type="Integer, encoded value">
+	<description>Decade of birth</description>
+	<comment><![CDATA[Patients born prior to 1920 are represented in one group (&#62;=89 years of age) 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3018429 (Public ID) ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean="1936" sd="9.659" median="1940" min="1900" max="1980"/>
+			<enum count="1357">1940</enum>
+			<enum count="1023">1930</enum>
+			<enum count="462">1950</enum>
+			<enum count="412">1920</enum>
+			<enum count="50">1960</enum>
+			<enum count="25">1910</enum>
+			<enum count="5">1970</enum>
+			<enum count="2">1980</enum>
+			<enum count="1">1900</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean="1934" sd="10.66" median="1930" min="1900" max="1980"/>
+			<enum count="627">1930</enum>
+			<enum count="477">1940</enum>
+			<enum count="311">1920</enum>
+			<enum count="199">1950</enum>
+			<enum count="44">1960</enum>
+			<enum count="23">1910</enum>
+			<enum count="5">1970</enum>
+			<enum count="1">1980</enum>
+			<enum count="1">1900</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean="1938" sd="8.008" median="1940" min="1910" max="1980"/>
+			<enum count="880">1940</enum>
+			<enum count="396">1930</enum>
+			<enum count="263">1950</enum>
+			<enum count="101">1920</enum>
+			<enum count="6">1960</enum>
+			<enum count="2">1910</enum>
+			<enum count="1">1980</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076114.v1.p1.c1" var_name="decade_birth" calculated_type="integer" units="Deciles" reported_type="Integer, encoded value">
+	<description>Decade of birth</description>
+	<comment><![CDATA[Patients born prior to 1920 are represented in one group (&#62;=89 years of age) 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3018429 (Public ID) ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean="1936" sd="9.659" median="1940" min="1900" max="1980"/>
+			<enum count="1357">1940</enum>
+			<enum count="1023">1930</enum>
+			<enum count="462">1950</enum>
+			<enum count="412">1920</enum>
+			<enum count="50">1960</enum>
+			<enum count="25">1910</enum>
+			<enum count="5">1970</enum>
+			<enum count="2">1980</enum>
+			<enum count="1">1900</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean="1934" sd="10.66" median="1930" min="1900" max="1980"/>
+			<enum count="627">1930</enum>
+			<enum count="477">1940</enum>
+			<enum count="311">1920</enum>
+			<enum count="199">1950</enum>
+			<enum count="44">1960</enum>
+			<enum count="23">1910</enum>
+			<enum count="5">1970</enum>
+			<enum count="1">1980</enum>
+			<enum count="1">1900</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean="1938" sd="8.008" median="1940" min="1910" max="1980"/>
+			<enum count="880">1940</enum>
+			<enum count="396">1930</enum>
+			<enum count="263">1950</enum>
+			<enum count="101">1920</enum>
+			<enum count="6">1960</enum>
+			<enum count="2">1910</enum>
+			<enum count="1">1980</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076115.v1.p1" var_name="Weight" calculated_type="decimal" units="Pounds" reported_type="Decimal, encoded value">
+	<description>Subject&#39;s weight at enrollment</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2179689 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1646</case>
+				<control>1638</control>
+			</case_control>
+			<sex>
+				<male>2043</male>
+				<female>1241</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3284" nulls="53" mean="187.3" sd="41.35" median="183.6" min="80.03" max="&gt;300"/>
+			<example count="16">194.0067906</example>
+			<example count="15">171.9605644</example>
+			<example count="15">176.3698096</example>
+			<example count="14">169.7559417</example>
+			<example count="14">191.8021679</example>
+			<example count="13">185.1883001</example>
+			<example count="12">167.9922436</example>
+			<example count="12">178.0012303</example>
+			<example count="12">187.3929227</example>
+			<example count="12">189.5975453</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1057</male>
+				<female>589</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1646" nulls="42" mean="186.9" sd="41.62" median="183.4" min="85.76" max="&gt;300"/>
+			<example count="11">176.3698096</example>
+			<example count="10">213.8483941</example>
+			<example count="9">189.5975453</example>
+			<example count="8">169.7559417</example>
+			<example count="8">185.1883001</example>
+			<example count="8">171.9605644</example>
+			<example count="8">224.8715072</example>
+			<example count="7">167.9922436</example>
+			<example count="7">187.3929227</example>
+			<example count="7">163.1420739</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>986</male>
+				<female>652</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1638" nulls="11" mean="187.6" sd="41.09" median="183.9" min="80.03" max="&gt;300"/>
+			<example count="11">180.9995171</example>
+			<example count="10">194.0067906</example>
+			<example count="10">155.9990966</example>
+			<example count="9">178.9933105</example>
+			<example count="9">194.9988707</example>
+			<example count="8">188.010217</example>
+			<example count="8">178.0012303</example>
+			<example count="8">175.9950238</example>
+			<example count="8">191.8021679</example>
+			<example count="7">172.0046568</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076115.v1.p1.c1" var_name="Weight" calculated_type="decimal" units="Pounds" reported_type="Decimal, encoded value">
+	<description>Subject&#39;s weight at enrollment</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2179689 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1646</case>
+				<control>1638</control>
+			</case_control>
+			<sex>
+				<male>2043</male>
+				<female>1241</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3284" nulls="53" mean="187.3" sd="41.35" median="183.6" min="80.03" max="&gt;300"/>
+			<example count="16">194.0067906</example>
+			<example count="15">171.9605644</example>
+			<example count="15">176.3698096</example>
+			<example count="14">169.7559417</example>
+			<example count="14">191.8021679</example>
+			<example count="13">185.1883001</example>
+			<example count="12">167.9922436</example>
+			<example count="12">178.0012303</example>
+			<example count="12">187.3929227</example>
+			<example count="12">189.5975453</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1057</male>
+				<female>589</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1646" nulls="42" mean="186.9" sd="41.62" median="183.4" min="85.76" max="&gt;300"/>
+			<example count="11">176.3698096</example>
+			<example count="10">213.8483941</example>
+			<example count="9">189.5975453</example>
+			<example count="8">169.7559417</example>
+			<example count="8">185.1883001</example>
+			<example count="8">171.9605644</example>
+			<example count="8">224.8715072</example>
+			<example count="7">167.9922436</example>
+			<example count="7">187.3929227</example>
+			<example count="7">163.1420739</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>986</male>
+				<female>652</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1638" nulls="11" mean="187.6" sd="41.09" median="183.9" min="80.03" max="&gt;300"/>
+			<example count="11">180.9995171</example>
+			<example count="10">194.0067906</example>
+			<example count="10">155.9990966</example>
+			<example count="9">178.9933105</example>
+			<example count="9">194.9988707</example>
+			<example count="8">188.010217</example>
+			<example count="8">178.0012303</example>
+			<example count="8">175.9950238</example>
+			<example count="8">191.8021679</example>
+			<example count="7">172.0046568</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076116.v1.p1" var_name="Height" calculated_type="decimal" units="Inches" reported_type="Decimal, encoded value">
+	<description>Subject&#39;s height at enrollment</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2179643 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1634</case>
+				<control>1635</control>
+			</case_control>
+			<sex>
+				<male>2030</male>
+				<female>1239</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3269" nulls="68" mean="67.49" sd="3.969" median="67.72" min="41.14" max="84.61"/>
+			<example count="71">68.50393694</example>
+			<example count="63">69.29133851</example>
+			<example count="63">70.07874009</example>
+			<example count="62">66.14173222</example>
+			<example count="61">67.71653536</example>
+			<example count="59">68.89763773</example>
+			<example count="56">69.6850393</example>
+			<example count="54">68.11023615</example>
+			<example count="54">67.32283458</example>
+			<example count="51">70.86614166</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1048</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1634" nulls="54" mean="67.21" sd="3.872" median="67.44" min="41.14" max="78.98"/>
+			<example count="36">67.71653536</example>
+			<example count="36">68.89763773</example>
+			<example count="35">66.14173222</example>
+			<example count="33">69.29133851</example>
+			<example count="31">67.32283458</example>
+			<example count="31">68.50393694</example>
+			<example count="31">62.99212592</example>
+			<example count="30">68.11023615</example>
+			<example count="30">66.92913379</example>
+			<example count="30">69.6850393</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>982</male>
+				<female>653</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1635" nulls="14" mean="67.77" sd="4.045" median="67.99" min="52.99" max="84.61"/>
+			<example count="40">68.50393694</example>
+			<example count="34">70.07874009</example>
+			<example count="31">71.65354323</example>
+			<example count="30">69.99999993</example>
+			<example count="30">69.29133851</example>
+			<example count="28">65.9842519</example>
+			<example count="28">67.00787395</example>
+			<example count="28">64.17322828</example>
+			<example count="27">66.14173222</example>
+			<example count="27">64.01574797</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076116.v1.p1.c1" var_name="Height" calculated_type="decimal" units="Inches" reported_type="Decimal, encoded value">
+	<description>Subject&#39;s height at enrollment</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2179643 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1634</case>
+				<control>1635</control>
+			</case_control>
+			<sex>
+				<male>2030</male>
+				<female>1239</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3269" nulls="68" mean="67.49" sd="3.969" median="67.72" min="41.14" max="84.61"/>
+			<example count="71">68.50393694</example>
+			<example count="63">69.29133851</example>
+			<example count="63">70.07874009</example>
+			<example count="62">66.14173222</example>
+			<example count="61">67.71653536</example>
+			<example count="59">68.89763773</example>
+			<example count="56">69.6850393</example>
+			<example count="54">68.11023615</example>
+			<example count="54">67.32283458</example>
+			<example count="51">70.86614166</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1048</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1634" nulls="54" mean="67.21" sd="3.872" median="67.44" min="41.14" max="78.98"/>
+			<example count="36">67.71653536</example>
+			<example count="36">68.89763773</example>
+			<example count="35">66.14173222</example>
+			<example count="33">69.29133851</example>
+			<example count="31">67.32283458</example>
+			<example count="31">68.50393694</example>
+			<example count="31">62.99212592</example>
+			<example count="30">68.11023615</example>
+			<example count="30">66.92913379</example>
+			<example count="30">69.6850393</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>982</male>
+				<female>653</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1635" nulls="14" mean="67.77" sd="4.045" median="67.99" min="52.99" max="84.61"/>
+			<example count="40">68.50393694</example>
+			<example count="34">70.07874009</example>
+			<example count="31">71.65354323</example>
+			<example count="30">69.99999993</example>
+			<example count="30">69.29133851</example>
+			<example count="28">65.9842519</example>
+			<example count="28">67.00787395</example>
+			<example count="28">64.17322828</example>
+			<example count="27">66.14173222</example>
+			<example count="27">64.01574797</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076117.v1.p1" var_name="Body_Mass_Index" calculated_type="decimal" reported_type="Decimal, encoded value">
+	<description>Imputed BMI based on 6-months (+/- ) time period</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2006410 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1634</case>
+				<control>1634</control>
+			</case_control>
+			<sex>
+				<male>2030</male>
+				<female>1238</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3268" nulls="69" mean="28.75" sd="5.398" median="28.05" min="0" max="61.23"/>
+			<example count="4">27.4691358</example>
+			<example count="3">25.95934186</example>
+			<example count="3">28.40054796</example>
+			<example count="3">24.84098009</example>
+			<example count="3">30.99373546</example>
+			<example count="3">31.13458075</example>
+			<example count="3">27.74474832</example>
+			<example count="2">25.97600806</example>
+			<example count="2">24.62890625</example>
+			<example count="2">27.76342975</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1048</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1634" nulls="54" mean="28.95" sd="5.477" median="28.34" min="15.6" max="58.03"/>
+			<example count="3">24.84098009</example>
+			<example count="2">27.76342975</example>
+			<example count="2">26.60971255</example>
+			<example count="2">30.9787431</example>
+			<example count="2">28.40054796</example>
+			<example count="2">25.65575987</example>
+			<example count="2">32.59122465</example>
+			<example count="2">32</example>
+			<example count="2">27.4691358</example>
+			<example count="2">26.12244898</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>982</male>
+				<female>652</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1634" nulls="15" mean="28.56" sd="5.312" median="27.86" min="0" max="61.23"/>
+			<example count="3">25.95934186</example>
+			<example count="3">30.99373546</example>
+			<example count="2">27.42857143</example>
+			<example count="2">23.61544687</example>
+			<example count="2">20.66945392</example>
+			<example count="2">25.66115203</example>
+			<example count="2">26.95721368</example>
+			<example count="2">22.98897528</example>
+			<example count="2">27.2347627</example>
+			<example count="2">26.30485183</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076117.v1.p1.c1" var_name="Body_Mass_Index" calculated_type="decimal" reported_type="Decimal, encoded value">
+	<description>Imputed BMI based on 6-months (+/- ) time period</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2006410 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1634</case>
+				<control>1634</control>
+			</case_control>
+			<sex>
+				<male>2030</male>
+				<female>1238</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3268" nulls="69" mean="28.75" sd="5.398" median="28.05" min="0" max="61.23"/>
+			<example count="4">27.4691358</example>
+			<example count="3">25.95934186</example>
+			<example count="3">28.40054796</example>
+			<example count="3">24.84098009</example>
+			<example count="3">30.99373546</example>
+			<example count="3">31.13458075</example>
+			<example count="3">27.74474832</example>
+			<example count="2">25.97600806</example>
+			<example count="2">24.62890625</example>
+			<example count="2">27.76342975</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1048</male>
+				<female>586</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1634" nulls="54" mean="28.95" sd="5.477" median="28.34" min="15.6" max="58.03"/>
+			<example count="3">24.84098009</example>
+			<example count="2">27.76342975</example>
+			<example count="2">26.60971255</example>
+			<example count="2">30.9787431</example>
+			<example count="2">28.40054796</example>
+			<example count="2">25.65575987</example>
+			<example count="2">32.59122465</example>
+			<example count="2">32</example>
+			<example count="2">27.4691358</example>
+			<example count="2">26.12244898</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>982</male>
+				<female>652</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1634" nulls="15" mean="28.56" sd="5.312" median="27.86" min="0" max="61.23"/>
+			<example count="3">25.95934186</example>
+			<example count="3">30.99373546</example>
+			<example count="2">27.42857143</example>
+			<example count="2">23.61544687</example>
+			<example count="2">20.66945392</example>
+			<example count="2">25.66115203</example>
+			<example count="2">26.95721368</example>
+			<example count="2">22.98897528</example>
+			<example count="2">27.2347627</example>
+			<example count="2">26.30485183</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076118.v1.p1" var_name="Smoking_Status" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Smoking status at enrollment</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2183382 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="834.2" sd="467.4" median_count="901" min_count="219" max_count="1316"/>
+			<enum code="C67147" count="1316">Current Smoker</enum>
+			<enum code="C67148" count="1035">Past Smoker</enum>
+			<enum code="C65108" count="767">Never Smoker</enum>
+			<enum code="C67151" count="219">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="422" sd="311.5" median_count="383" min_count="133" max_count="789"/>
+			<enum code="C67147" count="789">Current Smoker</enum>
+			<enum code="C67148" count="570">Past Smoker</enum>
+			<enum code="C65108" count="196">Never Smoker</enum>
+			<enum code="C67151" count="133">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="412.3" sd="221.8" median_count="496" min_count="86" max_count="571"/>
+			<enum code="C65108" count="571">Never Smoker</enum>
+			<enum code="C67147" count="527">Current Smoker</enum>
+			<enum code="C67148" count="465">Past Smoker</enum>
+			<enum code="C67151" count="86">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076118.v1.p1.c1" var_name="Smoking_Status" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Smoking status at enrollment</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2183382 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="834.2" sd="467.4" median_count="901" min_count="219" max_count="1316"/>
+			<enum code="C67147" count="1316">Current Smoker</enum>
+			<enum code="C67148" count="1035">Past Smoker</enum>
+			<enum code="C65108" count="767">Never Smoker</enum>
+			<enum code="C67151" count="219">Unknown</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="422" sd="311.5" median_count="383" min_count="133" max_count="789"/>
+			<enum code="C67147" count="789">Current Smoker</enum>
+			<enum code="C67148" count="570">Past Smoker</enum>
+			<enum code="C65108" count="196">Never Smoker</enum>
+			<enum code="C67151" count="133">Unknown</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="412.3" sd="221.8" median_count="496" min_count="86" max_count="571"/>
+			<enum code="C65108" count="571">Never Smoker</enum>
+			<enum code="C67147" count="527">Current Smoker</enum>
+			<enum code="C67148" count="465">Past Smoker</enum>
+			<enum code="C67151" count="86">Unknown</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076119.v1.p1" var_name="hypertension" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Hypertension status</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2183378 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="836.5" median_count="1669" min_count="1077" max_count="2260"/>
+			<enum code="C49488" count="2260">Yes</enum>
+			<enum code="C49487" count="1077">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="779.2" median_count="844" min_count="293" max_count="1395"/>
+			<enum code="C49488" count="1395">Yes</enum>
+			<enum code="C49487" count="293">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="57.28" median_count="824.5" min_count="784" max_count="865"/>
+			<enum code="C49488" count="865">Yes</enum>
+			<enum code="C49487" count="784">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076119.v1.p1.c1" var_name="hypertension" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Hypertension status</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2183378 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="836.5" median_count="1669" min_count="1077" max_count="2260"/>
+			<enum code="C49488" count="2260">Yes</enum>
+			<enum code="C49487" count="1077">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="779.2" median_count="844" min_count="293" max_count="1395"/>
+			<enum code="C49488" count="1395">Yes</enum>
+			<enum code="C49487" count="293">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="57.28" median_count="824.5" min_count="784" max_count="865"/>
+			<enum code="C49488" count="865">Yes</enum>
+			<enum code="C49487" count="784">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076120.v1.p1" var_name="Type_1_Diabetes" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Type 1 diabetes status</description>
+	<comment><![CDATA[At time of enrollment  -  NOTE: Possible is not part of the caDSR data element. 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2239985 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="1752" median_count="1669" min_count="430" max_count="2907"/>
+			<enum code="C49487" count="2907">No</enum>
+			<enum code="C49488" count="430">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="652" median_count="844" min_count="383" max_count="1305"/>
+			<enum code="C49487" count="1305">No</enum>
+			<enum code="C49488" count="383">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1100" median_count="824.5" min_count="47" max_count="1602"/>
+			<enum code="C49487" count="1602">No</enum>
+			<enum code="C49488" count="47">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076120.v1.p1.c1" var_name="Type_1_Diabetes" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Type 1 diabetes status</description>
+	<comment><![CDATA[At time of enrollment  -  NOTE: Possible is not part of the caDSR data element. 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2239985 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010). The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="1752" median_count="1669" min_count="430" max_count="2907"/>
+			<enum code="C49487" count="2907">No</enum>
+			<enum code="C49488" count="430">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="652" median_count="844" min_count="383" max_count="1305"/>
+			<enum code="C49487" count="1305">No</enum>
+			<enum code="C49488" count="383">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1100" median_count="824.5" min_count="47" max_count="1602"/>
+			<enum code="C49487" count="1602">No</enum>
+			<enum code="C49488" count="47">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076121.v1.p1" var_name="Type_2_Diabetes" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Type 2 diabetes status</description>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values. Y=yes; P=possible; N=no (T2D control); U=uncertain or otherwise excluded as a case or a control; not enough information  -  NOTE: Possible is not part of the caDSR data element. 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2635744 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="1562" median_count="1669" min_count="564" max_count="2773"/>
+			<enum code="C49487" count="2773">No</enum>
+			<enum code="C49488" count="564">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="586.9" median_count="844" min_count="429" max_count="1259"/>
+			<enum code="C49487" count="1259">No</enum>
+			<enum code="C49488" count="429">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="975.1" median_count="824.5" min_count="135" max_count="1514"/>
+			<enum code="C49487" count="1514">No</enum>
+			<enum code="C49488" count="135">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076121.v1.p1.c1" var_name="Type_2_Diabetes" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Type 2 diabetes status</description>
+	<comment><![CDATA[Indication could be from a diagnosis code, medications, or lab values. Y=yes; P=possible; N=no (T2D control); U=uncertain or otherwise excluded as a case or a control; not enough information  -  NOTE: Possible is not part of the caDSR data element. 
+		External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2635744 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus. ]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="1562" median_count="1669" min_count="564" max_count="2773"/>
+			<enum code="C49487" count="2773">No</enum>
+			<enum code="C49488" count="564">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="586.9" median_count="844" min_count="429" max_count="1259"/>
+			<enum code="C49487" count="1259">No</enum>
+			<enum code="C49488" count="429">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="975.1" median_count="824.5" min_count="135" max_count="1514"/>
+			<enum code="C49487" count="1514">No</enum>
+			<enum code="C49488" count="135">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076122.v1.p1" var_name="dyslipidemia" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Total cholesterol &gt;= 200 OR Triglycerides &gt;= 150 OR HDL cholesterol &lt;= 40 OR &#39;C49488=Yes&#39; (taking) lipid lowering medications</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2534931 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="132.2" median_count="1669" min_count="1575" max_count="1762"/>
+			<enum code="C49488" count="1762">Yes</enum>
+			<enum code="C49487" count="1575">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="178.2" median_count="844" min_count="718" max_count="970"/>
+			<enum code="C49488" count="970">Yes</enum>
+			<enum code="C49487" count="718">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="45.96" median_count="824.5" min_count="792" max_count="857"/>
+			<enum code="C49487" count="857">No</enum>
+			<enum code="C49488" count="792">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076122.v1.p1.c1" var_name="dyslipidemia" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Total cholesterol &gt;= 200 OR Triglycerides &gt;= 150 OR HDL cholesterol &lt;= 40 OR &#39;C49488=Yes&#39; (taking) lipid lowering medications</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2534931 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="132.2" median_count="1669" min_count="1575" max_count="1762"/>
+			<enum code="C49488" count="1762">Yes</enum>
+			<enum code="C49487" count="1575">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="178.2" median_count="844" min_count="718" max_count="970"/>
+			<enum code="C49488" count="970">Yes</enum>
+			<enum code="C49487" count="718">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="45.96" median_count="824.5" min_count="792" max_count="857"/>
+			<enum code="C49487" count="857">No</enum>
+			<enum code="C49488" count="792">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076123.v1.p1" var_name="Statin_Use_ABI_Date" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Was statin used on ABI/index date?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2480494 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="2280" median_count="1669" min_count="56" max_count="3281"/>
+			<enum code="C49487" count="3281">No</enum>
+			<enum code="C49488" count="56">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="1137" median_count="844" min_count="40" max_count="1648"/>
+			<enum code="C49487" count="1648">No</enum>
+			<enum code="C49488" count="40">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1143" median_count="824.5" min_count="16" max_count="1633"/>
+			<enum code="C49487" count="1633">No</enum>
+			<enum code="C49488" count="16">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076123.v1.p1.c1" var_name="Statin_Use_ABI_Date" calculated_type="enum_integer" reported_type="encoded value">
+	<description>Was statin used on ABI/index date?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2480494 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="2280" median_count="1669" min_count="56" max_count="3281"/>
+			<enum code="C49487" count="3281">No</enum>
+			<enum code="C49488" count="56">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="1137" median_count="844" min_count="40" max_count="1648"/>
+			<enum code="C49487" count="1648">No</enum>
+			<enum code="C49488" count="40">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1143" median_count="824.5" min_count="16" max_count="1633"/>
+			<enum code="C49487" count="1633">No</enum>
+			<enum code="C49488" count="16">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076124.v1.p1" var_name="Non_Statin_Lipid_Lowering_Drug" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Was any non-statin lipid lowering drug used?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2220270 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="2345" median_count="1669" min_count="10" max_count="3327"/>
+			<enum code="C49487" count="3327">No</enum>
+			<enum code="C49488" count="10">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="1187" median_count="844" min_count="5" max_count="1683"/>
+			<enum code="C49487" count="1683">No</enum>
+			<enum code="C49488" count="5">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1159" median_count="824.5" min_count="5" max_count="1644"/>
+			<enum code="C49487" count="1644">No</enum>
+			<enum code="C49488" count="5">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076124.v1.p1.c1" var_name="Non_Statin_Lipid_Lowering_Drug" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Was any non-statin lipid lowering drug used?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2220270 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="2345" median_count="1669" min_count="10" max_count="3327"/>
+			<enum code="C49487" count="3327">No</enum>
+			<enum code="C49488" count="10">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="1187" median_count="844" min_count="5" max_count="1683"/>
+			<enum code="C49487" count="1683">No</enum>
+			<enum code="C49488" count="5">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1159" median_count="824.5" min_count="5" max_count="1644"/>
+			<enum code="C49487" count="1644">No</enum>
+			<enum code="C49488" count="5">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076125.v1.p1" var_name="Serum_Total_Cholesterol" calculated_type="integer" units="Mg/dL" reported_type="decimal, encoded value">
+	<description>Modeled total cholesterol at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2655820 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1430</case>
+				<control>1597</control>
+			</case_control>
+			<sex>
+				<male>1894</male>
+				<female>1133</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3027" nulls="310" mean="197.3" sd="44.54" median="194" min="84" max="625"/>
+			<example count="42">186</example>
+			<example count="41">188</example>
+			<example count="39">206</example>
+			<example count="37">200</example>
+			<example count="34">213</example>
+			<example count="34">214</example>
+			<example count="34">196</example>
+			<example count="33">184</example>
+			<example count="32">201</example>
+			<example count="31">175</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>934</male>
+				<female>496</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1430" nulls="258" mean="190.7" sd="50.9" median="184" min="84" max="625"/>
+			<example count="21">156</example>
+			<example count="20">157</example>
+			<example count="19">186</example>
+			<example count="18">158</example>
+			<example count="18">193</example>
+			<example count="17">175</example>
+			<example count="17">184</example>
+			<example count="17">173</example>
+			<example count="16">191</example>
+			<example count="16">181</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>960</male>
+				<female>637</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1597" nulls="52" mean="203.2" sd="36.99" median="202" min="90" max="347"/>
+			<example count="26">188</example>
+			<example count="24">214</example>
+			<example count="23">213</example>
+			<example count="23">200</example>
+			<example count="23">186</example>
+			<example count="23">206</example>
+			<example count="21">211</example>
+			<example count="21">196</example>
+			<example count="21">201</example>
+			<example count="20">178</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076125.v1.p1.c1" var_name="Serum_Total_Cholesterol" calculated_type="integer" units="Mg/dL" reported_type="decimal, encoded value">
+	<description>Modeled total cholesterol at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2655820 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1430</case>
+				<control>1597</control>
+			</case_control>
+			<sex>
+				<male>1894</male>
+				<female>1133</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3027" nulls="310" mean="197.3" sd="44.54" median="194" min="84" max="625"/>
+			<example count="42">186</example>
+			<example count="41">188</example>
+			<example count="39">206</example>
+			<example count="37">200</example>
+			<example count="34">213</example>
+			<example count="34">214</example>
+			<example count="34">196</example>
+			<example count="33">184</example>
+			<example count="32">201</example>
+			<example count="31">175</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>934</male>
+				<female>496</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1430" nulls="258" mean="190.7" sd="50.9" median="184" min="84" max="625"/>
+			<example count="21">156</example>
+			<example count="20">157</example>
+			<example count="19">186</example>
+			<example count="18">158</example>
+			<example count="18">193</example>
+			<example count="17">175</example>
+			<example count="17">184</example>
+			<example count="17">173</example>
+			<example count="16">191</example>
+			<example count="16">181</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>960</male>
+				<female>637</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1597" nulls="52" mean="203.2" sd="36.99" median="202" min="90" max="347"/>
+			<example count="26">188</example>
+			<example count="24">214</example>
+			<example count="23">213</example>
+			<example count="23">200</example>
+			<example count="23">186</example>
+			<example count="23">206</example>
+			<example count="21">211</example>
+			<example count="21">196</example>
+			<example count="21">201</example>
+			<example count="20">178</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076126.v1.p1" var_name="Serum_HDL_Cholesterol" calculated_type="integer" units="Mg/dL" reported_type="Decimal, encoded value">
+	<description>Modeled HDL cholesterol at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2655832 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1423</case>
+				<control>1596</control>
+			</case_control>
+			<sex>
+				<male>1891</male>
+				<female>1128</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3019" nulls="318" mean="52.47" sd="16.87" median="49" min="14" max="169"/>
+			<example count="90">40</example>
+			<example count="89">43</example>
+			<example count="86">42</example>
+			<example count="85">49</example>
+			<example count="83">36</example>
+			<example count="83">41</example>
+			<example count="81">44</example>
+			<example count="80">47</example>
+			<example count="79">48</example>
+			<example count="79">53</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>931</male>
+				<female>492</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1423" nulls="265" mean="48.06" sd="15.29" median="45" min="14" max="130"/>
+			<example count="57">36</example>
+			<example count="52">37</example>
+			<example count="48">42</example>
+			<example count="47">40</example>
+			<example count="45">35</example>
+			<example count="45">41</example>
+			<example count="45">44</example>
+			<example count="43">43</example>
+			<example count="41">46</example>
+			<example count="41">38</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>960</male>
+				<female>636</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1596" nulls="53" mean="56.42" sd="17.23" median="54" min="19" max="169"/>
+			<example count="48">49</example>
+			<example count="46">43</example>
+			<example count="45">48</example>
+			<example count="45">54</example>
+			<example count="43">40</example>
+			<example count="43">47</example>
+			<example count="42">61</example>
+			<example count="42">53</example>
+			<example count="40">57</example>
+			<example count="39">59</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076126.v1.p1.c1" var_name="Serum_HDL_Cholesterol" calculated_type="integer" units="Mg/dL" reported_type="Decimal, encoded value">
+	<description>Modeled HDL cholesterol at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2655832 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1423</case>
+				<control>1596</control>
+			</case_control>
+			<sex>
+				<male>1891</male>
+				<female>1128</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3019" nulls="318" mean="52.47" sd="16.87" median="49" min="14" max="169"/>
+			<example count="90">40</example>
+			<example count="89">43</example>
+			<example count="86">42</example>
+			<example count="85">49</example>
+			<example count="83">36</example>
+			<example count="83">41</example>
+			<example count="81">44</example>
+			<example count="80">47</example>
+			<example count="79">48</example>
+			<example count="79">53</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>931</male>
+				<female>492</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1423" nulls="265" mean="48.06" sd="15.29" median="45" min="14" max="130"/>
+			<example count="57">36</example>
+			<example count="52">37</example>
+			<example count="48">42</example>
+			<example count="47">40</example>
+			<example count="45">35</example>
+			<example count="45">41</example>
+			<example count="45">44</example>
+			<example count="43">43</example>
+			<example count="41">46</example>
+			<example count="41">38</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>960</male>
+				<female>636</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1596" nulls="53" mean="56.42" sd="17.23" median="54" min="19" max="169"/>
+			<example count="48">49</example>
+			<example count="46">43</example>
+			<example count="45">48</example>
+			<example count="45">54</example>
+			<example count="43">40</example>
+			<example count="43">47</example>
+			<example count="42">61</example>
+			<example count="42">53</example>
+			<example count="40">57</example>
+			<example count="39">59</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076127.v1.p1" var_name="Serum_LDL_Cholesterol" calculated_type="integer" units="Mg/dL" reported_type="Decimal, encoded value">
+	<description>Modeled LDL cholesterol at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2656096 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1369</case>
+				<control>1586</control>
+			</case_control>
+			<sex>
+				<male>1847</male>
+				<female>1108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2955" nulls="340" mean="113.2" sd="36.13" median="110" min="21" max="307"/>
+			<example count="45">105</example>
+			<example count="42">108</example>
+			<example code="." count="42">Missing value</example>
+			<example count="41">99</example>
+			<example count="40">106</example>
+			<example count="40">107</example>
+			<example count="38">115</example>
+			<example count="37">101</example>
+			<example count="37">117</example>
+			<example count="36">110</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>894</male>
+				<female>475</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1369" nulls="287" mean="106.4" sd="38.91" median="101" min="21" max="307"/>
+			<example code="." count="32">Missing value</example>
+			<example count="26">79</example>
+			<example count="23">76</example>
+			<example count="21">99</example>
+			<example count="21">88</example>
+			<example count="20">105</example>
+			<example count="19">101</example>
+			<example count="19">117</example>
+			<example count="19">90</example>
+			<example count="18">108</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>953</male>
+				<female>633</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1586" nulls="53" mean="119" sd="32.45" median="117" min="34" max="268"/>
+			<example count="29">107</example>
+			<example count="27">106</example>
+			<example count="25">105</example>
+			<example count="25">129</example>
+			<example count="24">108</example>
+			<example count="24">110</example>
+			<example count="24">115</example>
+			<example count="22">116</example>
+			<example count="22">119</example>
+			<example count="21">136</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076127.v1.p1.c1" var_name="Serum_LDL_Cholesterol" calculated_type="integer" units="Mg/dL" reported_type="Decimal, encoded value">
+	<description>Modeled LDL cholesterol at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2656096 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1369</case>
+				<control>1586</control>
+			</case_control>
+			<sex>
+				<male>1847</male>
+				<female>1108</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2955" nulls="340" mean="113.2" sd="36.13" median="110" min="21" max="307"/>
+			<example count="45">105</example>
+			<example count="42">108</example>
+			<example code="." count="42">Missing value</example>
+			<example count="41">99</example>
+			<example count="40">106</example>
+			<example count="40">107</example>
+			<example count="38">115</example>
+			<example count="37">101</example>
+			<example count="37">117</example>
+			<example count="36">110</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>894</male>
+				<female>475</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1369" nulls="287" mean="106.4" sd="38.91" median="101" min="21" max="307"/>
+			<example code="." count="32">Missing value</example>
+			<example count="26">79</example>
+			<example count="23">76</example>
+			<example count="21">99</example>
+			<example count="21">88</example>
+			<example count="20">105</example>
+			<example count="19">101</example>
+			<example count="19">117</example>
+			<example count="19">90</example>
+			<example count="18">108</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>953</male>
+				<female>633</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1586" nulls="53" mean="119" sd="32.45" median="117" min="34" max="268"/>
+			<example count="29">107</example>
+			<example count="27">106</example>
+			<example count="25">105</example>
+			<example count="25">129</example>
+			<example count="24">108</example>
+			<example count="24">110</example>
+			<example count="24">115</example>
+			<example count="22">116</example>
+			<example count="22">119</example>
+			<example count="21">136</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076128.v1.p1" var_name="Triglycerides" calculated_type="integer" units="Mg/dL" reported_type="Decimal, encoded value">
+	<description>Modeled triglycerides at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2656092 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1428</case>
+				<control>1598</control>
+			</case_control>
+			<sex>
+				<male>1895</male>
+				<female>1131</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3026" nulls="311" mean="162.2" sd="174.7" median="132" min="32" max="6530"/>
+			<example count="33">114</example>
+			<example count="29">101</example>
+			<example count="27">98</example>
+			<example count="27">118</example>
+			<example count="27">84</example>
+			<example count="25">96</example>
+			<example count="25">91</example>
+			<example count="25">90</example>
+			<example count="24">94</example>
+			<example count="24">95</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>934</male>
+				<female>494</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1428" nulls="260" mean="187.3" sd="237.5" median="147" min="32" max="6530"/>
+			<example count="14">124</example>
+			<example count="13">80</example>
+			<example count="13">103</example>
+			<example count="12">158</example>
+			<example count="12">90</example>
+			<example count="12">157</example>
+			<example count="12">121</example>
+			<example count="12">115</example>
+			<example count="12">114</example>
+			<example count="12">104</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>961</male>
+				<female>637</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1598" nulls="51" mean="139.8" sd="79.75" median="120" min="32" max="844"/>
+			<example count="21">114</example>
+			<example count="19">96</example>
+			<example count="19">138</example>
+			<example count="19">84</example>
+			<example count="18">101</example>
+			<example count="17">69</example>
+			<example count="17">98</example>
+			<example count="17">118</example>
+			<example count="16">64</example>
+			<example count="16">93</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076128.v1.p1.c1" var_name="Triglycerides" calculated_type="integer" units="Mg/dL" reported_type="Decimal, encoded value">
+	<description>Modeled triglycerides at age 50</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2656092 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1428</case>
+				<control>1598</control>
+			</case_control>
+			<sex>
+				<male>1895</male>
+				<female>1131</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3026" nulls="311" mean="162.2" sd="174.7" median="132" min="32" max="6530"/>
+			<example count="33">114</example>
+			<example count="29">101</example>
+			<example count="27">98</example>
+			<example count="27">118</example>
+			<example count="27">84</example>
+			<example count="25">96</example>
+			<example count="25">91</example>
+			<example count="25">90</example>
+			<example count="24">94</example>
+			<example count="24">95</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>934</male>
+				<female>494</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1428" nulls="260" mean="187.3" sd="237.5" median="147" min="32" max="6530"/>
+			<example count="14">124</example>
+			<example count="13">80</example>
+			<example count="13">103</example>
+			<example count="12">158</example>
+			<example count="12">90</example>
+			<example count="12">157</example>
+			<example count="12">121</example>
+			<example count="12">115</example>
+			<example count="12">114</example>
+			<example count="12">104</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>961</male>
+				<female>637</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1598" nulls="51" mean="139.8" sd="79.75" median="120" min="32" max="844"/>
+			<example count="21">114</example>
+			<example count="19">96</example>
+			<example count="19">138</example>
+			<example count="19">84</example>
+			<example count="18">101</example>
+			<example count="17">69</example>
+			<example count="17">98</example>
+			<example count="17">118</example>
+			<example count="16">64</example>
+			<example count="16">93</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076129.v1.p1" var_name="ABI_Pre_Exercise" calculated_type="decimal" reported_type="Decimal, encoded value">
+	<description>Ankle-Brachial Index measurement at rest or pre-exercise</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2261686 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1447</case>
+				<control>669</control>
+			</case_control>
+			<sex>
+				<male>1314</male>
+				<female>802</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2116" nulls="1221" mean="0.8152" sd="0.2905" median="0.8488" min="0" max="1.57"/>
+			<example count="52">1.1</example>
+			<example count="42">1.07</example>
+			<example count="41">1.05</example>
+			<example count="41">1.12</example>
+			<example count="39">1.14</example>
+			<example count="38">1.01</example>
+			<example count="38">1.15</example>
+			<example count="36">1.08</example>
+			<example count="34">1.09</example>
+			<example count="33">1.17</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>897</male>
+				<female>550</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1447" nulls="241" mean="0.6782" sd="0.248" median="0.6707" min="0" max="1.57"/>
+			<example count="22">1</example>
+			<example count="21">0.5</example>
+			<example count="19">0.99</example>
+			<example count="18">1.01</example>
+			<example count="16">1.05</example>
+			<example count="16">0.96</example>
+			<example count="15">0.91</example>
+			<example count="14">0.98</example>
+			<example count="14">0.8</example>
+			<example count="14">1.03</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>417</male>
+				<female>252</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="669" nulls="980" mean="1.111" sd="0.07447" median="1.11" min="0.9" max="1.32"/>
+			<example count="42">1.1</example>
+			<example count="36">1.12</example>
+			<example count="35">1.14</example>
+			<example count="35">1.15</example>
+			<example count="34">1.08</example>
+			<example count="33">1.17</example>
+			<example count="32">1.07</example>
+			<example count="32">1.16</example>
+			<example count="30">1.09</example>
+			<example count="28">1.19</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076129.v1.p1.c1" var_name="ABI_Pre_Exercise" calculated_type="decimal" reported_type="Decimal, encoded value">
+	<description>Ankle-Brachial Index measurement at rest or pre-exercise</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2261686 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1447</case>
+				<control>669</control>
+			</case_control>
+			<sex>
+				<male>1314</male>
+				<female>802</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2116" nulls="1221" mean="0.8152" sd="0.2905" median="0.8488" min="0" max="1.57"/>
+			<example count="52">1.1</example>
+			<example count="42">1.07</example>
+			<example count="41">1.05</example>
+			<example count="41">1.12</example>
+			<example count="39">1.14</example>
+			<example count="38">1.01</example>
+			<example count="38">1.15</example>
+			<example count="36">1.08</example>
+			<example count="34">1.09</example>
+			<example count="33">1.17</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>897</male>
+				<female>550</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1447" nulls="241" mean="0.6782" sd="0.248" median="0.6707" min="0" max="1.57"/>
+			<example count="22">1</example>
+			<example count="21">0.5</example>
+			<example count="19">0.99</example>
+			<example count="18">1.01</example>
+			<example count="16">1.05</example>
+			<example count="16">0.96</example>
+			<example count="15">0.91</example>
+			<example count="14">0.98</example>
+			<example count="14">0.8</example>
+			<example count="14">1.03</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>417</male>
+				<female>252</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="669" nulls="980" mean="1.111" sd="0.07447" median="1.11" min="0.9" max="1.32"/>
+			<example count="42">1.1</example>
+			<example count="36">1.12</example>
+			<example count="35">1.14</example>
+			<example count="35">1.15</example>
+			<example count="34">1.08</example>
+			<example count="33">1.17</example>
+			<example count="32">1.07</example>
+			<example count="32">1.16</example>
+			<example count="30">1.09</example>
+			<example count="28">1.19</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076130.v1.p1" var_name="ABI_Post_Exercise" calculated_type="decimal" reported_type="Decimal, encoded value">
+	<description>Ankle-Brachial Index measurement after exercise</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2261686 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>972</case>
+				<control>97</control>
+			</case_control>
+			<sex>
+				<male>665</male>
+				<female>404</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1069" nulls="2268" mean="0.5274" sd="0.2978" median="0.4744" min="0" max="1.51"/>
+			<example count="13">0</example>
+			<example count="9">0.25</example>
+			<example count="7">1</example>
+			<example count="7">1.05</example>
+			<example count="7">0.4</example>
+			<example count="7">0.3</example>
+			<example count="7">0.333333333</example>
+			<example count="6">0.2</example>
+			<example count="5">0.27</example>
+			<example count="5">0.5</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>613</male>
+				<female>359</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="972" nulls="716" mean="0.4721" sd="0.2499" median="0.4171" min="0" max="1.14"/>
+			<example count="13">0</example>
+			<example count="9">0.25</example>
+			<example count="7">0.4</example>
+			<example count="7">0.3</example>
+			<example count="7">0.333333333</example>
+			<example count="6">0.2</example>
+			<example count="5">0.27</example>
+			<example count="5">0.5</example>
+			<example count="5">0.24</example>
+			<example count="4">0.847058824</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>52</male>
+				<female>45</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="97" nulls="1552" mean="1.081" sd="0.1183" median="1.07" min="0.5978" max="1.51"/>
+			<example count="7">1.05</example>
+			<example count="6">1</example>
+			<example count="5">1.18</example>
+			<example count="5">1.12</example>
+			<example count="4">0.98</example>
+			<example count="4">1.04</example>
+			<example count="4">1.06</example>
+			<example count="4">1.07</example>
+			<example count="4">1.03</example>
+			<example count="4">1.13</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076130.v1.p1.c1" var_name="ABI_Post_Exercise" calculated_type="decimal" reported_type="Decimal, encoded value">
+	<description>Ankle-Brachial Index measurement after exercise</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2261686 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>972</case>
+				<control>97</control>
+			</case_control>
+			<sex>
+				<male>665</male>
+				<female>404</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1069" nulls="2268" mean="0.5274" sd="0.2978" median="0.4744" min="0" max="1.51"/>
+			<example count="13">0</example>
+			<example count="9">0.25</example>
+			<example count="7">1</example>
+			<example count="7">1.05</example>
+			<example count="7">0.4</example>
+			<example count="7">0.3</example>
+			<example count="7">0.333333333</example>
+			<example count="6">0.2</example>
+			<example count="5">0.27</example>
+			<example count="5">0.5</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>613</male>
+				<female>359</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="972" nulls="716" mean="0.4721" sd="0.2499" median="0.4171" min="0" max="1.14"/>
+			<example count="13">0</example>
+			<example count="9">0.25</example>
+			<example count="7">0.4</example>
+			<example count="7">0.3</example>
+			<example count="7">0.333333333</example>
+			<example count="6">0.2</example>
+			<example count="5">0.27</example>
+			<example count="5">0.5</example>
+			<example count="5">0.24</example>
+			<example count="4">0.847058824</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>52</male>
+				<female>45</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="97" nulls="1552" mean="1.081" sd="0.1183" median="1.07" min="0.5978" max="1.51"/>
+			<example count="7">1.05</example>
+			<example count="6">1</example>
+			<example count="5">1.18</example>
+			<example count="5">1.12</example>
+			<example count="4">0.98</example>
+			<example count="4">1.04</example>
+			<example count="4">1.06</example>
+			<example count="4">1.07</example>
+			<example count="4">1.03</example>
+			<example count="4">1.13</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076131.v1.p1" var_name="Non_Compressible_Vessel" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Does patient have non-compressible vessels?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3017441 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="2030" median_count="1669" min_count="233" max_count="3104"/>
+			<enum code="C49487" count="3104">No</enum>
+			<enum code="C49488" count="233">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="864.1" median_count="844" min_count="233" max_count="1455"/>
+			<enum code="C49487" count="1455">No</enum>
+			<enum code="C49488" count="233">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="1649" median_count="1649" min_count="1649" max_count="1649"/>
+			<enum code="C49487" count="1649">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076131.v1.p1.c1" var_name="Non_Compressible_Vessel" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Does patient have non-compressible vessels?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3017441 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="2030" median_count="1669" min_count="233" max_count="3104"/>
+			<enum code="C49487" count="3104">No</enum>
+			<enum code="C49488" count="233">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="864.1" median_count="844" min_count="233" max_count="1455"/>
+			<enum code="C49487" count="1455">No</enum>
+			<enum code="C49488" count="233">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="1649" median_count="1649" min_count="1649" max_count="1649"/>
+			<enum code="C49487" count="1649">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076132.v1.p1" var_name="Coronary_Heart_Disease_History" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Includes history of heart attack, unstable angina, bypass surgery, coronary angioplasty/stenting</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2195439 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="683.8" median_count="1669" min_count="1185" max_count="2152"/>
+			<enum code="C49487" count="2152">No</enum>
+			<enum code="C49488" count="1185">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="116" median_count="844" min_count="762" max_count="926"/>
+			<enum code="C49488" count="926">Yes</enum>
+			<enum code="C49487" count="762">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="799.7" median_count="824.5" min_count="259" max_count="1390"/>
+			<enum code="C49487" count="1390">No</enum>
+			<enum code="C49488" count="259">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076132.v1.p1.c1" var_name="Coronary_Heart_Disease_History" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Includes history of heart attack, unstable angina, bypass surgery, coronary angioplasty/stenting</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2195439 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="683.8" median_count="1669" min_count="1185" max_count="2152"/>
+			<enum code="C49487" count="2152">No</enum>
+			<enum code="C49488" count="1185">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="116" median_count="844" min_count="762" max_count="926"/>
+			<enum code="C49488" count="926">Yes</enum>
+			<enum code="C49487" count="762">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="799.7" median_count="824.5" min_count="259" max_count="1390"/>
+			<enum code="C49487" count="1390">No</enum>
+			<enum code="C49488" count="259">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076133.v1.p1" var_name="Cerebrovascular_Disease_History" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Includes history of stroke, carotid endarterectomy, carotid angioplasty</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2180040 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="1471" median_count="1669" min_count="628" max_count="2709"/>
+			<enum code="C49487" count="2709">No</enum>
+			<enum code="C49488" count="628">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="410.1" median_count="844" min_count="554" max_count="1134"/>
+			<enum code="C49487" count="1134">No</enum>
+			<enum code="C49488" count="554">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1061" median_count="824.5" min_count="74" max_count="1575"/>
+			<enum code="C49487" count="1575">No</enum>
+			<enum code="C49488" count="74">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076133.v1.p1.c1" var_name="Cerebrovascular_Disease_History" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Includes history of stroke, carotid endarterectomy, carotid angioplasty</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2180040 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="1471" median_count="1669" min_count="628" max_count="2709"/>
+			<enum code="C49487" count="2709">No</enum>
+			<enum code="C49488" count="628">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="410.1" median_count="844" min_count="554" max_count="1134"/>
+			<enum code="C49487" count="1134">No</enum>
+			<enum code="C49488" count="554">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="1061" median_count="824.5" min_count="74" max_count="1575"/>
+			<enum code="C49487" count="1575">No</enum>
+			<enum code="C49488" count="74">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076134.v1.p1" var_name="Stress_Test" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Does the patient have treadmill stress test results?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3014599 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="149.2" median_count="1669" min_count="1563" max_count="1774"/>
+			<enum code="C49488" count="1774">Yes</enum>
+			<enum code="C49487" count="1563">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="709.9" median_count="844" min_count="342" max_count="1346"/>
+			<enum code="C49487" count="1346">No</enum>
+			<enum code="C49488" count="342">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="859.1" median_count="824.5" min_count="217" max_count="1432"/>
+			<enum code="C49488" count="1432">Yes</enum>
+			<enum code="C49487" count="217">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076134.v1.p1.c1" var_name="Stress_Test" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Does the patient have treadmill stress test results?</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 3014599 (Public ID)   NOTE: The codes from NCI Thesaurus are based on the Version 10.07d (July 26, 2010).  The source files can be accessed from: http://evs.nci.nih.gov/ftp1/NCI_Thesaurus]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean_count="1669" sd="149.2" median_count="1669" min_count="1563" max_count="1774"/>
+			<enum code="C49488" count="1774">Yes</enum>
+			<enum code="C49487" count="1563">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean_count="844" sd="709.9" median_count="844" min_count="342" max_count="1346"/>
+			<enum code="C49487" count="1346">No</enum>
+			<enum code="C49488" count="342">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean_count="824.5" sd="859.1" median_count="824.5" min_count="217" max_count="1432"/>
+			<enum code="C49488" count="1432">Yes</enum>
+			<enum code="C49487" count="217">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076135.v1.p1" var_name="Observation_Age" calculated_type="integer" units="Years" reported_type="Integer, encoded value">
+	<description>Age when clinical event recorded in record</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2003852 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean="63.21" sd="9.517" median="62" min="18" max="&gt;89"/>
+			<example count="161">61</example>
+			<example count="144">58</example>
+			<example count="141">66</example>
+			<example count="140">54</example>
+			<example count="139">60</example>
+			<example count="137">64</example>
+			<example count="132">57</example>
+			<example count="131">59</example>
+			<example count="130">55</example>
+			<example count="124">65</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean="65.62" sd="10.68" median="66" min="22" max="&gt;89"/>
+			<example count="87">66</example>
+			<example count="83">67</example>
+			<example count="82">68</example>
+			<example count="76">69</example>
+			<example count="62">65</example>
+			<example count="59">61</example>
+			<example count="59">64</example>
+			<example count="55">70</example>
+			<example count="54">62</example>
+			<example count="50">58</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean="60.74" sd="7.388" median="60" min="18" max="89"/>
+			<example count="102">61</example>
+			<example count="101">54</example>
+			<example count="97">57</example>
+			<example count="94">58</example>
+			<example count="91">55</example>
+			<example count="89">60</example>
+			<example count="89">59</example>
+			<example count="83">53</example>
+			<example count="80">56</example>
+			<example count="78">64</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00076135.v1.p1.c1" var_name="Observation_Age" calculated_type="integer" units="Years" reported_type="Integer, encoded value">
+	<description>Age when clinical event recorded in record</description>
+	<comment><![CDATA[External variable resource: <a href="https://cdebrowser.nci.nih.gov">caDSR</a>; enter source ID: 2003852 (Public ID)]]></comment>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1688</case>
+				<control>1649</control>
+			</case_control>
+			<sex>
+				<male>2072</male>
+				<female>1265</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="3337" nulls="0" mean="63.21" sd="9.517" median="62" min="18" max="&gt;89"/>
+			<example count="161">61</example>
+			<example count="144">58</example>
+			<example count="141">66</example>
+			<example count="140">54</example>
+			<example count="139">60</example>
+			<example count="137">64</example>
+			<example count="132">57</example>
+			<example count="131">59</example>
+			<example count="130">55</example>
+			<example count="124">65</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>1081</male>
+				<female>607</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1688" nulls="0" mean="65.62" sd="10.68" median="66" min="22" max="&gt;89"/>
+			<example count="87">66</example>
+			<example count="83">67</example>
+			<example count="82">68</example>
+			<example count="76">69</example>
+			<example count="62">65</example>
+			<example count="59">61</example>
+			<example count="59">64</example>
+			<example count="55">70</example>
+			<example count="54">62</example>
+			<example count="50">58</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>991</male>
+				<female>658</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1649" nulls="0" mean="60.74" sd="7.388" median="60" min="18" max="89"/>
+			<example count="102">61</example>
+			<example count="101">54</example>
+			<example count="97">57</example>
+			<example count="94">58</example>
+			<example count="91">55</example>
+			<example count="89">60</example>
+			<example count="89">59</example>
+			<example count="83">53</example>
+			<example count="80">56</example>
+			<example count="78">64</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00129447.v1.p1" var_name="ABI_Comment" calculated_type="string" reported_type="string">
+	<description>Textual comments about confirming why the subject is a PAD case based on the ABI measurement</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>61</case>
+				<control>15</control>
+			</case_control>
+			<sex>
+				<male>44</male>
+				<female>32</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="76" nulls="3261"/>
+			<example count="23">confirmed by Dr. K</example>
+			<example count="7">po-ex doppler signals of right not heard; Case...</example>
+			<example count="4">doppler signal not heard; Case where pre-exerci...</example>
+			<example count="3">status confirmed by Dr. K</example>
+			<example count="3">labeled based on preABI&lt;0.9; Case where post-ex...</example>
+			<example count="3">poABI =0;doppler not heard</example>
+			<example count="2">po-ex doppler signals of left not heard; Case w...</example>
+			<example count="1">Physician note of decreased exercise ABI, ASO;...</example>
+			<example count="1">amputation no ABI</example>
+			<example count="1">confirmed by Dr. K; consent K(2008)</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>37</male>
+				<female>24</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="61" nulls="1627"/>
+			<example count="15">confirmed by Dr. K</example>
+			<example count="7">po-ex doppler signals of right not heard; Case...</example>
+			<example count="4">doppler signal not heard; Case where pre-exerci...</example>
+			<example count="3">labeled based on preABI&lt;0.9; Case where post-ex...</example>
+			<example count="3">poABI =0;doppler not heard</example>
+			<example count="2">po-ex doppler signals of left not heard; Case w...</example>
+			<example count="1">Physician note of decreased exercise ABI, ASO;...</example>
+			<example count="1">amputation no ABI</example>
+			<example count="1">Documented ASO. bilateral femoral popliteal byp...</example>
+			<example count="1">PAD;&quot;Right lower extremity arterial occlusive d...</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>7</male>
+				<female>8</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="15" nulls="1634"/>
+			<enum count="8">confirmed by Dr. K</enum>
+			<enum count="3">status confirmed by Dr. K</enum>
+			<enum count="1">confirmed by Dr. K; consent K(2008)</enum>
+			<enum count="1">not in vasc and Dr. M&#39;s list</enum>
+			<enum count="1">confirmed by Dr. K: Popliteal entrapment</enum>
+			<enum count="1">confirmed by Dr. K; consent K(2009)</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00129447.v1.p1.c1" var_name="ABI_Comment" calculated_type="string" reported_type="string">
+	<description>Textual comments about confirming why the subject is a PAD case based on the ABI measurement</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>61</case>
+				<control>15</control>
+			</case_control>
+			<sex>
+				<male>44</male>
+				<female>32</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="76" nulls="3261"/>
+			<example count="23">confirmed by Dr. K</example>
+			<example count="7">po-ex doppler signals of right not heard; Case...</example>
+			<example count="4">doppler signal not heard; Case where pre-exerci...</example>
+			<example count="3">status confirmed by Dr. K</example>
+			<example count="3">labeled based on preABI&lt;0.9; Case where post-ex...</example>
+			<example count="3">poABI =0;doppler not heard</example>
+			<example count="2">po-ex doppler signals of left not heard; Case w...</example>
+			<example count="1">Physician note of decreased exercise ABI, ASO;...</example>
+			<example count="1">amputation no ABI</example>
+			<example count="1">confirmed by Dr. K; consent K(2008)</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>37</male>
+				<female>24</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="61" nulls="1627"/>
+			<example count="15">confirmed by Dr. K</example>
+			<example count="7">po-ex doppler signals of right not heard; Case...</example>
+			<example count="4">doppler signal not heard; Case where pre-exerci...</example>
+			<example count="3">labeled based on preABI&lt;0.9; Case where post-ex...</example>
+			<example count="3">poABI =0;doppler not heard</example>
+			<example count="2">po-ex doppler signals of left not heard; Case w...</example>
+			<example count="1">Physician note of decreased exercise ABI, ASO;...</example>
+			<example count="1">amputation no ABI</example>
+			<example count="1">Documented ASO. bilateral femoral popliteal byp...</example>
+			<example count="1">PAD;&quot;Right lower extremity arterial occlusive d...</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>7</male>
+				<female>8</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="15" nulls="1634"/>
+			<enum count="8">confirmed by Dr. K</enum>
+			<enum count="3">status confirmed by Dr. K</enum>
+			<enum count="1">confirmed by Dr. K; consent K(2008)</enum>
+			<enum count="1">not in vasc and Dr. M&#39;s list</enum>
+			<enum count="1">confirmed by Dr. K: Popliteal entrapment</enum>
+			<enum count="1">confirmed by Dr. K; consent K(2009)</enum>
+		</stats>
+	</controls>
+</variable>
+
+</data_table>
+

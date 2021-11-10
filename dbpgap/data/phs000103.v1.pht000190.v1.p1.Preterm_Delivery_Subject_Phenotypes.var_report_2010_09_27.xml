@@ -1,0 +1,5113 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="varreports_v3.xsl"?>
+<data_table name="Preterm_Delivery_Subject_Phenotypes" dataset_id="pht000190.v1" study_name="GENEVA Study of Preterm Delivery (DNBC/Iowa)" study_id="phs000103.v1" participant_set="1" date_created="09/27/2010">
+
+<variable id="phv00024328.v1.p1" var_name="sex" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child&#39;s sex, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="83.44" median_count="1034" min_count="975" max_count="1093"/>
+			<enum code="1" count="1093">Male</enum>
+			<enum code="2" count="975">Female</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="47.38" median_count="503.5" min_count="470" max_count="537"/>
+			<enum code="1" count="537">Male</enum>
+			<enum code="2" count="470">Female</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="32.53" median_count="494" min_count="471" max_count="517"/>
+			<enum code="1" count="517">Male</enum>
+			<enum code="2" count="471">Female</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024328.v1.p1.c1" var_name="sex" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child&#39;s sex, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="83.44" median_count="1034" min_count="975" max_count="1093"/>
+			<enum code="1" count="1093">Male</enum>
+			<enum code="2" count="975">Female</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="47.38" median_count="503.5" min_count="470" max_count="537"/>
+			<enum code="1" count="537">Male</enum>
+			<enum code="2" count="470">Female</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="32.53" median_count="494" min_count="471" max_count="517"/>
+			<enum code="1" count="517">Male</enum>
+			<enum code="2" count="471">Female</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024330.v1.p1" var_name="respirator" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child admitted to the NICU after birth and placed on a respirator (from the Medical Birth Register)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>987</control>
+			</case_control>
+			<sex>
+				<male>1088</male>
+				<female>972</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2060" nulls="8" mean_count="1030" sd="1442" median_count="1030" min_count="10" max_count="2050"/>
+			<enum code="0" count="2050">No</enum>
+			<enum code="1" count="10">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>532</male>
+				<female>468</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="7" mean_count="500" sd="693" median_count="500" min_count="10" max_count="990"/>
+			<enum code="0" count="990">No</enum>
+			<enum code="1" count="10">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="987" nulls="1" mean_count="987" median_count="987" min_count="987" max_count="987"/>
+			<enum code="0" count="987">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024330.v1.p1.c1" var_name="respirator" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child admitted to the NICU after birth and placed on a respirator (from the Medical Birth Register)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>987</control>
+			</case_control>
+			<sex>
+				<male>1088</male>
+				<female>972</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2060" nulls="8" mean_count="1030" sd="1442" median_count="1030" min_count="10" max_count="2050"/>
+			<enum code="0" count="2050">No</enum>
+			<enum code="1" count="10">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>532</male>
+				<female>468</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="7" mean_count="500" sd="693" median_count="500" min_count="10" max_count="990"/>
+			<enum code="0" count="990">No</enum>
+			<enum code="1" count="10">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="987" nulls="1" mean_count="987" median_count="987" min_count="987" max_count="987"/>
+			<enum code="0" count="987">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024331.v1.p1" var_name="premie" calculated_type="enum_integer" reported_type="Encoded integer">
+	<description>Indicator of case/control status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="689.3" sd="533.8" median_count="988" min_count="73" max_count="1007"/>
+			<enum code="1" count="1007">Preterm delivery (case)</enum>
+			<enum code="0" count="988">Term delivery (control)</enum>
+			<enum code="9" count="73">Neither case nor control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="1007" median_count="1007" min_count="1007" max_count="1007"/>
+			<enum code="1" count="1007">Preterm delivery (case)</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">Term delivery (control)</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024331.v1.p1.c1" var_name="premie" calculated_type="enum_integer" reported_type="Encoded integer">
+	<description>Indicator of case/control status</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="689.3" sd="533.8" median_count="988" min_count="73" max_count="1007"/>
+			<enum code="1" count="1007">Preterm delivery (case)</enum>
+			<enum code="0" count="988">Term delivery (control)</enum>
+			<enum code="9" count="73">Neither case nor control</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="1007" median_count="1007" min_count="1007" max_count="1007"/>
+			<enum code="1" count="1007">Preterm delivery (case)</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">Term delivery (control)</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024334.v1.p1" var_name="oral_herpes" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported suffering from oral herpes in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>666</case>
+				<control>942</control>
+			</case_control>
+			<sex>
+				<male>866</male>
+				<female>803</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1669" nulls="399" mean_count="834.5" sd="898.7" median_count="834.5" min_count="199" max_count="1470"/>
+			<enum code="0" count="1470">No</enum>
+			<enum code="1" count="199">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>336</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="666" nulls="341" mean_count="333" sd="343.7" median_count="333" min_count="90" max_count="576"/>
+			<enum code="0" count="576">No</enum>
+			<enum code="1" count="90">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>447</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="942" nulls="46" mean_count="471" sd="528.9" median_count="471" min_count="97" max_count="845"/>
+			<enum code="0" count="845">No</enum>
+			<enum code="1" count="97">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024334.v1.p1.c1" var_name="oral_herpes" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported suffering from oral herpes in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>666</case>
+				<control>942</control>
+			</case_control>
+			<sex>
+				<male>866</male>
+				<female>803</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1669" nulls="399" mean_count="834.5" sd="898.7" median_count="834.5" min_count="199" max_count="1470"/>
+			<enum code="0" count="1470">No</enum>
+			<enum code="1" count="199">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>336</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="666" nulls="341" mean_count="333" sd="343.7" median_count="333" min_count="90" max_count="576"/>
+			<enum code="0" count="576">No</enum>
+			<enum code="1" count="90">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>447</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="942" nulls="46" mean_count="471" sd="528.9" median_count="471" min_count="97" max_count="845"/>
+			<enum code="0" count="845">No</enum>
+			<enum code="1" count="97">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024335.v1.p1" var_name="genital_herpes" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported suffering from genital herpes in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>666</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>805</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1673" nulls="395" mean_count="836.5" sd="1142" median_count="836.5" min_count="29" max_count="1644"/>
+			<enum code="0" count="1644">No</enum>
+			<enum code="1" count="29">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>328</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="666" nulls="341" mean_count="333" sd="449.7" median_count="333" min_count="15" max_count="651"/>
+			<enum code="0" count="651">No</enum>
+			<enum code="1" count="15">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="648.4" median_count="472.5" min_count="14" max_count="931"/>
+			<enum code="0" count="931">No</enum>
+			<enum code="1" count="14">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024335.v1.p1.c1" var_name="genital_herpes" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported suffering from genital herpes in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>666</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>805</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1673" nulls="395" mean_count="836.5" sd="1142" median_count="836.5" min_count="29" max_count="1644"/>
+			<enum code="0" count="1644">No</enum>
+			<enum code="1" count="29">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>328</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="666" nulls="341" mean_count="333" sd="449.7" median_count="333" min_count="15" max_count="651"/>
+			<enum code="0" count="651">No</enum>
+			<enum code="1" count="15">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="648.4" median_count="472.5" min_count="14" max_count="931"/>
+			<enum code="0" count="931">No</enum>
+			<enum code="1" count="14">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024336.v1.p1" var_name="genital_warts" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported suffering from genital warts in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>944</control>
+			</case_control>
+			<sex>
+				<male>867</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1674" nulls="394" mean_count="837" sd="1164" median_count="837" min_count="14" max_count="1660"/>
+			<enum code="0" count="1660">No</enum>
+			<enum code="1" count="14">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="466.7" median_count="334" min_count="4" max_count="664"/>
+			<enum code="0" count="664">No</enum>
+			<enum code="1" count="4">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="44" mean_count="472" sd="654.8" median_count="472" min_count="9" max_count="935"/>
+			<enum code="0" count="935">No</enum>
+			<enum code="1" count="9">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024336.v1.p1.c1" var_name="genital_warts" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported suffering from genital warts in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>944</control>
+			</case_control>
+			<sex>
+				<male>867</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1674" nulls="394" mean_count="837" sd="1164" median_count="837" min_count="14" max_count="1660"/>
+			<enum code="0" count="1660">No</enum>
+			<enum code="1" count="14">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="466.7" median_count="334" min_count="4" max_count="664"/>
+			<enum code="0" count="664">No</enum>
+			<enum code="1" count="4">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="44" mean_count="472" sd="654.8" median_count="472" min_count="9" max_count="935"/>
+			<enum code="0" count="935">No</enum>
+			<enum code="1" count="9">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024340.v1.p1" var_name="smoke_0to12w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any smoking in the period between conception and the 1st interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>945</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>1032</male>
+				<female>928</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1960" nulls="108" mean_count="980" sd="608.1" median_count="980" min_count="550" max_count="1410"/>
+			<enum code="0" count="1410">No</enum>
+			<enum code="1" count="550">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>501</male>
+				<female>444</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="62" mean_count="472.5" sd="256.7" median_count="472.5" min_count="291" max_count="654"/>
+			<enum code="0" count="654">No</enum>
+			<enum code="1" count="291">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="333" median_count="472.5" min_count="237" max_count="708"/>
+			<enum code="0" count="708">No</enum>
+			<enum code="1" count="237">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024340.v1.p1.c1" var_name="smoke_0to12w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any smoking in the period between conception and the 1st interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>945</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>1032</male>
+				<female>928</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1960" nulls="108" mean_count="980" sd="608.1" median_count="980" min_count="550" max_count="1410"/>
+			<enum code="0" count="1410">No</enum>
+			<enum code="1" count="550">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>501</male>
+				<female>444</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="62" mean_count="472.5" sd="256.7" median_count="472.5" min_count="291" max_count="654"/>
+			<enum code="0" count="654">No</enum>
+			<enum code="1" count="291">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="333" median_count="472.5" min_count="237" max_count="708"/>
+			<enum code="0" count="708">No</enum>
+			<enum code="1" count="237">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024341.v1.p1" var_name="smoke_12to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any smoking in the period between the 1st and 2nd interviews?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1675" nulls="393" mean_count="837.5" sd="724.8" median_count="837.5" min_count="325" max_count="1350"/>
+			<enum code="0" count="1350">No</enum>
+			<enum code="1" count="325">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="285.7" median_count="334" min_count="132" max_count="536"/>
+			<enum code="0" count="536">No</enum>
+			<enum code="1" count="132">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="417.9" median_count="472.5" min_count="177" max_count="768"/>
+			<enum code="0" count="768">No</enum>
+			<enum code="1" count="177">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024341.v1.p1.c1" var_name="smoke_12to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any smoking in the period between the 1st and 2nd interviews?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1675" nulls="393" mean_count="837.5" sd="724.8" median_count="837.5" min_count="325" max_count="1350"/>
+			<enum code="0" count="1350">No</enum>
+			<enum code="1" count="325">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="285.7" median_count="334" min_count="132" max_count="536"/>
+			<enum code="0" count="536">No</enum>
+			<enum code="1" count="132">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="417.9" median_count="472.5" min_count="177" max_count="768"/>
+			<enum code="0" count="768">No</enum>
+			<enum code="1" count="177">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024342.v1.p1" var_name="smoke_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any smoking in the period between the 2nd interview and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>669</case>
+				<control>784</control>
+			</case_control>
+			<sex>
+				<male>781</male>
+				<female>730</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1511" nulls="557" mean_count="755.5" sd="689.4" median_count="755.5" min_count="268" max_count="1243"/>
+			<enum code="0" count="1243">No</enum>
+			<enum code="1" count="268">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>345</male>
+				<female>324</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="669" nulls="338" mean_count="334.5" sd="293.4" median_count="334.5" min_count="127" max_count="542"/>
+			<enum code="0" count="542">No</enum>
+			<enum code="1" count="127">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="784" nulls="204" mean_count="392" sd="373.4" median_count="392" min_count="128" max_count="656"/>
+			<enum code="0" count="656">No</enum>
+			<enum code="1" count="128">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024342.v1.p1.c1" var_name="smoke_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any smoking in the period between the 2nd interview and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>669</case>
+				<control>784</control>
+			</case_control>
+			<sex>
+				<male>781</male>
+				<female>730</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1511" nulls="557" mean_count="755.5" sd="689.4" median_count="755.5" min_count="268" max_count="1243"/>
+			<enum code="0" count="1243">No</enum>
+			<enum code="1" count="268">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>345</male>
+				<female>324</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="669" nulls="338" mean_count="334.5" sd="293.4" median_count="334.5" min_count="127" max_count="542"/>
+			<enum code="0" count="542">No</enum>
+			<enum code="1" count="127">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="784" nulls="204" mean_count="392" sd="373.4" median_count="392" min_count="128" max_count="656"/>
+			<enum code="0" count="656">No</enum>
+			<enum code="1" count="128">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024343.v1.p1" var_name="alcohol_0to12w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any alcohol intake in the period between conception and the 1st interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>944</case>
+				<control>944</control>
+			</case_control>
+			<sex>
+				<male>1029</male>
+				<female>928</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1957" nulls="111" mean_count="978.5" sd="115.3" median_count="978.5" min_count="897" max_count="1060"/>
+			<enum code="0" count="1060">No</enum>
+			<enum code="1" count="897">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>500</male>
+				<female>444</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="63" mean_count="472" sd="96.17" median_count="472" min_count="404" max_count="540"/>
+			<enum code="0" count="540">No</enum>
+			<enum code="1" count="404">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>493</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="44" mean_count="472" sd="22.63" median_count="472" min_count="456" max_count="488"/>
+			<enum code="0" count="488">No</enum>
+			<enum code="1" count="456">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024343.v1.p1.c1" var_name="alcohol_0to12w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any alcohol intake in the period between conception and the 1st interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>944</case>
+				<control>944</control>
+			</case_control>
+			<sex>
+				<male>1029</male>
+				<female>928</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1957" nulls="111" mean_count="978.5" sd="115.3" median_count="978.5" min_count="897" max_count="1060"/>
+			<enum code="0" count="1060">No</enum>
+			<enum code="1" count="897">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>500</male>
+				<female>444</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="63" mean_count="472" sd="96.17" median_count="472" min_count="404" max_count="540"/>
+			<enum code="0" count="540">No</enum>
+			<enum code="1" count="404">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>493</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="44" mean_count="472" sd="22.63" median_count="472" min_count="456" max_count="488"/>
+			<enum code="0" count="488">No</enum>
+			<enum code="1" count="456">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024344.v1.p1" var_name="alcohol_12to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any alcohol intake in the period between the 1st and 2nd interviews?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1675" nulls="393" mean_count="837.5" sd="0.7071" median_count="837.5" min_count="837" max_count="838"/>
+			<enum code="0" count="838">No</enum>
+			<enum code="1" count="837">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="36.77" median_count="334" min_count="308" max_count="360"/>
+			<enum code="0" count="360">No</enum>
+			<enum code="1" count="308">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="36.06" median_count="472.5" min_count="447" max_count="498"/>
+			<enum code="1" count="498">Yes</enum>
+			<enum code="0" count="447">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024344.v1.p1.c1" var_name="alcohol_12to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any alcohol intake in the period between the 1st and 2nd interviews?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1675" nulls="393" mean_count="837.5" sd="0.7071" median_count="837.5" min_count="837" max_count="838"/>
+			<enum code="0" count="838">No</enum>
+			<enum code="1" count="837">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="36.77" median_count="334" min_count="308" max_count="360"/>
+			<enum code="0" count="360">No</enum>
+			<enum code="1" count="308">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="36.06" median_count="472.5" min_count="447" max_count="498"/>
+			<enum code="1" count="498">Yes</enum>
+			<enum code="0" count="447">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024345.v1.p1" var_name="alcohol_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any alcohol intake in the period between the 2nd interview and birth?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>669</case>
+				<control>784</control>
+			</case_control>
+			<sex>
+				<male>781</male>
+				<female>730</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1511" nulls="557" mean_count="755.5" sd="98.29" median_count="755.5" min_count="686" max_count="825"/>
+			<enum code="0" count="825">No</enum>
+			<enum code="1" count="686">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>345</male>
+				<female>324</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="669" nulls="338" mean_count="334.5" sd="96.87" median_count="334.5" min_count="266" max_count="403"/>
+			<enum code="0" count="403">No</enum>
+			<enum code="1" count="266">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="784" nulls="204" mean_count="392" sd="4.243" median_count="392" min_count="389" max_count="395"/>
+			<enum code="0" count="395">No</enum>
+			<enum code="1" count="389">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024345.v1.p1.c1" var_name="alcohol_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported any alcohol intake in the period between the 2nd interview and birth?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>669</case>
+				<control>784</control>
+			</case_control>
+			<sex>
+				<male>781</male>
+				<female>730</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1511" nulls="557" mean_count="755.5" sd="98.29" median_count="755.5" min_count="686" max_count="825"/>
+			<enum code="0" count="825">No</enum>
+			<enum code="1" count="686">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>345</male>
+				<female>324</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="669" nulls="338" mean_count="334.5" sd="96.87" median_count="334.5" min_count="266" max_count="403"/>
+			<enum code="0" count="403">No</enum>
+			<enum code="1" count="266">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="784" nulls="204" mean_count="392" sd="4.243" median_count="392" min_count="389" max_count="395"/>
+			<enum code="0" count="395">No</enum>
+			<enum code="1" count="389">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024346.v1.p1" var_name="vit_0to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported taking prenatal vitamins in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1675" nulls="393" mean_count="837.5" sd="956.7" median_count="837.5" min_count="161" max_count="1514"/>
+			<enum code="1" count="1514">Yes</enum>
+			<enum code="0" count="161">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="396" median_count="334" min_count="54" max_count="614"/>
+			<enum code="1" count="614">Yes</enum>
+			<enum code="0" count="54">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="528.2" median_count="472.5" min_count="99" max_count="846"/>
+			<enum code="1" count="846">Yes</enum>
+			<enum code="0" count="99">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024346.v1.p1.c1" var_name="vit_0to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported taking prenatal vitamins in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>868</male>
+				<female>807</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1675" nulls="393" mean_count="837.5" sd="956.7" median_count="837.5" min_count="161" max_count="1514"/>
+			<enum code="1" count="1514">Yes</enum>
+			<enum code="0" count="161">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>338</male>
+				<female>330</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="396" median_count="334" min_count="54" max_count="614"/>
+			<enum code="1" count="614">Yes</enum>
+			<enum code="0" count="54">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>495</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean_count="472.5" sd="528.2" median_count="472.5" min_count="99" max_count="846"/>
+			<enum code="1" count="846">Yes</enum>
+			<enum code="0" count="99">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024347.v1.p1" var_name="vit_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported taking prenatal vitamins in the period between the 2nd interview and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>782</control>
+			</case_control>
+			<sex>
+				<male>780</male>
+				<female>728</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1508" nulls="560" mean_count="754" sd="760.8" median_count="754" min_count="216" max_count="1292"/>
+			<enum code="1" count="1292">Yes</enum>
+			<enum code="0" count="216">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>344</male>
+				<female>324</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="350.7" median_count="334" min_count="86" max_count="582"/>
+			<enum code="1" count="582">Yes</enum>
+			<enum code="0" count="86">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>378</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="782" nulls="206" mean_count="391" sd="379" median_count="391" min_count="123" max_count="659"/>
+			<enum code="1" count="659">Yes</enum>
+			<enum code="0" count="123">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024347.v1.p1.c1" var_name="vit_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported taking prenatal vitamins in the period between the 2nd interview and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>668</case>
+				<control>782</control>
+			</case_control>
+			<sex>
+				<male>780</male>
+				<female>728</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1508" nulls="560" mean_count="754" sd="760.8" median_count="754" min_count="216" max_count="1292"/>
+			<enum code="1" count="1292">Yes</enum>
+			<enum code="0" count="216">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>344</male>
+				<female>324</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="668" nulls="339" mean_count="334" sd="350.7" median_count="334" min_count="86" max_count="582"/>
+			<enum code="1" count="582">Yes</enum>
+			<enum code="0" count="86">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>378</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="782" nulls="206" mean_count="391" sd="379" median_count="391" min_count="123" max_count="659"/>
+			<enum code="1" count="659">Yes</enum>
+			<enum code="0" count="123">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024348.v1.p1" var_name="prom_int" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt; 24 h elapsed between her waters breaking and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>696</case>
+				<control>781</control>
+			</case_control>
+			<sex>
+				<male>796</male>
+				<female>739</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1535" nulls="533" mean_count="767.5" sd="917.1" median_count="767.5" min_count="119" max_count="1416"/>
+			<enum code="0" count="1416">No</enum>
+			<enum code="1" count="119">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>360</male>
+				<female>336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="696" nulls="311" mean_count="348" sd="346.5" median_count="348" min_count="103" max_count="593"/>
+			<enum code="0" count="593">No</enum>
+			<enum code="1" count="103">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="781" nulls="207" mean_count="390.5" sd="532.5" median_count="390.5" min_count="14" max_count="767"/>
+			<enum code="0" count="767">No</enum>
+			<enum code="1" count="14">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024348.v1.p1.c1" var_name="prom_int" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt; 24 h elapsed between her waters breaking and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>696</case>
+				<control>781</control>
+			</case_control>
+			<sex>
+				<male>796</male>
+				<female>739</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1535" nulls="533" mean_count="767.5" sd="917.1" median_count="767.5" min_count="119" max_count="1416"/>
+			<enum code="0" count="1416">No</enum>
+			<enum code="1" count="119">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>360</male>
+				<female>336</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="696" nulls="311" mean_count="348" sd="346.5" median_count="348" min_count="103" max_count="593"/>
+			<enum code="0" count="593">No</enum>
+			<enum code="1" count="103">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>404</male>
+				<female>377</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="781" nulls="207" mean_count="390.5" sd="532.5" median_count="390.5" min_count="14" max_count="767"/>
+			<enum code="0" count="767">No</enum>
+			<enum code="1" count="14">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024350.v1.p1" var_name="prepreg_wt" calculated_type="integer" units="Kg" reported_type="Integer, encoded string">
+	<description>Maternal weight before pregnancy, self-reported, 1st interview</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>927</case>
+				<control>932</control>
+			</case_control>
+			<sex>
+				<male>1016</male>
+				<female>913</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1929" nulls="139" mean="67.01" sd="12.92" median="65" min="36" max="135"/>
+			<example count="89">65</example>
+			<example count="87">60</example>
+			<example count="86">58</example>
+			<example count="78">62</example>
+			<example count="77">70</example>
+			<example count="75">63</example>
+			<example count="75">64</example>
+			<example count="70">59</example>
+			<example count="65">57</example>
+			<example count="62">61</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>492</male>
+				<female>435</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="927" nulls="80" mean="66.22" sd="13.59" median="64" min="36" max="135"/>
+			<example count="50">58</example>
+			<example count="44">65</example>
+			<example count="43">60</example>
+			<example count="36">62</example>
+			<example count="33">70</example>
+			<example count="32">64</example>
+			<example count="31">57</example>
+			<example count="31">56</example>
+			<example count="31">59</example>
+			<example count="30">63</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>487</male>
+				<female>445</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="932" nulls="56" mean="67.61" sd="12.23" median="65" min="41" max="123"/>
+			<example count="45">63</example>
+			<example count="44">65</example>
+			<example count="42">70</example>
+			<example count="40">62</example>
+			<example count="39">60</example>
+			<example count="38">64</example>
+			<example count="38">68</example>
+			<example count="36">59</example>
+			<example count="33">58</example>
+			<example count="31">57</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024350.v1.p1.c1" var_name="prepreg_wt" calculated_type="integer" units="Kg" reported_type="Integer, encoded string">
+	<description>Maternal weight before pregnancy, self-reported, 1st interview</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>927</case>
+				<control>932</control>
+			</case_control>
+			<sex>
+				<male>1016</male>
+				<female>913</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1929" nulls="139" mean="67.01" sd="12.92" median="65" min="36" max="135"/>
+			<example count="89">65</example>
+			<example count="87">60</example>
+			<example count="86">58</example>
+			<example count="78">62</example>
+			<example count="77">70</example>
+			<example count="75">63</example>
+			<example count="75">64</example>
+			<example count="70">59</example>
+			<example count="65">57</example>
+			<example count="62">61</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>492</male>
+				<female>435</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="927" nulls="80" mean="66.22" sd="13.59" median="64" min="36" max="135"/>
+			<example count="50">58</example>
+			<example count="44">65</example>
+			<example count="43">60</example>
+			<example count="36">62</example>
+			<example count="33">70</example>
+			<example count="32">64</example>
+			<example count="31">57</example>
+			<example count="31">56</example>
+			<example count="31">59</example>
+			<example count="30">63</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>487</male>
+				<female>445</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="932" nulls="56" mean="67.61" sd="12.23" median="65" min="41" max="123"/>
+			<example count="45">63</example>
+			<example count="44">65</example>
+			<example count="42">70</example>
+			<example count="40">62</example>
+			<example count="39">60</example>
+			<example count="38">64</example>
+			<example count="38">68</example>
+			<example count="36">59</example>
+			<example count="33">58</example>
+			<example count="31">57</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024351.v1.p1" var_name="maternal_height" calculated_type="integer" units="Cm" reported_type="Integer, encoded string">
+	<description>Maternal height, self-reported, 1st interview</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>943</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>1031</male>
+				<female>927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1958" nulls="110" mean="168.8" sd="6.117" median="169" min="145" max="190"/>
+			<example count="205">170</example>
+			<example count="185">168</example>
+			<example count="158">165</example>
+			<example count="139">172</example>
+			<example count="114">160</example>
+			<example count="111">167</example>
+			<example count="98">169</example>
+			<example count="86">174</example>
+			<example count="84">173</example>
+			<example count="82">164</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>500</male>
+				<female>443</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="943" nulls="64" mean="168.2" sd="6.184" median="168" min="145" max="186"/>
+			<example count="90">168</example>
+			<example count="83">170</example>
+			<example count="76">165</example>
+			<example count="68">172</example>
+			<example count="62">160</example>
+			<example count="55">167</example>
+			<example count="43">173</example>
+			<example count="43">164</example>
+			<example count="42">162</example>
+			<example count="42">169</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean="169.4" sd="6.01" median="169" min="148" max="190"/>
+			<example count="119">170</example>
+			<example count="90">168</example>
+			<example count="79">165</example>
+			<example count="60">172</example>
+			<example count="53">167</example>
+			<example count="53">169</example>
+			<example count="48">160</example>
+			<example count="43">174</example>
+			<example count="42">175</example>
+			<example count="36">173</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024351.v1.p1.c1" var_name="maternal_height" calculated_type="integer" units="Cm" reported_type="Integer, encoded string">
+	<description>Maternal height, self-reported, 1st interview</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>943</case>
+				<control>945</control>
+			</case_control>
+			<sex>
+				<male>1031</male>
+				<female>927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1958" nulls="110" mean="168.8" sd="6.117" median="169" min="145" max="190"/>
+			<example count="205">170</example>
+			<example count="185">168</example>
+			<example count="158">165</example>
+			<example count="139">172</example>
+			<example count="114">160</example>
+			<example count="111">167</example>
+			<example count="98">169</example>
+			<example count="86">174</example>
+			<example count="84">173</example>
+			<example count="82">164</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>500</male>
+				<female>443</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="943" nulls="64" mean="168.2" sd="6.184" median="168" min="145" max="186"/>
+			<example count="90">168</example>
+			<example count="83">170</example>
+			<example count="76">165</example>
+			<example count="68">172</example>
+			<example count="62">160</example>
+			<example count="55">167</example>
+			<example count="43">173</example>
+			<example count="43">164</example>
+			<example count="42">162</example>
+			<example count="42">169</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>451</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="43" mean="169.4" sd="6.01" median="169" min="148" max="190"/>
+			<example count="119">170</example>
+			<example count="90">168</example>
+			<example count="79">165</example>
+			<example count="60">172</example>
+			<example count="53">167</example>
+			<example count="53">169</example>
+			<example count="48">160</example>
+			<example count="43">174</example>
+			<example count="42">175</example>
+			<example count="36">173</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024352.v1.p1" var_name="maternal_age" calculated_type="integer" units="Years" reported_type="Integer, encoded string">
+	<description>Maternal age at child&#39;s birth, from the Medical Birth Register</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>987</control>
+			</case_control>
+			<sex>
+				<male>1088</male>
+				<female>972</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2060" nulls="8" mean="29.61" sd="4.335" median="29" min="16" max="44"/>
+			<example count="206">29</example>
+			<example count="191">28</example>
+			<example count="184">30</example>
+			<example count="165">31</example>
+			<example count="154">27</example>
+			<example count="151">32</example>
+			<example count="146">26</example>
+			<example count="132">33</example>
+			<example count="106">25</example>
+			<example count="97">34</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>532</male>
+				<female>468</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="7" mean="29.38" sd="4.598" median="29" min="16" max="44"/>
+			<example count="92">29</example>
+			<example count="92">28</example>
+			<example count="80">26</example>
+			<example count="77">31</example>
+			<example count="76">27</example>
+			<example count="74">30</example>
+			<example count="58">32</example>
+			<example count="57">33</example>
+			<example count="55">25</example>
+			<example count="53">34</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="987" nulls="1" mean="29.72" sd="4.009" median="30" min="18" max="42"/>
+			<example count="109">29</example>
+			<example count="104">30</example>
+			<example count="96">28</example>
+			<example count="86">32</example>
+			<example count="82">31</example>
+			<example count="75">27</example>
+			<example count="69">33</example>
+			<example count="61">26</example>
+			<example count="48">25</example>
+			<example count="40">34</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024352.v1.p1.c1" var_name="maternal_age" calculated_type="integer" units="Years" reported_type="Integer, encoded string">
+	<description>Maternal age at child&#39;s birth, from the Medical Birth Register</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1000</case>
+				<control>987</control>
+			</case_control>
+			<sex>
+				<male>1088</male>
+				<female>972</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2060" nulls="8" mean="29.61" sd="4.335" median="29" min="16" max="44"/>
+			<example count="206">29</example>
+			<example count="191">28</example>
+			<example count="184">30</example>
+			<example count="165">31</example>
+			<example count="154">27</example>
+			<example count="151">32</example>
+			<example count="146">26</example>
+			<example count="132">33</example>
+			<example count="106">25</example>
+			<example count="97">34</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>532</male>
+				<female>468</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1000" nulls="7" mean="29.38" sd="4.598" median="29" min="16" max="44"/>
+			<example count="92">29</example>
+			<example count="92">28</example>
+			<example count="80">26</example>
+			<example count="77">31</example>
+			<example count="76">27</example>
+			<example count="74">30</example>
+			<example count="58">32</example>
+			<example count="57">33</example>
+			<example count="55">25</example>
+			<example count="53">34</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="987" nulls="1" mean="29.72" sd="4.009" median="30" min="18" max="42"/>
+			<example count="109">29</example>
+			<example count="104">30</example>
+			<example count="96">28</example>
+			<example count="86">32</example>
+			<example count="82">31</example>
+			<example count="75">27</example>
+			<example count="69">33</example>
+			<example count="61">26</example>
+			<example count="48">25</example>
+			<example count="40">34</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024353.v1.p1" var_name="birthweight" calculated_type="integer" units="G" reported_type="Integer, encoded string">
+	<description>Child&#39;s birthweight, from the Medical Birth Register</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>988</case>
+				<control>984</control>
+			</case_control>
+			<sex>
+				<male>1081</male>
+				<female>964</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2045" nulls="23" mean="3053" sd="887.4" median="3150" min="250" max="5270"/>
+			<example count="37">3500</example>
+			<example count="35">3600</example>
+			<example count="33">3800</example>
+			<example count="32">3700</example>
+			<example count="28">3100</example>
+			<example count="28">3400</example>
+			<example count="25">2900</example>
+			<example count="24">3200</example>
+			<example count="24">3550</example>
+			<example count="22">4000</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>526</male>
+				<female>462</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="19" mean="2367" sd="697.4" median="2471" min="250" max="5270"/>
+			<example count="19">2900</example>
+			<example count="17">2600</example>
+			<example count="15">2500</example>
+			<example count="14">3100</example>
+			<example count="14">2650</example>
+			<example count="13">2800</example>
+			<example count="13">2750</example>
+			<example count="12">2400</example>
+			<example count="11">2700</example>
+			<example count="10">2200</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>516</male>
+				<female>468</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="984" nulls="4" mean="3714" sd="461" median="3700" min="2400" max="5250"/>
+			<example count="34">3500</example>
+			<example count="31">3800</example>
+			<example count="31">3600</example>
+			<example count="30">3700</example>
+			<example count="22">3550</example>
+			<example count="21">4000</example>
+			<example count="21">3400</example>
+			<example count="19">3950</example>
+			<example count="18">3450</example>
+			<example count="18">3750</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024353.v1.p1.c1" var_name="birthweight" calculated_type="integer" units="G" reported_type="Integer, encoded string">
+	<description>Child&#39;s birthweight, from the Medical Birth Register</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>988</case>
+				<control>984</control>
+			</case_control>
+			<sex>
+				<male>1081</male>
+				<female>964</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2045" nulls="23" mean="3053" sd="887.4" median="3150" min="250" max="5270"/>
+			<example count="37">3500</example>
+			<example count="35">3600</example>
+			<example count="33">3800</example>
+			<example count="32">3700</example>
+			<example count="28">3100</example>
+			<example count="28">3400</example>
+			<example count="25">2900</example>
+			<example count="24">3200</example>
+			<example count="24">3550</example>
+			<example count="22">4000</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>526</male>
+				<female>462</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="19" mean="2367" sd="697.4" median="2471" min="250" max="5270"/>
+			<example count="19">2900</example>
+			<example count="17">2600</example>
+			<example count="15">2500</example>
+			<example count="14">3100</example>
+			<example count="14">2650</example>
+			<example count="13">2800</example>
+			<example count="13">2750</example>
+			<example count="12">2400</example>
+			<example count="11">2700</example>
+			<example count="10">2200</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>516</male>
+				<female>468</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="984" nulls="4" mean="3714" sd="461" median="3700" min="2400" max="5250"/>
+			<example count="34">3500</example>
+			<example count="31">3800</example>
+			<example count="31">3600</example>
+			<example count="30">3700</example>
+			<example count="22">3550</example>
+			<example count="21">4000</example>
+			<example count="21">3400</example>
+			<example count="19">3950</example>
+			<example count="18">3450</example>
+			<example count="18">3750</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024354.v1.p1" var_name="delivery" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mode of delivery, from the National Patient Register</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>983</case>
+				<control>983</control>
+			</case_control>
+			<sex>
+				<male>1076</male>
+				<female>963</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2039" nulls="29" mean_count="1020" sd="847.8" median_count="1020" min_count="420" max_count="1619"/>
+			<enum code="1" count="1619">Vaginal delivery</enum>
+			<enum code="2" count="420">Caesarean section</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>524</male>
+				<female>459</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="983" nulls="24" mean_count="491.5" sd="221.3" median_count="491.5" min_count="335" max_count="648"/>
+			<enum code="1" count="648">Vaginal delivery</enum>
+			<enum code="2" count="335">Caesarean section</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>513</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="983" nulls="5" mean_count="491.5" sd="611.6" median_count="491.5" min_count="59" max_count="924"/>
+			<enum code="1" count="924">Vaginal delivery</enum>
+			<enum code="2" count="59">Caesarean section</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024354.v1.p1.c1" var_name="delivery" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mode of delivery, from the National Patient Register</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>983</case>
+				<control>983</control>
+			</case_control>
+			<sex>
+				<male>1076</male>
+				<female>963</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2039" nulls="29" mean_count="1020" sd="847.8" median_count="1020" min_count="420" max_count="1619"/>
+			<enum code="1" count="1619">Vaginal delivery</enum>
+			<enum code="2" count="420">Caesarean section</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>524</male>
+				<female>459</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="983" nulls="24" mean_count="491.5" sd="221.3" median_count="491.5" min_count="335" max_count="648"/>
+			<enum code="1" count="648">Vaginal delivery</enum>
+			<enum code="2" count="335">Caesarean section</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>513</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="983" nulls="5" mean_count="491.5" sd="611.6" median_count="491.5" min_count="59" max_count="924"/>
+			<enum code="1" count="924">Vaginal delivery</enum>
+			<enum code="2" count="59">Caesarean section</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024355.v1.p1" var_name="retinop_prem" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child ever registered in the National Patient Register with retinopathy of prematurity (ICD10 code H35.1  =  Retinopathy of prematurity)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1447" median_count="1034" min_count="11" max_count="2057"/>
+			<enum code="0" count="2057">No</enum>
+			<enum code="1" count="11">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="696.5" median_count="503.5" min_count="11" max_count="996"/>
+			<enum code="0" count="996">No</enum>
+			<enum code="1" count="11">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024355.v1.p1.c1" var_name="retinop_prem" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child ever registered in the National Patient Register with retinopathy of prematurity (ICD10 code H35.1  =  Retinopathy of prematurity)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1447" median_count="1034" min_count="11" max_count="2057"/>
+			<enum code="0" count="2057">No</enum>
+			<enum code="1" count="11">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="696.5" median_count="503.5" min_count="11" max_count="996"/>
+			<enum code="0" count="996">No</enum>
+			<enum code="1" count="11">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024356.v1.p1" var_name="intravent_hem" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child ever registered in the National Patient Register with intraventricular hemorrhage (ICD10 code P27.1, P52.0-P52.3 = Intraventricular (nontraumatic) haemorrhage, grade 1, of fetus and newborn; Intraventricular (nontraumatic) haemorrhage, grade 2, of fetus and newborn;  Intraventricular (nontraumatic) haemorrhage, grade 3, of fetus and newborn;  Unspecified intraventricular (nontraumatic) haemorrhage of fetus and newborn, respectively)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1440" median_count="1034" min_count="16" max_count="2052"/>
+			<enum code="0" count="2052">No</enum>
+			<enum code="1" count="16">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="689.4" median_count="503.5" min_count="16" max_count="991"/>
+			<enum code="0" count="991">No</enum>
+			<enum code="1" count="16">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024356.v1.p1.c1" var_name="intravent_hem" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child ever registered in the National Patient Register with intraventricular hemorrhage (ICD10 code P27.1, P52.0-P52.3 = Intraventricular (nontraumatic) haemorrhage, grade 1, of fetus and newborn; Intraventricular (nontraumatic) haemorrhage, grade 2, of fetus and newborn;  Intraventricular (nontraumatic) haemorrhage, grade 3, of fetus and newborn;  Unspecified intraventricular (nontraumatic) haemorrhage of fetus and newborn, respectively)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1440" median_count="1034" min_count="16" max_count="2052"/>
+			<enum code="0" count="2052">No</enum>
+			<enum code="1" count="16">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="689.4" median_count="503.5" min_count="16" max_count="991"/>
+			<enum code="0" count="991">No</enum>
+			<enum code="1" count="16">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024357.v1.p1" var_name="bronch_dysp" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child ever registered in the National Patient Register with broncho-pulmonary dysplasia (ICD10 code P27.1 = Bronchopulmonary dysplasia originating in the perinatal period)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1437" median_count="1034" min_count="18" max_count="2050"/>
+			<enum code="0" count="2050">No</enum>
+			<enum code="1" count="18">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="686.6" median_count="503.5" min_count="18" max_count="989"/>
+			<enum code="0" count="989">No</enum>
+			<enum code="1" count="18">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00024357.v1.p1.c1" var_name="bronch_dysp" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child ever registered in the National Patient Register with broncho-pulmonary dysplasia (ICD10 code P27.1 = Bronchopulmonary dysplasia originating in the perinatal period)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1437" median_count="1034" min_count="18" max_count="2050"/>
+			<enum code="0" count="2050">No</enum>
+			<enum code="1" count="18">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="686.6" median_count="503.5" min_count="18" max_count="989"/>
+			<enum code="0" count="989">No</enum>
+			<enum code="1" count="18">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121895.v1.p1" var_name="m_genevaID" calculated_type="integer" reported_type="Integer">
+	<description>GENEVA ID, mother</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" median="" min="" max=""/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" median="" min="" max=""/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" median="" min="" max=""/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121895.v1.p1.c1" var_name="m_genevaID" calculated_type="integer" reported_type="Integer">
+	<description>GENEVA ID, mother</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" median="" min="" max=""/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" median="" min="" max=""/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" median="" min="" max=""/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121896.v1.p1" var_name="c_genevaID" calculated_type="string" reported_type="Integer">
+	<description>GENEVA ID, child</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121896.v1.p1.c1" var_name="c_genevaID" calculated_type="string" reported_type="Integer">
+	<description>GENEVA ID, child</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121897.v1.p1" var_name="cohabiting" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother married or living with partner at time of 1st interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>944</case>
+				<control>946</control>
+			</case_control>
+			<sex>
+				<male>1032</male>
+				<female>927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1959" nulls="109" mean_count="979.5" sd="1344" median_count="979.5" min_count="29" max_count="1930"/>
+			<enum code="1" count="1930">Yes</enum>
+			<enum code="0" count="29">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>501</male>
+				<female>443</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="63" mean_count="472" sd="643.5" median_count="472" min_count="17" max_count="927"/>
+			<enum code="1" count="927">Yes</enum>
+			<enum code="0" count="17">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>452</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="946" nulls="42" mean_count="473" sd="657.6" median_count="473" min_count="8" max_count="938"/>
+			<enum code="1" count="938">Yes</enum>
+			<enum code="0" count="8">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121897.v1.p1.c1" var_name="cohabiting" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother married or living with partner at time of 1st interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>944</case>
+				<control>946</control>
+			</case_control>
+			<sex>
+				<male>1032</male>
+				<female>927</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1959" nulls="109" mean_count="979.5" sd="1344" median_count="979.5" min_count="29" max_count="1930"/>
+			<enum code="1" count="1930">Yes</enum>
+			<enum code="0" count="29">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>501</male>
+				<female>443</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="944" nulls="63" mean_count="472" sd="643.5" median_count="472" min_count="17" max_count="927"/>
+			<enum code="1" count="927">Yes</enum>
+			<enum code="0" count="17">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>494</male>
+				<female>452</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="946" nulls="42" mean_count="473" sd="657.6" median_count="473" min_count="8" max_count="938"/>
+			<enum code="1" count="938">Yes</enum>
+			<enum code="0" count="8">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121898.v1.p1" var_name="UTI_0to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt;/= 1 urinary tract infections in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>665</case>
+				<control>941</control>
+			</case_control>
+			<sex>
+				<male>863</male>
+				<female>805</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1668" nulls="400" mean_count="834" sd="906.5" median_count="834" min_count="193" max_count="1475"/>
+			<enum code="0" count="1475">No</enum>
+			<enum code="1" count="193">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>337</male>
+				<female>328</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="665" nulls="342" mean_count="332.5" sd="347.2" median_count="332.5" min_count="87" max_count="578"/>
+			<enum code="0" count="578">No</enum>
+			<enum code="1" count="87">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>491</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="941" nulls="47" mean_count="470.5" sd="526.8" median_count="470.5" min_count="98" max_count="843"/>
+			<enum code="0" count="843">No</enum>
+			<enum code="1" count="98">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121898.v1.p1.c1" var_name="UTI_0to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt;/= 1 urinary tract infections in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>665</case>
+				<control>941</control>
+			</case_control>
+			<sex>
+				<male>863</male>
+				<female>805</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1668" nulls="400" mean_count="834" sd="906.5" median_count="834" min_count="193" max_count="1475"/>
+			<enum code="0" count="1475">No</enum>
+			<enum code="1" count="193">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>337</male>
+				<female>328</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="665" nulls="342" mean_count="332.5" sd="347.2" median_count="332.5" min_count="87" max_count="578"/>
+			<enum code="0" count="578">No</enum>
+			<enum code="1" count="87">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>491</male>
+				<female>450</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="941" nulls="47" mean_count="470.5" sd="526.8" median_count="470.5" min_count="98" max_count="843"/>
+			<enum code="0" count="843">No</enum>
+			<enum code="1" count="98">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121899.v1.p1" var_name="UTI_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt;/= 1 urinary tract infections in the period between the 2nd interview and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>663</case>
+				<control>783</control>
+			</case_control>
+			<sex>
+				<male>777</male>
+				<female>727</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1504" nulls="564" mean_count="752" sd="953.2" median_count="752" min_count="78" max_count="1426"/>
+			<enum code="0" count="1426">No</enum>
+			<enum code="1" count="78">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>342</male>
+				<female>321</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="663" nulls="344" mean_count="331.5" sd="399.5" median_count="331.5" min_count="49" max_count="614"/>
+			<enum code="0" count="614">No</enum>
+			<enum code="1" count="49">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>403</male>
+				<female>380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="783" nulls="205" mean_count="391.5" sd="514.1" median_count="391.5" min_count="28" max_count="755"/>
+			<enum code="0" count="755">No</enum>
+			<enum code="1" count="28">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121899.v1.p1.c1" var_name="UTI_after30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt;/= 1 urinary tract infections in the period between the 2nd interview and delivery?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>663</case>
+				<control>783</control>
+			</case_control>
+			<sex>
+				<male>777</male>
+				<female>727</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1504" nulls="564" mean_count="752" sd="953.2" median_count="752" min_count="78" max_count="1426"/>
+			<enum code="0" count="1426">No</enum>
+			<enum code="1" count="78">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>342</male>
+				<female>321</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="663" nulls="344" mean_count="331.5" sd="399.5" median_count="331.5" min_count="49" max_count="614"/>
+			<enum code="0" count="614">No</enum>
+			<enum code="1" count="49">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>403</male>
+				<female>380</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="783" nulls="205" mean_count="391.5" sd="514.1" median_count="391.5" min_count="28" max_count="755"/>
+			<enum code="0" count="755">No</enum>
+			<enum code="1" count="28">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121900.v1.p1" var_name="vaginf_0to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt;/= 1 vaginal fungal infections in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>670</case>
+				<control>912</control>
+			</case_control>
+			<sex>
+				<male>849</male>
+				<female>795</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1644" nulls="424" mean_count="822" sd="623.7" median_count="822" min_count="381" max_count="1263"/>
+			<enum code="0" count="1263">No</enum>
+			<enum code="1" count="381">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>339</male>
+				<female>331</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="670" nulls="337" mean_count="335" sd="241.8" median_count="335" min_count="164" max_count="506"/>
+			<enum code="0" count="506">No</enum>
+			<enum code="1" count="164">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>476</male>
+				<female>436</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="912" nulls="76" mean_count="456" sd="363.5" median_count="456" min_count="199" max_count="713"/>
+			<enum code="0" count="713">No</enum>
+			<enum code="1" count="199">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121900.v1.p1.c1" var_name="vaginf_0to30w" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Mother reported &gt;/= 1 vaginal fungal infections in the period between conception and the 2nd interview?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>670</case>
+				<control>912</control>
+			</case_control>
+			<sex>
+				<male>849</male>
+				<female>795</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1644" nulls="424" mean_count="822" sd="623.7" median_count="822" min_count="381" max_count="1263"/>
+			<enum code="0" count="1263">No</enum>
+			<enum code="1" count="381">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>339</male>
+				<female>331</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="670" nulls="337" mean_count="335" sd="241.8" median_count="335" min_count="164" max_count="506"/>
+			<enum code="0" count="506">No</enum>
+			<enum code="1" count="164">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>476</male>
+				<female>436</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="912" nulls="76" mean_count="456" sd="363.5" median_count="456" min_count="199" max_count="713"/>
+			<enum code="0" count="713">No</enum>
+			<enum code="1" count="199">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121901.v1.p1" var_name="maternal_bmi" calculated_type="decimal" reported_type="Decimal, encoded string">
+	<description>Maternal pre-pregnancy BMI</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>925</case>
+				<control>931</control>
+			</case_control>
+			<sex>
+				<male>1015</male>
+				<female>911</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1926" nulls="142" mean="23.5" sd="4.315" median="22.6" min="15.2" max="47.8"/>
+			<example count="42">22</example>
+			<example count="42">21.5</example>
+			<example count="36">23.1</example>
+			<example count="30">19.7</example>
+			<example count="30">22.1</example>
+			<example count="29">21.3</example>
+			<example count="29">21.1</example>
+			<example count="28">20.2</example>
+			<example count="28">24.2</example>
+			<example count="27">23</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>491</male>
+				<female>434</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="925" nulls="82" mean="23.39" sd="4.556" median="22.4" min="15.2" max="47.8"/>
+			<example count="24">22</example>
+			<example count="17">20.7</example>
+			<example count="17">21.1</example>
+			<example count="17">19.8</example>
+			<example count="16">21.5</example>
+			<example count="15">19.5</example>
+			<example count="15">23.4</example>
+			<example count="15">20.2</example>
+			<example count="15">20.3</example>
+			<example count="14">24.2</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>487</male>
+				<female>444</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="931" nulls="57" mean="23.54" sd="4.07" median="22.7" min="15.4" max="42.9"/>
+			<example count="25">21.5</example>
+			<example count="22">23.1</example>
+			<example count="20">21.3</example>
+			<example count="18">23</example>
+			<example count="18">22</example>
+			<example count="17">19.7</example>
+			<example count="17">22.1</example>
+			<example count="16">22.5</example>
+			<example count="15">23.5</example>
+			<example count="14">21.8</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121901.v1.p1.c1" var_name="maternal_bmi" calculated_type="decimal" reported_type="Decimal, encoded string">
+	<description>Maternal pre-pregnancy BMI</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>925</case>
+				<control>931</control>
+			</case_control>
+			<sex>
+				<male>1015</male>
+				<female>911</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1926" nulls="142" mean="23.5" sd="4.315" median="22.6" min="15.2" max="47.8"/>
+			<example count="42">22</example>
+			<example count="42">21.5</example>
+			<example count="36">23.1</example>
+			<example count="30">19.7</example>
+			<example count="30">22.1</example>
+			<example count="29">21.3</example>
+			<example count="29">21.1</example>
+			<example count="28">20.2</example>
+			<example count="28">24.2</example>
+			<example count="27">23</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>491</male>
+				<female>434</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="925" nulls="82" mean="23.39" sd="4.556" median="22.4" min="15.2" max="47.8"/>
+			<example count="24">22</example>
+			<example count="17">20.7</example>
+			<example count="17">21.1</example>
+			<example count="17">19.8</example>
+			<example count="16">21.5</example>
+			<example count="15">19.5</example>
+			<example count="15">23.4</example>
+			<example count="15">20.2</example>
+			<example count="15">20.3</example>
+			<example count="14">24.2</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>487</male>
+				<female>444</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="931" nulls="57" mean="23.54" sd="4.07" median="22.7" min="15.4" max="42.9"/>
+			<example count="25">21.5</example>
+			<example count="22">23.1</example>
+			<example count="20">21.3</example>
+			<example count="18">23</example>
+			<example count="18">22</example>
+			<example count="17">19.7</example>
+			<example count="17">22.1</example>
+			<example count="16">22.5</example>
+			<example count="15">23.5</example>
+			<example count="14">21.8</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121902.v1.p1" var_name="c_birthyear" calculated_type="integer" reported_type="Integer">
+	<description>Child&#39;s year of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="2000" sd="1.362" median="2000" min="1997" max="2003"/>
+			<enum count="488">1999</enum>
+			<enum count="478">2000</enum>
+			<enum count="409">2001</enum>
+			<enum count="353">2002</enum>
+			<enum count="306">1998</enum>
+			<enum count="29">2003</enum>
+			<enum count="5">1997</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="2000" sd="1.412" median="2000" min="1997" max="2003"/>
+			<enum count="227">1999</enum>
+			<enum count="216">2000</enum>
+			<enum count="207">2002</enum>
+			<enum count="195">2001</enum>
+			<enum count="135">1998</enum>
+			<enum count="23">2003</enum>
+			<enum count="4">1997</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="2000" sd="1.298" median="2000" min="1997" max="2003"/>
+			<enum count="248">1999</enum>
+			<enum count="241">2000</enum>
+			<enum count="198">2001</enum>
+			<enum count="160">1998</enum>
+			<enum count="137">2002</enum>
+			<enum count="3">2003</enum>
+			<enum count="1">1997</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121902.v1.p1.c1" var_name="c_birthyear" calculated_type="integer" reported_type="Integer">
+	<description>Child&#39;s year of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="2000" sd="1.362" median="2000" min="1997" max="2003"/>
+			<enum count="488">1999</enum>
+			<enum count="478">2000</enum>
+			<enum count="409">2001</enum>
+			<enum count="353">2002</enum>
+			<enum count="306">1998</enum>
+			<enum count="29">2003</enum>
+			<enum count="5">1997</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="2000" sd="1.412" median="2000" min="1997" max="2003"/>
+			<enum count="227">1999</enum>
+			<enum count="216">2000</enum>
+			<enum count="207">2002</enum>
+			<enum count="195">2001</enum>
+			<enum count="135">1998</enum>
+			<enum count="23">2003</enum>
+			<enum count="4">1997</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="2000" sd="1.298" median="2000" min="1997" max="2003"/>
+			<enum count="248">1999</enum>
+			<enum count="241">2000</enum>
+			<enum count="198">2001</enum>
+			<enum count="160">1998</enum>
+			<enum count="137">2002</enum>
+			<enum count="3">2003</enum>
+			<enum count="1">1997</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121903.v1.p1" var_name="m_birthyear" calculated_type="integer" reported_type="Integer">
+	<description>Mother&#39;s year of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="1970" sd="4.521" median="1970" min="1954" max="1984"/>
+			<example count="189">1972</example>
+			<example count="186">1970</example>
+			<example count="181">1971</example>
+			<example count="152">1969</example>
+			<example count="151">1967</example>
+			<example count="144">1973</example>
+			<example count="142">1968</example>
+			<example count="134">1966</example>
+			<example count="128">1974</example>
+			<example count="111">1975</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="1970" sd="4.794" median="1971" min="1954" max="1984"/>
+			<example count="85">1972</example>
+			<example count="84">1970</example>
+			<example count="79">1973</example>
+			<example count="77">1971</example>
+			<example count="74">1968</example>
+			<example count="69">1967</example>
+			<example count="66">1975</example>
+			<example count="62">1974</example>
+			<example count="61">1969</example>
+			<example count="56">1966</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="1970" sd="4.195" median="1970" min="1956" max="1982"/>
+			<example count="100">1970</example>
+			<example count="99">1972</example>
+			<example count="97">1971</example>
+			<example count="83">1969</example>
+			<example count="75">1967</example>
+			<example count="69">1966</example>
+			<example count="66">1974</example>
+			<example count="64">1968</example>
+			<example count="59">1973</example>
+			<example count="56">1965</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121903.v1.p1.c1" var_name="m_birthyear" calculated_type="integer" reported_type="Integer">
+	<description>Mother&#39;s year of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="1970" sd="4.521" median="1970" min="1954" max="1984"/>
+			<example count="189">1972</example>
+			<example count="186">1970</example>
+			<example count="181">1971</example>
+			<example count="152">1969</example>
+			<example count="151">1967</example>
+			<example count="144">1973</example>
+			<example count="142">1968</example>
+			<example count="134">1966</example>
+			<example count="128">1974</example>
+			<example count="111">1975</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="1970" sd="4.794" median="1971" min="1954" max="1984"/>
+			<example count="85">1972</example>
+			<example count="84">1970</example>
+			<example count="79">1973</example>
+			<example count="77">1971</example>
+			<example count="74">1968</example>
+			<example count="69">1967</example>
+			<example count="66">1975</example>
+			<example count="62">1974</example>
+			<example count="61">1969</example>
+			<example count="56">1966</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="1970" sd="4.195" median="1970" min="1956" max="1982"/>
+			<example count="100">1970</example>
+			<example count="99">1972</example>
+			<example count="97">1971</example>
+			<example count="83">1969</example>
+			<example count="75">1967</example>
+			<example count="69">1966</example>
+			<example count="66">1974</example>
+			<example count="64">1968</example>
+			<example count="59">1973</example>
+			<example count="56">1965</example>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121904.v1.p1" var_name="chorio_reg" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Mother diagnosed with chorioamnionitis during pregnancy (registered in National Patient Register with ICD10 code O41.1 = Infection of amniotic sac and membranes)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1444" median_count="1034" min_count="13" max_count="2055"/>
+			<enum code="0" count="2055">No</enum>
+			<enum code="1" count="13">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="693.7" median_count="503.5" min_count="13" max_count="994"/>
+			<enum code="0" count="994">No</enum>
+			<enum code="1" count="13">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121904.v1.p1.c1" var_name="chorio_reg" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Mother diagnosed with chorioamnionitis during pregnancy (registered in National Patient Register with ICD10 code O41.1 = Infection of amniotic sac and membranes)?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1444" median_count="1034" min_count="13" max_count="2055"/>
+			<enum code="0" count="2055">No</enum>
+			<enum code="1" count="13">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="693.7" median_count="503.5" min_count="13" max_count="994"/>
+			<enum code="0" count="994">No</enum>
+			<enum code="1" count="13">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="0" count="988">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121905.v1.p1" var_name="c_birthdec" calculated_type="string" reported_type="String">
+	<description>Child&#39;s decade of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="1269">2000-2009</enum>
+			<enum count="799">1990-1999</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="641">2000-2009</enum>
+			<enum count="366">1990-1999</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="579">2000-2009</enum>
+			<enum count="409">1990-1999</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121905.v1.p1.c1" var_name="c_birthdec" calculated_type="string" reported_type="String">
+	<description>Child&#39;s decade of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="1269">2000-2009</enum>
+			<enum count="799">1990-1999</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="641">2000-2009</enum>
+			<enum count="366">1990-1999</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="579">2000-2009</enum>
+			<enum count="409">1990-1999</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121906.v1.p1" var_name="c_birthqtr" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Child&#39;s quarter of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="517" sd="42.34" median_count="502.5" min_count="484" max_count="579"/>
+			<enum code="3" count="579">Jul-Sep</enum>
+			<enum code="2" count="506">Apr-Jun</enum>
+			<enum code="4" count="499">Oct-Dec</enum>
+			<enum code="1" count="484">Jan-Mar</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="251.8" sd="14.45" median_count="246.5" min_count="241" max_count="273"/>
+			<enum code="3" count="273">Jul-Sep</enum>
+			<enum code="4" count="248">Oct-Dec</enum>
+			<enum code="1" count="245">Jan-Mar</enum>
+			<enum code="2" count="241">Apr-Jun</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="247" sd="33.18" median_count="239.5" min_count="216" max_count="293"/>
+			<enum code="3" count="293">Jul-Sep</enum>
+			<enum code="2" count="247">Apr-Jun</enum>
+			<enum code="4" count="232">Oct-Dec</enum>
+			<enum code="1" count="216">Jan-Mar</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121906.v1.p1.c1" var_name="c_birthqtr" calculated_type="enum_integer" reported_type="Encoded value">
+	<description>Child&#39;s quarter of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="517" sd="42.34" median_count="502.5" min_count="484" max_count="579"/>
+			<enum code="3" count="579">Jul-Sep</enum>
+			<enum code="2" count="506">Apr-Jun</enum>
+			<enum code="4" count="499">Oct-Dec</enum>
+			<enum code="1" count="484">Jan-Mar</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="251.8" sd="14.45" median_count="246.5" min_count="241" max_count="273"/>
+			<enum code="3" count="273">Jul-Sep</enum>
+			<enum code="4" count="248">Oct-Dec</enum>
+			<enum code="1" count="245">Jan-Mar</enum>
+			<enum code="2" count="241">Apr-Jun</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="247" sd="33.18" median_count="239.5" min_count="216" max_count="293"/>
+			<enum code="3" count="293">Jul-Sep</enum>
+			<enum code="2" count="247">Apr-Jun</enum>
+			<enum code="4" count="232">Oct-Dec</enum>
+			<enum code="1" count="216">Jan-Mar</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121907.v1.p1" var_name="c_race_ethn" calculated_type="string" reported_type="String">
+	<description>Child&#39;s race/ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="2068">Caucasian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="1007">Caucasian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="988">Caucasian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121907.v1.p1.c1" var_name="c_race_ethn" calculated_type="string" reported_type="String">
+	<description>Child&#39;s race/ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="2068">Caucasian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="1007">Caucasian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="988">Caucasian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121908.v1.p1" var_name="country" calculated_type="string" reported_type="String">
+	<description>Country mother-child pair recruited in</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="2068">Denmark</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="1007">Denmark</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="988">Denmark</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121908.v1.p1.c1" var_name="country" calculated_type="string" reported_type="String">
+	<description>Country mother-child pair recruited in</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="2068">Denmark</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="1007">Denmark</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="988">Denmark</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121909.v1.p1" var_name="m_birthdec" calculated_type="string" reported_type="String">
+	<description>Mother&#39;s decade of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="1128">1970-1979</enum>
+			<enum count="885">1960-1969</enum>
+			<enum count="28">1980-1989</enum>
+			<enum count="27">1950-1959</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="570">1970-1979</enum>
+			<enum count="403">1960-1969</enum>
+			<enum count="18">1980-1989</enum>
+			<enum count="16">1950-1959</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="530">1970-1979</enum>
+			<enum count="438">1960-1969</enum>
+			<enum count="10">1980-1989</enum>
+			<enum count="10">1950-1959</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121909.v1.p1.c1" var_name="m_birthdec" calculated_type="string" reported_type="String">
+	<description>Mother&#39;s decade of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="1128">1970-1979</enum>
+			<enum count="885">1960-1969</enum>
+			<enum count="28">1980-1989</enum>
+			<enum count="27">1950-1959</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="570">1970-1979</enum>
+			<enum count="403">1960-1969</enum>
+			<enum count="18">1980-1989</enum>
+			<enum count="16">1950-1959</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="530">1970-1979</enum>
+			<enum count="438">1960-1969</enum>
+			<enum count="10">1980-1989</enum>
+			<enum count="10">1950-1959</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121910.v1.p1" var_name="m_birthqtr" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Mother&#39;s quarter of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="517" sd="56.42" median_count="517.5" min_count="455" max_count="578"/>
+			<enum code="2" count="578">Apr-Jun</enum>
+			<enum code="1" count="549">Jan-Mar</enum>
+			<enum code="3" count="486">Jul-Sep</enum>
+			<enum code="4" count="455">Oct-Dec</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="251.8" sd="24.2" median_count="257" min_count="220" max_count="273"/>
+			<enum code="2" count="273">Apr-Jun</enum>
+			<enum code="1" count="268">Jan-Mar</enum>
+			<enum code="3" count="246">Jul-Sep</enum>
+			<enum code="4" count="220">Oct-Dec</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="247" sd="29.7" median_count="244.5" min_count="219" max_count="280"/>
+			<enum code="2" count="280">Apr-Jun</enum>
+			<enum code="1" count="264">Jan-Mar</enum>
+			<enum code="3" count="225">Jul-Sep</enum>
+			<enum code="4" count="219">Oct-Dec</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121910.v1.p1.c1" var_name="m_birthqtr" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Mother&#39;s quarter of birth, from the Civil Registration System</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="517" sd="56.42" median_count="517.5" min_count="455" max_count="578"/>
+			<enum code="2" count="578">Apr-Jun</enum>
+			<enum code="1" count="549">Jan-Mar</enum>
+			<enum code="3" count="486">Jul-Sep</enum>
+			<enum code="4" count="455">Oct-Dec</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="251.8" sd="24.2" median_count="257" min_count="220" max_count="273"/>
+			<enum code="2" count="273">Apr-Jun</enum>
+			<enum code="1" count="268">Jan-Mar</enum>
+			<enum code="3" count="246">Jul-Sep</enum>
+			<enum code="4" count="220">Oct-Dec</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="247" sd="29.7" median_count="244.5" min_count="219" max_count="280"/>
+			<enum code="2" count="280">Apr-Jun</enum>
+			<enum code="1" count="264">Jan-Mar</enum>
+			<enum code="3" count="225">Jul-Sep</enum>
+			<enum code="4" count="219">Oct-Dec</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121911.v1.p1" var_name="m_race_ethn" calculated_type="string" reported_type="String">
+	<description>Mother&#39;s race/ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="2068">Caucasian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="1007">Caucasian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="988">Caucasian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121911.v1.p1.c1" var_name="m_race_ethn" calculated_type="string" reported_type="String">
+	<description>Mother&#39;s race/ethnicity</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0"/>
+			<enum count="2068">Caucasian</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0"/>
+			<enum count="1007">Caucasian</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0"/>
+			<enum count="988">Caucasian</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121912.v1.p1" var_name="m_sample" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Mother&#39;s DNA submitted for genotyping?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1339" median_count="1034" min_count="87" max_count="1981"/>
+			<enum code="1" count="1981">Yes</enum>
+			<enum code="0" count="87">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="600.3" median_count="503.5" min_count="79" max_count="928"/>
+			<enum code="1" count="928">Yes</enum>
+			<enum code="0" count="79">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="697.2" median_count="494" min_count="1" max_count="987"/>
+			<enum code="1" count="987">Yes</enum>
+			<enum code="0" count="1">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121912.v1.p1.c1" var_name="m_sample" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Mother&#39;s DNA submitted for genotyping?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1339" median_count="1034" min_count="87" max_count="1981"/>
+			<enum code="1" count="1981">Yes</enum>
+			<enum code="0" count="87">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="600.3" median_count="503.5" min_count="79" max_count="928"/>
+			<enum code="1" count="928">Yes</enum>
+			<enum code="0" count="79">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="697.2" median_count="494" min_count="1" max_count="987"/>
+			<enum code="1" count="987">Yes</enum>
+			<enum code="0" count="1">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121913.v1.p1" var_name="c_sample" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child&#39;s DNA submitted for genotyping?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1375" median_count="1034" min_count="62" max_count="2006"/>
+			<enum code="1" count="2006">Yes</enum>
+			<enum code="0" count="62">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="624.4" median_count="503.5" min_count="62" max_count="945"/>
+			<enum code="1" count="945">Yes</enum>
+			<enum code="0" count="62">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="1" count="988">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121913.v1.p1.c1" var_name="c_sample" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child&#39;s DNA submitted for genotyping?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1375" median_count="1034" min_count="62" max_count="2006"/>
+			<enum code="1" count="2006">Yes</enum>
+			<enum code="0" count="62">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="624.4" median_count="503.5" min_count="62" max_count="945"/>
+			<enum code="1" count="945">Yes</enum>
+			<enum code="0" count="62">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="988" median_count="988" min_count="988" max_count="988"/>
+			<enum code="1" count="988">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121914.v1.p1" var_name="m_genotype" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Maternal genotype available?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1277" median_count="1034" min_count="131" max_count="1937"/>
+			<enum code="1" count="1937">Yes</enum>
+			<enum code="0" count="131">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="567.8" median_count="503.5" min_count="102" max_count="905"/>
+			<enum code="1" count="905">Yes</enum>
+			<enum code="0" count="102">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="670.3" median_count="494" min_count="20" max_count="968"/>
+			<enum code="1" count="968">Yes</enum>
+			<enum code="0" count="20">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121914.v1.p1.c1" var_name="m_genotype" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Maternal genotype available?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1277" median_count="1034" min_count="131" max_count="1937"/>
+			<enum code="1" count="1937">Yes</enum>
+			<enum code="0" count="131">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="567.8" median_count="503.5" min_count="102" max_count="905"/>
+			<enum code="1" count="905">Yes</enum>
+			<enum code="0" count="102">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="670.3" median_count="494" min_count="20" max_count="968"/>
+			<enum code="1" count="968">Yes</enum>
+			<enum code="0" count="20">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121915.v1.p1" var_name="c_genotype" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child&#39;s genotype available?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1229" median_count="1034" min_count="165" max_count="1903"/>
+			<enum code="1" count="1903">Yes</enum>
+			<enum code="0" count="165">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="522.6" median_count="503.5" min_count="134" max_count="873"/>
+			<enum code="1" count="873">Yes</enum>
+			<enum code="0" count="134">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="660.4" median_count="494" min_count="27" max_count="961"/>
+			<enum code="1" count="961">Yes</enum>
+			<enum code="0" count="27">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121915.v1.p1.c1" var_name="c_genotype" calculated_type="enum_integer" reported_type="encoded integer">
+	<description>Child&#39;s genotype available?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean_count="1034" sd="1229" median_count="1034" min_count="165" max_count="1903"/>
+			<enum code="1" count="1903">Yes</enum>
+			<enum code="0" count="165">No</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean_count="503.5" sd="522.6" median_count="503.5" min_count="134" max_count="873"/>
+			<enum code="1" count="873">Yes</enum>
+			<enum code="0" count="134">No</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="660.4" median_count="494" min_count="27" max_count="961"/>
+			<enum code="1" count="961">Yes</enum>
+			<enum code="0" count="27">No</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121916.v1.p1" var_name="c_comment" calculated_type="string" reported_type="String">
+	<description>Reason for lack of child genotype (for children with DNA submitted for genotyping)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>72</case>
+				<control>27</control>
+			</case_control>
+			<sex>
+				<male>52</male>
+				<female>51</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="103" nulls="1965"/>
+			<enum count="77">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="8">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="6">Failed pre-testing, genotype dropped</enum>
+			<enum count="5">Sex error in child + inconsistent as child of g...</enum>
+			<enum count="4">Child sample appeared to be a mixture, genotype...</enum>
+			<enum count="2">Unexpected duplicate of another sample + incons...</enum>
+			<enum count="1">Inconsistent sex, genotype dropped</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>37</male>
+				<female>35</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="72" nulls="935"/>
+			<enum count="55">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="6">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="4">Failed pre-testing, genotype dropped</enum>
+			<enum count="3">Child sample appeared to be a mixture, genotype...</enum>
+			<enum count="2">Sex error in child + inconsistent as child of g...</enum>
+			<enum count="1">Unexpected duplicate of another sample + incons...</enum>
+			<enum count="1">Inconsistent sex, genotype dropped</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>13</male>
+				<female>14</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="27" nulls="961"/>
+			<enum count="20">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="3">Sex error in child + inconsistent as child of g...</enum>
+			<enum count="2">Failed pre-testing, genotype dropped</enum>
+			<enum count="1">Child sample appeared to be a mixture, genotype...</enum>
+			<enum count="1">Poor performance in 2 genotyping attempts, geno...</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121916.v1.p1.c1" var_name="c_comment" calculated_type="string" reported_type="String">
+	<description>Reason for lack of child genotype (for children with DNA submitted for genotyping)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>72</case>
+				<control>27</control>
+			</case_control>
+			<sex>
+				<male>52</male>
+				<female>51</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="103" nulls="1965"/>
+			<enum count="77">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="8">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="6">Failed pre-testing, genotype dropped</enum>
+			<enum count="5">Sex error in child + inconsistent as child of g...</enum>
+			<enum count="4">Child sample appeared to be a mixture, genotype...</enum>
+			<enum count="2">Unexpected duplicate of another sample + incons...</enum>
+			<enum count="1">Inconsistent sex, genotype dropped</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>37</male>
+				<female>35</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="72" nulls="935"/>
+			<enum count="55">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="6">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="4">Failed pre-testing, genotype dropped</enum>
+			<enum count="3">Child sample appeared to be a mixture, genotype...</enum>
+			<enum count="2">Sex error in child + inconsistent as child of g...</enum>
+			<enum count="1">Unexpected duplicate of another sample + incons...</enum>
+			<enum count="1">Inconsistent sex, genotype dropped</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>13</male>
+				<female>14</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="27" nulls="961"/>
+			<enum count="20">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="3">Sex error in child + inconsistent as child of g...</enum>
+			<enum count="2">Failed pre-testing, genotype dropped</enum>
+			<enum count="1">Child sample appeared to be a mixture, genotype...</enum>
+			<enum count="1">Poor performance in 2 genotyping attempts, geno...</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121917.v1.p1" var_name="m_comment" calculated_type="string" reported_type="String">
+	<description>Reason for lack of maternal genotype (for mothers with DNA submitted for genotyping)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>23</case>
+				<control>19</control>
+			</case_control>
+			<sex>
+				<male>28</male>
+				<female>16</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="44" nulls="2024"/>
+			<enum count="29">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="10">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="4">Failed pre-testing, genotype dropped</enum>
+			<enum count="1">No genotype due to lab processing error</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>16</male>
+				<female>7</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="23" nulls="984"/>
+			<enum count="14">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="6">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="3">Failed pre-testing, genotype dropped</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>12</male>
+				<female>7</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="19" nulls="969"/>
+			<enum count="13">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="4">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="1">Failed pre-testing, genotype dropped</enum>
+			<enum count="1">No genotype due to lab processing error</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121917.v1.p1.c1" var_name="m_comment" calculated_type="string" reported_type="String">
+	<description>Reason for lack of maternal genotype (for mothers with DNA submitted for genotyping)</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>23</case>
+				<control>19</control>
+			</case_control>
+			<sex>
+				<male>28</male>
+				<female>16</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="44" nulls="2024"/>
+			<enum count="29">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="10">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="4">Failed pre-testing, genotype dropped</enum>
+			<enum count="1">No genotype due to lab processing error</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>16</male>
+				<female>7</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="23" nulls="984"/>
+			<enum count="14">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="6">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="3">Failed pre-testing, genotype dropped</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>12</male>
+				<female>7</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="19" nulls="969"/>
+			<enum count="13">Poor performance in pre-testing, genotype dropped</enum>
+			<enum count="4">Poor performance in 2 genotyping attempts, geno...</enum>
+			<enum count="1">Failed pre-testing, genotype dropped</enum>
+			<enum count="1">No genotype due to lab processing error</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121918.v1.p1" var_name="c_flag" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Child&#39;s DNA submitted for genotyping but no genotype in the final dataset?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>945</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1055</male>
+				<female>951</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2006" nulls="62" mean_count="1003" sd="1273" median_count="1003" min_count="103" max_count="1903"/>
+			<enum code="0" count="1903">No</enum>
+			<enum code="1" count="103">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>499</male>
+				<female>446</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="62" mean_count="472.5" sd="566.4" median_count="472.5" min_count="72" max_count="873"/>
+			<enum code="0" count="873">No</enum>
+			<enum code="1" count="72">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="660.4" median_count="494" min_count="27" max_count="961"/>
+			<enum code="0" count="961">No</enum>
+			<enum code="1" count="27">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121918.v1.p1.c1" var_name="c_flag" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Child&#39;s DNA submitted for genotyping but no genotype in the final dataset?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>945</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1055</male>
+				<female>951</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2006" nulls="62" mean_count="1003" sd="1273" median_count="1003" min_count="103" max_count="1903"/>
+			<enum code="0" count="1903">No</enum>
+			<enum code="1" count="103">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>499</male>
+				<female>446</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="945" nulls="62" mean_count="472.5" sd="566.4" median_count="472.5" min_count="72" max_count="873"/>
+			<enum code="0" count="873">No</enum>
+			<enum code="1" count="72">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean_count="494" sd="660.4" median_count="494" min_count="27" max_count="961"/>
+			<enum code="0" count="961">No</enum>
+			<enum code="1" count="27">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121919.v1.p1" var_name="m_flag" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Maternal DNA submitted for genotyping but no genotype in the final dataset?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>928</case>
+				<control>987</control>
+			</case_control>
+			<sex>
+				<male>1044</male>
+				<female>937</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1981" nulls="87" mean_count="990.5" sd="1339" median_count="990.5" min_count="44" max_count="1937"/>
+			<enum code="0" count="1937">No</enum>
+			<enum code="1" count="44">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>493</male>
+				<female>435</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="928" nulls="79" mean_count="464" sd="623.7" median_count="464" min_count="23" max_count="905"/>
+			<enum code="0" count="905">No</enum>
+			<enum code="1" count="23">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="987" nulls="1" mean_count="493.5" sd="671" median_count="493.5" min_count="19" max_count="968"/>
+			<enum code="0" count="968">No</enum>
+			<enum code="1" count="19">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121919.v1.p1.c1" var_name="m_flag" calculated_type="enum_integer" reported_type="Encoded integer, encoded string">
+	<description>Maternal DNA submitted for genotyping but no genotype in the final dataset?</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>928</case>
+				<control>987</control>
+			</case_control>
+			<sex>
+				<male>1044</male>
+				<female>937</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1981" nulls="87" mean_count="990.5" sd="1339" median_count="990.5" min_count="44" max_count="1937"/>
+			<enum code="0" count="1937">No</enum>
+			<enum code="1" count="44">Yes</enum>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>493</male>
+				<female>435</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="928" nulls="79" mean_count="464" sd="623.7" median_count="464" min_count="23" max_count="905"/>
+			<enum code="0" count="905">No</enum>
+			<enum code="1" count="23">Yes</enum>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="987" nulls="1" mean_count="493.5" sd="671" median_count="493.5" min_count="19" max_count="968"/>
+			<enum code="0" count="968">No</enum>
+			<enum code="1" count="19">Yes</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121920.v1.p1" var_name="ga_days" calculated_type="integer" units="Days" reported_type="Integer">
+	<description>Gestational age at birth in days, consensus variable</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="260.4" sd="26.14" median="269.5" min="141" max="298"/>
+			<example count="163">280</example>
+			<example count="154">283</example>
+			<example count="142">284</example>
+			<example count="136">286</example>
+			<example count="134">281</example>
+			<example count="131">282</example>
+			<example count="128">285</example>
+			<example count="69">252</example>
+			<example count="58">251</example>
+			<example count="55">253</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="237.3" sd="18.75" median="244" min="141" max="257"/>
+			<example count="69">252</example>
+			<example count="58">251</example>
+			<example count="55">253</example>
+			<example count="50">250</example>
+			<example count="46">254</example>
+			<example count="45">249</example>
+			<example count="44">248</example>
+			<example count="41">245</example>
+			<example count="38">247</example>
+			<example count="34">238</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="282.9" sd="2.014" median="283" min="280" max="286"/>
+			<enum count="163">280</enum>
+			<enum count="154">283</enum>
+			<enum count="142">284</enum>
+			<enum count="136">286</enum>
+			<enum count="134">281</enum>
+			<enum count="131">282</enum>
+			<enum count="128">285</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121920.v1.p1.c1" var_name="ga_days" calculated_type="integer" units="Days" reported_type="Integer">
+	<description>Gestational age at birth in days, consensus variable</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="260.4" sd="26.14" median="269.5" min="141" max="298"/>
+			<example count="163">280</example>
+			<example count="154">283</example>
+			<example count="142">284</example>
+			<example count="136">286</example>
+			<example count="134">281</example>
+			<example count="131">282</example>
+			<example count="128">285</example>
+			<example count="69">252</example>
+			<example count="58">251</example>
+			<example count="55">253</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="237.3" sd="18.75" median="244" min="141" max="257"/>
+			<example count="69">252</example>
+			<example count="58">251</example>
+			<example count="55">253</example>
+			<example count="50">250</example>
+			<example count="46">254</example>
+			<example count="45">249</example>
+			<example count="44">248</example>
+			<example count="41">245</example>
+			<example count="38">247</example>
+			<example count="34">238</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="282.9" sd="2.014" median="283" min="280" max="286"/>
+			<enum count="163">280</enum>
+			<enum count="154">283</enum>
+			<enum count="142">284</enum>
+			<enum count="136">286</enum>
+			<enum count="134">281</enum>
+			<enum count="131">282</enum>
+			<enum count="128">285</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121921.v1.p1" var_name="ga_weeks" calculated_type="integer" units="Weeks" reported_type="Integer">
+	<description>Gestational age at birth in completed weeks, consensus variable</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="36.79" sd="3.713" median="38" min="20" max="42"/>
+			<example count="988">40</example>
+			<example count="308">35</example>
+			<example count="179">34</example>
+			<example count="176">36</example>
+			<example count="114">33</example>
+			<example count="72">32</example>
+			<example count="48">31</example>
+			<example count="26">30</example>
+			<example count="24">39</example>
+			<example count="23">38</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="33.52" sd="2.68" median="34" min="20" max="36"/>
+			<example count="308">35</example>
+			<example count="179">34</example>
+			<example count="176">36</example>
+			<example count="114">33</example>
+			<example count="72">32</example>
+			<example count="48">31</example>
+			<example count="26">30</example>
+			<example count="19">29</example>
+			<example count="17">27</example>
+			<example count="12">28</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="40" sd="0" median="40" min="40" max="40"/>
+			<enum count="988">40</enum>
+		</stats>
+	</controls>
+</variable>
+
+<variable id="phv00121921.v1.p1.c1" var_name="ga_weeks" calculated_type="integer" units="Weeks" reported_type="Integer">
+	<description>Gestational age at birth in completed weeks, consensus variable</description>
+	<total>
+		<subject_profile>
+			<case_control>
+				<case>1007</case>
+				<control>988</control>
+			</case_control>
+			<sex>
+				<male>1093</male>
+				<female>975</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="2068" nulls="0" mean="36.79" sd="3.713" median="38" min="20" max="42"/>
+			<example count="988">40</example>
+			<example count="308">35</example>
+			<example count="179">34</example>
+			<example count="176">36</example>
+			<example count="114">33</example>
+			<example count="72">32</example>
+			<example count="48">31</example>
+			<example count="26">30</example>
+			<example count="24">39</example>
+			<example count="23">38</example>
+		</stats>
+	</total>
+	<cases>
+		<subject_profile>
+			<sex>
+				<male>537</male>
+				<female>470</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="1007" nulls="0" mean="33.52" sd="2.68" median="34" min="20" max="36"/>
+			<example count="308">35</example>
+			<example count="179">34</example>
+			<example count="176">36</example>
+			<example count="114">33</example>
+			<example count="72">32</example>
+			<example count="48">31</example>
+			<example count="26">30</example>
+			<example count="19">29</example>
+			<example count="17">27</example>
+			<example count="12">28</example>
+		</stats>
+	</cases>
+	<controls>
+		<subject_profile>
+			<sex>
+				<male>517</male>
+				<female>471</female>
+			</sex>
+		</subject_profile>
+		<stats>
+			<stat n="988" nulls="0" mean="40" sd="0" median="40" min="40" max="40"/>
+			<enum count="988">40</enum>
+		</stats>
+	</controls>
+</variable>
+
+</data_table>
+
