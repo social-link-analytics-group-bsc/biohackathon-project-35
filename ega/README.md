@@ -35,3 +35,9 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 - 704,732 unique samples
 - 1487 studies
 - 4289 phenotypes
+
+## There are sample submitted after 2018 without sex classification
+The plot shows the year of the sample creation and the sex classification of each of them, showing that unknown classification is still there even though it's mandatory to report this after 2018 (???),
+<p align="center">
+<img src="images/gender_bias_samples_ega_yearofsample.png" width="800" heigh="400"/>
+</p>
