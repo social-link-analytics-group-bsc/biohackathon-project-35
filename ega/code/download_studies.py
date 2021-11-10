@@ -4,7 +4,7 @@ import pandas as pd
 
 def get_data(study_id):
     response = requests.get(
-        " https://ega-archive.org/metadata/v2/samples?queryBy=study&queryId={}&limit=0".format(study_id)
+        "https://ega-archive.org/metadata/v2/samples?queryBy=study&queryId={}&limit=0".format(study_id)
     )
     if response.status_code != 200:
         print("Study {} got error code {}".format(study_id, response.status_code))
@@ -50,7 +50,7 @@ def main(load_file=None, skip_first=0, skip_numbers = []):
     skip_numbers: list of the number of the study that will not collect data from.
     """
 
-    study_list = get_study_list("EGA_studies_list.txt")
+    study_list = get_study_list("../EGA_studies_list.txt")
     
     rows = []
     counter = 0
@@ -69,14 +69,14 @@ def main(load_file=None, skip_first=0, skip_numbers = []):
         if counter in skip_numbers:
             continue
 
-        print("getting study {}".format(counter))
+        print("getting study {} - {}".format(counter, s))
         rows.append(get_study_info(s))
         if counter%10 == 0:
-            pd.DataFrame(rows).to_csv("EGA_data_back{}.csv".format(int(counter/10)))
+            pd.DataFrame(rows).to_csv("../EGA_data_back{}.csv".format(int(counter/10)))
 
-    pd.DataFrame(rows).to_csv('EGA_data.csv',sep=';')
+    pd.DataFrame(rows).to_csv('../EGA_data.csv',sep=';')
 
     
 
 if __name__ == "__main__":
-    main("EGA_data_back37.csv", 370, [374])
+    main("../EGA_data_back108.csv", 1080, [374, 1087, 1090])
