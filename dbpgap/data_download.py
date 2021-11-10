@@ -9,6 +9,7 @@ import ftplib
 import pickle
 import time
 import glob
+import json
 
 def load_temp_list(infile, type_save=None):
     if type_save == 'pickle':
@@ -94,7 +95,6 @@ def create_study_path(source_dir, phs_name, ftp):
 
         try:
             study_versions = ftp.nlst(study_path)
-            print("Done")
             finished = True
         except Exception as e:
             ftp.close()
@@ -107,7 +107,7 @@ def create_study_path(source_dir, phs_name, ftp):
     return phenotypes_path
 
 
-def get_files_to_dl(phenotypes_path, ftp):
+def get_files_to_dl(phenotypes_path, id_x, ftp):
     files_to_dl_list = list()
     finished = False
     time_sec = 1
@@ -138,7 +138,10 @@ def get_files_to_dl(phenotypes_path, ftp):
         for pht in reports:
             # I have searched only 'var_report', because 'phenotype'
             # is not always in the name of the file (to improve)
-            if 'var_report' in pht:
+            pht_to_check = pht.split('/')
+            idx_to_check = pht_to_check[6].split('.')[0]
+            print(idx_to_check)
+            if 'var_report' in pht and id_x in idx_to_check:
                 files_to_dl_list.append(pht)
 
                 save_temp_list(pht, './var_report_list_temp')
@@ -157,7 +160,6 @@ def write_file_data(infile, outfile, ftp):
 
         try:
             ftp.retrbinary('RETR '+infile, outfile.write)
-            print("Done")
             finished = True
         except Exception as e:
             ftp.close()
@@ -192,17 +194,21 @@ if __name__ == "__main__":
 
     txtfiles = []
     for file_ in glob.glob("./data/*.xml"):
-        print(file_)
         txtfiles.append(file_.split('/')[2].split('.')[0])
     existing_phenotype = set(txtfiles)
 
     print('Remove the already downloaded ones')
     for i in existing_phenotype:
-        del all_studies_dict[i]
+        try:
+            del all_studies_dict[i]
+        except KeyError:
+            pass
 
 
     print("Get the already made variable_file_list")
     var_report_list = load_temp_list('./var_report_list_temp')
+    # TODO: there maybe an issue if the program crashes before getting all the files
+    # Here it will consider it has all of them 
     for x in var_report_list:
         id_x = x.split('/')[3]
         print(id_x)
@@ -232,13 +238,24 @@ if __name__ == "__main__":
         save_temp_list(pheno_path, './phenotypes_path_list_temp')
 
     print('Get the var_report file list')
-    var_report_list = flatten([get_files_to_dl(x, ftp) for x in phenotypes_path_list])
 
+    n=0
+    for x in phenotypes_path_list:
+        n+=1
+        id_x = x.split('/')[3]
+        var_report_list = get_files_to_dl(x, id_x, ftp)
 
-    print('Downloading the data')
-    for infile in var_report_list: 
-        outfile = os.path.basename(infile)
-        print('{}'.format(outfile))
-        with open(mypath+ "/" +outfile, 'wb') as fh:
-            print("dl the file into: {}".format(outfile))
-            write_file_data(infile, fh, ftp)     
+        txtfiles = []
+        for file_ in glob.glob("./data/*.xml"):
+            txtfiles.append(file_.split('/')[2])
+        existing_phenotype = set(txtfiles)
+        for infile in var_report_list: 
+            if infile.split('/')[-1] not in txtfiles:
+                print(infile)
+                outfile = os.path.basename(infile)
+                if not os.path.exists(outfile):
+                    with open(mypath+ "/" +outfile, 'wb') as fh:
+                        print("dl the file into: {}".format(outfile))
+                        write_file_data(infile, fh, ftp)     
+            print("Remaining phenotypes_path to do: {}".format(len(phenotypes_path_list) - n))
+    # var_report_list = flatten([get_files_to_dl(x, ftp) for x in phenotypes_path_list])
