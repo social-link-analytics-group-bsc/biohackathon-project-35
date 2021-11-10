@@ -62,7 +62,7 @@ And we check how's the samples dates distribution according to the year of the s
 <img src="images/gender_bias_yearofsample_yearstudy2.png" width="400" heigh="400"/>
 </p>
 
-- This results reinforce the idea on how to reuse old samples.
+- These results reinforce the idea on how to reuse old samples.
 
 # Results from file "raw\_data"
 
