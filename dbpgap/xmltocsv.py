@@ -9,42 +9,61 @@ import re
 import xml.etree.ElementTree as ET
 import pandas as pd
 
-
-#parsing -starting by a single file
-phs = ET.parse('data/phs000001.v3.pht000370.v2.p1.adverse.var_report.xml')
-root = phs.getroot()
-
-#print(root.tag, root.attrib)
-parentid = root.attrib['study_id']
+# lists for values
+ids = []
+date = []
+totalcases = []
+nulls = []
+nmale = []
+nfemale = []
 repository = "dbGAP"
-date = root.attrib["date_created"]
-print(parentid, repository, date)
 
-#dataframe to store values
-df = pd.DataFrame() 
+xmlpath = "data/"
 
-for child in root.findall('variable'):
-    if (child.attrib['var_name'] == "ID2"):
-        id2 = child.attrib['id']
-        tocsv["id"].append(id2)
-        print(id2)
-        for stats in child.findall('total'):
+# functions
+def parse(xmlpath):
+    phs = ET.parse(xmlpath)
+    root = phs.getroot()
+    return(root)
+
+def mine(root):
+    for child in root.findall('variable'):     
+        #extract subid (version + p + consent group)
+        if (child.attrib['var_name'] == "ID2"):
+            idhere = child.attrib['id']
+            ids.append(idhere)
             
-            #extract total
-            for n in stats.iter('stat'):
-                totalcases = n.attrib["n"]
-                print(totalcases)
-                
-            #extract nulls
-            for n in stats.iter('stat'):
-                nulls = n.attrib["nulls"]
-                print(nulls)
-                
-            #extract n per sex
-            for male in stats.iter('male'):
-                nmale = male.text
-                print(nmale)
-            for female in stats.iter('female'):
-                nfemale = female.text
-                print(nfemale)
-        
+            #extracting date from prolog here to avoid different nr of dates/ids
+            datehere = root.attrib["date_created"]
+            date.append(datehere)
+
+            for stats in child.findall('total'): 
+                #extract total
+                for n in stats.iter('stat'):
+                    totalhere = n.attrib["n"]
+                    totalcases.append(totalhere)
+
+                #extract nulls
+                for n in stats.iter('stat'):
+                    nullshere = n.attrib["nulls"]
+                    nulls.append(nullshere)
+
+                #extract n per sex
+                for male in stats.iter('male'):
+                    nmaleshere = male.text
+                    nmale.append(nmaleshere)
+                for female in stats.iter('female'):
+                    nfemalehere = female.text
+                    nfemale.append(nfemalehere)
+
+#apply to xmls
+for xml in os.listdir(xmlpath):
+    if xml.endswith(xml):
+        root = parse(xmlpath+xml)
+        mine(root)
+
+print(ids, totalcases, nulls,nmale,nfemale, date)
+
+
+df = pd.DataFrame({'ID': ids, 'Female': nfemale, 'Male': nmale, 'Total': totalcases, 'Nulls': nulls, 'Date': date, 'Repository': "dbgap"})
+df.to_csv("summary.csv")
