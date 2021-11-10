@@ -49,6 +49,20 @@ Samples without released date constitute 48% of the samples contained in studies
 - The idea here is to give a recommentadion on how to reuse old samples, use those that contain sex classification. 
 - Another point to raise is: if in 2018 sex is mandatory to be reported, why for some samples after this date we find 'unknown' classification. Perhaps something is messed up with the upload date. 
 
+## What's the tendency of the selected studies to reuse samples?
+We check the number of studies per year that include at least one sample from unknown released date and we see it's a common practice across studies and along the years. 
+
+<p align="center">
+<img src="images/gender_bias_yearofsample_yearstudy.png" width="400" heigh="400"/>
+</p>
+
+And we check how's the samples dates distribution according to the year of the study. 
+
+<p align="center">
+<img src="images/gender_bias_yearofsample_yearstudy2.png" width="400" heigh="400"/>
+</p>
+
+- This results reinforce the idea on how to reuse old samples.
 
 # Results from file "raw\_data"
 
