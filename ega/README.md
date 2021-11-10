@@ -44,7 +44,6 @@ From the key value data file we extracted all the studies with gender and counte
 
 | study | males | females | unknown |
 |---    |---    |---      |---      |
-|_id_   |3      | 4       | 5       |
 
 
 We then filtered out the studies having less than 100 samples in their data and otained a _pertinent_ studies set of 556 studies.
