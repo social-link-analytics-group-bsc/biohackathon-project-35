@@ -6,19 +6,26 @@ Science could benefit from diversity: to improve the participation of under-repr
 
 Please take a moment to fill out the survey below. Your input will help us! 
 
-1. How often do you include the following variables in your dataset? 
+0. If you develop or mantain databases: how often these resources include the following variables in their data model?
+   Sex: Never (1) - 2- 3- 4- 5 (Always)
+   Gender: Never (1) 2- 3- 4- 5 (Always)
+   Age: Never (1) 2- 3- 4- 5 (Always)
+   Ethnicity: Never (1) 2- 3- 4- 5 (Always)
+   Race: Never (1) 2- 3- 4- 5 (Always)
+
+1. If you are a researcher, how often do you include the following variables in your datasets? 
    Sex: Never (1) - 2- 3- 4- 5 (Always)
    Gender: Never (1) 2- 3- 4- 5 (Always)
    Age: Never (1) 2- 3- 4- 5 (Always)
    Ethnicity: Never (1) 2- 3- 4- 5 (Always)
    Race: Never (1) 2- 3- 4- 5 (Always)
    
-2. Does your interpretation of results includes a intersectional analysis (sex, gender, age, ethnicity, race)
+2. If you are a researcher or data analyst, does your interpretation of results include a intersectional analysis (sex, gender, age, ethnicity, race)? 
    Yes
    No
    N/A
   
-3. Are you familiarised with guidelines for collection sex/gender/age/race/ethnicity or recommendations of best practices in biomedical research? (DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0007-6#ref-CR15 )
+3. Are you familiarised with guidelines for collection sex/gender/age/race/ethnicity or recommendations of best practices in biomedical research? (e.g. DOME: https://www.nature.com/articles/s41592-021-01205-4; SAGER: https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-016-0007-6#ref-CR15 )
   I don't know them
   I know them but I don't apply them
   I know them but I don't need them
@@ -27,41 +34,41 @@ Please take a moment to fill out the survey below. Your input will help us!
   I know others: ...
   N/A
   
-4. Do you think capturing diversity (e.g., sex, gender, age, ethnicity) for biomedical research must be:
+4. Do you think capturing diversity (e.g., sex, gender, age, ethnicity) for biomedical research should be?
   Mandatory 
   Not Mandatory 
   I don´t know 
   N/A
   
-5. How much do you consider the diversity (e.g., sex, gender, age, ethnicity) for biomedical research in your analysis:
+5. How much do you consider the diversity (e.g., sex, gender, age, ethnicity) for biomedical research in your analysis?
  (1) Not relevant 2-3-4-5 (Extremely relevant)
   N/A
   
 6. Would you be interested in receiving training on social and ethical implications of biomedical research?
   Yes (in person) 
   Yes (online)
+  Yes both (in person or online)
   No
   I don't know
   N/A
 
-7. Have you experienced difficulties with datasets having many missing values of diversity data due to data donnors withdrawing (parts of) informed consent?
+7. Have you experienced difficulties with datasets having many missing values of diversity data due to medical data providers withdrawing (parts of) informed consent?
   Never
   Sometimes
   Often
   Always
   NA
 
-8. How important is educating data donnors would help raise awareness on the importance of diversity data for fair research outcomes?
+8. How important is educating medical data providers to help raise awareness on the importance of diversity data for fair research outcomes? 
  (1) Not important 2- 3- 4- 5 (Extremely important) 
  
 9. The European Commission has published a Gender equality plan to opt for research fundings. Also the Gendered Innovation published a report recommending how to introduce the sex and gender dimension in biomedical research.
 Requirements from journal editorial policies can have a powerful benefit as well, the adoption of a requirement to publish a crystal structure in the wwPDB or sequence to the NCBI helped drive such depositing practices to standard. 
 How important is to include diversity information in publication and funding processes?
   Not important
-  Important only for publications and Intellectual Property 
-  Important only for fundings
+  Important only for publications and Intellectual Property (IP)
+  Important only for fundering agencies
   Important for both
-  Neither
   Others: ...
 
 10. Which mechanisms should be put in place to ensure that public and private biomedical research capture diversity dimension? (multiple answers)

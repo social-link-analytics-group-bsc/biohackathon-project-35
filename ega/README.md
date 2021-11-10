@@ -7,12 +7,12 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 ### Globally
 
 <p align="center">
-<img src="gender_bias_samples_ega.png" width="400" heigh="400"/>
+<img src="images/gender_bias_samples_ega.png" width="400" heigh="400"/>
 </p>
 
 ### Anually
 <p align="center">
-<img src="gender_bias_samples_ega_year.png" width="800" heigh="400"/>
+<img src="images/gender_bias_samples_ega_year.png" width="800" heigh="400"/>
 </p>
 
 ## Quantification biases at the study level
@@ -23,10 +23,15 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
   - 67% (991) of the studies report the biological sex of all the considered samples .
 
 <p align="center">
-<img src="gender_bias_study_ega.png" width="400" heigh="400"/>
+<img src="images/gender_bias_study_ega.png" width="400" heigh="400"/>
 </p>
 
 ### Anually
 <p align="center">
-<img src="gender_bias_study_ega_year.png" width="800" heigh="400"/>
+<img src="images/gender_bias_study_ega_year.png" width="800" heigh="400"/>
 </p>
+
+# Summary of results from file "raw_data_sample_tag.txt"
+- 704,732 unique samples
+- 1487 studies
+- 4289 phenotypes
