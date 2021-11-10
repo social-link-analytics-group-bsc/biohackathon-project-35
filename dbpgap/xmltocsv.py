@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#work in progress
-# still need to loop through the files, build csv
-
 import os
 import re
 import xml.etree.ElementTree as ET
