@@ -23,44 +23,49 @@ def parse(xmlpath):
     root = phs.getroot()
     return(root)
 
-def mine(root):
-    for child in root.findall('variable'):     
-        #extract subid (version + p + consent group)
-        if (child.attrib['var_name'] == "ID2"):
-            idhere = child.attrib['id']
-            ids.append(idhere)
-            
-            #extracting date from prolog here to avoid different nr of dates/ids
-            datehere = root.attrib["date_created"]
-            date.append(datehere)
+def minedate(root):
+    datehere = root.attrib["date_created"]
+    date.append(datehere)
 
-            for stats in child.findall('total'): 
-                #extract total
-                for n in stats.iter('stat'):
-                    totalhere = n.attrib["n"]
-                    totalcases.append(totalhere)
-
-                #extract nulls
-                for n in stats.iter('stat'):
-                    nullshere = n.attrib["nulls"]
-                    nulls.append(nullshere)
-
-                #extract n per sex
-                for male in stats.iter('male'):
-                    nmaleshere = male.text
-                    nmale.append(nmaleshere)
-                for female in stats.iter('female'):
-                    nfemalehere = female.text
-                    nfemale.append(nfemalehere)
-
-#apply to xmls
+#currently doesn't work 
+def minetotal(root):
+    for child in root.findall('variable'): 
+        for total in child.findall('total'):
+            #for n in stats.find('stat'):
+            print(total.attrib)
+            #for n in total.findall('stat'):
+            #    print(n.attrib)
+            #    totalhere = n.attrib["n"]
+            #   totalcases.append(totalhere)
+    
+#parse and retrieve dates
 for xml in os.listdir(xmlpath):
+    ids.append(os.path.splitext(xml))
     if xml.endswith(xml):
-        root = parse(xmlpath+xml)
-        mine(root)
+        
+        try:
+            root = parse(xmlpath+xml)
+        except:
+            date.append("NA")
+            continue
+            
+        try:
+            minedate(root)
+        except:
+            date.append("NA")
+            
+        #works up until this function:
+        minetotal(root)
 
-print(ids, totalcases, nulls,nmale,nfemale, date)
+
+#summary
+print(len(ids)) #ok
+print(len(date)) #ok w/ some error handling 
+print(len(totalcases)) # empty at the moment
+print(len(nulls)) # empty at the moment
+print(len(nfemale)) # empty at the moment
+print(len(nmale)) # empty at the moment
 
 
-df = pd.DataFrame({'ID': ids, 'Female': nfemale, 'Male': nmale, 'Total': totalcases, 'Nulls': nulls, 'Date': date, 'Repository': "dbgap"})
-df.to_csv("summary.csv")
+#df = pd.DataFrame({'Study_ids': ids, 'Date': date, 'Total': totalcases, 'Nulls': nulls, 'Female': nfemale, 'Male': nmale, 'Repository': "dbgap"})
+#df.to_csv("summary.csv")
