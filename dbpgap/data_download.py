@@ -52,7 +52,7 @@ def flatten(s):
         results.append(s)
     return results
 
-def get_all_studies(source_dir, ftp_connection):
+def get_all_studies(source_dir):
     """
     Get the study folder for all the phs
     params:
@@ -62,7 +62,7 @@ def get_all_studies(source_dir, ftp_connection):
     return:
     list_all_dbgap_studies list(): list of all the db_gap studies folders
     """
-    list_all_dbgap_studies = ftp_connection.nlst(source_dir)
+    list_all_dbgap_studies = ftp.nlst(source_dir)
     # Be sure to select the right phs
     dict_to_return = dict()
     for x in list_all_dbgap_studies:
@@ -74,7 +74,7 @@ def get_all_studies(source_dir, ftp_connection):
     return dict_to_return
     # return list(list_all_dbgap_studies)
 
-def create_study_path(source_dir, phs_name, ftp):
+def create_study_path(source_dir, phs_name):
     """
     Use the name and create the full path from the ftp
     """
@@ -83,6 +83,7 @@ def create_study_path(source_dir, phs_name, ftp):
         s = re.findall("\d+$",d)
         return (int(s[0]) if s else -1,d)
 
+    global ftp
     study_path = os.path.join(source_dir, phs_name)
 
     finished = False
@@ -107,7 +108,8 @@ def create_study_path(source_dir, phs_name, ftp):
     return phenotypes_path
 
 
-def get_files_to_dl(phenotypes_path, id_x, ftp):
+def get_files_to_dl(phenotypes_path, id_x):
+    global ftp
     files_to_dl_list = list()
     finished = False
     time_sec = 1
@@ -148,7 +150,8 @@ def get_files_to_dl(phenotypes_path, id_x, ftp):
     return files_to_dl_list
 
 
-def write_file_data(infile, outfile, ftp):
+def write_file_data(infile, outfile):
+    global ftp
     finished = False
     time_sec = 1
     while (finished is False):
@@ -169,7 +172,6 @@ def write_file_data(infile, outfile, ftp):
             time.sleep(time_sec)
 
 
-
 if __name__ == "__main__":
 
     source_dir = '/dbgap/studies/' 
@@ -182,13 +184,14 @@ if __name__ == "__main__":
 
 
     # init ftp connection
+    global ftp
     print('Establishing connection')
     ftp = FTP('ftp.ncbi.nlm.nih.gov', timeout=None)
     ftp.login()
     print('Connection established')
 
     print('Get the full list of studies')
-    all_studies_dict = get_all_studies(source_dir, ftp)
+    all_studies_dict = get_all_studies(source_dir)
 
     print('Get the phenotype already downloaded')
 
@@ -233,22 +236,22 @@ if __name__ == "__main__":
         
 
     for x in all_studies_dict:
-        pheno_path = create_study_path(source_dir, all_studies_dict[x], ftp) 
+        pheno_path = create_study_path(source_dir, all_studies_dict[x]) 
         phenotypes_path_list.append(pheno_path)
         save_temp_list(pheno_path, './phenotypes_path_list_temp')
 
     print('Get the var_report file list')
 
     n=0
+    txtfiles = []
+    for file_ in glob.glob("./data/*.xml"):
+        txtfiles.append(file_.split('/')[2])
+    existing_phenotype = set(txtfiles)
     for x in phenotypes_path_list:
         n+=1
         id_x = x.split('/')[3]
-        var_report_list = get_files_to_dl(x, id_x, ftp)
+        var_report_list = get_files_to_dl(x, id_x)
 
-        txtfiles = []
-        for file_ in glob.glob("./data/*.xml"):
-            txtfiles.append(file_.split('/')[2])
-        existing_phenotype = set(txtfiles)
         for infile in var_report_list: 
             if infile.split('/')[-1] not in txtfiles:
                 print(infile)
@@ -256,6 +259,5 @@ if __name__ == "__main__":
                 if not os.path.exists(outfile):
                     with open(mypath+ "/" +outfile, 'wb') as fh:
                         print("dl the file into: {}".format(outfile))
-                        write_file_data(infile, fh, ftp)     
+                        write_file_data(infile, fh)     
             print("Remaining phenotypes_path to do: {}".format(len(phenotypes_path_list) - n))
-    # var_report_list = flatten([get_files_to_dl(x, ftp) for x in phenotypes_path_list])
