@@ -51,7 +51,7 @@ We then filtered out the studies having less than 100 samples in their data and 
 ## Results
 
 ### Summary of known and unknown gender
-Despites the fact that since 2018, EGA made the inclusion of sex in the data mandatory, some studies are still using old dataset. This explain the presence of some studies having an unknown gender and a non specified gender.
+Despites the fact that since 2018, EGA made the inclusion of sex in the data mandatory, some studies are still using old samples. This explains the presence of some studies having an unknown gender and a non specified gender.
 We excluded the studies that have a non specified gender, but we computed the count of studies with unknown sex.  
 
 Studies that only used data with sex marked: **276**.
