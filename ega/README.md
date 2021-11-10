@@ -64,3 +64,23 @@ To measure the relative gap of sex representation we only included studies that 
 From there we measure the relative gap as #females/(#males+#females) - #males/(#males+#females).  
 On average the gap in the studies is -12%.
 Which means that on average each study has a data set with 12% less women than men.
+
+### Summary of all bias datasets
+
+We found that dome datasets are completely biased towards one of the sexes.  
+There are **50** studies use datasets where all the samples are females.  
+There are **24** studies use datasets where all the samples are males.  
+
+In some cases this _bias_ makes since.
+For example it does not make sense to have females in the data for a study for prostate cancer.
+Nevertheless some studies are for general purpose and use only one sex for it.
+Other diseases like breast cancer affect both sexes but are more common for only one.
+Ideally those studies should consider both sexes but it kind of makes sense that only have one.
+
+|                     | **only males** | **only females** |
+|---------------------|----------------|------------------|
+| makes sense         | 14             | 19               |
+| does noe make sense | 10             | 20               |
+| could make sense    | 0              | 11               | 
+
+
