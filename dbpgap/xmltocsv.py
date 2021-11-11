@@ -41,7 +41,10 @@ def minetotal(root):
 #parse and retrieve dates
 n = 0
 
-
+good_files_count = 0
+none_type_error_count = 0
+empty_files_error_count = 0 
+parsed_error_count = 0 
 for file in glob.glob('./data/*.xml'):
     maxmale = []
     maxfemale = []
@@ -87,9 +90,12 @@ for file in glob.glob('./data/*.xml'):
                 print(max(maxfemale))
                 print(max(maxn))
                 #print(max(maxnull))
+                good_files_count +=1
             except:
+                empty_files_error_count +=1
                 print("NA")
         except TypeError:
+            none_type_error_count  +=1
             pass
             # print(child.tag, child.attrib, child.text)
 
@@ -109,6 +115,9 @@ for file in glob.glob('./data/*.xml'):
             
         ##works up until this function:
     # minetotal(root)
-    if n == 10:
-        break
+        parsed_error_count +=1
 
+print('Total of functional files: {}'.format(good_files_count))
+print('Total of ParsingError files: {}'.format(parsed_error_count))
+print('Total of empty results files: {}'.format(empty_files_error_count))
+print('Total of TypeError files: {}'.format(none_type_error_count))
