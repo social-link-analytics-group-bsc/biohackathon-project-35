@@ -18,5 +18,5 @@
 
 ### annually
 <p align="center">
-<img src="images/samples_dbgap_year_percent.png" width="400" heigh="400"/>
+<img src="images/samples_dbgap_year_percent.png" width="800" heigh="800"/>
 </p>
