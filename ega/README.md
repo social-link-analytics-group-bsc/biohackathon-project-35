@@ -26,6 +26,42 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 <img src="images/gender_bias_study_ega.png" width="400" heigh="400"/>
 </p>
 
+#### Sample distribution in "female_male_unknown", "female_unknown" and "male_unknown" groups
+
+<p align="center">
+<img src="images/gender_bias_study_ega_samplelevel.png" width="800" heigh="400"/>
+</p>
+
+**Female_unknown phenotypes of UNKNOWN SEX samples**
+|phenotype            | number of samples|
+|:--------------------|-----------------:|
+|Breast cancer        |                 1|
+|cancer               |                 4|
+|Case                 |                 1|
+|Cell line            |                 1|
+|**cervical cancer      |                 1**|
+|healthy              |                16|
+|mixed                |                 1|
+|Tumour               |                54|
+|Tumour Cell line RNA |                34|
+
+**Male_unknown phenotypes of UNKNOWN SEX samples**
+|phenotype                                                                                                        | number of samples|
+|:----------------------------------------------------------------------------------------------------------------|-----------------:|
+|AML                                                                                                              |                 3|
+|Blood                                                                                                            |                88|
+|Bone Marrow                                                                                                      |                 5|
+|Breast Adenocarcinoma, Lung Adenocarcinoma, Lung Adenocarcinoma, Lung Adenocarcinoma, Spontaneously immortalized |                 1|
+|Control                                                                                                          |                 8|
+|Fetal liver stem cells and fetal intestinal stem cells                                                           |                45|
+|Gastrointestinal                                                                                                 |               141|
+|Lung cancer                                                                                                      |                 4|
+|lung cancer organoid                                                                                             |                 2|
+|lung cancer tissue                                                                                               |                 2|
+|Not supplied                                                                                                     |                34|
+|QPD                                                                                                              |                13|
+|unknown                                                                                                          |               192|
+
 ### Anually
 <p align="center">
 <img src="images/gender_bias_study_ega_year.png" width="800" heigh="400"/>
