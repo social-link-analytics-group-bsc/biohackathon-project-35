@@ -29,6 +29,7 @@ females = []
 males = []
 total = []
 nulls = []
+notavai = []
 
 good_files_count = 0
 none_type_error_count = 0
@@ -39,6 +40,7 @@ for file in glob.glob('./data/*.xml'):
     maxfemale = []
     maxn = []
     maxnull = []
+    maxnotavai = []
     # context = etree.iterparse(file, tag='*', events = ('end', ))
     # print(context)
     try:
@@ -53,6 +55,10 @@ for file in glob.glob('./data/*.xml'):
             # sex
             try:
                 for child in root.iter():
+                    if child.tag == 'enum':
+                        if child.text == 'not available':
+                            print(child.tag, child.attrib, child.text)
+                            maxnotavai.append(child.attrib['count'])
                     for c in child.findall('sex'):
                         for i in c.iter():
 
@@ -134,6 +140,14 @@ for file in glob.glob('./data/*.xml'):
                 nulls.append("NA")
                 empty_files_error_count +=1
 
+            try:
+                mnavai = np.nanmax(maxnotavai)
+
+                notavai.append(mnavai)
+
+            except ValueError:
+                notavai.append('NA')
+
 
         except TypeError:
             none_type_error_count  +=1
@@ -168,8 +182,9 @@ print(len(females))
 print(len(total))
 print(len(nulls))
 print(len(date))
+print(len(notavai))
 
 #print(date)
-df = pd.DataFrame({'dbgap_stable_id': filenames, 'male': males, 'female': females, 'unkown': nulls, 'total': total, 'repository': "dbgap"})
+df = pd.DataFrame({'dbgap_stable_id': filenames, 'male': males, 'female': females, 'unkown': nulls, 'total': total, 'repository': "dbgap", 'not_avai':notavai })
 df.to_csv("summary.csv")
 
