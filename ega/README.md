@@ -75,7 +75,7 @@ No sample is sex-specific in this case.
 
 ### Anually
 <p align="center">
-<img src="images/gender_bias_study_ega_year.png" width="800" heigh="400"/>
+<img src="images/gender_bias_study_ega_year_percent.png" width="800" heigh="400"/>
 </p>
 
 # Summary of results from file "raw_data_sample_tag.txt"
