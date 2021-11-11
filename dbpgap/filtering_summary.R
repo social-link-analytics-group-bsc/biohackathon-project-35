@@ -1,7 +1,7 @@
 library(tidyverse)
 library(stringr)
 
-summary <- read_csv("~/Desktop/hackaton/biohackathon-project-35/dbpgap/summary.csv", 
+summary <- read_csv("dbpgap/summary.csv", 
                     col_names = FALSE, skip = 1)
 
 
