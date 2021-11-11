@@ -23,7 +23,7 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
   - 67% (991) of the studies report the biological sex of all the considered samples.
 
 <p align="center">
-<img src="images/gender_bias_study_ega.png" width="400" heigh="400"/>
+<img src="images/gender_bias_study_ega_percent.png" width="600" heigh="600"/>
 </p>
 
 #### Sample distribution in "female_male_unknown", "female_unknown" and "male_unknown" groups
