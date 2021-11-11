@@ -61,7 +61,7 @@ Hence, changes in participant sets will alter the statistical summary of values 
 
 ## Qualitative Analysis 
 
-### Content Analsis 
+### Content Analysis 
 
 Table of results 
 
