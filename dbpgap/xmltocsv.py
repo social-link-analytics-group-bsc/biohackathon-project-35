@@ -55,13 +55,8 @@ for file in glob.glob('./data/*.xml'):
             # sex
             try:
                 for child in root.iter():
-                    if child.tag == 'enum':
-                        if child.text == 'not available':
-                            print(child.tag, child.attrib, child.text)
-                            maxnotavai.append(child.attrib['count'])
                     for c in child.findall('sex'):
                         for i in c.iter():
-
                             if i.tag == 'male':
                                 #print(i.tag, i.text)
                                 nmale = int(i.text)
@@ -75,6 +70,15 @@ for file in glob.glob('./data/*.xml'):
             except:
                 maxfemale.append(np.nan)
                 maxmale.append(np.nan)
+
+            try:
+                for child in root.iter():
+                    if child.tag == 'enum':
+                        if child.text == 'not available':
+                            #print(child.tag, child.attrib, child.text)
+                            maxnotavai.append(child.attrib['count'])
+            except:
+                maxnotavai.append(np.nan)
             
             # total cases 
             try:
@@ -142,17 +146,18 @@ for file in glob.glob('./data/*.xml'):
 
             try:
                 mnavai = np.nanmax(maxnotavai)
-
                 notavai.append(mnavai)
+                
+                good_files_count +=1
 
-            except ValueError:
+            except:
                 notavai.append('NA')
+                empty_files_error_count +=1
 
 
         except TypeError:
             none_type_error_count  +=1
             pass
-            # print(child.tag, child.attrib, child.text)
 
     except ParseError: 
         pass
