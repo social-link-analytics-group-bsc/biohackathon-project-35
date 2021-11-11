@@ -89,6 +89,7 @@ Table of results
 	7.1 avoid free text			
 	7.2 ontologies for diseases / phenotypes ...			
 
+8. Reuse of data if only contains sex classification
 
 
 
