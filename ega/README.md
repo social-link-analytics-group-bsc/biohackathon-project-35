@@ -111,6 +111,12 @@ And we check how's the samples dates distribution according to the year of the s
 
 - These results reinforce the idea on how to reuse old samples.
 
+# Summary of results from file "all_EGA_samples.txt"
+
+<p align="center">
+<img src="images/boxplot_ega_percentage_samples_gender_years.png" width="1000" heigh="500"/>
+</p>
+
 # Results from file "raw\_data"
 
 ## Processing of the data
