@@ -10,12 +10,6 @@ import glob
 import numpy as np
 
 # lists for values
-ids = []
-date = []
-totalcases = []
-nulls = []
-nmale = []
-nfemale = []
 repository = "dbGAP"
 xmlpath = "./data/"
 # functions
@@ -26,23 +20,10 @@ def parse(xmlpath):
 def minedate(root):
     datehere = root.attrib["date_created"]
     date.append(datehere)
-#currently doesn't work 
-def minetotal(root):
-    for child in root.findall('*'):
-        for c in child.find("*"):
-        # print(child)
-            print(c.tag, c.attrib, c.text)
-        #for total in child.findall('total'):
-        #    #for n in stats.find('stat'):
-        #    print(total.attrib)
-        #    #for n in total.findall('stat'):
-        #    #    print(n.attrib)
-        #    #    totalhere = n.attrib["n"]
-        #    #   totalcases.append(totalhere)
-    
-#parse and retrieve dates
+
 n = 0
 
+date = []
 filenames = []
 females = []
 males = []
@@ -62,6 +43,10 @@ for file in glob.glob('./data/*.xml'):
     # print(context)
     try:
         root = parse(file)
+        try:
+            minedate(root)
+        except:
+            date.append(NA)
         try:
             #print(file)
             filenames.append(file)
@@ -177,12 +162,14 @@ print('Total of ParsingError files: {}'.format(parsed_error_count))
 print('Total of empty results files: {}'.format(empty_files_error_count))
 print('Total of TypeError files: {}'.format(none_type_error_count))
 
-
 print(len(filenames))
 print(len(males))
 print(len(females))
 print(len(total))
 print(len(nulls))
-df = pd.DataFrame({'Study_ids': filenames, 'Male': males, 'Female': females, 'Total': total, 'Nulls': nulls})
+print(len(date))
+
+#print(date)
+df = pd.DataFrame({'dbgap_stable_id': filenames, 'male': males, 'female': females, 'unkown': nulls, 'total': total, 'repository': "dbgap"})
 df.to_csv("summary.csv")
 
