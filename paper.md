@@ -50,8 +50,6 @@ Hence, changes in participant sets will alter the statistical summary of values 
 
 # Analysis
 
-# Results
-
 ## Quantitative Analysis 
 
 * Percentage of studies containing patient sex information
