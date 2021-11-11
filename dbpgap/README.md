@@ -20,3 +20,24 @@
 <p align="center">
 <img src="images/samples_dbgap_year_percent.png" width="800" heigh="800"/>
 </p>
+
+### Same as the previous, but  male and female together
+This plot made sense in EGA but not here I think! Nevertheless, it's another representation just in case. 
+<p align="center">
+<img src="images/dbgap_female_male_year_percent.png" width="800" heigh="800"/>
+</p>
+
+### Mean percentage of samples by sex included in ALL the studies
+<p align="center">
+<img src="images/boxplot_dbgap_percentage_samples_gender_years.png" width="1600" heigh="800"/>
+</p>
+
+The plot below is the same as the one above but including lines to ease the visualization across the years. 
+<p align="center">
+<img src="images/boxplot_dbgap_percentage_samples_gender_years2.png" width="1600" heigh="800"/>
+</p>
+
+## Quantification at the study level
+All studies (7,864) contain always both female and male data. 
+
+
