@@ -12,7 +12,7 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 
 ### Anually
 <p align="center">
-<img src="images/gender_bias_samples_ega_year.png" width="800" heigh="400"/>
+<img src="images/gender_bias_samples_ega_year_percent.png" width="800" heigh="400"/>
 </p>
 
 ## Quantification biases at the study level
