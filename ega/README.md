@@ -34,7 +34,9 @@ From the previous classification, we focus on the group of studies that contain 
 </p>
 
 Is the inclussion of unknown classification justified? The phenotype could be self explanatory of the sex. 
+
 **Female_and_male_and_unknown phenotypes of UNKNOWN SEX samples**
+
 We find 247 phenotypes. Many of them are not sex specific. 
 
 **Female_unknown phenotypes of UNKNOWN SEX samples**
@@ -52,6 +54,7 @@ Only 1 sample is sex-specific.
 |Tumour Cell line RNA |                34|
 
 **Male_unknown phenotypes of UNKNOWN SEX samples**
+
 No sample is sex-specific in this case. 
 
 |phenotype                                                                                                        | number of samples|
