@@ -30,7 +30,7 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 From the previous classification, we focus on the group of studies that contain unknown sex classification and quantify the number of unknown samples as well as male and female included in this studies (it's the total number of samples, not unique number)
 
 <p align="center">
-<img src="images/gender_bias_study_ega_samplelevel.png" width="800" heigh="400"/>
+<img src="images/gender_bias_study_ega_samplelevel_percent.png" width="800" heigh="400"/>
 </p>
 
 Is the inclussion of unknown classification justified? The phenotype could be self explanatory of the sex. 
