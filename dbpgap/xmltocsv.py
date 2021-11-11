@@ -75,21 +75,15 @@ for file in glob.glob('./data/*.xml'):
                                 #print(i.tag, i.text)
                                 nmale = int(i.text)
                                 maxmale.append(nmale)
+                            else:
+                                if i.tag == 'female':
+                                    nfemale = int(i.text)
+                                    maxfemale.append(nfemale)
+                                    #print(maxfemale)
 
             except:
-                maxmale.append(None)
-
-            try:
-                for child in root.iter():
-                    for c in child.findall('sex'):
-                        for i in c.iter():
-
-                            if i.tag == 'female':
-                                nfemale = int(i.text)
-                                maxfemale.append(nfemale)
-
-            except:
-                maxfemale.append(None)
+                maxfemale.append(np.nan)
+                maxmale.append(np.nan)
             
             # total cases 
             try:
@@ -100,7 +94,7 @@ for file in glob.glob('./data/*.xml'):
                             ntotal = int(ntotal)
                             maxn.append(ntotal)
             except:
-              maxn.append(None)  
+              maxn.append(np.nan)  
 
             # null cases
             try:
@@ -111,18 +105,51 @@ for file in glob.glob('./data/*.xml'):
                             nulltotal = int(nulltotal)
                             maxnull.append(nulltotal)
             except:
-                maxnull.append(None)
+                maxnull.append(np.nan)
             n+=1
             try:
-                maxmale = np.nanmax(maxmale)
-                males.append(maxmale)
+        
+                mm = np.nanmax(maxmale)
+                males.append(mm)
+
+
+                #print(max(maxmale))
                 #print(max(maxfemale))
                 #print(max(maxn))
                 #print(max(maxnull))
                 good_files_count +=1
             except:
+                males.append("NA")
                 empty_files_error_count +=1
-                #print(None)
+
+            try:
+                mfm = np.nanmax(maxfemale)
+                females.append(mfm)
+                good_files_count +=1
+
+            except:
+                females.append("NA")
+                empty_files_error_count +=1
+
+            try:
+                mn = np.nanmax(maxn)
+                total.append(mn)
+                good_files_count +=1
+
+            except:
+                total.append("NA")
+                empty_files_error_count +=1
+
+            try:
+                mnull = np.nanmax(maxnull)
+                nulls.append(mnull)
+                good_files_count +=1
+
+            except:
+                nulls.append("NA")
+                empty_files_error_count +=1
+
+
         except TypeError:
             none_type_error_count  +=1
             pass
@@ -130,7 +157,10 @@ for file in glob.glob('./data/*.xml'):
 
     except ParseError: 
         pass
-    
+
+        parsed_error_count +=1
+
+
         #try:
         #    root = parse(xmlpath+xml)
         #except:
@@ -141,18 +171,18 @@ for file in glob.glob('./data/*.xml'):
         #    minedate(root)
         #except:
         #    date.append("NA")
-            
-        ##works up until this function:
-    # minetotal(root)
-        parsed_error_count +=1
 
 print('Total of functional files: {}'.format(good_files_count))
 print('Total of ParsingError files: {}'.format(parsed_error_count))
 print('Total of empty results files: {}'.format(empty_files_error_count))
 print('Total of TypeError files: {}'.format(none_type_error_count))
 
-df = pd.DataFrame({'Study_ids': filenames})
+
 print(len(filenames))
 print(len(males))
-
+print(len(females))
+print(len(total))
+print(len(nulls))
+df = pd.DataFrame({'Study_ids': filenames, 'Male': males, 'Female': females, 'Total': total, 'Nulls': nulls})
+df.to_csv("summary.csv")
 
