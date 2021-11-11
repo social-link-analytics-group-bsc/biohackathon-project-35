@@ -27,12 +27,18 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 </p>
 
 #### Sample distribution in "female_male_unknown", "female_unknown" and "male_unknown" groups
+From the previous classification, we focus on the group of studies that contain unknown sex classification and quantify the number of unknown samples as well as male and female included in this studies (it's the total number of samples, not unique number)
 
 <p align="center">
 <img src="images/gender_bias_study_ega_samplelevel.png" width="800" heigh="400"/>
 </p>
 
+Is the inclussion of unknown classification justified? The phenotype could be self explanatory of the sex. 
+**Female_and_male_and_unknown phenotypes of UNKNOWN SEX samples**
+We find 247 phenotypes. Many of them are not sex specific. 
+
 **Female_unknown phenotypes of UNKNOWN SEX samples**
+Only 1 sample is sex-specific. 
 |phenotype            | number of samples|
 |:--------------------|-----------------:|
 |Breast cancer        |                 1|
@@ -46,6 +52,8 @@ The total number of studies from 2018 to date (9 Nov 2021) is 1,490 with a total
 |Tumour Cell line RNA |                34|
 
 **Male_unknown phenotypes of UNKNOWN SEX samples**
+No sample is sex-specific in this case. 
+
 |phenotype                                                                                                        | number of samples|
 |:----------------------------------------------------------------------------------------------------------------|-----------------:|
 |AML                                                                                                              |                 3|
