@@ -24,7 +24,7 @@
 ### Same as the previous, but  male and female together
 This plot made sense in EGA but not here I think! Nevertheless, it's another representation just in case. 
 <p align="center">
-<img src="images/dbgap_female_male_year_percent.png" width="800" heigh="800"/>
+<img src="images/dbgap_female_male_year_percent.png" width="400" heigh="400"/>
 </p>
 
 ### Mean percentage of samples by sex included in ALL the studies
