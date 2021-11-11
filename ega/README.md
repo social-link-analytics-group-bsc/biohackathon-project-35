@@ -90,7 +90,7 @@ Datasets might have the released date to the lowest date as of 2001. This means 
 Samples without released date constitute 48% of the samples contained in studies from 2018 onwards. For 16% of these sample without release date, sex classification is unknown. 
 
 <p align="center">
-<img src="images/gender_bias_samples_ega_yearofsample_percent.png" width="800" heigh="400"/>
+<img src="images/gender_bias_samples_ega_yearofsample2_percent.png" width="800" heigh="400"/>
 </p>
 
 - The idea here is to give a recommentadion on how to reuse old samples, use those that contain sex classification. 
