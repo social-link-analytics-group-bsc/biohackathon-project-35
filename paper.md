@@ -52,12 +52,45 @@ Hence, changes in participant sets will alter the statistical summary of values 
 
 ## Quantitative Analysis 
 
-* Percentage of studies containing patient sex information
-* Percentage of male/female patients in the studies
-* Differential phenotype enrichment by sex?
-* Differential sex enrichment by phenotype?
+### EGA
+
+### dbGaP
+In this section, the results from dbGaP are presented.
+
+- Considering all dates
+  - Number of studies: 7,864
+  - Number of samples (not unique): 18,502,714
+- Considering date >= 2018:
+  - Number of studies: 4,315 (2 times more studies than EGA)
+  - Number of samples (not unique): 10,547,994 (almost 10 times more samples than in EGA). 
+
+All the samples of this dataset are categorized by biological sex. No "unknown" samples are present.
+Moreover, all studies (7,864) contain always both female and male data.
+
+First, a quantification at the dataset level was performed.
+ 
+<p align="center">
+<img src="dbpgap/images/samples_dbgap_percent.png" width="400" heigh="400"/>
+</p>
+<p align="center">	
+Figure X. Percentage of male and female samples in dbGaP.
+</p>
+
+<p align="center">
+<img src="dbpgap/images/samples_dbgap_year_percent.png" width="800" heigh="800"/>
+</p>
+<p align="center">
+Figure X. Percentage of male and female samples in dbGaP per year.
+</p>
 
 
+Then, a quantification at study level was performed.
+<p align="center">
+<img src="dbpgap/images/boxplot_dbgap_percentage_samples_gender_years2.png" width="1600" heigh="800"/>
+</p>
+<p align="center">	
+Figure X. Mean percentage of samples by sex included in all the studies.
+</p>
 
 ## Qualitative Analysis 
 
