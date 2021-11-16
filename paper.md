@@ -73,7 +73,20 @@ Hence, changes in participant sets will alter the statistical summary of values 
 
 ## Quantitative Analysis 
 
+Here we do a quantitative analysis to measure the data quality and find possible unbalance in sex that might lead to bias in the studies using this data.  
+In 2018 EGA made the sex category mandatory for all submissions in the data.
+Within this context we agreed to analyze all the studies made from 2018.
+
 ### EGA
+
+In this section, the results from EGA are presented.  
+An analysis from mainly all the studies from 2018 and after was made.
+This presented:
+- 704,732 unique samples
+- 1487 studies
+- 4289 phenotypes
+It is important to note that some studies include samples from before 2018.
+
 
 ### dbGaP
 In this section, the results from dbGaP are presented.
