@@ -32,7 +32,7 @@ empty_files_error_count = 0
 parsed_error_count = 0 
 
 
-pattern = '([Ss][eE][xX]|[Gg][eE][nN][dD][eE][rR])'
+pattern = '(SEX|sex|gender|Gender)'
 
 n = 0
 list_dict = list()
