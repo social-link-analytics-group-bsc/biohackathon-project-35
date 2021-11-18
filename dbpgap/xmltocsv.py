@@ -31,7 +31,6 @@ none_type_error_count = 0
 empty_files_error_count = 0 
 parsed_error_count = 0 
 
-
 pattern = '([Ss][eE][xX]|[Gg][eE][nN][dD][eE][rR])'
 
 n = 0
@@ -53,8 +52,6 @@ for file in glob.glob('./data/*.xml'):
                         dict_data.setdefault(a.tag, []).append(a.text)
 
 
-
-        
                 for i in child.iter('stat'):
                     info = i.attrib
                     for key in info:
