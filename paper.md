@@ -84,7 +84,7 @@ An analysis from mainly all the studies from 2018 and after was made.
 This presented:
 - 704,732 unique samples
 - 1487 studies
-- 4289 phenotypes
+- 4289 phenotypes  
 It is important to note that some studies include samples from before 2018.
 
 
