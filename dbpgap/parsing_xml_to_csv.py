@@ -1,14 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
-import os
 import csv
 import re
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import ParseError
-import pandas as pd
-import xml.etree as etree
 import glob
-import numpy as np
 
 # lists for values
 repository = "dbGAP"
@@ -20,12 +16,7 @@ def parse(xmlpath):
     root = phs.getroot()
     return(root)
 
-def minedate(root):
-    datehere = root.attrib["date_created"]
-    date.append(datehere)
-
 n = 0
-
 good_files_count = 0
 none_type_error_count = 0
 empty_files_error_count = 0 
@@ -34,7 +25,6 @@ parsed_error_count = 0
 
 pattern = '(SEX|sex|gender|Gender)'
 
-n = 0
 list_dict = list()
 for file in glob.glob('./data/*.xml'):
     dict_data = dict()
