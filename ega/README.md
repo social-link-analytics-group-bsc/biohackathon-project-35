@@ -79,8 +79,8 @@ No sample is sex-specific in this case.
 </p>
 
 # Summary of results from file "raw_data_sample_tag.txt"
-- 704,732 unique samples
-- 1487 studies
+- 705,502 unique samples
+- 1489 studies
 - 4289 phenotypes
 
 ## Unique classification of samples
