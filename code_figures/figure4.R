@@ -5,12 +5,12 @@ library(ggplot2)
 library(stringr)
 library(lubridate)
 
-ega = fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/EGA_examples/all_EGA_samples.txt")
+ega = fread("../ega/all_EGA_samples.txt")
 ega$total_all = length(unique(ega$ega_stable_id))
 ega$year = str_split_fixed(ega$date_study, '-', 2)[,1]
 colnames(ega)[1] = "dataset_id"
 #d2 = melt(d,id.vars = c("ega_stable_id", "repository", "to_char", "total"))
-dbgap = fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/biohackathon-project-35/dbpgap/summary_fourth.csv")
+dbgap = fread("../dbpgap/summary_fourth.csv")
 dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
 dbgap$repository="dbGaP"
 dbgap$total_all = length(unique(dbgap$dataset_id))
@@ -51,7 +51,7 @@ bp = ggplot(subset(ega_dbgap_m_percent, !year %in% c("",1980)),
 bp
 
 
-png('/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/figures/figure4.png',
+png('../figures/figure4.png',
     width = 3000, height = 1000, res = 250)
 bp
 dev.off()
