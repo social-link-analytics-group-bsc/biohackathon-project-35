@@ -4,6 +4,9 @@ library(ggplot2)
 library(stringr)
 library(dplyr)
 library(lubridate)
+library(patchwork) # To display 2 charts together
+library(hrbrthemes)
+library(cowplot)
 
 # Load data
 ega = fread("../ega/all_EGA_samples.txt")
@@ -24,23 +27,59 @@ dbgap_m$year[dbgap_m$year==""] = "NA"
 # bind datasets
 ega_dbgap = rbindlist(list(ega_m, dbgap_m), use.names = T, fill = T)
 
+#total samples per year
+ega_dbgap = ega_dbgap %>% group_by(repository, year) %>% mutate(total_year = sum(value))
 
 ################
 # sample level #
 ################
 ega_dbgap_percent = subset(ega_dbgap) %>% group_by(variable, repository, year) %>%
-  summarise(value_percent = sum(value) / sum(total))
+  summarise(value_percent = sum(value) / sum(total),
+            total_year = unique(total_year))
 ega_dbgap_percent$year = factor(ega_dbgap_percent$year ,
                                  levels = c('NA','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021'))
 
-sample_plot_percent = ggplot(subset(ega_dbgap_percent), aes(x=year, y = value_percent, color=variable, group=variable))+
-  #geom_bar(stat="identity", width= 0.8)+
-  geom_point(size = 3)+
-  geom_line()+
+
+# sample_plot_percent = ggplot(subset(ega_dbgap_percent), aes(x=year,  color=variable, group=variable))+
+#  # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
+#   geom_point(aes(y = value_percent), size = 3)+
+#   geom_line(aes(y = value_percent))+
+#   ylab("Percentage of samples")+
+#   xlab("Year")+
+#   theme_minimal()+
+#   scale_y_continuous(labels=scales::percent)+#,
+#                      #sec.axis = sec_axis(~.*0.01, name="Second Axis")) +
+#   facet_grid(repository~.)+
+#   scale_color_manual(values = c("#ffa600", "#bc5090","#003f5c"),
+#                      labels = c("Male", "Female", "Unknown"),
+#                      name ="")+
+#   #scale_x_discrete(labels= c("M", "F", "U"))+
+#   theme(legend.position = "top",
+#         axis.text.x = element_text(size = 10),
+#         strip.text = element_text(size = 16, face = "bold"))
+
+ega1 = ggplot(subset(ega_dbgap_percent, repository == "EGA"),
+              aes(x=year,  group=repository))+
+  # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
+  geom_point(aes(y = total_year), size = 3,  color = "#2ebfc9")+
+  geom_line(aes(y = total_year), color = "#2ebfc9")+
+  ylab("# samples")+
+  xlab("Year")+
+  theme_minimal()+
+  facet_grid(repository~.)+
+  theme(axis.text.x = element_text(size = 10),
+        strip.text = element_text(size = 16, face = "bold"))
+
+ega2 = ggplot(subset(ega_dbgap_percent, repository =="EGA"),
+                             aes(x=year,  color=variable, group=variable))+
+  # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
+  geom_point(aes(y = value_percent), size = 3)+
+  geom_line(aes(y = value_percent))+
   ylab("Percentage of samples")+
   xlab("Year")+
   theme_minimal()+
-  scale_y_continuous(labels=scales::percent) +
+  scale_y_continuous(labels=scales::percent)+#,
+  #sec.axis = sec_axis(~.*0.01, name="Second Axis")) +
   facet_grid(repository~.)+
   scale_color_manual(values = c("#ffa600", "#bc5090","#003f5c"),
                      labels = c("Male", "Female", "Unknown"),
@@ -51,10 +90,46 @@ sample_plot_percent = ggplot(subset(ega_dbgap_percent), aes(x=year, y = value_pe
         strip.text = element_text(size = 16, face = "bold"))
 
 
-sample_plot_percent
+
+dbgap1 = ggplot(subset(ega_dbgap_percent, repository == "dbGaP"),
+              aes(x=year,  group=repository))+
+  # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
+  geom_point(aes(y = total_year), size = 3,  color = "#2ebfc9")+
+  geom_line(aes(y = total_year), color = "#2ebfc9")+
+  ylab("# samples")+
+  xlab("Year")+
+  theme_minimal()+
+  facet_grid(repository~.)+
+  theme(axis.text.x = element_text(size = 10),
+        strip.text = element_text(size = 16, face = "bold"))
+
+dbgap2 = ggplot(subset(ega_dbgap_percent, repository =="dbGaP"),
+              aes(x=year,  color=variable, group=variable))+
+  # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
+  geom_point(aes(y = value_percent), size = 3)+
+  geom_line(aes(y = value_percent))+
+  ylab("Percentage of samples")+
+  xlab("Year")+
+  theme_minimal()+
+  scale_y_continuous(labels=scales::percent)+#,
+  ylim(0,1)+
+  #sec.axis = sec_axis(~.*0.01, name="Second Axis")) +
+  facet_grid(repository~.)+
+  scale_color_manual(values = c("#ffa600", "#bc5090","#003f5c"),
+                     labels = c("Male", "Female", "Unknown"),
+                     name ="")+
+  #scale_x_discrete(labels= c("M", "F", "U"))+
+  theme(legend.position = "top",
+        axis.text.x = element_text(size = 10),
+        strip.text = element_text(size = 16, face = "bold"))
+
+
+
+
+pp = plot_grid(dbgap1, dbgap2,ega1, ega2, labels = c('A', 'B', "C", "D"), ncol = 1, rel_heights = c(0.25,0.5, 0.25, 0.5))
 
 png('../figures/figure3.png',
-    width = 1500, height = 700, res = 150)
-sample_plot_percent
+    width = 1500, height = 1500, res = 150)
+pp
 dev.off()
 
