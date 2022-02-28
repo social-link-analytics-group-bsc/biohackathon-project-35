@@ -2,7 +2,7 @@ library(data.table)
 library(reshape2)
 library(ggplot2)
 library(stringr)
-
+library(dplyr)
 # Load data
 ega = fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/EGA_examples/EGA_with_NULL.csv")
 ega$total_all = length(unique(ega$ega_stable_id))
