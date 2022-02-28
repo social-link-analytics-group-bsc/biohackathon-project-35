@@ -4,15 +4,21 @@ library(ggplot2)
 library(stringr)
 library(dplyr)
 # Load data
-ega = fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/EGA_examples/EGA_with_NULL.csv")
+ega = fread("../ega/EGA_with_NULL.csv")
 ega$total_all = length(unique(ega$ega_stable_id))
-#d2 = melt(d,id.vars = c("ega_stable_id", "repository", "to_char", "total"))
-dbgap = fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/biohackathon-project-35/dbpgap/summary_fourth.csv")
-dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
-dbgap$repository="dbGaP"
-dbgap$total_all = length(unique(dbgap$dataset_id))
-ega_dbgap = rbind(ega,dbgap, fill = T)
+ega$year = str_split_fixed(ega$to_char, '-', 2)[,1]
 
+dbgap = fread("../dbpgap/summary_fourth.csv")
+dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
+dbgap$date = parse_date_time(dbgap$date, orders = c('mdy', 'dmy','ymd', "%d %m &y %H:%M:%S %Y"))
+dbgap$year =str_split_fixed(dbgap$date, '-', 2)[,1]
+dbgap$repository = "dbGaP"
+
+dbgap$year[dbgap$year==""] = "NA"
+dbgap = subset(dbgap, year > 2017)
+dbgap$total_all = length(unique(dbgap$dataset_id))
+
+ega_dbgap = rbind(ega,dbgap, fill = T)
 ################
 # study level  #
 ################
@@ -59,7 +65,7 @@ study_plot_percent = ggplot(ega_dbgap_percent, aes(x= label,y = value_percent, f
        # axis.text.x = element_text(size = 12),
         strip.text = element_text(size = 16, face = "bold"))
 study_plot_percent
-png('/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/figures/figure2.png',
+png('../figures/figure2.png',
     width = 1500, height = 750, res = 200)
 study_plot_percent
 dev.off()
