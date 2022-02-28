@@ -40,6 +40,7 @@ female_and_male_and_unknown$label = 'F&M&U'
 
 r = rbind(unknown_only, female_only, male_only, female_and_male, female_and_unknown, male_and_unknown, female_and_male_and_unknown)
 r $ c = 1
+write.table(r, 'ega_dbgap_studies_classification.txt', sep = "\t")
 # percent
 ega_dbgap_percent = unique(r %>% group_by(label, repository) %>%
   summarise(value_percent = sum(c) / total_all))
@@ -48,7 +49,7 @@ ega_dbgap_percent$label = factor(ega_dbgap_percent$label, levels = unique(f))
 
 study_plot_percent = ggplot(ega_dbgap_percent, aes(x= label,y = value_percent, fill = label))+
   geom_bar(stat="identity", width=0.75)+
-  ylab("Percentage of EGA studies")+
+  ylab("Percentage studies")+
   xlab("Sex specification in samples found in the study")+
   theme_minimal()+
   facet_grid(~repository)+
