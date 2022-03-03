@@ -3,6 +3,7 @@ library(reshape2)
 library(ggplot2)
 library(stringr)
 library(dplyr)
+library(lubridate)
 
 # Load data
 ega = fread("../ega/EGA_with_NULL.csv")
