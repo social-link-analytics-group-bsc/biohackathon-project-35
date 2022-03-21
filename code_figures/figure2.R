@@ -18,6 +18,8 @@ dbgap$year[dbgap$year==""] = "NA"
 dbgap = subset(dbgap, year > 2017)
 dbgap$total_all = length(unique(dbgap$dataset_id))
 
+dbgap$phe = substr(dbgap$filename, 8,19)
+
 ega_dbgap = rbind(ega,dbgap, fill = T)
 ################
 # study level  #
@@ -70,3 +72,37 @@ png('../figures/figure2.png',
 study_plot_percent
 dev.off()
 
+
+
+#### phenotype
+
+ega_phe =fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/EGA_examples/raw_phenotype_gender_ega.txt")
+ega_phe_u = subset(ega_phe , ega_study %in% unknown_only$ega_stable_id)
+ega_phe_u $c = 1
+ega_phe_u_total = ega_phe_u%>%group_by(phenotype) %>% summarise(total = sum(c))
+arrange(ega_phe_u_total, desc(total))
+top20 = subset(ega_phe_u_total,total> 720)
+top20$phenotype = factor(top20$phenotype, levels = arrange(top20, desc(total))$phenotype)
+ggplot(top20, aes(x = phenotype, y = total))+
+  geom_bar(stat="identity")+
+  theme_minimal()+
+  theme(axis.text.x = element_text(size = 10, face = "bold", angle = 45, hjust = 1, vjust = 1),
+        # axis.text.x = element_text(size = 12),
+        strip.text = element_text(size = 16, face = "bold"))
+
+
+
+dbgap_phe =fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/biohackathon-project-35/dbpgap/archived/summary_primary_phenotype.tsv")
+dbgap_phe$dataset_id = substr(dbgap_phe$`study accession`, 1, 12)
+dbgap_phe_fmu = subset(dbgap_phe , dataset_id %in% female_and_male_and_unknown$phe)
+dbgap_phe_fmu $c = 1
+dbgap_phe_fmu_total = dbgap_phe_fmu%>%group_by(`primary phenotype`) %>% summarise(total = sum(c))
+arrange(dbgap_phe_fmu_total, desc(total))
+top20 = subset(dbgap_phe_fmu_total,total>25)
+top20$`primary phenotype` = factor(top20$`primary phenotype`, levels = arrange(top20, desc(total))$`primary phenotype`)
+ggplot(top20, aes(x = `primary phenotype`, y = total))+
+  geom_bar(stat="identity")+
+  theme_minimal()+
+  theme(axis.text.x = element_text(size = 10, face = "bold", angle = 45, hjust = 1, vjust = 1),
+        # axis.text.x = element_text(size = 12),
+        strip.text = element_text(size = 16, face = "bold"))

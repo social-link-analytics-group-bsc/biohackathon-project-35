@@ -38,7 +38,7 @@ bp = ggplot(subset(ega_dbgap_m_percent, !year %in% c("",1980)),
   geom_boxplot(width=0.5)+
   facet_grid(repository~year)+
   ylab("Percentage of samples")+
-  scale_color_manual(values = c("#ffa600", "#bc5090","#003f5c"),
+  scale_color_manual(values = c("#20639b", "#3caea3","#f6d55c"),
                      labels = c("Male (M)", "Female (F)", "Unknown (U)"),
                      name ="")+
   xlab("Sex classification")+

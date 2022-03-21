@@ -5,7 +5,7 @@ library(stringr)
 library(dplyr)
 library(lubridate)
 library(patchwork) # To display 2 charts together
-library(hrbrthemes)
+#library(hrbrthemes)
 library(cowplot)
 
 # Load data
@@ -61,8 +61,8 @@ ega_dbgap_percent$year = factor(ega_dbgap_percent$year ,
 ega1 = ggplot(subset(ega_dbgap_percent, repository == "EGA"),
               aes(x=year,  group=repository))+
   # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
-  geom_point(aes(y = total_year), size = 3,  color = "#2ebfc9")+
-  geom_line(aes(y = total_year), color = "#2ebfc9")+
+  geom_point(aes(y = total_year), size = 3,  color = "#ed553b")+
+  geom_line(aes(y = total_year), color = "#ed553b")+
   ylab("# samples")+
   xlab("Year")+
   theme_minimal()+
@@ -81,7 +81,7 @@ ega2 = ggplot(subset(ega_dbgap_percent, repository =="EGA"),
   scale_y_continuous(labels=scales::percent)+#,
   #sec.axis = sec_axis(~.*0.01, name="Second Axis")) +
   facet_grid(repository~.)+
-  scale_color_manual(values = c("#ffa600", "#bc5090","#003f5c"),
+  scale_color_manual(values = c("#20639b", "#3caea3","#f6d55c"),
                      labels = c("Male", "Female", "Unknown"),
                      name ="")+
   #scale_x_discrete(labels= c("M", "F", "U"))+
@@ -94,8 +94,8 @@ ega2 = ggplot(subset(ega_dbgap_percent, repository =="EGA"),
 dbgap1 = ggplot(subset(ega_dbgap_percent, repository == "dbGaP"),
               aes(x=year,  group=repository))+
   # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
-  geom_point(aes(y = total_year), size = 3,  color = "#2ebfc9")+
-  geom_line(aes(y = total_year), color = "#2ebfc9")+
+  geom_point(aes(y = total_year), size = 3,  color = "#ed553b")+
+  geom_line(aes(y = total_year), color = "#ed553b")+
   ylab("# samples")+
   xlab("Year")+
   theme_minimal()+
@@ -115,7 +115,7 @@ dbgap2 = ggplot(subset(ega_dbgap_percent, repository =="dbGaP"),
   ylim(0,1)+
   #sec.axis = sec_axis(~.*0.01, name="Second Axis")) +
   facet_grid(repository~.)+
-  scale_color_manual(values = c("#ffa600", "#bc5090","#003f5c"),
+  scale_color_manual(values = c("#20639b", "#3caea3","#f6d55c"),
                      labels = c("Male", "Female", "Unknown"),
                      name ="")+
   #scale_x_discrete(labels= c("M", "F", "U"))+
