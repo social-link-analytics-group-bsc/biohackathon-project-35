@@ -3,23 +3,17 @@ library(reshape2)
 library(ggplot2)
 library(stringr)
 library(dplyr)
-library(lubridate)
+
 # Load data
 ega = fread("../ega/EGA_with_NULL.csv")
 ega$total_all = length(unique(ega$ega_stable_id))
-ega$year = str_split_fixed(ega$to_char, '-', 2)[,1]
-
+#d2 = melt(d,id.vars = c("ega_stable_id", "repository", "to_char", "total"))
 dbgap = fread("../dbpgap/summary_fourth.csv")
 dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
-dbgap$date = parse_date_time(dbgap$date, orders = c('mdy', 'dmy','ymd', "%d %m &y %H:%M:%S %Y"))
-dbgap$year =str_split_fixed(dbgap$date, '-', 2)[,1]
-dbgap$repository = "dbGaP"
-
-dbgap$year[dbgap$year==""] = "NA"
-dbgap = subset(dbgap, year > 2017)
+dbgap$repository="dbGaP"
 dbgap$total_all = length(unique(dbgap$dataset_id))
-
 ega_dbgap = rbind(ega,dbgap, fill = T)
+
 ################
 # study level  #
 ################
@@ -47,7 +41,6 @@ female_and_male_and_unknown$label = 'F&M&U'
 
 r = rbind(unknown_only, female_only, male_only, female_and_male, female_and_unknown, male_and_unknown, female_and_male_and_unknown)
 r $ c = 1
-write.table(r, 'ega_dbgap_studies_classification.txt', sep = "\t")
 # percent
 ega_dbgap_percent = unique(r %>% group_by(label, repository) %>%
   summarise(value_percent = sum(c) / total_all))
@@ -56,11 +49,12 @@ ega_dbgap_percent$label = factor(ega_dbgap_percent$label, levels = unique(f))
 
 study_plot_percent = ggplot(ega_dbgap_percent, aes(x= label,y = value_percent, fill = label))+
   geom_bar(stat="identity", width=0.75)+
-  ylab("Percentage studies")+
+  ylab("Percentage of EGA studies")+
   xlab("Sex specification in samples found in the study")+
   theme_minimal()+
   facet_grid(~repository)+
   scale_y_continuous(labels=scales::percent) +
+  scale_fill_brewer(palette = "Set2")+
   theme(legend.position = "none",
         axis.text.x = element_text(size = 10, face = "bold"),
        # axis.text.x = element_text(size = 12),

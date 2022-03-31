@@ -37,7 +37,7 @@ sample_plot_percent = ggplot(ega_dbgap_percent, aes(x=variable, y = value_percen
   theme_minimal()+
   scale_y_continuous(labels=scales::percent) +
   facet_grid(~repository)+
-  scale_fill_manual(values = c("#ffa600", "#bc5090","#003f5c"))+
+  scale_fill_manual(values = c("#20639b", "#3caea3","#f6d55c"))+
   theme(legend.position = "none",
         axis.text.x = element_text(size = 12),
         strip.text = element_text(size = 16, face = "bold"))
