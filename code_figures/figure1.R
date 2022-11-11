@@ -17,7 +17,10 @@ dbgap$year =str_split_fixed(dbgap$date, '-', 2)[,1]
 dbgap$repository = "dbGaP"
 dbgap$year[dbgap$year==""] = "NA"
 dbgap = subset(dbgap, year > 2017)
-dbgap_m = melt(dbgap, id.vars= c("V1", "n", "dataset_id", "filename", "date", "total", "year", "repository"))
+spl = str_split_fixed(str_remove(dbgap$filename,'\\.\\/data\\/'), '\\.',6)
+dbgap$study_id = paste(spl[,1],spl[,2],spl[,5], sep=".")
+dbgap_m = melt(dbgap, id.vars= c("V1", "n", "study_id", "filename", "date",'year', "total", "dataset_id", "repository"))
+
 
 # bind datasets
 ega_dbgap = rbindlist(list(ega_m, dbgap_m), use.names = T, fill = T)

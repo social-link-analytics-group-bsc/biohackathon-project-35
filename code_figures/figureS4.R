@@ -14,7 +14,7 @@ ega_m$year[ega_m$year=="1980"] = "NA"
 
 #d2 = melt(d,id.vars = c("ega_stable_id", "repository", "to_char", "total"))
 dbgap = fread("../dbpgap/summary_fourth.csv")
-#dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
+dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
 dbgap$date = parse_date_time(dbgap$date, orders = c('mdy', 'dmy','ymd', "%d %m &y %H:%M:%S %Y"))
 dbgap$year =str_split_fixed(dbgap$date, '-', 2)[,1]
 spl = str_split_fixed(str_remove(dbgap$filename,'\\.\\/data\\/'), '\\.',6)
@@ -23,7 +23,7 @@ dbgap2 =dbgap%>%group_by(study_id)%>%
   summarise(male = sum(male),
             female = sum(female),
             unknown = sum (unknown),
-           # total = sum (total),
+            total = sum (total),
             year = max(year))
 dbgap_m = melt(dbgap2, id.vars= c("study_id", 'year', "total"))
 dbgap_m$repository = "dbGaP"
@@ -31,20 +31,27 @@ dbgap_m$year[dbgap_m$year==""] = NA
 
 ega_dbgap = rbindlist(list(ega_m,dbgap_m), fill = T)
 
-ll2 = ega_dbgap%>% group_by(year, repository, variable) %>% summarise(samples = sum(value))
-samples_year=ggplot(subset(ll2),
-                    aes(x = as.numeric(year), y = samples, group = variable, color = variable))+
-  geom_point()+
-  geom_line()+
-  facet_grid(repository~., scales="free_y")+
+
+
+ega_dbgap
+
+ega_dbgap_summary = ega_dbgap%>% group_by(repository, year, variable)%>%
+  summarise(mean_samples = mean(value), 
+            sd = sd(value))
+
+g = ggplot(subset(ega_dbgap_summary, !is.na(year)&year!='NA'),
+       aes(y = mean_samples, x = year, fill = variable, group= variable))+
+  # geom_line() +
+  #geom_point()+
+  geom_bar(stat = "identity")+
+  #geom_errorbar(aes(ymin=mean_samples-sd, ymax=mean_samples+sd), width=.2,
+  #              position=position_dodge(0.05))+
+  facet_grid(repository~., scales = "free_y")+
+  ylab("mean # of samples per study")+
   theme_minimal()+
-  ylab("# samples")+
-  xlab("Year")
+  theme()
 
-samples_year
-
-
-png('../figures/figureS3.png',
-    width = 2500, height = 1000, res = 300)
-samples_year
+png('../figures/figureS4.png',
+    width = 2000, height = 1500, res = 300)
+g
 dev.off()
