@@ -56,7 +56,7 @@ affiliations:
   - name: Institución Catalana de Investigación y Estudios Avanzados (ICREA), Barcelona, Spain
     index: 6
   - name:  these authors contributed equally
-    index: \#
+    index: '#'
   - name:  corresponding authors
     index: \*
 date: 20 January 2020
