@@ -12,6 +12,8 @@ authors:
     affiliation: 1,\#
   - name: Nataly Buslón
     affiliation: 1,\#
+    email: nataly.buslon@bsc.es
+    corresponding: yes
   - name: Olivier R Philippe
     affiliation: 1
   - name: Diego Saby
@@ -35,10 +37,11 @@ authors:
   - name: María José Rementeria
     affiliation: 1
   - name: Átia Cortés
-    affiliation: 1
+    affiliation: 1,\#
   - name: Davide Cirillo
-    affiliation: 1
+    affiliation: 1,\#
     corresponding: yes
+    email: davide.cirillo@bsc.es
 affiliations:
   - name: Barcelona Supercomputing Center (BSC), Barcelona, Spain
     index: 1
@@ -54,6 +57,8 @@ affiliations:
     index: 6
   - name: these authors contributed equally
     index: \#
+  - name: corresponding authors
+    index: \*
 date: 20 January 2020
 bibliography: ./FAIRX-35.bib
 group: BioHackrXiv
@@ -62,25 +67,11 @@ authors_short: Ruiz-Serra et al. (2023)
 git_url: https://github.com/social-link-analytics-group-bsc/biohackathon-project-35
 ---
 
-# **Addressing sex bias in biological databases worldwide**
-
-Victoria Ruiz-Serra <sup>1,#</sup> , Nataly Buslón <sup>1,#,\*</sup>, Olivier R. Philippe <sup>1</sup>, Diego Saby <sup>2</sup>, María Morales <sup>1</sup>, Camila Pontes <sup>1</sup>, Alejandro Muñoz Andirkó <sup>3</sup>, Gemma L. Holiday <sup>4</sup>, Aina Jené <sup>5</sup>, Mauricio Moldes <sup>5</sup>, Jordi Rambla <sup>5</sup>, Alfonso Valencia <sup>1,6</sup>, María José Rementeria <sup>1</sup>, Átia Cortés <sup>1,#</sup>, Davide Cirillo <sup>1,#,\*</sup>
 
 <sup>\#</sup> these authors contributed equally
 
 <sup>\*</sup> corresponding authors: Davide Cirillo, [davide.cirillo@bsc.es](mailto:davide.cirillo@bsc.es); Nataly Buslón, [nataly.buslon@bsc.es](mailto:nataly.buslon@bsc.es)
 
-<sup>1</sup>Barcelona Supercomputing Center (BSC), Barcelona, Spain
-
-<sup>2</sup>Gedesco Services, Spain
-
-<sup>3</sup>DevCenter, Alicante, Spain
-
-<sup>4</sup>Medicines Discovery Catapult, Macclesfield, United Kingdom
-
-<sup>5</sup>Centre for Genomic Regulation (CRG), Barcelona, Spain
-
-<sup>6</sup>Institución Catalana de Investigación y Estudios Avanzados (ICREA), Barcelona, Spain
 
 Keywords: sex bias, gender bias, artificial intelligence, metadata reporting, human genomic databases, research data repositories
 
