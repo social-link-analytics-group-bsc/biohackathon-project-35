@@ -55,10 +55,7 @@ affiliations:
     index: 5
   - name: Institución Catalana de Investigación y Estudios Avanzados (ICREA), Barcelona, Spain
     index: 6
-  - name:  these authors contributed equally
-    index: \#
-  - name:  corresponding authors
-    index: \*
+
 date: 20 January 2020
 bibliography: ./FAIRX-35.bib
 group: BioHackrXiv
@@ -67,8 +64,8 @@ authors_short: Victoria Ruiz-Serra & Nataly Buslón et al.
 git_url: https://github.com/social-link-analytics-group-bsc/biohackathon-project-35
 ---
 
-
-
+\# these authors contributed equally
+\* corresponding authors
 Keywords: sex bias, gender bias, artificial intelligence, metadata reporting, human genomic databases, research data repositories
 
 ## **Abstract**
