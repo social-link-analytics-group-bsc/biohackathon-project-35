@@ -11,7 +11,7 @@ authors:
   - name: Victoria Ruiz-Serra
     affiliation: 1,\#
   - name: Nataly Buslón
-    affiliation: 1,\#
+    affiliation: 1,\#,\*
     email: nataly.buslon@bsc.es
     corresponding: yes
   - name: Olivier R Philippe
@@ -39,7 +39,7 @@ authors:
   - name: Átia Cortés
     affiliation: 1,\#
   - name: Davide Cirillo
-    affiliation: 1,\#
+    affiliation: 1,\#,\*
     corresponding: yes
     email: davide.cirillo@bsc.es
 affiliations:
@@ -55,7 +55,10 @@ affiliations:
     index: 5
   - name: Institución Catalana de Investigación y Estudios Avanzados (ICREA), Barcelona, Spain
     index: 6
-
+  - name:  these authors contributed equally
+    index: \#
+  - name:  corresponding authors
+    index: \*
 date: 20 January 2020
 bibliography: ./FAIRX-35.bib
 group: BioHackrXiv
