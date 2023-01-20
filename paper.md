@@ -8,10 +8,9 @@ tags:
   - human genomic databases
   - research data repositories 
 authors:
-  - name: Victoria Ruiz-Serra
-    orcid:
+  - name: Victoria Ruiz-Serra\#
     affiliation: 1
-  - name: Nataly Buslón
+  - name: Nataly Buslón\#
     affiliation: 1
   - name: Olivier R Philippe
     affiliation: 1
@@ -39,6 +38,7 @@ authors:
     affiliation: 1
   - name: Davide Cirillo
     affiliation: 1
+    corresponding: yes
 affiliations:
   - name: Barcelona Supercomputing Center (BSC), Barcelona, Spain
     index: 1
