@@ -54,6 +54,10 @@ affiliations:
     index: 6
 date: 20 January 2020
 bibliography: ./FAIRX-35.bib
+group: BioHackrXiv
+event: BioHackathon Europe 2021
+authors_short: Ruiz-Serra et al. (2023) 
+git_url: https://github.com/social-link-analytics-group-bsc/biohackathon-project-35
 ---
 
 # **Addressing sex bias in biological databases worldwide**
