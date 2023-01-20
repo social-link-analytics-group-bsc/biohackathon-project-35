@@ -1,0 +1,24 @@
+study_id,phenotype,label,total,title
+phs001120.v2.p2,Prostatic Neoplasms,M,1912,ELLIPSE Prostate Cancer Meta-Analysis and Genotyping
+phs001221.v1.p1,Prostatic Neoplasms,M,24304,ProHealth: Kaiser Permanente Genome-wide Association Study of Prostate Cancer
+phs001307.v1.p1,Testicular Germ Cell Tumor,M,3676,Inherited Genetic Variation and Predisposition to Testicular Germ Cell Tumor: UPenn Local TGCT Study
+phs001621.v1.p1,,M,2720,Genetic Susceptibility and Biomarkers of Platinum-Related Toxicities
+phs001921.v1.p1,Prostatic Neoplasms,M,2100,Primary Prostate Tumor Tissue DNA Methylation Profiles
+phs002226.v1.p1,HIV,M,14988,Multicenter AIDS Cohort Study (MACS)
+phs000912.v1.p1,Breast Neoplasms,F,3200,San Francisco Bay Area Latina Breast Cancer Study
+phs000929.v1.p1,Breast Neoplasms,F,174,High-Risk Breast Cancer GWAS
+phs001040.v5.p1,Atrial Fibrillation,F,470,NHLBI TOPMed: Novel Risk Factors for the Development of Atrial Fibrillation in Women
+phs001133.v1.p1,Ovarian Neoplasms,F,1992,Follow-up of Ovarian Cancer Genetic Association and Interaction Studies (FOCI)
+phs001409.v1.p1,Leiomyoma,F,18382,Understanding the genetic risk underlying racial disparities in uterine fibroids
+phs001483.v1.p1,Breast Neoplasms,F,320,"Discovery, Biology, and Risk of Inherited Variants in Breast Cancer (DRIVE) - germline whole genome sequencing"
+phs001531.v1.p1,Turner Syndrome,F,352,Whole exome sequencing to discover genetic variation associated with aortopathy in Turner Syndrome
+phs001535.v1.p1,"Diabetes, Gestational",F,136,Offspring Sex Impacts DNA Methylation and Gene Expression in Placentae from Women with Diabetes during Pregnancy
+phs001857.v1.p1,Mammographic Breast Density,F,2031,Genetics of Mammographic Density in Ashkenazi Jews
+phs001866.v1.p1,Breast Neoplasms,F,664,RNA Sequence-Based Analysis Used to Compare Breast Primary and Metastatic Tumor Pairs
+phs001885.v1.p1,Endometrial Neoplasms,F,3756,Endometrial Cancer Association Consortium - OncoArray Genotypes
+phs001960.v1.p1,Osteoporosis,F,572,Epigenome Wide DNA Methylation Study for Osteoporosis Risk
+phs002017.v1.p1,Pre-Eclampsia,F,292,Circulating RNA profiles of healthy and preeclamptic pregnancies
+phs002060.v1.p1,Peripheral Nervous System Diseases,F,2496,Pharmacogenomic Analysis of Microtubule Targeting Agent Response and Toxicity
+phs002062.v1.p1,Breast Neoplasms,F,4356,Polygenic Risk Score for the Prediction of Breast Cancer Is Related to Lesser Terminal Duct Lobular Unit Involution of the Breast
+phs002366.v1.p1,Lung Neoplasms,F,3248,
+phs002387.v1.p1,Breast Neoplasms,F,3596,Ghana Breast Health Study

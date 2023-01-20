@@ -1,0 +1,67 @@
+participant	bh21_participant	pronouns	age	country	continent	profession	profession_summary	user_type	work_experience	question3	question5
+1	Yes	She/her	25-34	Spain	Europe	Researcher	Researcher		< 1	N/A	Mandatory
+2	No	He/him	35-44	Germany	Europe	Project Manager	Project manager	Developer, Curator, Creator	1-5	N/A	I don´t know
+3	Yes	Prefer not to say.	25-34	N/A	N/A	N/A	N/A	Consumer, Developer, Creator	1-5	No	Not Mandatory
+4	Yes	He/him	45-54	Spain	Europe	Bioinformatician	Researcher	Consumer, Developer	>15	N/A	Due ethical aspects, although it should be gathered it should be protected by default
+5	Yes	Prefer not to say.	25-34	Spain	Europe	N/A	N/A	Curator	6-10	Yes	Mandatory
+6	No	Prefer not to say.	35-44	United Kingdom	Europe	Bioinformatician	Researcher	Consumer, Developer	>15	Yes	Mandatory
+7	Yes	She/her	25-34	Spain	Europe	Technician	Technician	Curator	1-5	Yes	Mandatory
+8	Yes	He/him	35-44	Spain	Europe	Researcher	Researcher	Developer	11-15	Yes	Mandatory
+9	Yes	She/her	25-34	Spain	Europe	N/A	N/A	Consumer	6-10	N/A	Mandatory
+10	No	He/him	25-34	Spain	Europe	N/A	N/A	Developer	1-5	No	Mandatory
+11	Yes	She/her	35-44	United Kingdom	Europe	Researcher / Team Lead	Researcher	Consumer, Developer, Curator	>15	No	Mandatory
+12	Yes	He/him	45-54	Netherlands	Europe	Researcher	Researcher	Consumer, Developer, Creator	>15	Yes	Not Mandatory
+13	Yes	He/him	35-44	France	Europe	Research Engineer	Researcher	Developer	>15	N/A	think it's useful and should be promoted, but is it always OK re. GDPR?
+14	Yes	He/him	35-44	Belgium	Europe	Software Engineer	Software Engineer	Developer	6-10	No	Mandatory
+15	Yes	He/him	35-44	Greece	Europe	Researcher	Researcher	Developer, Creator	11-15	Yes	Mandatory
+16	Yes	He/him	35-44	Switzerland	Europe	Computer Scientist	Researcher	Consumer, Developer, Curator, Creator	>15	Yes	Mandatory
+17	Yes	He/him	35-44	Italy	Europe	Technical coordinator	Technical coordinator	Developer, Curator, Creator	1-5	No	Mandatory
+18	Yes	He/him	25-34	Belgium	Europe	N/A	N/A	Consumer	6-10	N/A	Not Mandatory
+19	Yes	He/him	45-54	United Kingdom	Europe	scientist	Researcher	Consumer, Curator, Creator	>15	N/A	depends if it is relevant and appropriate 
+20	Yes	He/him	35-44	France	Europe	Researcher / Engineer	Researcher	Consumer, Developer, Curator, Creator	>15	No	depends on the natureof the study, e.g. population genetics, women have more risks of intracranial aneurysm 
+21	Yes	He/him	25-34	Netherlands	Europe	Data Engineer	Data Engineer	Developer, Curator	1-5	No	Not Mandatory
+22	Yes	He/him	25-34	United Kingdom	Europe	research software engineer	Software Engineer	Curator	1-5	No	Not Mandatory
+23	Yes	Prefer not to say.	45-54	United Kingdom	Europe	Technical Support Officer	Technical coordinator	Consumer	1-5	N/A	Not Mandatory
+24	Yes	He/him	35-44	Estonia	Europe	Researcher	Researcher	Consumer, Developer, Curator	11-15	Yes	Mandatory
+25	Yes	She/her	35-44	Nepal	Asia	Lecturer	Lecturer	Creator	6-10	Yes	Mandatory
+26	Yes	She/her	35-44	United Kingdom	Europe	Research Data Manager	Data Engineer	Curator	6-10	No	Mandatory
+27	Yes	She/her	25-34	Belgium	Europe	N/A	N/A	Curator	6-10	N/A	I don´t know
+28	Yes	He/him	55-64	Australia	Oceania	research student	Student	Consumer, Developer	1-5	Yes	mandatory if it is relevant
+29	Yes	She/her	35-44	Netherlands	Europe	Community Manager	Project manager	Curator	>15	N/A	I don´t know
+30	No	She/her	25-34	Spain	Europe	Project manager	Project manager	Curator	1-5	N/A	Mandatory for the most part, with exceptions
+31	Yes	He/him	25-34	United Kingdom	Europe	Student	Student	Consumer, Developer, Curator, Creator	1-5	No	I don´t know
+32	Yes	He/him	18-24	Denmark	Europe	Master student	Student	Consumer, Developer, Curator	< 1	No	I would depend on the case
+33	Yes	He/him	35-44	Germany	Europe	Bioinformatics	N/A	Consumer, Developer, Creator	11-15	Yes	Mandatory
+34	Yes	He/him	55-64	France	Europe	research engineer	Researcher		>15	N/A	not sure about the question: mandatory, but of course within the limits of GDPR
+35	No	He/him	55-64	Spain	Europe	Bioinformatician	Researcher	Developer, Curator, Creator	>15	Yes	Mandatory
+36	Yes	She/her	55-64	Morocco	Africa	Researcher	Researcher	Consumer, Developer, Curator, Creator	>15	No	Mandatory
+37	No	Do not subscribe to the belief system underlying this question	55-64	United Kingdom	Europe	Scientist	Researcher	Creator	>15	Yes	Gender not  relevant
+38	No	She/her	25-34	France	Europe	Research Engineer	Researcher	Consumer, Curator, Creator	6-10	No	Mandatory
+39	No	She/her	35-44	France	Europe	N/A	N/A	Creator	6-10	N/A	Mandatory
+40	No	She/her	35-44	France	Europe	Post-doc	Researcher	Creator	11-15	N/A	Mandatory
+41	No	She/her	35-44	Spain	Europe	Biologist	Researcher	Consumer	11-15	No	Mandatory
+42	No	She/her	45-54	Spain	Europe	Molecular Biologist	Researcher	Consumer	>15	No	Maybe only sex and age should be mandatory.
+43	No	She/her	45-54	Spain	Europe	researcher	Researcher	Consumer	>15	Yes	Mandatory
+44	No	He/him	25-34	Spain	Europe	PhD student	Researcher	Consumer, Curator, Creator	1-5	N/A	Mandatory
+45	Yes	He/him	25-34	Spain	Europe	N/A	N/A	Developer	1-5	Yes	Mandatory
+46	No	He/him	18-24	Spain	Europe	PhD student	Researcher	Developer	< 1	N/A	Mandatory
+47	No	He/him	45-54	France	Europe	N/A	N/A	Consumer	>15	Yes	Mandatory
+48	No	He/him	45-54	Spain	Europe	N/A	N/A	Consumer, Creator	11-15	N/A	Mandatory
+49	No	She/her	25-34	Spain	Europe	researcher	Researcher	Developer	1-5	Yes	Mandatory
+50	Yes	He/him	35-44	Spain	Europe	N/A	N/A	Consumer, Developer	11-15	N/A	Mandatory
+51	No	She/her	18-24	Spain	Europe	PhD Student	Researcher	Developer	1-5	N/A	Mandatory
+52	No	She/her	25-34	Spain	Europe	phd student	Researcher	Consumer	1-5	Yes	Mandatory
+53	No	She/her	25-34	Spain	Europe	PhD Bioinformatician	Researcher	Consumer, Creator	1-5	Yes	Mandatory
+54	No	She/her	35-44	Spain	Europe	biologist	Researcher	Consumer, Creator	>15	No	Mandatory
+55	No	She/her	45-54	France	Europe	PI	Researcher	Consumer, Developer, Curator, Creator	>15	Yes	Mandatory
+56	No	He/him	45-54	Spain	Europe	Genomic Data Analyst	Data Analyst	Consumer	11-15	Yes	Not Mandatory
+57	No	She/her	25-34	Spain	Europe	Researcher	Researcher	Developer, Creator	1-5	N/A	It depends on the study
+58	Yes	He/him	45-54	Luxembourg	Europe	N/A	N/A	Developer, Curator	>15	Yes	Not Mandatory
+59	No	He/him	25-34	Spain	Europe	PhD Student	Researcher	Consumer, Curator	< 1	Yes	Mandatory
+60	No	She/her	25-34	Spain	Europe	N/A	N/A	Curator	1-5	Yes	Mandatory
+61	No	She/her	18-24	Spain	Europe	Research assistant	Researcher	Consumer	1-5	Yes	Mandatory
+62	No	He/him	18-24	Spain	Europe	Bioonformatician	Researcher	Developer	< 1	No	I don´t know
+63	No	He/him	25-34	Spain	Europe	PhD Student	Researcher	Consumer, Developer	1-5	No	Mandatory
+64	Yes	He/him	35-44	United States	Europe	Executive / Researcher	Researcher	Consumer, Developer, Curator, Creator	>15	N/A	I don´t know
+65	Yes	She/her	25-34	Netherlands	Europe	PhD candidate	Researcher	Consumer, Developer, Curator, Creator	1-5	No	Mandatory
+66	Yes	He/him	35-44	Netherlands	Europe	Research Scientisit	Researcher	Curator	6-10	Yes	N/A

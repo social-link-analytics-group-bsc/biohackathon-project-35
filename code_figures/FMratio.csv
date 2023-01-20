@@ -1,0 +1,637 @@
+phenotype,FMratio_mean,repository
+Uterine Cervical Neoplasms,244.41,dbGaP
+Menopause,183.75,dbGaP
+Osteoporosis,182.19,dbGaP
+Cardiovascular Diseases,108.97,dbGaP
+Polycystic Ovary Syndrome,104.72,dbGaP
+Breast Neoplasms,103.19,dbGaP
+Peripheral Nervous System Diseases,70.33,dbGaP
+Heart Diseases,69.43,dbGaP
+"Heart Defects, Congenital",54.92,dbGaP
+Heart Conduction System,45.6,dbGaP
+Asthma,27.29,dbGaP
+Rett Syndrome,25.68,dbGaP
+Triple Negative Breast Neoplasms,24,dbGaP
+Idiopathic generalized epilepsy,22.5,dbGaP
+Anorexia Nervosa,17.6,dbGaP
+Cardiovascular Disease,16.22,dbGaP
+Macular Degeneration,14.4,dbGaP
+Takayasu Arteritis,14.11,dbGaP
+HIV,11.43,dbGaP
+Lynch syndrome I,10,dbGaP
+Systemic Sclerosis,8.8,dbGaP
+Neoplasms,8.52,dbGaP
+"Fatigue Syndrome, Chronic",8,dbGaP
+"Lupus Erythematosus, Systemic",7.96,dbGaP
+Immunologic Memory,6,dbGaP
+"Hypertension, Pulmonary",5.78,dbGaP
+Dystonia,5.49,dbGaP
+Adenocarcinoma of Lung,5.42,dbGaP
+Leptomeningeal Carcinomatosis,5.33,dbGaP
+Vaccines,5,dbGaP
+Eye Diseases,4.92,dbGaP
+Cataract,4.69,dbGaP
+Arnold-Chiari Malformation,4.51,dbGaP
+Meningioma,4.42,dbGaP
+Multiple Sclerosis,4.4,dbGaP
+Mycobacterium avium-intracellulare Infection,4.38,dbGaP
+"Arthritis, Rheumatoid",4.32,dbGaP
+Angioedema,4.32,dbGaP
+Longevity,4.27,dbGaP
+Gallbladder Neoplasms,4.25,dbGaP
+"Adrenal Hyperplasia, Congenital",4,dbGaP
+Mendelian,4,dbGaP
+Mucolipidosis IV,4,dbGaP
+Mucopolysaccharidosis I,4,dbGaP
+RNA-Seq,4,dbGaP
+Squamous Cell Carcinoma,4,dbGaP
+Vesico-Ureteral Reflux,4,dbGaP
+Gallbladder Cancer,3.79,dbGaP
+Peritoneal Neoplasms,3.67,dbGaP
+Giant Cell Arteritis,3.6,dbGaP
+"Thyroid Cancer, Papillary",3.58,dbGaP
+Complete atrioventricular septal defect,3.5,dbGaP
+Intelligence,3.37,dbGaP
+Ehlers-Danlos syndrome type 3,3.18,dbGaP
+Pancreatic Neoplasms,3.16,dbGaP
+Cervical Dystonia,3.12,dbGaP
+N/A,3,dbGaP
+Pilocytic Astrocytoma,3,dbGaP
+Thrombocytopenia,3,dbGaP
+Varicella Vaccine,3,dbGaP
+COVID-19,2.73,dbGaP
+Progressive Patient Care,2.71,dbGaP
+Stunting,2.61,dbGaP
+Alopecia Areata,2.51,dbGaP
+Chronic Obstructive Pulmonary Disease,2.5,dbGaP
+Hypertrophy,2.5,dbGaP
+"Volunteers, Human",2.5,dbGaP
+Inflammatory Bowel Diseases,2.26,dbGaP
+"Urea Cycle Disorders, Inborn",2.23,dbGaP
+Subarachnoid Hemorrhage,2.21,dbGaP
+Birth Weight,2.2,dbGaP
+"Hepatitis, Alcoholic",2.18,dbGaP
+Moyamoya Disease,2.18,dbGaP
+"Stress Disorders, Post-Traumatic",2.13,dbGaP
+Sleep Wake Disorders,2.12,dbGaP
+Osteosarcoma,2.1,dbGaP
+"Genetics, Population",2.08,dbGaP
+Metabolism,2.08,dbGaP
+Gastrointestinal Neoplasms,2.05,dbGaP
+Nephrolithiasis,2.04,dbGaP
+Wellness Center,2.01,dbGaP
+Hypertriglyceridemia,2.01,dbGaP
+Chromatin,2,dbGaP
+Ciliary Motility Disorders,2,dbGaP
+Fertilization in Vitro,2,dbGaP
+"Hyperlipidemia, Familial Combined",2,dbGaP
+Melorheostosis,2,dbGaP
+Microsatellite Instability,2,dbGaP
+Neurofibromatosis Type I,2,dbGaP
+Taste Perception,2,dbGaP
+Test study for cloud access,2,dbGaP
+"Depressive Disorder, Major",1.98,dbGaP
+Pulmonary Arterial Hypertension,1.98,dbGaP
+Apolipoprotein L1,1.98,dbGaP
+Sturge-Weber Syndrome,1.92,dbGaP
+Centenarian,1.9,dbGaP
+Healthy Volunteers,1.88,dbGaP
+"Leukemia, Plasma Cell",1.88,dbGaP
+Malaria,1.87,dbGaP
+Hypertension,1.86,dbGaP
+Bronchiectasis,1.85,dbGaP
+Intracranial Aneurysm,1.82,dbGaP
+Obesity,1.81,dbGaP
+Ataxia Telangiectasia,1.79,dbGaP
+"Thyroid cancer, Hurthle cell",1.73,dbGaP
+Diabetes Mellitus,1.72,dbGaP
+Late Infantile Neuronal Ceroid Lipofuscinosis,1.68,dbGaP
+"Hyperinsulinism, Congenital",1.67,dbGaP
+"Adenocarcinoma, Lung",1.64,dbGaP
+Clonal Evolution,1.62,dbGaP
+Carpal Tunnel Syndrome,1.62,dbGaP
+Marijuana Abuse,1.61,dbGaP
+Lung Diseases,1.6,dbGaP
+Drug Hypersensitivity Syndrome,1.6,dbGaP
+Neutropenia,1.59,dbGaP
+Anthropometry,1.59,dbGaP
+Mitochondrial Diseases,1.56,dbGaP
+Immune System Diseases,1.55,dbGaP
+"Aortic Aneurysm, Abdominal",1.54,dbGaP
+Tobacco Use Disorder,1.53,dbGaP
+Huntington Disease,1.51,dbGaP
+Apparent mineralocorticoid excess,1.5,dbGaP
+Neocortex,1.5,dbGaP
+Autistic Disorder,1.49,dbGaP
+Vasculitis,1.49,dbGaP
+Alzheimer Disease,1.46,dbGaP
+Aging,1.46,dbGaP
+Fuchs&#39; Endothelial Dystrophy,1.46,dbGaP
+Colorectal Neoplasms,1.45,dbGaP
+Cognition,1.45,dbGaP
+Immune System Phenomena,1.43,dbGaP
+Platelet Aggregation,1.43,dbGaP
+Smoking Cessation,1.41,dbGaP
+Porphyrias,1.4,dbGaP
+Human Microbiome,1.4,dbGaP
+Immunologic Deficiency Syndromes,1.4,dbGaP
+"Diabetes Mellitus, Type 2",1.39,dbGaP
+Growth,1.39,dbGaP
+"Influenza, Human",1.39,dbGaP
+Intestinal Neoplasms,1.39,dbGaP
+Angelman Syndrome,1.39,dbGaP
+Prospective,1.39,dbGaP
+"Sarcoma, Soft Tissue",1.38,dbGaP
+Hypercholesterolemia,1.38,dbGaP
+Osteoarthritis,1.37,dbGaP
+Endocrine Disruptors,1.37,dbGaP
+"Genetic Diseases, Inborn",1.36,dbGaP
+Acne Vulgaris,1.35,dbGaP
+Insulin Resistance,1.35,dbGaP
+Lipids,1.33,dbGaP
+Congenital Anomalies Of Kidney And Urinary Tract,1.32,dbGaP
+"Cardiomyopathy, Dilated",1.32,dbGaP
+"Glomerulosclerosis, Focal Segmental",1.32,dbGaP
+Drug-Induced Liver Injury,1.32,dbGaP
+Charcot-Marie-Tooth Disease,1.31,dbGaP
+Neurofibromatosis 1,1.3,dbGaP
+Small Cell Lung Carcinoma,1.29,dbGaP
+Language Development,1.29,dbGaP
+Cerebral infarction,1.29,dbGaP
+Atherosclerosis,1.29,dbGaP
+Gastrointestinal Stromal Tumors,1.29,dbGaP
+Paraganglioma,1.29,dbGaP
+,1.28,dbGaP
+Inflammatory Bowel Disease,1.28,dbGaP
+Essential Tremor,1.28,dbGaP
+"Niemann-Pick Disease, Type C",1.28,dbGaP
+Sex,1.28,dbGaP
+Skin Pigmentation,1.27,dbGaP
+"Disease, Hirschsprung",1.26,dbGaP
+Respiration Disorders,1.26,dbGaP
+Protein-Losing Enteropathies,1.25,dbGaP
+Holoprosencephaly,1.25,dbGaP
+Lung Neoplasms,1.25,dbGaP
+Smell,1.24,dbGaP
+Exercise,1.24,dbGaP
+Respiratory Tract Infections,1.24,dbGaP
+Coronary Disease,1.22,dbGaP
+Sleep Apnea Syndromes,1.22,dbGaP
+Breast Feeding,1.22,dbGaP
+Fabry Disease,1.22,dbGaP
+"Colorectal Neoplasms, Hereditary Nonpolyposis",1.22,dbGaP
+Microcephaly,1.21,dbGaP
+pancreatic cancer,1.21,dbGaP
+Thromboembolism,1.2,dbGaP
+"Congenital, Hereditary, and Neonatal Diseases and Abnormalities",1.2,dbGaP
+Head and Neck Neoplasms,1.2,dbGaP
+Intracranial Arteriovenous Malformations,1.19,dbGaP
+Retinoblastoma,1.19,dbGaP
+Spinocerebellar Ataxias,1.19,dbGaP
+Connectome,1.18,dbGaP
+Sarcoma,1.18,dbGaP
+Primary ciliary dyskinesia,1.18,dbGaP
+Uveal melanoma,1.17,dbGaP
+Malignant Hyperthermia,1.17,dbGaP
+Polyarteritis Nodosa,1.17,dbGaP
+Anxiety,1.16,dbGaP
+Diabetic Nephropathies,1.16,dbGaP
+Respiratory Syncytial Virus Infections,1.15,dbGaP
+Cerebral Cortex,1.15,dbGaP
+Hutchinson-Gilford Progeria Syndrome,1.15,dbGaP
+Esophageal Neoplasm,1.15,dbGaP
+Influenza Vaccines,1.15,dbGaP
+Acute Megakaryoblastic Leukemia,1.14,dbGaP
+Pleuropulmonary blastoma [Supplementary Concept],1.14,dbGaP
+"Glaucoma, Open-Angle",1.14,dbGaP
+Heart Disease,1.14,dbGaP
+Mortality,1.13,dbGaP
+X Chromosome Inactivation,1.13,dbGaP
+Cell Line,1.13,dbGaP
+Immunocompromised Host,1.12,dbGaP
+"Leukoplakia, Oral",1.12,dbGaP
+Control Groups,1.12,dbGaP
+Metabolomics,1.11,dbGaP
+Stomach Neoplasms,1.11,dbGaP
+Tacrolimus,1.09,dbGaP
+Epilepsy,1.09,dbGaP
+Cardiomyopathies,1.08,dbGaP
+"Arthritis, Psoriatic",1.08,dbGaP
+Population Groups,1.08,dbGaP
+Temporomandibular Joint Disorders,1.08,dbGaP
+Neoplasm,1.07,dbGaP
+Amyotrophic Lateral Sclerosis,1.07,dbGaP
+Mental Processes,1.07,dbGaP
+Premature Infant,1.06,dbGaP
+Cerebrovascular Disorders,1.06,dbGaP
+Venous Thrombosis,1.06,dbGaP
+Pulmonary Alveolar Proteinosis,1.06,dbGaP
+"Anemia, Sickle Cell",1.05,dbGaP
+Depression,1.04,dbGaP
+Child Health,1.03,dbGaP
+Type 2 Diabetes Mellitus,1.03,dbGaP
+Bipolar Disorder,1.03,dbGaP
+Adolescent Health,1.03,dbGaP
+Blood Pressure,1.02,dbGaP
+Opioid-Related Disorders,1.01,dbGaP
+Platelets,1.01,dbGaP
+Astrocytoma,1,dbGaP
+Bilateral deafness,1,dbGaP
+"Cancer, Colorectal",1,dbGaP
+"Carcinoma, Signet Ring Cell",1,dbGaP
+"Dysautonomia, Familial",1,dbGaP
+Familial Adenomatous Polyposis,1,dbGaP
+Fibroblast-Derived Induced Pluripotent Stem Cells,1,dbGaP
+Heart,1,dbGaP
+Hepatocellular Carcinomas,1,dbGaP
+Hodgkin Disease,1,dbGaP
+Human Development,1,dbGaP
+Immune System Processes,1,dbGaP
+Leukemia,1,dbGaP
+Lymphadenopathy,1,dbGaP
+"Lymphohistiocytosis, Hemophagocytic",1,dbGaP
+Lymphoma,1,dbGaP
+Pancreas,1,dbGaP
+Pancreatic beta cell agenesis with neonatal diabetes mellitus,1,dbGaP
+Paranasal Sinus Diseases,1,dbGaP
+Pompe Disease,1,dbGaP
+Proteus Syndrome,1,dbGaP
+Pseudohypoparathyroidism,1,dbGaP
+Solitary Fibrous Tumors,1,dbGaP
+Tetralogy of Fallot,1,dbGaP
+von Hippel-Lindau Disease,1,dbGaP
+Werner Syndrome,1,dbGaP
+Preterm Birth,0.99,dbGaP
+Cranial Nerve Diseases,0.99,dbGaP
+"Colitis, Ulcerative",0.98,dbGaP
+Lewy Body Disease,0.98,dbGaP
+Pediatrics,0.97,dbGaP
+Substance-Related Disorders,0.97,dbGaP
+"Tuberculosis, Pulmonary",0.97,dbGaP
+Coronary Artery Disease,0.96,dbGaP
+Sickle Cell Anemia,0.96,dbGaP
+Premature Birth,0.96,dbGaP
+"Diabetes Mellitus, Type 1",0.96,dbGaP
+Precursor B-Cell Lymphoblastic Leukemia-Lymphoma,0.95,dbGaP
+Gastrointestinal Microbiome,0.95,dbGaP
+Precision Medicine,0.95,dbGaP
+"Arhinia, choanal atresia, and microphthalmia",0.94,dbGaP
+Rare Diseases,0.94,dbGaP
+Pediatric Obesity,0.93,dbGaP
+Retinitis Pigmentosa,0.93,dbGaP
+Cleft Lip,0.93,dbGaP
+Heterotaxy Syndrome,0.93,dbGaP
+Nondystrophic myotonia,0.93,dbGaP
+Cystic Fibrosis,0.92,dbGaP
+Smith-Lemli-Opitz Syndrome,0.92,dbGaP
+"Arterial Pressure, Mean",0.92,dbGaP
+"Genes, Neoplasm",0.92,dbGaP
+Melanoma,0.92,dbGaP
+"Nondisjunction, Genetic",0.92,dbGaP
+"Anemia, Dyserythropoietic, Congenital",0.92,dbGaP
+Dextroamphetamine,0.91,dbGaP
+Retinal Degeneration,0.91,dbGaP
+Prader-Willi Syndrome,0.91,dbGaP
+Dental Caries,0.91,dbGaP
+Intracerebral Hemorrhage,0.91,dbGaP
+Rhabdomyosarcoma,0.91,dbGaP
+"Leukemia, Lymphocytic, Chronic, B-Cell",0.9,dbGaP
+Colonic Polyps,0.89,dbGaP
+Hematologic Malignancy,0.89,dbGaP
+Non-Neoplastic Pediatric Disorder,0.89,dbGaP
+"Sprue, Tropical",0.89,dbGaP
+Computational Biology,0.89,dbGaP
+Magnesium Deficiency,0.89,dbGaP
+Castleman Disease,0.88,dbGaP
+Cleft Palate,0.88,dbGaP
+Cockayne Syndrome,0.88,dbGaP
+Heart Septal Defects,0.88,dbGaP
+"Spastic Paraplegia, Hereditary",0.88,dbGaP
+Neuroblastoma,0.87,dbGaP
+Chromosome Disorders,0.87,dbGaP
+Population,0.87,dbGaP
+Multiple Myeloma,0.86,dbGaP
+Pulmonary Fibrosis,0.86,dbGaP
+Strabismus,0.86,dbGaP
+"Melanoma, Cutaneous Malignant",0.85,dbGaP
+Smoking,0.85,dbGaP
+Myeloproliferative Disorders,0.84,dbGaP
+Rhabdoid Tumor,0.84,dbGaP
+"Lymphoma, Follicular",0.84,dbGaP
+Urinary Tract Infections,0.84,dbGaP
+Bacteriuria,0.84,dbGaP
+Hypobetalipoproteinemias,0.83,dbGaP
+Kartagener Syndrome,0.83,dbGaP
+"Carcinoma, Squamous Cell",0.83,dbGaP
+Microbiota,0.82,dbGaP
+Insulin-Dependent Diabetes Mellitus,0.82,dbGaP
+Histiocytic Sarcoma,0.82,dbGaP
+Retinopathy of Prematurity,0.82,dbGaP
+Dent Disease,0.82,dbGaP
+"Lymphoma, Non-Hodgkin",0.81,dbGaP
+Hyperlipoproteinemia Type II,0.81,dbGaP
+"Anemia, Aplastic",0.81,dbGaP
+"Carcinoma, squamous cell of head and neck",0.8,dbGaP
+Brain,0.8,dbGaP
+Precursor Cell Lymphoblastic Leukemia-Lymphoma,0.8,dbGaP
+Herpes Zoster,0.8,dbGaP
+"Hernias, Diaphragmatic, Congenital",0.8,dbGaP
+"Fractures, Bone",0.79,dbGaP
+von Willebrand Disease,0.78,dbGaP
+Myasthenia gravis,0.78,dbGaP
+Pick Disease of the Brain,0.78,dbGaP
+Reference Values,0.77,dbGaP
+"Leukemia, Myeloid, Acute",0.77,dbGaP
+"Infant, Premature",0.77,dbGaP
+Pharmacology,0.76,dbGaP
+Myotonia,0.75,dbGaP
+Stroke,0.75,dbGaP
+Hepatoblastoma,0.75,dbGaP
+"Hypophosphatemia, Familial",0.75,dbGaP
+West Nile Fever,0.75,dbGaP
+Normalcy,0.74,dbGaP
+"Renal Insufficiency, Chronic",0.74,dbGaP
+Hematopoietic Stem Cell Transplantation,0.74,dbGaP
+Metabolic Syndrome X,0.74,dbGaP
+Behcet Syndrome,0.74,dbGaP
+Acute Kidney Injury,0.73,dbGaP
+"Dose-Response Relationship, Drug",0.73,dbGaP
+Body Height,0.73,dbGaP
+Health,0.73,dbGaP
+Chronic Renal Insufficiency,0.73,dbGaP
+Immunotherapy,0.72,dbGaP
+Congenital Abnormalities,0.72,dbGaP
+Alcoholism,0.72,dbGaP
+Glioma,0.72,dbGaP
+Staphylococcus aureus,0.71,dbGaP
+Idiopathic Pulmonary Fibrosis,0.71,dbGaP
+"Pulmonary Disease, Chronic Obstructive",0.71,dbGaP
+"Epilepsy, Temporal Lobe",0.71,dbGaP
+Genetic Testing,0.71,dbGaP
+"Sarcoma, Ewing",0.71,dbGaP
+COPD,0.71,dbGaP
+Gene-Environment Interaction,0.71,dbGaP
+Andersen Syndrome,0.71,dbGaP
+Lung,0.7,dbGaP
+Neural Stem Cells,0.7,dbGaP
+Rectal Neoplasms,0.7,dbGaP
+histiocytosis,0.69,dbGaP
+X-Linked Dystonia Parkinsonism,0.69,dbGaP
+Tourette Disorder,0.68,dbGaP
+Ataxia,0.68,dbGaP
+Graft vs Host Disease,0.67,dbGaP
+Hemic and Lymphatic Diseases,0.67,dbGaP
+Lymphatic Diseases,0.67,dbGaP
+Molecular Structure,0.67,dbGaP
+Peripheral Vascular Diseases,0.66,dbGaP
+Parkinson Disease,0.65,dbGaP
+"Carcinoma, Non-Small-Cell Lung",0.65,dbGaP
+Psychiatry and Psychology Category,0.65,dbGaP
+Autism Spectrum Disorder,0.65,dbGaP
+"Lipoproteins, HDL",0.64,dbGaP
+Drug-Related Side Effects and Adverse Reactions,0.64,dbGaP
+"Lymphoma, Large B-Cell, Diffuse",0.63,dbGaP
+Obsessive-Compulsive Disorder,0.63,dbGaP
+"Carcinoma, Pancreatic Ductal",0.63,dbGaP
+Developmental Disabilities,0.62,dbGaP
+"Dermatitis, Atopic",0.61,dbGaP
+chordoma,0.6,dbGaP
+Ehlers-Danlos Syndrome,0.6,dbGaP
+Mucopolysaccharidosis III,0.6,dbGaP
+Nervous System Diseases,0.6,dbGaP
+Shwachman syndrome [Supplementary Concept],0.6,dbGaP
+Myelodysplastic Syndromes,0.6,dbGaP
+Kidney Diseases,0.6,dbGaP
+Chronic Lymphocytic Leukemia,0.59,dbGaP
+Psoriasis,0.59,dbGaP
+Mucopolysaccharidoses,0.59,dbGaP
+Beckwith-Wiedemann Syndrome,0.58,dbGaP
+Sezary Syndrome,0.58,dbGaP
+Population Control,0.58,dbGaP
+Carcinoma,0.58,dbGaP
+Tourette Syndrome,0.57,dbGaP
+Gene Expression Profiling,0.57,dbGaP
+Venous Thromboembolism,0.56,dbGaP
+Medulloblastoma,0.56,dbGaP
+RNA-seq,0.56,dbGaP
+"Lymphoma, B-Cell",0.54,dbGaP
+"Leukemia, Lymphoid",0.54,dbGaP
+Aortic Diseases,0.53,dbGaP
+Glioblastoma,0.52,dbGaP
+Colonic Neoplasms,0.51,dbGaP
+Acute Myeloid Leukemia,0.51,dbGaP
+Schizophrenia,0.51,dbGaP
+DNA Methylation,0.5,dbGaP
+"Amyotrophic Lateral Sclerosis 4, Juvenile",0.5,dbGaP
+Chromosome Breakpoints,0.5,dbGaP
+Disorders of Sex Development,0.5,dbGaP
+"Ectrodactyly, Ectodermal Dysplasia, and Cleft Lip-Palate Syndrome 3",0.5,dbGaP
+Encephalitis,0.5,dbGaP
+Erythromelalgia,0.5,dbGaP
+Genee-Wiedemann Syndrome,0.5,dbGaP
+Immunological Deficiency Syndrome,0.5,dbGaP
+"Leukemia, Large Granular Lymphocytic",0.5,dbGaP
+Parathyroid Neoplasms,0.5,dbGaP
+Prenatal Care,0.5,dbGaP
+Atrial Fibrillation,0.48,dbGaP
+"Antigens, Neoplasm",0.48,dbGaP
+Glaucoma,0.47,dbGaP
+"Carcinoma, Renal Cell",0.47,dbGaP
+Heart Failure,0.47,dbGaP
+"Lymphoma, T-Cell, Cutaneous",0.46,dbGaP
+"Carcinoma, Hepatocellular",0.46,dbGaP
+"Leukemia, T-cell",0.45,dbGaP
+"Leukemia, Myelomonocytic, Juvenile",0.45,dbGaP
+Myocardial Infarction,0.45,dbGaP
+single-cell analysis,0.44,dbGaP
+Precursor T-Cell Lymphoblastic Leukemia-Lymphoma,0.44,dbGaP
+Cell-Free Nucleic Acids,0.44,dbGaP
+Diarrhea,0.43,dbGaP
+Insulinoma,0.43,dbGaP
+Hemophilia,0.42,dbGaP
+Nasopharyngeal Neoplasms,0.41,dbGaP
+Crohn Disease,0.41,dbGaP
+"Carcinoma, Transitional Cell",0.41,dbGaP
+Ameloblastoma,0.4,dbGaP
+Peanut Hypersensitivity,0.4,dbGaP
+Urogenital Neoplasms,0.4,dbGaP
+Severe Combined Immunodeficiency,0.39,dbGaP
+"Hypotension, Orthostatic",0.39,dbGaP
+Attention Deficit Disorder with Hyperactivity,0.38,dbGaP
+Measles Vaccine,0.38,dbGaP
+Hypoplastic Left Heart Syndrome,0.36,dbGaP
+alpha 1-Antitrypsin Deficiency,0.36,dbGaP
+Pouchitis,0.35,dbGaP
+Bone Marrow Failure Syndromes,0.35,dbGaP
+Congenital Disorders of Glycosylation,0.33,dbGaP
+Humans,0.33,dbGaP
+Single-Cell Analysis,0.33,dbGaP
+Squamous Cell Carcinoma of the Head and Neck,0.33,dbGaP
+Squamous Cell Carcinoma of Head and Neck,0.33,dbGaP
+"Melanoma, Uveal",0.32,dbGaP
+Esophageal Neoplasms,0.3,dbGaP
+Mycosis Fungoides,0.29,dbGaP
+Testicular Germ Cell Tumor,0.29,dbGaP
+Embryonic and Fetal Development,0.29,dbGaP
+"Xeroderma Pigmentosum, Complementation Group C",0.29,dbGaP
+Adenocarcinoma of lung,0.28,dbGaP
+Hypogonadism,0.28,dbGaP
+Abdominal Aortic Aneurysms,0.27,dbGaP
+Burkitt Lymphoma,0.26,dbGaP
+Autoimmune enteropathy,0.25,dbGaP
+Waldenstrom Macroglobulinemia,0.25,dbGaP
+Impulsive Behavior,0.23,dbGaP
+HIV Infections,0.22,dbGaP
+"Carcinoma, Neuroendocrine",0.21,dbGaP
+Vitiligo,0.2,dbGaP
+Neurilemmoma,0.2,dbGaP
+Schizophrenic Disorders,0.19,dbGaP
+Heroin Dependence,0.19,dbGaP
+Neuroendocrine Tumors,0.18,dbGaP
+Central Nervous System Diseases,0.16,dbGaP
+SMARCB1 Protein,0.15,dbGaP
+Tuberous Sclerosis,0.15,dbGaP
+Myocardial Revascularization,0.14,dbGaP
+Intellectual Disability,0.14,dbGaP
+Cocaine-Related Disorders,0.14,dbGaP
+"LRBA protein, human",0.13,dbGaP
+Urologic Neoplasms,0.13,dbGaP
+Alcohol-Related Disorders,0.13,dbGaP
+Urinary Bladder Neoplasms,0.12,dbGaP
+"Hepatitis C, Followup studies, Drug dependence",0.12,dbGaP
+"Leukemia, Hairy Cell",0.11,dbGaP
+MicroRNAs,0.11,dbGaP
+Smallpox Vaccine,0.11,dbGaP
+Barrett Esophagus,0.11,dbGaP
+Skin Pigmentation (Melanin Index),0.1,dbGaP
+Myopathy,0.1,dbGaP
+Esophageal Adenocarcinoma,0.08,dbGaP
+Prostatic Neoplasms,0.02,dbGaP
+"Prostate cancer, familial",0,dbGaP
+Adenocarcinoma,0,dbGaP
+Azoospermia,0,dbGaP
+Blepharospasm,0,dbGaP
+Cell Hypoxia,0,dbGaP
+Cholangiocarcinoma,0,dbGaP
+Chordoma,0,dbGaP
+Chromosome Fragile Sites,0,dbGaP
+Congenital diaphragmatic hernia,0,dbGaP
+Cryptorchidism,0,dbGaP
+Dendritic Cells,0,dbGaP
+Ganglioglioma,0,dbGaP
+Germ Cells,0,dbGaP
+Growth and Development,0,dbGaP
+Jacobsen Distal 11q Deletion Syndrome,0,dbGaP
+Male Germ Cell Tumor,0,dbGaP
+Melanocytes,0,dbGaP
+MELAS Syndrome,0,dbGaP
+"Neoplasms, Germ Cell and Embryonal",0,dbGaP
+Neuroglia,0,dbGaP
+Otitis Media,0,dbGaP
+"Platelet Disorder, Familial, with Associated Myeloid Malignancy",0,dbGaP
+Podocytes,0,dbGaP
+Prostate Neoplasm,0,dbGaP
+Prostatic Hyperplasia,0,dbGaP
+"Prostatic Neoplasms, Castration-Resistant",0,dbGaP
+Sertoli Cell-Only Syndrome,0,dbGaP
+Spermatozoa,0,dbGaP
+Multiple Sclerosis,5.15,EGA
+SLE,4.88,EGA
+untreated multiple sclerosis case,3.5,EGA
+Multiple sclerosis,2.76,EGA
+MONDO:0005301,2.43,EGA
+preeclampsia,2.33,EGA
+Duodenum,2.32,EGA
+MONDO:0100096,2.1,EGA
+HP:0012393,1.88,EGA
+Elderly,1.75,EGA
+T cell,1.72,EGA
+Obese,1.61,EGA
+N/A,1.59,EGA
+Trypanosoma gambiense Human African Trypanosomiasis,1.58,EGA
+EFO:0009121,1.55,EGA
+African Surinamese,1.54,EGA
+Alzheimer's disease status,1.52,EGA
+Lung cancer,1.51,EGA
+Undiseased individual,1.5,EGA
+EFO:1001956,1.48,EGA
+HP:0002633,1.38,EGA
+HP:0000822,1.36,EGA
+1,1.34,EGA
+Shwachman-Diamond syndrome,1.31,EGA
+IGT_project,1.29,EGA
+Glioblastoma,1.25,EGA
+Haemoglobin levels,1.23,EGA
+Morphologically normal liver (hepatocytes),1.22,EGA
+South-Asian Surinamese,1.21,EGA
+Birth Cohort,1.21,EGA
+0,1.17,EGA
+NAFLD,1.17,EGA
+TE,1.16,EGA
+normal weight,1.15,EGA
+fecal sample,1.14,EGA
+Lean,1.1,EGA
+adult acute myeloid leukemia (EFO:1001934),1.07,EGA
+RHD study case,1.04,EGA
+Overweight,1.01,EGA
+type II diabetes case,1,EGA
+type II diabetes control,0.99,EGA
+non-small cell lung cancer,0.99,EGA
+scapis_project,0.98,EGA
+Ghanaian,0.97,EGA
+Not applicable,0.96,EGA
+HD followup,0.96,EGA
+HD baseline,0.95,EGA
+reference sample,0.94,EGA
+Healthy control,0.94,EGA
+Dutch,0.92,EGA
+Obesity,0.9,EGA
+asthma,0.88,EGA
+GI,0.88,EGA
+Childhood acute lymphoblastic leukaemia,0.87,EGA
+Chronic lymphocytic leukemia,0.83,EGA
+DLBCL,0.81,EGA
+Moroccan,0.81,EGA
+Disease(s),0.81,EGA
+tetralogy of fallot,0.77,EGA
+MDS_SAMD9/L,0.76,EGA
+lung adenocarcinomas,0.76,EGA
+CD138+,0.75,EGA
+Free of cardiovascular disease,0.74,EGA
+bone marrow,0.69,EGA
+cancer_colorectal,0.68,EGA
+MND,0.68,EGA
+HD,0.67,EGA
+Ulcerative colitis,0.64,EGA
+covid_19,0.62,EGA
+Gastric,0.61,EGA
+Crohn's disease,0.61,EGA
+0005952,0.58,EGA
+EFO_0004197,0.58,EGA
+Sepsis,0.58,EGA
+Tumor Thrombus,0.57,EGA
+NSCLC,0.56,EGA
+glioblastoma,0.56,EGA
+Germline Sample,0.55,EGA
+MDS_WILDTYPE,0.54,EGA
+Keratoconus,0.53,EGA
+UTUC,0.5,EGA
+ESCC,0.5,EGA
+gastric carcinoma,0.49,EGA
+ccRCC,0.47,EGA
+TGA,0.47,EGA
+CRC,0.45,EGA
+JMML,0.43,EGA
+gastric cancer,0.4,EGA
+Control PBMC,0.39,EGA
+Hepatocellular carcinoma,0.38,EGA
+cMCL,0.38,EGA
+MME,0.37,EGA
+Cancer bladder,0.3,EGA
+mUC,0.28,EGA
+metastatic urothelial bladder cancer,0.27,EGA
+RHD study control,0.27,EGA
+individual with PDAC,0.26,EGA
+nondysplasia,0.25,EGA
+Barrett's,0.23,EGA
+Urothelial cancer,0.19,EGA

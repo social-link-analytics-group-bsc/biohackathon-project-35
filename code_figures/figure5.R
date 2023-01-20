@@ -25,6 +25,8 @@ dbgap_phe = fread("/media/victoria/VICTORIA_EXTERNAL_DISK/BioHackathon2021/bioha
                   col.names = c("study_id","phenotype"))
 dbgap_phe
 
+
+
 library(dplyr)
 dbgap = merge(dbgap, dbgap_phe)
 dbgap_ratio = dbgap %>% 
@@ -35,7 +37,10 @@ dbgap_ratio = dbgap %>%
               group_by(phenotype) %>%
               summarise(FMratio_mean = mean(FMratio))
 
+dbgap_ratio 
 dbgap_ratio =arrange(dbgap_ratio, desc(FMratio_mean))
+dbgap_ratio $repository = "dbGaP"
+
 dbgap_ratio$x = 1:nrow(dbgap_ratio)
 dbgap_ratio[1:20,]
 
@@ -86,6 +91,12 @@ ega_sum = ega_sum%>%
   summarise(FMratio_mean = mean(FMratio))
 
 ega_ratio =arrange(ega_sub100, desc(FMratio_mean))
+ega_ratio$repository = "EGA"
+
+s= rbindlist(list(dbgap_ratio,ega_ratio))
+s$FMratio_mean = round(s$FMratio_mean,2)
+fwrite(s, "FMratio.csv")
+
 ega_ratio$x = 1:nrow(ega_ratio)
 ega_ratio[21:40,]
 
