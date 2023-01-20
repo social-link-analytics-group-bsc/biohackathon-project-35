@@ -1,9 +1,62 @@
 ---
 title: "Addressing sex bias in biological databases worldwide"
+tags:
+  - sex bias
+  - gender bias
+  - artificial intelligence
+  - metadata reporting
+  - human genomic databases
+  - research data repositories 
+authors:
+  - name: Victoria Ruiz-Serra
+    orcid:
+    affiliation: 1
+  - name: Nataly Buslón
+    affiliation: 1
+  - name: Olivier R Philippe
+    affiliation: 1
+  - name: Diego Saby
+    affiliation: 2
+  - name: María Morales
+    affiliation: 1
+  - name: Camila Pontes
+    affiliation: 1
+  - name: Alejandro Muñoz Andirkó
+    affiliation: 3
+  - name: Gemma L. Holiday
+    affiliation: 4
+  - name: Aina Jené 
+    affiliation: 5
+  - name: Mauricio Moldes
+    affiliation: 5
+  - name: Jordi Rambla 
+    affiliation: 5
+  - name: Alfonso Valencia 
+    affiliation: 1, 6
+  - name: María José Rementeria
+    affiliation: 1
+  - name: Átia Cortés
+    affiliation: 1
+  - name: Davide Cirillo
+    affiliation: 1
+affiliations:
+  - name: Barcelona Supercomputing Center (BSC), Barcelona, Spain
+    index: 1
+  - name: Gedesco Services, Spain
+    index: 2
+  - name: DevCenter, Alicante, Spain
+    index: 3
+  - name: Medicines Discovery Catapult, Macclesfield, United Kingdo
+    index: 4
+  - name: Centre for Genomic Regulation (CRG), Barcelona, Spain
+    index: 5
+  - name: Institución Catalana de Investigación y Estudios Avanzados (ICREA), Barcelona, Spain
+    index: 6
+date: 20 January 2020
 bibliography: ./FAIRX-35.bib
-output: html_document
 ---
 
+# **Addressing sex bias in biological databases worldwide**
 
 Victoria Ruiz-Serra <sup>1,#</sup> , Nataly Buslón <sup>1,#,\*</sup>, Olivier R. Philippe <sup>1</sup>, Diego Saby <sup>2</sup>, María Morales <sup>1</sup>, Camila Pontes <sup>1</sup>, Alejandro Muñoz Andirkó <sup>3</sup>, Gemma L. Holiday <sup>4</sup>, Aina Jené <sup>5</sup>, Mauricio Moldes <sup>5</sup>, Jordi Rambla <sup>5</sup>, Alfonso Valencia <sup>1,6</sup>, María José Rementeria <sup>1</sup>, Átia Cortés <sup>1,#</sup>, Davide Cirillo <sup>1,#,\*</sup>
 
@@ -35,11 +88,11 @@ In this work we quantified biases in sex classification over time in human data 
 
 The "one-size-fits-all" view of medicine is no longer considered the paradigm; instead, it is well understood that the diversity of nature is reflected in our response to treatments. Precision medicine, in which treatments are tailored to individuals, only works if we have a proper understanding and exhaustive evidence of the underlying inter-individual differences, especially if it relies on the use of Artificial Intelligence (AI) [@cirillo_sex_2020]
 
-The successful application of AI to the health domain is a major achievement in science and technology [(2)](https://www.zotero.org/google-docs/?oluTgV). AI for health is particularly thriving in the domains of medical imaging and digital medicine, with successful applications in digital pathology [(3)](https://www.zotero.org/google-docs/?jZd2cL) and wearable technologies [(4)](https://www.zotero.org/google-docs/?wD29pu). To present, 64 AI-based medical devices and algorithms have been identified [(5)](https://www.zotero.org/google-docs/?eXCNvf). Moreover, as of February 2022, the ACR Data Science Institute AI Central reports a total of 160 FDA-cleared AI medical products related to radiology and imaging [(6)](https://www.zotero.org/google-docs/?cq1pZI), while ClinicalTrial.gov reports a total of 105 completed and 41 active AI-related clinical trials [(7)](https://www.zotero.org/google-docs/?rhyXeF).
+The successful application of AI to the health domain is a major achievement in science and technology [@rajpurkar_ai_2022]. AI for health is particularly thriving in the domains of medical imaging and digital medicine, with successful applications in digital pathology [@baxi_digital_2022] and wearable technologies [@iqbal_advances_2021]. To present, 64 AI-based medical devices and algorithms have been identified [@benjamens_state_2020]. Moreover, as of February 2022, the ACR Data Science Institute AI Central reports a total of 160 FDA-cleared AI medical products related to radiology and imaging [@noauthor_ai_nodate], while ClinicalTrial.gov reports a total of 105 completed and 41 active AI-related clinical trials [@noauthor_clinicaltrialsgov_nodate].
 
-Such systems learn to perform specific tasks by processing extensive amounts of data produced and generally stored in large repositories and knowledge bases. In the area of human data collection, two of the largest databases worldwide are the database of Genotypes and Phenotypes (dbGaP) at the National Center for Biotechnology Information (NCBI) [(8)](https://www.zotero.org/google-docs/?sgt7GI) and the European Genome-phenome Archive (EGA) at the European Bioinformatics Institute (EBI) and the Centre for Genomic Regulation (CRG) [(9)](https://www.zotero.org/google-docs/?BAVPLF). As outlined by the FAIR Principles [(10)](https://www.zotero.org/google-docs/?0iEvHS), such resources are key to biomedical research, especially with AI applications, but only if they are well-maintained and efficiently operated through good data management practices. Indeed, the quality and content of these data have an immense impact on what and how AI learns. The use of AI can produce discriminatory results and spread them throughout society if the data have biases, such as an inaccurate representation of some demographic groups or missing data. Concerns about the risk of AI to incur ethical issues have been recently pointed out, particularly in relation to sex and gender bias in AI [(1)](https://www.zotero.org/google-docs/?Ki9UQV).
+Such systems learn to perform specific tasks by processing extensive amounts of data produced and generally stored in large repositories and knowledge bases. In the area of human data collection, two of the largest databases worldwide are the database of Genotypes and Phenotypes (dbGaP) at the National Center for Biotechnology Information (NCBI) [@noauthor_dbgap_nodate-1] and the European Genome-phenome Archive (EGA) at the European Bioinformatics Institute (EBI) and the Centre for Genomic Regulation (CRG) [@noauthor_ega_nodate]. As outlined by the FAIR Principles [@noauthor_fair_nodate], such resources are key to biomedical research, especially with AI applications, but only if they are well-maintained and efficiently operated through good data management practices. Indeed, the quality and content of these data have an immense impact on what and how AI learns. The use of AI can produce discriminatory results and spread them throughout society if the data have biases, such as an inaccurate representation of some demographic groups or missing data. Concerns about the risk of AI to incur ethical issues have been recently pointed out, particularly in relation to sex and gender bias in AI [@cirillo_sex_2020].
 
-Taking as a reference the interpretation of Office for National Statistics (ONS) and the UK government, biological sex refers to the "biological aspects of an individual as determined by their anatomy, a product of their chromosomes, hormones, and their interactions". Whereas gender is a social construction which "is a personal, internal perception of oneself and so the gender category someone identifies with may not match the biological sex they were assigned at birth" [(11)](https://www.zotero.org/google-docs/?ToxB07). In June 2015, the NIH announced that sex as a biological variable must be part of research design and analysis in studies of vertebrate animals and humans (NOT-OD-15-102). Moreover, major granting agencies require sex and gender analysis to be integrated in research design [(12)](https://www.zotero.org/google-docs/?6gCcfl) although their inception followed different timelines (e.g. WHO was in 2002, whereas Korea was in 2021). Despite such requirements, the metadata associated with human data repositories are still relatively poorly accounted for.
+Taking as a reference the interpretation of Office for National Statistics (ONS) and the UK government, biological sex refers to the "biological aspects of an individual as determined by their anatomy, a product of their chromosomes, hormones, and their interactions". Whereas gender is a social construction which "is a personal, internal perception of oneself and so the gender category someone identifies with may not match the biological sex they were assigned at birth" [@noauthor_what_nodate]. In June 2015, the NIH announced that sex as a biological variable must be part of research design and analysis in studies of vertebrate animals and humans (NOT-OD-15-102). Moreover, major granting agencies require sex and gender analysis to be integrated in research design [@noauthor_sex_nodate] although their inception followed different timelines (e.g. WHO was in 2002, whereas Korea was in 2021). Despite such requirements, the metadata associated with human data repositories are still relatively poorly accounted for.
 
 In this article, we evaluate the current sex bias in dbGaP and EGA. By analyzing the existence or absence of such categories in the metadata of the submitted studies and samples, we may ascertain the degree of sex and gender bias in the EGA and dbGaP human data repositories. We use data collected since 2018 to quantify the global sex bias and its evolution over time. Additionally, we conducted a survey to analyze the practice of the experts in reporting sex and gender metadata in human databases. We offer a series of recommendations based on our observations to encourage ethical methods in the gathering, sharing, and applying biological data.
 
@@ -47,25 +100,25 @@ In this article, we evaluate the current sex bias in dbGaP and EGA. By analyzing
 
 **1. Sex balance in EGA and dbGaP studies since 2018**
 
-Following the new metadata model introduced by the European Nucleotide Archive (ENA) [(13)](https://www.zotero.org/google-docs/?dDncnr), the EGA repository mandated the sex category for all data submissions in 2018. On the other hand, dbGaP imposed such regulation from 2019 but only when submitting variants (VCF and PLINK files) data [(14)](https://www.zotero.org/google-docs/?7yXWmP). Using this difference between the two repositories, we collected the sex classification reported in the samples of the studies accumulated in EGA and dbGaP from 2018 up to the date of the data retrieval (November 2021). We then compared the results of the two databases to assess the impact of this regulation.
+Following the new metadata model introduced by the European Nucleotide Archive (ENA) [@silvester_european_2018], the EGA repository mandated the sex category for all data submissions in 2018. On the other hand, dbGaP imposed such regulation from 2019 but only when submitting variants (VCF and PLINK files) data [@noauthor_dbgap_nodate]. Using this difference between the two repositories, we collected the sex classification reported in the samples of the studies accumulated in EGA and dbGaP from 2018 up to the date of the data retrieval (November 2021). We then compared the results of the two databases to assess the impact of this regulation.
 
 The majority of the samples in EGA (1,249,255 total samples over 1,490 studies) were classified as female (F=55%), followed by male (M=35%) and unknown (U=10%) (**Figure 1)**. Similar results were observed when we counted the sex reporting if we took into account the unique number of samples (705,502 samples; [**Figure S1**](https://docs.google.com/document/d/1C4QGUgH4dm17WqPRULSOAnT1cj0dJ6j4E-bvs-ANpLY/edit#)). The number of female and male samples was more evenly distributed in dbGaP (31% female and 25% male), which comprised around 7 times as many samples (7,036,375) in half as many studies (753) as EGA. However, the bulk of the samples (44%) fits the unknown category.
 
-We divided each study into categories based on the sex of their sample populations ( **Figure 2** ). While the majority of studies in dbGaP (51.3%) used samples that were female, male, and unknown (F&M&U), the majority of studies in EGA (45%) used samples that were female and male (F&M). Studies with both female and male samples (F&M=23.5%) made up the second most common classification in dbGaP, while in EGA corresponded to studies with only unknown samples (U=20%), a classification represented in 10.2% of dbGaP studies. We found that there were more studies with only female (F) samples (10% in dbGaP and 12% in EGA) than with only male (M) samples (7% in dbGaP and 8% in EGA). Lastly, studies with female and unknown (F&U) or male and unknown (M&U) samples were the least common in EGA (F&U=0.6% and M&U=0.7%), however, they were the fourth and fifth most common classes in dbGaP (F&U=5% and M&U=2.4%).
+We divided each study into categories based on the sex of their sample populations (**Figure 2**). While the majority of studies in dbGaP (51.3%) used samples that were female, male, and unknown (F&M&U), the majority of studies in EGA (45%) used samples that were female and male (F&M). Studies with both female and male samples (F&M=23.5%) made up the second most common classification in dbGaP, while in EGA corresponded to studies with only unknown samples (U=20%), a classification represented in 10.2% of dbGaP studies. We found that there were more studies with only female (F) samples (10% in dbGaP and 12% in EGA) than with only male (M) samples (7% in dbGaP and 8% in EGA). Lastly, studies with female and unknown (F&U) or male and unknown (M&U) samples were the least common in EGA (F&U=0.6% and M&U=0.7%), however, they were the fourth and fifth most common classes in dbGaP (F&U=5% and M&U=2.4%).
 
 In conclusion, our analysis showed that it is not only important to quantify the general biases in the samples, but also their distribution within individual studies. EGA studies contained a lower number of unknown samples, mostly studied on their own, i.e. unknown-only studies. Male and female samples, however, were unequally distributed, with female samples being more prevalent. Nevertheless, the fact that both the biologically male and female sexes were represented in over half of the research is a positive finding. In contrast, although the representation of male and female samples in dbGaP was more balanced, this finding is tainted by the substantial amount of unknown samples, which are usually included in studies that contain both male and female samples data.
 
-
+![](./figures/figure1.png)
 
 **Figure 1.** Barplot depicting the distribution in percentage of the sex classification in all the EGA and dbGaP samples (not unique) included in studies from 2018 to the date of data retrieval (November 2021).
 
 
-
+![](./figures/figure2.png)
 **Figure 2.** EGA and dbGaP studies (2018-2021) classification according to the sex representation of their samples. F, female; M, male and U, unknown.
 
 **2. Sex balance across time**
 
-We expanded the prior study and looked at all potential samples kept in both EGA and dbGaP repositories over time to have a better understanding of the evolution of female and male representation in research projects. In this way, we quantified the effect of the 2018 EGA policy and assessed how the sex classification of samples has changed over a longer time period. The collected data represented a period of over ten years, starting in 2009 for dbGaP and in 2010 for EGA, and they comprised a total of 1,340 dbGaP and 2,918 EGA studies, with 13,583,555 and 2,415,781 samples, respectively. [**Figures S2**](https://docs.google.com/document/d/1C4QGUgH4dm17WqPRULSOAnT1cj0dJ6j4E-bvs-ANpLY/edit#)[and](https://docs.google.com/document/d/1C4QGUgH4dm17WqPRULSOAnT1cj0dJ6j4E-bvs-ANpLY/edit#)[**S3**](https://docs.google.com/document/d/1C4QGUgH4dm17WqPRULSOAnT1cj0dJ6j4E-bvs-ANpLY/edit#) show the total number of studies over the years and the total number of samples included in each sex classification respectively.
+We expanded the prior study and looked at all potential samples kept in both EGA and dbGaP repositories over time to have a better understanding of the evolution of female and male representation in research projects. In this way, we quantified the effect of the 2018 EGA policy and assessed how the sex classification of samples has changed over a longer time period. The collected data represented a period of over ten years, starting in 2009 for dbGaP and in 2010 for EGA, and they comprised a total of 1,340 dbGaP and 2,918 EGA studies, with 13,583,555 and 2,415,781 samples, respectively. [**Figures S2** and **S3**](https://docs.google.com/document/d/1C4QGUgH4dm17WqPRULSOAnT1cj0dJ6j4E-bvs-ANpLY/edit#) show the total number of studies over the years and the total number of samples included in each sex classification respectively.
 
 We first analyzed the temporal sex classification distribution of dbGaP and EGA samples ( **Figures 3** and **4** respectively). Regarding dbGaP, the years with the highest submitted samples, 2017, with 3,169,377 samples, and 2020, with 3,573,690 samples ( **Figure 3A** ), correlated to the years with the largest percentage of unknown samples ( **Figure 3B** ). This proportion is maintained when looking at the mean number of samples per study, meaning that the inclusion of a high number of unknown samples is shared among studies ([**Figure S4**](https://docs.google.com/document/d/1C4QGUgH4dm17WqPRULSOAnT1cj0dJ6j4E-bvs-ANpLY/edit#)). In the case of EGA, we observed a significant impact of the 2018 policy since the distribution of the unknown samples are, for the first time, in a notably lower proportion than female and male samples ( **Figure 4B** ). Between 2010 and 2013, more than 75% of the samples were labeled as unknown. We observed that this percentage drastically dropped to 50-25% in 2014 and remained comparable to male and female samples proportions for 4 years. Since 2018, unknown samples represent less than 20% of the samples and reached a minimum of 5% in 2021. Unlike dbGaP, sample data peaks in 2014 (463,524 samples) and 2021 (606,108 samples) did not coincide with the largest percentage of unknown samples ( **Figure 4A** ). Since 2010, there has been an equal distribution of male and female samples; however, this is no longer the case as of 2017, since we consistently saw more female samples being used in EGA studies than male ones ( **Figure 4B** ).
 
@@ -232,4 +285,4 @@ A.J., M.M., J.R. develop, maintain and coordinate the EGA database. D.S., A.M.A.
 
 [25. GRAF Software Documentation [Internet]. [cited 2022 Dec 13]. Available from: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/GRAF\_README.html](https://www.zotero.org/google-docs/?Ayuqbw)
 
-9
+
