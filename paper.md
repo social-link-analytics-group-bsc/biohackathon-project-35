@@ -67,12 +67,6 @@ authors_short: Ruiz-Serra et al. (2023)
 git_url: https://github.com/social-link-analytics-group-bsc/biohackathon-project-35
 ---
 
-
-<sup>\#</sup> these authors contributed equally
-
-<sup>\*</sup> corresponding authors: Davide Cirillo, [davide.cirillo@bsc.es](mailto:davide.cirillo@bsc.es); Nataly Buslón, [nataly.buslon@bsc.es](mailto:nataly.buslon@bsc.es)
-
-
 Keywords: sex bias, gender bias, artificial intelligence, metadata reporting, human genomic databases, research data repositories
 
 ## **Abstract**
