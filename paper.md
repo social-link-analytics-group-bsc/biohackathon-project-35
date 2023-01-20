@@ -8,10 +8,10 @@ tags:
   - human genomic databases
   - research data repositories 
 authors:
-  - name: Victoria Ruiz-Serra\#
-    affiliation: 1
-  - name: Nataly Buslón\#
-    affiliation: 1
+  - name: Victoria Ruiz-Serra
+    affiliation: 1,\#
+  - name: Nataly Buslón
+    affiliation: 1,\#
   - name: Olivier R Philippe
     affiliation: 1
   - name: Diego Saby
@@ -52,6 +52,8 @@ affiliations:
     index: 5
   - name: Institución Catalana de Investigación y Estudios Avanzados (ICREA), Barcelona, Spain
     index: 6
+  - name: these authors contributed equally
+    index: \#
 date: 20 January 2020
 bibliography: ./FAIRX-35.bib
 group: BioHackrXiv
