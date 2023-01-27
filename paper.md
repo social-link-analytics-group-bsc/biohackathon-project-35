@@ -204,7 +204,7 @@ We accessed dbGaP metadata through their public FTP access. We collected the cou
 
 **Questionnaire about sex reporting in databases**
 
-An anonymous survey (Supplementary Information [SURVEY\_ELIXIR BioHackathon 35 FAIR-X.pdf](https://drive.google.com/file/d/1gEwtNRVSoFAdcLfgyQXp7bTvHCJwOYyO/view?usp=share_link)) with 18 questions (7 of which were designed to obtain socio-demographic data) was distributed among Biohackathon ELIXIR 2021 participants as well as through social networks such as the official Twitter account of the Bioinfo4Women initiative from the Barcelona Supercomputing Center ([https://cutt.ly/qN2iG0Z](https://cutt.ly/qN2iG0Z)). Additionally, at the qualitative level, we reviewed all the available documentation from dbGaP and EGA platforms and analyzed which variables, terms and concepts were obligatory in the submission process or in the guidelines and when such changes were introduced.
+An anonymous survey (Supplementary Information) with 18 questions (7 of which were designed to obtain socio-demographic data) was distributed among Biohackathon ELIXIR 2021 participants as well as through social networks such as the official Twitter account of the Bioinfo4Women initiative from the Barcelona Supercomputing Center ([https://cutt.ly/qN2iG0Z](https://cutt.ly/qN2iG0Z)). Additionally, at the qualitative level, we reviewed all the available documentation from dbGaP and EGA platforms and analyzed which variables, terms and concepts were obligatory in the submission process or in the guidelines and when such changes were introduced.
 
 **Data availability**
 

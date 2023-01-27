@@ -32,6 +32,6 @@ fs7 = ggplot(fs7_plot_sum, aes(y = answers_pretty, x = count))+
         axis.title = element_text(size = 20))
 
 fs7
-png("../figures/figureS7.png", width = 2000, height = 500, res = 150)
+png("../figures/figureS7.png", width = 2000, height = 500, res = 120)
 fs7
 dev.off()
