@@ -29,6 +29,6 @@ fs10 = ggplot(fs10_plot_sum, aes(y = Answer, x = count))+
         axis.title = element_text(size = 20))
 
 
-png("../figures/figureS10.png", width = 1500, height = 900, res = 150)
+png("../figures/figureS10.png", width = 2000, height = 900, res = 200)
 fs10
 dev.off()
