@@ -66,7 +66,9 @@ git_url: https://github.com/social-link-analytics-group-bsc/biohackathon-project
 ##
 
 \# these authors contributed equally
+
 \* corresponding authors
+
 Keywords: sex bias, gender bias, artificial intelligence, metadata reporting, human genomic databases, research data repositories
 
 ## **Abstract**
