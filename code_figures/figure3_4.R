@@ -52,25 +52,41 @@ ega_dbgap = ega_dbgap %>% group_by(repository,year) %>% mutate(total_year = sum(
 ega_dbgap_percent = subset(ega_dbgap) %>% group_by(variable, repository, year) %>%
   summarise(value_percent = sum(value) / unique(total_year),
             total_year = unique(total_year),
-            sd= sd(value))
+            sd= sd(value),
+            n_studies = n_distinct(study_id))
 
 
 ega_dbgap_percent$year = factor(ega_dbgap_percent$year ,
                                  levels = c(NA,'2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020','2021'))
 
 
+
+coeff = 1000
 ega1 = ggplot(subset(ega_dbgap_percent,
                      repository == "EGA" & !is.na(year)),
               aes(x=year,  group=repository))+
-  geom_point(aes(y = total_year), size = 3,  color = "#ed553b")+
-  geom_line(aes(y = total_year), color = "#ed553b")+
-  ylab("# samples")+
+  geom_point(aes(y = total_year/coeff), size = 3,  color = "#ed553b")+
+  geom_line(aes(y = total_year/coeff), color = "#ed553b")+
+  geom_point(aes(y = n_studies), size = 3,  color = "#800080")+
+  geom_line(aes(y = n_studies), color = "#800080")+
+ # ylab("# samples")+
   xlab("Year")+
   theme_minimal()+
   ggtitle("EGA")+
   theme(axis.text.x = element_text(size = 10),
         strip.text = element_text(size = 16, face = "bold"),
-        plot.title = element_text(hjust = 0.5, face= "bold", size = 20 ))
+        plot.title = element_text(hjust = 0.5, face= "bold", size = 20 ),
+        axis.title.y = element_text(color ="#800080" , size=13),
+        axis.title.y.right = element_text(color = "#ed553b", size=13)) +
+  scale_y_continuous(
+          # Features of the first axis
+          name = "# studies",
+          # Add a second axis and specify its features
+          sec.axis = sec_axis(~.*coeff, name="# samples")
+        )
+
+ega1
+
 
 ega2 = ggplot(subset(ega_dbgap_percent, repository =="EGA"& !is.na(year)),
                              aes(x=year,  color=variable, group=variable))+
@@ -88,11 +104,15 @@ ega2 = ggplot(subset(ega_dbgap_percent, repository =="EGA"& !is.na(year)),
 
 ega2
 
+
+coeff = 10000
 dbgap1 = ggplot(subset(ega_dbgap_percent, repository == "dbGaP"& !is.na(year)),
               aes(x=year,  group=repository))+
   # geom_line(aes(y = total_year),fill = "grey30", stat="identity", width= 0.8)+
-  geom_point(aes(y = total_year), size = 3,  color = "#ed553b")+
-  geom_line(aes(y = total_year), color = "#ed553b")+
+  geom_point(aes(y = total_year/coeff), size = 3,  color = "#ed553b")+
+  geom_line(aes(y = total_year/coeff), color = "#ed553b")+
+  geom_point(aes(y = n_studies), size = 3,  color = "#800080")+
+  geom_line(aes(y = n_studies), color = "#800080")+
   ylab("# samples")+
   xlab("Year")+
   theme_minimal()+
@@ -100,7 +120,17 @@ dbgap1 = ggplot(subset(ega_dbgap_percent, repository == "dbGaP"& !is.na(year)),
  # facet_grid(repository~.)+
   theme(axis.text.x = element_text(size = 10),
         strip.text = element_text(size = 16, face = "bold"),
-        plot.title = element_text(hjust = 0.5, face= "bold", size = 20 ))
+        plot.title = element_text(hjust = 0.5, face= "bold", size = 20 ),
+        axis.title.y = element_text(color ="#800080" , size=13),
+        axis.title.y.right = element_text(color = "#ed553b", size=13)) +
+  scale_y_continuous(
+    # Features of the first axis
+    name = "# studies",
+    # Add a second axis and specify its features
+    sec.axis = sec_axis(~.*coeff, name="# samples")
+  )
+
+dbgap1
 
 dbgap2 = ggplot(subset(ega_dbgap_percent, repository =="dbGaP"& !is.na(year)),
               aes(x=year,  color=variable, group=variable))+
@@ -130,6 +160,7 @@ png('../figures/figure3.png',
     width = 1500, height = 1500, res = 150)
 pp
 dev.off()
+
 
 ### add studies classification
 library(data.table)
@@ -191,6 +222,11 @@ r $ c = 1
 # percent
 r = unique(r %>% group_by(repository,year) %>%
                              mutate(total_year = sum(c)))
+
+fwrite(subset(r, year <= 2015 & label == "U" & repository == "EGA"),
+       'unknown_EGAstudies_before2016.txt')
+
+
 ega_dbgap_percent = unique(r %>% group_by(label, repository,year) %>%
                              summarise(value_percent = sum(c) / total_year))
 f = arrange(ega_dbgap_percent, desc(value_percent))$label
@@ -208,7 +244,7 @@ dbgap3 = ggplot(subset(ega_dbgap_percent, repository == "dbGaP"& !is.na(year)),
   geom_point(aes(y = value_percent), size = 3)+
   geom_line(aes(y = value_percent))+
   ylab("Percentage studies")+
-  xlab("Sex specification in samples found in the study")+
+  xlab("Sex classification in samples found in the study")+
   theme_minimal()+
   scale_color_manual(values = brewer.pal(7,"Set2"),
                     breaks = c("F&M","F&M&U","U","F","M","F&U","M&U"),
@@ -217,7 +253,8 @@ dbgap3 = ggplot(subset(ega_dbgap_percent, repository == "dbGaP"& !is.na(year)),
         legend.position="top",
         legend.box = "horizontal",
         strip.text = element_text(size = 16, face = "bold"))+
-  guides(color=guide_legend(nrow=1,byrow=TRUE, title = "Study classification"))
+  guides(color=guide_legend(nrow=1,byrow=TRUE, title = "Study classification"))+
+  ylim(0,1)
 
 
 ega3 = ggplot(subset(ega_dbgap_percent, repository == "EGA"& !is.na(year)),
@@ -225,7 +262,7 @@ ega3 = ggplot(subset(ega_dbgap_percent, repository == "EGA"& !is.na(year)),
   geom_point(aes(y = value_percent), size = 3)+
   geom_line(aes(y = value_percent))+
   ylab("Percentage studies")+
-  xlab("Sex specification in samples found in the study")+
+  xlab("Sex classification in samples found in the study")+
   theme_minimal()+
   #facet_grid(repository~., scales= "free_y")+
   #scale_color_manual(values = cbp1)+
@@ -240,16 +277,16 @@ ega3 = ggplot(subset(ega_dbgap_percent, repository == "EGA"& !is.na(year)),
 
 
 png('../figures/figure3.png',
-    width = 2700, height = 2500, res = 300)
+    width = 2700, height = 2800, res = 300)
 plot_grid(dbgap1, dbgap2,dbgap3,
           labels = c('A', 'B', "C"),
-          ncol = 1, rel_heights = c(0.25,0.5,0.5))
+          ncol = 1, rel_heights = c(0.35,0.5,0.5))
 dev.off()
 
 
 png('../figures/figure4.png',
-    width = 2700, height = 2500, res = 300)
+    width = 2700, height = 2800, res = 300)
 plot_grid(ega1, ega2,ega3,
           labels = c('A', 'B', "C"),
-          ncol = 1, rel_heights = c(0.25,0.5,0.5))
+          ncol = 1, rel_heights = c(0.35,0.5,0.5))
 dev.off()
