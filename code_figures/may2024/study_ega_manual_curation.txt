@@ -1,0 +1,72 @@
+ega_stable_id,label,total,title
+EGAS00001002876,M,753,PanProstate Cancer Group UK data
+EGAS00001002941,M,678,The genomic landscape of lung adenocarcinoma in East Asians
+EGAS00001002965,M,140,SNP array data for 140 individuals from 5 populations in Pakistan
+EGAS00001003113,M,1140,Frequent mutation of the FOXA1 untranslated region in prostate cancer
+EGAS00001003172,M,109,“Castration-persistence” is a distinct state of tolerance to androgen receptor targeting therapies in prostate cancer
+EGAS00001003293,M,192,Pseudotime_ordering_of_cell_cycle_state
+EGAS00001003351,M,178,Circulating tumour DNA abundance and potential utility in de novo metastatic prostate cancer
+EGAS00001003501,M,183,Chromatin_accessability_in_cytokine_induced_immune_cell_states
+EGAS00001003653,M,120,Indonesian methylation data
+EGAS00001003671,M,179,Indonesian RNA-seq data
+EGAS00001003823,M,141,Gene_epression_regulation_in_cytokine_induced_immune_cell_states
+EGAS00001003848,M,151,"The evolutionary steps from primary to metastatic prostate cancer are largely uncharted, and the ability to use DNA present in body fluids as correlates of aggregate metastatic status is under-examined. We reconstructed phylogenies in ten prostate cancer patients with fatal disease using deep targeted sequencing of the prostate, adjacent and distant organs, as well as plasma, serum, and cerebrospinal fluid at various time points. A total of 163 samples are studied."
+EGAS00001003899,M,154,Identification of hypermutation and defective mismatch repair in ctDNA from metastatic prostate cancer
+EGAS00001003958,M,115,genome-wide cfDNA methylation analysis
+EGAS00001004111,M,5410,Y chromosome variability in Polish population
+EGAS00001004186,M,132,Prostate Cancer mitochondrial DNA heteroplasmies and mitochondrial gene expression
+EGAS00001004192,M,977,Transcriptomic response of miRNAs of monocytes to bacterial and viral stimuli assessed by RNA-seq in Africans and Europeans
+EGAS00001004328,M,114,Activating AKT1 and PIK3CA mutations in metastatic castration-resistant prostate cancer
+EGAS00001004636,M,224,Detection of ctDNA in Plasma of Patients with Clinically Localised Prostate Cancer is Associated with Rapid Disease Progression
+EGAS00001004758,M,291,The transition from normal lung anatomy to minimal and established fibrosis in Idiopathic Pulmonary Fibrosis
+EGAS00001004800,M,368,"BRCA2, ATM, and CDK12 defects differentially shape prostate tumor driver genomics and clinical aggression"
+EGAS00001004852,M,400,Tumor HTG EdgeSeq from metastatic castrate resistant prostate cancer
+EGAS00001005204,M,146,Dissecting the Spatial Heterogeneity of Single Circulating Tumor Cells in Hepatocellular Carcinoma
+EGAS00001002833,F,143,Genomic profiling of ovarian adult type granulosa cell tumors
+EGAS00001002839,F,711,The interface of malignant and immunologic clonal dynamics in high-grade serous ovarian cancer
+EGAS00001002947,F,183,The spatio-temporal evolution of lymph node spread in early breast cancer
+EGAS00001003073,F,186,Ovarian cancer organoid biobank
+EGAS00001003075,F,124,Parallel Detections of Somatic Gene Mutations in Surgically Resected Tumor tissues and Matched Plasma Specimens in Early-Stages of Primary Breast Cancer
+EGAS00001003221,F,198,Temporal stability of circulating microRNAs in human serum
+EGAS00001003242,F,107,"Genomic DNA of tumor tissues, adjacent normal tissues, and peripheral blood were extracted using QIAamp DNA mini Kit (QIAGEN, cat. #51306)"
+EGAS00001003258,F,118,Enhanced detection of circulating tumor DNA by fragment size analysis
+EGAS00001003290,F,1326,Genomic characterization of metastatic breast cancers
+EGAS00001003349,F,4375,WTCCC2 Pre-eclampsia Study
+EGAS00001003354,F,235,Neoadjuvant chemotherapy alters the genomic landscape and immune  microenvironment of breast cancers
+EGAS00001003487,F,370,Combined gene expression and digital pathology identifies molecular mediators of T cell exclusion and immune suppression in ovarian cancer
+EGAS00001003504,F,598,Epiclomal: probabilistic clustering of sparse single-cell DNA methylation data
+EGAS00001003534,F,150,The landscape of LAM disease
+EGAS00001003535,F,162,Immune induction strategies to enhance the sensitivity to PD-1 blockade in metastatic triple negative breast cancer: the TONIC-trial
+EGAS00001003545,F,239,Genomics analysis of mucinous tumours of the ovary and related neoplasms
+EGAS00001003556,F,180,Pharmacogenomic analysis of patient-derived tumor cells in gynecologic cancers
+EGAS00001003705,F,224,Multi-layered molecular characterization defines prognostic subtypes of lung adenocarcinoma in Asian never-smokers
+EGAS00001003789,F,220,&#39;KOREAN&#39; never-smoker female adenocarcinoma RNA-seq
+EGAS00001004235,F,516,Exome sequencing of familial high-grade serous ovarian carcinoma reveals heterogeneity for rare candidate susceptibility genes
+EGAS00001004366,F,112,Molecular stratification of endometrioid ovarian carcinoma predicts clinical outcome
+EGAS00001004327,F,1782,"METABRIC: Data from Batra et al (2021); DNA methylation landscapes of 1538 breast cancers reveal a replication-linked clock, epigenomic instability and cis-regulation"
+EGAS00001004356,F,154,Phylogenetic reconstruction of breast cancer
+EGAS00001004408,F,576,Search for genetic variants influencing gestational weight gain in type 1 diabetes patients by genome wide association method
+EGAS00001004499,F,3457,"Uterine leiomyoma: DNA methylation, chromatin activity and gene expression"
+EGAS00001004518,F,2235,The Molecular Landscape of Asian Breast Cancers Reveals Clinically Relevant Population-Specific Differences
+EGAS00001004582,F,672,TransNEO neoadjuvant breast cancer study
+EGAS00001004594,F,612,Molecular sub-classification of hormone receptor-positive breast cancer
+EGAS00001004630,F,106,"Targeted sequencing of breast cancer susceptibility genes for 1,995 Japanese breast cancer patients"
+EGAS00001004641,F,730,Characterization of stromal tumor-infiltrating lymphocytes and genomic alterations in metastatic lobular breast cancer
+EGAS00001004662,F,516,Chromothripsis in human breast cancer (HIPO K26K/H017/A017)
+EGAS00001004665,F,196,Human breast transcriptome analysis
+EGAS00001004670,F,289,Copy number profiling of circulating cell-free DNA from high grade serous ovarian cancer patients
+EGAS00001004714,F,212,Transcriptome Sequencing Data of High Grade Serous Ovarian Cancer
+EGAS00001004755,F,710,"Rucaparib in patients presenting a metastatic breast cancer with Homologous Recombination Deficiency, without germline BRCA1/2 mutation, pronostic value of high LOH genomic score and predictive value of HRDetect (microarray)"
+EGAS00001004809,F,159,BIOKEY: A single-cell catalogue of the dynamic changes underlying Checkpoint Immunotherapy response in Early Breast Cancer
+EGAS00001004890,F,130,Impact of BRCA mutation type in non-tumorous breast tissue transcriptome
+EGAS00001004900,F,158,Single-cell chromatin accessibility landscape identifies tissue repair program in human regulatory T cells
+EGAS00001004935,F,118,Single Cell Dissection of the Tumour Microenvironment Reveals Dynamic Interplay Shaping the Tumour Immunity Continuum in Ovarian Cancer
+EGAS00001004994,F,192,Somatic mutations in lymphocytes in patients with immune-mediated aplastic anemia
+EGAS00001005033,F,281,The WID-EC test for the detection and risk prediction of endometrial cancer
+EGAS00001005070,F,133,Breast tissue methylation analysis
+EGAS00001005076,F,424,Liverpool Preterm Birth Biomarker Study
+EGAS00001005188,F,182,Platelet response in aspirin adherent pregnant women
+EGAS00001005323,F,1092,Systematic evaluation of NIPT aneuploidy detection software tools with clinically validated NIPT samples
+EGAS00001005517,F,1440,Differential expression profile of gluten-specific T cells identified by single-cell RNA-seq
+EGAS00001005601,F,350,Absolute copy number fitting from shallow whole genome sequencing data
+EGAS00001005626,F,688,Matched tissue from BRCA1/2 mutation carriers and confirmed non-BRCA mutation carriers

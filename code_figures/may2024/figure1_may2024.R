@@ -4,22 +4,17 @@ library(ggplot2)
 library(stringr)
 library(dplyr)
 library(lubridate)
+library(stringr)
 
 # Load data
-ega = fread("../ega/EGA_with_NULL.csv")
+ega = fread("../../ega/EGA_with_NULL.csv")
 ega_m = melt(ega, id.vars = c("ega_stable_id", "repository", "to_char", "total"))
 colnames(ega_m)[colnames(ega_m) == "ega_stable_id"] = "dataset_id"
 
-dbgap = fread("../dbpgap/summary_fourth.csv")
-dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
-dbgap$date = parse_date_time(dbgap$date, orders = c('mdy', 'dmy','ymd', "%d %m &y %H:%M:%S %Y"))
-dbgap$year =str_split_fixed(dbgap$date, '-', 2)[,1]
+dbgap = fread("./dbgap_may2024.csv")
 dbgap$repository = "dbGaP"
-dbgap$year[dbgap$year==""] = "NA"
 dbgap = subset(dbgap, year > 2017)
-spl = str_split_fixed(str_remove(dbgap$filename,'\\.\\/data\\/'), '\\.',6)
-dbgap$study_id = paste(spl[,1],spl[,2],spl[,5], sep=".")
-dbgap_m = melt(dbgap, id.vars= c("V1", "n", "study_id", "filename", "date",'year', "total", "dataset_id", "repository"))
+dbgap_m = melt(dbgap, id.vars= c("study_id", 'year', "total", "repository", "ym"))
 
 
 # bind datasets
@@ -54,24 +49,11 @@ sample_plot_percent
 ega = fread("../ega/EGA_with_NULL.csv")
 ega$total_all = length(unique(ega$ega_stable_id))
 colnames(ega)[1] = "study_id"
-#d2 = melt(d,id.vars = c("ega_stable_id", "repository", "to_char", "total"))
-dbgap = fread("../dbpgap/summary_fourth.csv")
-dbgap$total = dbgap$male +  dbgap$female +  dbgap$unknown
-dbgap$repository="dbGaP"
-spl = str_split_fixed(str_remove(dbgap$filename,'\\.\\/data\\/'), '\\.',6)
-dbgap$study_id = paste(spl[,1],spl[,2],spl[,5], sep=".")
-dbgap$date = parse_date_time(dbgap$date, orders = c('mdy', 'dmy','ymd', "%d %m &y %H:%M:%S %Y"))
-dbgap$year =str_split_fixed(dbgap$date, '-', 2)[,1]
-dbgap2 =dbgap%>%group_by(study_id,repository)%>%
-  summarise(male = sum(male),
-            female = sum(female),
-            unknown = sum (unknown),
-            total = sum (total),
-            year = max(year))
-dbgap2 = subset(dbgap2, year >= 2018)
-dbgap2$total_all = length(unique(dbgap2$study_id))
+dbgap = fread("./dbgap_may2024.csv")
+dbgap$repository = "dbGaP"
+dbgap = subset(dbgap, year > 2017)
 
-ega_dbgap = rbind(ega,dbgap2, fill = T)
+ega_dbgap = rbind(ega,dbgap, fill = T)
 ega_dbgap
 
 ega_dbgap_bp = ega_dbgap %>% group_by(repository, study_id)%>%
@@ -103,7 +85,7 @@ bp_prop = ggboxplot(ega_dbgap_bp_m, x = "variable", y = "value",
 
 bp_prop
 library(cowplot)
-png('../figures/figure1.png',
+png('../../figures/figure1_may2024.png',
     width = 1000, height = 1500, res = 200)
 plot_grid(NULL, sample_plot_percent, NULL, bp_prop,
           ncol = 1,

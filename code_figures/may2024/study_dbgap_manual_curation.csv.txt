@@ -1,0 +1,49 @@
+study_id,phenotype,label,total,title
+phs000915.v2.p2,Prostatic Neoplasms,M,763,Stand Up To Cancer East Coast Prostate Cancer Research Group
+phs000968.v2.p1,Cardiovascular Disease,M,208,The Cardiopulmonary Effects of Particulate Exposure
+phs001120.v2.p2,Prostatic Neoplasms,M,12947,ELLIPSE Prostate Cancer Meta-Analysis and Genotyping
+phs001258.v2.p1,MicroRNAs,M,676,"Total exRNA Profiles from Plasma, Saliva, and Urine of Healthy Subjects"
+phs001307.v1.p1,Testicular Germ Cell Tumor,M,1400,Inherited Genetic Variation and Predisposition to Testicular Germ Cell Tumor: UPenn Local TGCT Study
+phs001465.v1.p1,Prostate Neoplasm,M,153,Multiregion Sequencing of Localized Prostate Cancer
+phs001500.v2.p1,Melanocytes,M,106,National Cancer Institute (NCI) Primary Human Melanocyte QTL Study
+phs001621.v1.p1,,M,680,Genetic Susceptibility and Biomarkers of Platinum-Related Toxicities
+phs001648.v2.p1,"Prostatic Neoplasms, Castration-Resistant",M,311,Genomic Characterization of Metastatic Castration Resistant Prostate Cancer
+phs001698.v1.p1,Prostatic Hyperplasia,M,129,Stanford Center for Urologic Genomics: Genomic Analysis of Benign Prostatic Hyperplasia
+phs001752.v1.p1,Adenocarcinoma,M,155,Genomics and Methylation of Neuroendocrine Prostate Cancer from cfDNA (Cornell/Trento 2019)
+phs001813.v2.p1,Prostatic Neoplasms,M,1254,Integrative Tissue Analysis of Men with Prostate Cancer
+phs001825.v1.p1,Prostatic Neoplasms,M,164,Study of 5&#39;UTR Mutations in Prostate Cancer
+phs001921.v1.p1,Prostatic Neoplasms,M,525,Primary Prostate Tumor Tissue DNA Methylation Profiles
+phs001938.v2.p1,Prostatic Neoplasms,M,377,Genomic and Genetic Characterization of Prostate Tumors Treated with Neoadjuvant Intense Androgen Deprivation Therapy
+phs001939.v2.p1,Prostatic Neoplasms,M,126,Count Me In (CMI): The Metastatic Prostate Cancer (MPC) Project (CMI-MPCproject)
+phs001988.v1.p1,Prostatic Neoplasms,M,157,Molecular Characterization of Prostate Cancer Specimens by Bulk and Single Cell Analysis
+phs002226.v1.p1,HIV,M,3747,Multicenter AIDS Cohort Study (MACS)
+phs002279.v1.p1,Germ Cells,M,540,DNA and RNA Sequencing of Single Human Haploid Germ Cells
+phs002295.v1.p1,"Carcinoma, Non-Small-Cell Lung",M,234,Cross-site Concordance Evaluation of Tumor DNA and RNA Sequencing Platforms of CIMAC-CIDC Network
+phs002398.v1.p1,Prostatic Neoplasms,M,129,Genomics of Prostate Cancer
+phs002462.v1.p1,Prostatic Neoplasms,M,215,Circulating Tumor Cell Heterogeneity in Neuroendocrine Prostate Cancer by Single Cell Copy Number Analysis
+phs000256.v4.p3,"Microbiomes, Human",F,6476,"The Vaginal Microbiome: Disease, Genetics and the Environment"
+phs000640.v9.p1,Uterine Cervical Neoplasms,F,141,HeLa Cell Genome Sequencing Studies
+phs000912.v1.p1,Breast Neoplasms,F,1165,San Francisco Bay Area Latina Breast Cancer Study
+phs001133.v1.p1,Ovarian Neoplasms,F,16783,Follow-up of Ovarian Cancer Genetic Association and Interaction Studies (FOCI)
+phs001409.v1.p1,Leiomyoma,F,4594,Understanding the genetic risk underlying racial disparities in uterine fibroids
+phs001439.v1.p1,Pelvic Organ Prolapse,F,335,University of Utah Pelvic Organ Prolapse Disorder Study
+phs001483.v1.p1,Breast Neoplasms,F,180,"Discovery, Biology, and Risk of Inherited Variants in Breast Cancer (DRIVE) - germline whole genome sequencing"
+phs001531.v1.p1,Turner Syndrome,F,188,Whole exome sequencing to discover genetic variation associated with aortopathy in Turner Syndrome
+phs001687.v1.p1,Breast Neoplasms,F,722,Using Genomics to Reduce Breast Cancer Disparities in the African Diaspora
+phs001690.v1.p1,Endometrial Neoplasms,F,114,Somatic Copy Number Analysis of Endometrial Carcinomas
+phs001739.v1.p1,Premature Birth,F,1505,Role of the Cervico-Vaginal Microbiome in Spontaneous Preterm Birth
+phs001742.v2.p1,Triple Negative Breast Neoplasms,F,113,"High-Resolution Clonal Mapping of Multi-Organ Metastasis, and Resistance to Neoadjuvant Chemotherapy, in Triple Negative Breast Cancer"
+phs001865.v1.p1,,F,552,"Emory University African American Vaginal, Oral, and Gut Microbiome in Pregnancy Cohort Study"
+phs001866.v1.p1,Breast Neoplasms,F,166,RNA Sequence-Based Analysis Used to Compare Breast Primary and Metastatic Tumor Pairs
+phs001870.v1.p1,Breast Neoplasms,F,340,Genomic Changes in Breast Cancer Among Chinese Women in Hong Kong
+phs001885.v1.p1,Endometrial Neoplasms,F,4486,Endometrial Cancer Association Consortium - OncoArray Genotypes
+phs001916.v2.p1,Healthy Aging,F,100,Pilot Sequencing Study: DNA Hydroxymethylation and Gene Expression in Peripheral Blood Mononuclear Cells in Healthy Human Aging
+phs001922.v1.p1,Aneuploidy,F,339,Chromosome Errors in Human Eggs and Natural Fertility
+phs001937.v1.p1,Pre-Eclampsia,F,189,DNA Methylomic Profiling of Preeclampsia Across Pregnancy
+phs001960.v1.p1,Osteoporosis,F,143,Epigenome Wide DNA Methylation Study for Osteoporosis Risk
+phs002017.v1.p1,Pre-Eclampsia,F,289,Circulating RNA profiles of healthy and preeclamptic pregnancies
+phs002060.v1.p1,Peripheral Nervous System Diseases,F,624,Pharmacogenomic Analysis of Microtubule Targeting Agent Response and Toxicity
+phs002062.v1.p1,Breast Neoplasms,F,1089,Polygenic Risk Score for the Prediction of Breast Cancer Is Related to Lesser Terminal Duct Lobular Unit Involution of the Breast
+phs002366.v1.p1,Lung Neoplasms,F,1195,
+phs002387.v1.p1,Breast Neoplasms,F,2529,Ghana Breast Health Study
+phs002419.v1.p1,Breast Neoplasms,F,159,Integrative Molecular Characterization of Breast Cancer
